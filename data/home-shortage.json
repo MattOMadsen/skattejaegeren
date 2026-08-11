@@ -1,0 +1,170 @@
+{
+  "updated": "2026-08-11",
+  "headline": "Hjemme mangler pengene — ude er der råd",
+  "disclaimer": "Kontrasterne er politiske prioriteringer, ikke en regnskabsmodel. Artiklerne er konkrete eksempler fra danske medier. Bistandsbeløb er fra vores sager/CISU/UM.",
+  "items": [
+    {
+      "id": "lolland-531",
+      "area": "Skoler & ældre",
+      "title": "Lolland mangler en halv milliard",
+      "shortage": "Lolland Kommune står ifølge medier med et hul på ca. 531 mio. kr. Spareplaner truer skoler og plejecentre (seks skoler kan blive til tre).",
+      "amountDkk": 531000000,
+      "amountLabel": "ca. 531 mio. kr. (kommunens hul)",
+      "abroad": "Samme størrelsesorden som under en halv procent af den årlige ulandsbistand (23,2 mia.) — eller ca. fire gange MS ActionAids årlige UM-partnerskab (129 mio.).",
+      "contrastAid": [
+        { "label": "MS ActionAid SPA / år", "amountDkk": 129000000, "href": "#/sag/ms-actionaid" },
+        { "label": "Strategiske partnerskaber / år", "amountDkk": 1264000000, "href": "#/sag/strategiske-partnerskaber" }
+      ],
+      "sources": [
+        {
+          "title": "TV 2: Lolland skal spare 531 millioner",
+          "url": "https://nyheder.tv2.dk/samfund/2026-08-05-lolland-skal-spare-531-millioner-staar-paa-en-braendende-platform-siger-borgmester",
+          "kind": "media"
+        },
+        {
+          "title": "Folketidende: Skoler og plejecentre truet af lukning",
+          "url": "https://www.folketidende.dk/nyheder/skoler-og-plejecentre-er-truet-af-lukning/5291800",
+          "kind": "media"
+        },
+        {
+          "title": "TV2 ØST: Skoler, haller, plejecentre kan lukke",
+          "url": "https://www.tv2east.dk/lolland/skal-lukke-skoler-haller-plejecentre-bornehaver-biblioteker-og-borgerservice-d295a",
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "id": "laerere-oekonomi",
+      "area": "Folkeskole",
+      "title": "4 ud af 5 lærere: der mangler penge på skolen",
+      "shortage": "Danmarks Lærerforening: 83 % af lærerne oplever manglende økonomiske ressourcer på deres skole. Næsten halvdelen har overvejet at skifte job.",
+      "amountDkk": null,
+      "amountLabel": "83 % af lærere (survey)",
+      "abroad": "Samtidig går OpEn-millioner til barnevognsmarches, rap-konkurrencer og brætspil i Danmark — betalt som «udviklingsbistand».",
+      "contrastAid": [
+        { "label": "Barnevognsmarch (OpEn)", "amountDkk": 1498642, "href": "#/sag/barnevogn-og-prioritering" },
+        { "label": "Amnesty gamification (OpEn)", "amountDkk": 2499952, "href": "#/sag/amnesty-open" },
+        { "label": "OpEn ca. pr. år (BJ)", "amountDkk": 21000000, "href": "#/sag/civilsamfundspuljen" }
+      ],
+      "sources": [
+        {
+          "title": "Danmarks Lærerforening: 4 ud af 5 lærere oplever manglende økonomi",
+          "url": "https://www.dlf.org/nyheder/4-ud-af-5-laerere-oplever-manglende-oekonomi-paa-skolen/",
+          "kind": "media"
+        },
+        {
+          "title": "TV 2: Flere end 100 folkeskoler har bekymrende kvalitet",
+          "url": "https://nyheder.tv2.dk/samfund/2026-02-23-flere-end-100-folkeskoler-har-bekymrende-kvalitet-se-listen",
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "id": "aeldre-sparekniv",
+      "area": "Ældrepleje",
+      "title": "Kommunerne svinger sparekniven på ældre",
+      "shortage": "Ældre Sagen har dokumenteret besparelser på plejehjem og hjemmepleje rundt i landet. SeniorMonitor: kommunerne planlægger færre penge pr. 80+ i 2026 end året før (gennemsnit).",
+      "amountDkk": null,
+      "amountLabel": "Besparelser i mange kommuner",
+      "abroad": "Én SPA-partner alene (Oxfam 103 mio./år eller MS 129 mio./år) svarer til mange års værdi af lokale ældre-spareplaner.",
+      "contrastAid": [
+        { "label": "Oxfam SPA / år", "amountDkk": 103000000, "href": "#/sag/oxfam-spa" },
+        { "label": "Ghana Venskab ~årlig stat", "amountDkk": 11400000, "href": "#/sag/ghana-venskab" },
+        { "label": "LGBT+ Danmark indtægter 2025", "amountDkk": 25181092, "href": "#/sag/lgbt-danmark-cisu" }
+      ],
+      "sources": [
+        {
+          "title": "Ældre Sagen: Kommunerne svinger sparekniven",
+          "url": "https://www.aeldresagen.dk/historier/kommunerne-svinger-sparekniven",
+          "kind": "media"
+        },
+        {
+          "title": "SeniorMonitor: Færre penge pr. 80+ i 2026-budgetter",
+          "url": "https://seniormonitor.dk/nyheder/politik_og_oekonomi/article18931199.ece",
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "id": "senge-personale",
+      "area": "Hospitaler",
+      "title": "Senge og personale — kapacitet under pres",
+      "shortage": "Danmark har historisk haft få hospitalssenge pr. indbygger i europæisk sammenhæng. Under sygeplejerskekrisen blev hundredvis af senge lukket pga. personalemangel (fx ca. 200 i hovedstaden i 2021). Selv når rekruttering bedres, er prioritering mellem senge, personale og andre poster en politisk kamp.",
+      "amountDkk": null,
+      "amountLabel": "Kapacitet & personale",
+      "abroad": "16 % af MS’ SPA-forbrug (HQ i DK) alene er ca. 24–25 mio. kr. — nok til mange sygeplejerske-årsværk herhjemme.",
+      "contrastAid": [
+        { "label": "MS HQ Danmark (16% af SPA-forbrug)", "amountDkk": 24530000, "href": "#/sag/ms-actionaid" },
+        { "label": "Hele ulandsbistanden 2026", "amountDkk": 23214400000, "href": "#/indsigt" }
+      ],
+      "sources": [
+        {
+          "title": "TV 2 (arkiv): Få sengepladser pr. indbygger i Europa",
+          "url": "https://nyheder.tv2.dk/2020-03-17-danske-hospitaler-har-naestfaerrest-sengepladser-i-europa-til-gengaeld-har-vi-noget-andet-siger-eksperter",
+          "kind": "media"
+        },
+        {
+          "title": "KL Momentum: Kortere indlæggelser, færre senge",
+          "url": "https://www.kl.dk/momentum/arkiv/2024/8-kortere-indlaeggelser-kraever-styrkelse-af-det-naere-sundhedsvaesen",
+          "kind": "media"
+        },
+        {
+          "title": "esundhed.dk: Sengepladser og belægning",
+          "url": "https://www.esundhed.dk/Emner/Patienter-og-sygehuse/Sengepladser-og-belaegning-paa-sygehuse",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "bt-23-mia",
+      "area": "Helhed",
+      "title": "23 mia. bistand vs. politi og uddannelser",
+      "shortage": "BT og Borgerlig Tabloid har sat de ca. 23 mia. kr. i udviklingsbistand op imod, hvad Danmark bruger på politi og videregående uddannelser — og peget på ca. 10.000 kr. i lavere bundskat ved gennemsnitsindkomst, hvis potten gik til skattelettelse.",
+      "amountDkk": 23214400000,
+      "amountLabel": "ca. 23,2 mia. kr. / år",
+      "abroad": "Det er rammen. Inde i rammen ligger både humanitært arbejde og OpEn-marches, SPA-advocacy og NGO-HQ.",
+      "contrastAid": [
+        { "label": "Pr. indbygger", "amountDkk": 3800, "href": "#/om" },
+        { "label": "BT skattelettelse-model", "amountDkk": 10000, "href": "#/sag/bt-mediedækning" }
+      ],
+      "sources": [
+        {
+          "title": "BT mener: Afskaf ulandsbistanden (10.000 kr.)",
+          "url": "https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden",
+          "kind": "media"
+        },
+        {
+          "title": "BT podcast: Baronen af Øresund",
+          "url": "https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur",
+          "kind": "media"
+        }
+      ]
+    }
+  ],
+  "pairings": [
+    {
+      "home": "Lolland: 531 mio. i budgethul — skoler og pleje truet",
+      "away": "1,264 mia./år til 18 strategiske NGO-partnerskaber",
+      "homeUrl": "https://nyheder.tv2.dk/samfund/2026-08-05-lolland-skal-spare-531-millioner-staar-paa-en-braendende-platform-siger-borgmester",
+      "awayHref": "#/sag/strategiske-partnerskaber"
+    },
+    {
+      "home": "Lærere: 83 % mangler økonomi på skolen",
+      "away": "1,5 mio. til barnevognsmarch i Danmark (OpEn)",
+      "homeUrl": "https://www.dlf.org/nyheder/4-ud-af-5-laerere-oplever-manglende-oekonomi-paa-skolen/",
+      "awayHref": "#/sag/barnevogn-og-prioritering"
+    },
+    {
+      "home": "Ældrepleje under sparekniv i kommunerne",
+      "away": "129 mio./år til MS ActionAid (kun 58 % til partnere)",
+      "homeUrl": "https://www.aeldresagen.dk/historier/kommunerne-svinger-sparekniven",
+      "awayHref": "#/sag/ms-actionaid"
+    },
+    {
+      "home": "Hospitaler: få senge, pres på personale",
+      "away": "ca. 25 mio. til MS HQ i Danmark (16 % af SPA)",
+      "homeUrl": "https://www.kl.dk/momentum/arkiv/2024/8-kortere-indlaeggelser-kraever-styrkelse-af-det-naere-sundhedsvaesen",
+      "awayHref": "#/sag/ms-actionaid"
+    }
+  ]
+}

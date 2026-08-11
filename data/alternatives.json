@@ -65,6 +65,12 @@
       "amountDkk": 24530000,
       "label": "MS HQ i DK (16%)",
       "equiv": "ca. 45 sygeplejerske-årsværk"
+    },
+    {
+      "amountDkk": 531000000,
+      "label": "Lollands budgethul (medier 2026)",
+      "equiv": "ca. 4× MS SPA-årlig (129 mio.) — se Indsigt → Hjemme vs. ude"
     }
-  ]
+  ],
+  "articleNote": "Konkrete danske artikler om knaphed: se data/home-shortage.json og Indsigt."
 }

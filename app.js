@@ -295,6 +295,7 @@ async function loadAll() {
       timeline,
       orientation,
       borgerjournalisten,
+      homeShortage,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -312,6 +313,7 @@ async function loadAll() {
       fetchJson('data/timeline.json').catch(() => null),
       fetchJson('data/orientation-overview.json').catch(() => null),
       fetchJson('data/borgerjournalisten.json').catch(() => null),
+      fetchJson('data/home-shortage.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -331,6 +333,7 @@ async function loadAll() {
       timeline,
       orientation,
       borgerjournalisten,
+      homeShortage,
     };
     return cache;
   } catch (e) {
@@ -398,19 +401,93 @@ const SHOCK = [
   },
 ];
 
+function renderHomeVsAway(d, opts = {}) {
+  const hs = d.homeShortage;
+  if (!hs?.pairings?.length && !hs?.items?.length) return '';
+  const full = opts.full;
+  const pairs = (hs.pairings || []).slice(0, full ? 99 : 4);
+  const items = full ? hs.items || [] : [];
+  return `
+    <div class="section-head" id="hjemme">
+      <h2>${esc(hs.headline || 'Hjemme vs. ude')}</h2>
+      ${full ? '' : '<a href="#/indsigt">Flere artikler →</a>'}
+    </div>
+    <p class="muted" style="margin:-.35rem 0 1rem">${esc(hs.disclaimer || '')}</p>
+    <div class="chips">
+      ${pairs
+        .map(
+          (p) => `
+        <div class="chip">
+          <div class="chip-home">
+            <strong>Hjemme</strong> · ${esc(p.home)}
+            ${
+              p.homeUrl
+                ? `<div class="meta" style="margin-top:.35rem"><a href="${esc(p.homeUrl)}" target="_blank" rel="noopener">Artikel ↗</a></div>`
+                : ''
+            }
+          </div>
+          <div class="chip-vs">VS</div>
+          <div class="chip-away">
+            <strong>Ude / bistand</strong> · ${esc(p.away)}
+            ${p.awayHref ? `<div class="meta" style="margin-top:.35rem"><a href="${esc(p.awayHref)}">Sag →</a></div>` : ''}
+          </div>
+        </div>`
+        )
+        .join('')}
+    </div>
+    ${
+      full && items.length
+        ? `<div class="grid cols-2" style="margin-top:1.25rem">
+            ${items
+              .map(
+                (it) => `
+              <div class="card">
+                <div class="card-top">
+                  <span class="badge warn">${esc(it.area || 'DK')}</span>
+                  ${it.amountLabel ? `<span class="amt">${esc(it.amountLabel)}</span>` : ''}
+                </div>
+                <h3>${esc(it.title)}</h3>
+                <p class="blurb">${esc(it.shortage)}</p>
+                <p class="blurb" style="margin-top:.5rem"><strong>Modsat:</strong> ${esc(it.abroad)}</p>
+                ${
+                  (it.contrastAid || []).length
+                    ? `<p class="meta" style="margin-top:.5rem">${(it.contrastAid || [])
+                        .map((c) =>
+                          c.href
+                            ? `<a href="${esc(c.href)}">${esc(c.label)}</a> (${esc(fmtShort(c.amountDkk))})`
+                            : `${esc(c.label)} (${esc(fmtShort(c.amountDkk))})`
+                        )
+                        .join(' · ')}</p>`
+                    : ''
+                }
+                <p class="meta" style="margin-top:.65rem">
+                  ${(it.sources || [])
+                    .map(
+                      (s) =>
+                        `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a>`
+                    )
+                    .join('<br>')}
+                </p>
+              </div>`
+              )
+              .join('')}
+          </div>`
+        : ''
+    }`;
+}
+
 function renderHome(d) {
   const projects = [...d.projects.projects]
     .filter((p) => p.amountDkk > 0)
     .sort((a, b) => b.amountDkk - a.amountDkk)
     .slice(0, 6);
-  const contrasts = d.aid.homeContrast || FALLBACK_AID.homeContrast;
 
   return `
     <section class="hero">
       <h1>Følg milliarderne.<br>Ikke pressemeddelelsen.</h1>
       <p>
         Hvad går dansk ulandsbistand til — og hvorfor er der råd derude,
-        når der er knaphed herhjemme? Projekter, beløb og kilder.
+        når skoler, ældre og sengepladser mangler penge herhjemme?
       </p>
     </section>
 
@@ -430,19 +507,7 @@ function renderHome(d) {
       ).join('')}
     </div>
 
-    <div class="chips" style="margin-top:1.75rem">
-      ${contrasts
-        .slice(0, 3)
-        .map(
-          (c) => `
-        <div class="chip">
-          <div class="chip-home"><strong>Hjemme</strong> · ${esc(c.home)}</div>
-          <div class="chip-vs">VS</div>
-          <div class="chip-away"><strong>Ude</strong> · ${esc(c.abroad)}</div>
-        </div>`
-        )
-        .join('')}
-    </div>
+    ${renderHomeVsAway(d, { full: false })}
 
     <div class="section-head">
       <h2>Projekter</h2>
@@ -452,7 +517,7 @@ function renderHome(d) {
       ${projects.map(projectCard).join('')}
     </div>
     <div class="home-links">
-      <a class="btn" href="#/indsigt">Indsigt: 23 mia. i perspektiv</a>
+      <a class="btn" href="#/indsigt">Indsigt: hjemme vs. ude</a>
       <a class="btn" href="#/open">OpEn-katalog</a>
     </div>
   `;
@@ -1080,6 +1145,7 @@ function renderIndsigt(d) {
     </section>
 
     <nav class="page-jump" aria-label="Hop på siden">
+      <button type="button" data-jump="hjemme">Hjemme vs. ude</button>
       <button type="button" data-jump="farve">Venstre / højre</button>
       <button type="button" data-jump="bj">Borgerjournalisten</button>
       <button type="button" data-jump="alt">Alternativer</button>
@@ -1087,6 +1153,8 @@ function renderIndsigt(d) {
       <button type="button" data-jump="tidslinje">Tidslinje</button>
       <a href="#/sager">Alle sager →</a>
     </nav>
+
+    ${renderHomeVsAway(d, { full: true })}
 
     ${
       d.borgerjournalisten
