@@ -517,9 +517,16 @@ function renderCivil(d, limit) {
 
 function renderHome(d) {
   return `
-    <section class="hero">
-      <p class="eyebrow">Uafhængig · borgerlig · kilder på hver sag</p>
-      <h1>Følg milliarderne.<br>Ikke pressemeddelelsen.</h1>
+    <section class="hero hero-home">
+      <div class="hero-pills" aria-label="Om siden">
+        <span class="hero-pill">Uafhængig</span>
+        <span class="hero-pill">Borgerlig</span>
+        <span class="hero-pill">Kilder på hver sag</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-line">Følg milliarderne.</span>
+        <span class="hero-line hero-line-accent">Ikke pressemeddelelsen.</span>
+      </h1>
       <p class="hero-lead">
         Hvad I <strong>ikke får</strong> til skoler, ældre og senge herhjemme —
         og hvad der i stedet betales som «bistand» til marches, hiphop og HQ i København.
