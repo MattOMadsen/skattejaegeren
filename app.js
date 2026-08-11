@@ -1065,19 +1065,60 @@ function renderIndsigt(d) {
   const split = ms?.report2025?.budgetSplit2025 || [];
   const oxObj = ox?.resultsReport2025?.changeObjectives || [];
   const oxPartnerPct = ox?.resultsReport2025?.fundsToLocalPartners?.pctOfCountrySpend;
+  const ori = d.orientation;
 
   return `
     <section class="hero">
       <h1>Indsigt</h1>
-      <p>Prioritering i tal — hvad 23 mia. også kunne være, og hvordan de store NGO’er fordeler pengene.</p>
+      <p>
+        Hvad 23 mia. også kunne være herhjemme — og hvem der får pengene,
+        når man kigger på formål (venstre/højre) i stedet for engelsk projektjargon.
+      </p>
     </section>
 
     <nav class="page-jump" aria-label="Hop på siden">
+      <button type="button" data-jump="farve">Venstre / højre</button>
       <button type="button" data-jump="alt">Alternativer</button>
       <button type="button" data-jump="budget">MS &amp; Oxfam</button>
       <button type="button" data-jump="tidslinje">Tidslinje</button>
-      <a href="#/grav">Dybere →</a>
+      <a href="#/sager">Alle sager →</a>
     </nav>
+
+    ${
+      ori
+        ? `<div class="section-head" id="farve"><h2>Hvem får pengene?</h2></div>
+           <p class="muted" style="margin:-.35rem 0 1rem">${esc(ori.disclaimer || '')}</p>
+           <div class="panel">
+             <h2 style="margin-top:0">${esc(ori.headline || '')}</h2>
+             ${(ori.findings || []).map((f) => `<p>· ${rich(f)}</p>`).join('')}
+           </div>
+           <div class="grid cols-2" style="margin-top:1rem">
+             <div class="card">
+               <h3>Sager efter farve</h3>
+               <p class="blurb">
+                 <span class="badge orient-left">Venstre</span> ${ori.counts?.venstre ?? '—'} sager<br>
+                 <span class="badge orient-right">Højre / traditionel</span> ${ori.counts?.højre ?? '—'} sager<br>
+                 <span class="badge orient-mix">Blandet</span> ${ori.counts?.blandet ?? '—'} sager<br>
+                 <span class="badge orient-neu">Neutral</span> ${ori.counts?.neutral ?? '—'} sager
+               </p>
+             </div>
+             <div class="card">
+               <h3>Største beløb</h3>
+               <p class="blurb">
+                 ${(ori.whoGetsMost || [])
+                   .map(
+                     (w) =>
+                       `<strong>${esc(w.rank)}. ${esc(w.label)}</strong><br>
+                        ${esc(w.amountLabel)} · ${esc(w.orientation)}<br>
+                        <span class="muted">${esc(w.note || '')}</span><br><br>`
+                   )
+                   .join('')}
+               </p>
+             </div>
+           </div>`
+        : ''
+    }
+
 
     <div class="section-head" id="alt"><h2>Hvad kunne det have været?</h2></div>
     <p class="muted" style="margin:-.35rem 0 1rem">${esc(alt?.disclaimer || 'Grovte regnestykker til illustration.')}</p>

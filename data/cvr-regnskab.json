@@ -52,14 +52,24 @@
       "proff": "https://www.proff.dk/firma/crossing-borders/-/-/32166121",
       "website": "https://crossingborders.dk/",
       "orgClaims": {
-        "fundingPartners": "Danida Civil Society Fund (CISU), New Democracy Fund, EU, Anna Lindh Foundation m.fl. (Annual Report 2023)",
-        "annualReports": "https://crossingborders.dk/ (Annual Report 2019–2024)"
+        "fundingPartners": "CISU, New Democracy Fund, Nordic Council, EU, Egmont, Spar Nord, Tuborg, BUPL, GLOBUS m.fl. (AR 2024)",
+        "publicFunding": "Org indrømmer heavy dependence on public funding (AR 2024)"
       },
       "regnskab": [],
-      "regnskabNote": "Annual Report 2023: CISU/Danida Civil Society Fund er main funding partner. Ingen fuld indtægtslinje i årsrapport-PDF. 9 mio. claim ikke 1:1 i CISU-index (kun 10k under org-navn).",
+      "regnskabNote": "Årsrapport 2023+2024 bekræfter CISU som finansier af Global programme. Financial Administration Feb 2025 lister offentlige kilder (EU, CISU, NDF, Globus). Ingen resultatopgørelse med indtægter i alt i annual report-PDF'erne. Baronen ~9 mio. forbliver claim. CISU under org-navn i sample: 10.000 kr.",
       "caseSlug": "crossing-borders",
       "baronenClaimDkk": 9000000,
-      "matchNote": "CISU-funding bekræftet i årsrapport; fuld 9 mio. sum afventer flere regnskabsår eller aktindsigt."
+      "matchNote": "CISU-funder bekræftet af org. 9 mio. claim ikke 1:1 i vores CISU-sample.",
+      "annualReports": [
+        {
+          "year": 2024,
+          "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/03/Crossing-Borders-Annual-Report-2024.pdf"
+        },
+        {
+          "year": 2023,
+          "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf"
+        }
+      ]
     },
     {
       "id": "female-freedom",
@@ -173,6 +183,34 @@
       ],
       "caseSlug": "global-aktion",
       "matchNote": "Regnskab 2024 indlæst. CISU-sum er multi-år portefølje."
+    },
+    {
+      "id": "100-for-boernene",
+      "name": "100% for Børnene",
+      "legalName": "100 % for Børnene",
+      "cvr": "31841178",
+      "form": "Forening",
+      "founded": "2008-12-01",
+      "address": "c/o Ubuntu Huset, Købmagergade 43, 1., 1150 København K",
+      "status": "Aktiv",
+      "employeesApprox": 4,
+      "virkSearch": "https://datacvr.virk.dk/enhed/virksomhed/31841178",
+      "proff": "https://www.proff.dk/firma/100-for-b%C3%B8rnene/-/-/31841178",
+      "website": "https://100pct.org/",
+      "orgClaims": {
+        "raisedSince2022": "Ca. 31,9 mio. kr. indsamlet siden 2022 (org engelsk side)",
+        "reach": "Ca. 47.110 børn/unge via 24 indsatser siden 2022 (org)"
+      },
+      "regnskab": [],
+      "regnskabNote": "Fuld årsrapport ikke hentet endnu (org-site WAF). CISU-bevilling 2.685.876 kr. i sample.",
+      "cisuSumDkk": 2685876,
+      "cisuCount": 1,
+      "cisuExamples": [
+        "YOUTH ON BOARD: Engendering Youth Voices in Ghana’s Education (2.685.876 kr.)"
+      ],
+      "caseSlug": "100-for-boernene",
+      "baronenClaimDkk": 3500000,
+      "matchNote": "CISU 2,69 mio. officielt. Baronen ~3,5 mio. delvist bekræftet."
     }
   ]
 }

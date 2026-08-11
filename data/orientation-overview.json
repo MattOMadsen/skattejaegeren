@@ -7,7 +7,8 @@
     "De **største faste beløb** går til store NGO’er (MS, Oxfam, S&S m.fl.) via strategiske partnerskaber — over **1,2 mia. kr./år** samlet.",
     "OpEn (oplysning i Danmark) finansierer ofte **TV, marches, spil, journalistik og workshops i DK** — ikke brønde i Afrika.",
     "Eksempler med mere **traditionel/kirkelig** profil findes (Danske Kirke i Udlandet), men de ligger ofte i andre kasser end CISU-aktivismen.",
-    "Konklusion til den almindelige dansker: bistand er ikke «neutralt teknisk hjælpearbejde». Det er også **ideologi i kroner**."
+    "Konklusion til den almindelige dansker: bistand er ikke «neutralt teknisk hjælpearbejde». Det er også **ideologi i kroner**.",
+    "Crossing Borders: CISU bekræftet som finansier i årsrapport 2024, men **ingen kronebeløb** i rapporten — 9 mio. er stadig claim."
   ],
   "whoGetsMost": [
     {
@@ -44,10 +45,17 @@
       "amountLabel": "22 mio./år",
       "orientation": "venstre",
       "note": "Køn/SRSR + oplysning i DK"
+    },
+    {
+      "rank": 6,
+      "label": "100% for Børnene (CISU)",
+      "amountLabel": "2,7 mio. (én post)",
+      "orientation": "venstre",
+      "note": "Baronen claim 3,5 mio. delvist bekræftet"
     }
   ],
   "counts": {
-    "venstre": 19,
+    "venstre": 20,
     "højre": 1,
     "blandet": 1,
     "neutral": 1

@@ -71,9 +71,10 @@ Appen loader alle sager via `loadCases()`. `data/cases.json` er kun en pegepind.
 
 ## Næste prioritet (forslag)
 
-1. Udvid dybde i de nye sagsfiler (kilder, citater, graver-noter)  
-2. Crossing Borders — rigtigt årsregnskab (virk/proff)  
-3. Idé 13 — aktindsigt (copy-paste; ikke Proton Bridge)  
-4. Idé 10 — RSS / seneste 10  
+1. Crossing Borders — **årsregnskab med kronebeløb** (virk/revisor; AR er kun narrative)  
+2. 100% for Børnene — fuld årsrapport (site WAF-blokeret for bot)  
+3. Flere SPA-regnskaber  
+4. Aktindsigt — **venter** på automatisk mailløsning (bruger)  
+5. Idé 10 — RSS  
 
 

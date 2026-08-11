@@ -1,62 +1,86 @@
 {
   "slug": "crossing-borders",
-  "title": "Crossing Borders: lever af offentlig støtte til «global dialog»",
+  "title": "Crossing Borders: lever af offentlig støtte — 9 mio. stadig claim",
   "status": "approved",
-  "priority": 5,
+  "priority": 3,
   "tags": [
     "cisu",
     "danida",
-    "baronen"
+    "baronen",
+    "eu",
+    "youth"
   ],
   "amountDkk": 9000000,
-  "amountLabel": "~9 mio. (Baronen claim — under verifikation)",
+  "amountLabel": "~9 mio. (Baronen claim) · CISU bekræftet som finansier",
   "amountKind": "claim",
-  "summary": "Årsrapport 2023: CISU er main funding partner. Org vil diversificere væk fra offentlig støtte. 9 mio. claim under verifikation.",
-  "angle": "Når en NGO lever af dine skattekroner til «dialog», bør du kunne se regningen i klare tal — det kan du endnu ikke helt.",
+  "summary": "Årsrapport 2024: Global-programmet er finansieret af CISU (Danidas civilsamfundsfond), New Democracy Fund og Nordisk Råd. Org indrømmer tung afhængighed af offentlig støtte. I vores CISU-katalog står kun 10.000 kr. under org-navn — 9 mio. er stadig ikke 1:1 bekræftet.",
+  "angle": "Vi kan bevise, at skattekroner og EU-midler er rygraden. Vi kan endnu ikke sætte et præcist facit på «9 mio.» — det kræver regnskabstal eller fuld bevillingsliste.",
+  "plainLead": "Crossing Borders er en dansk NGO, der arbejder med unge, «global citizenship» og dialog i Danmark og ude i verden. De skriver sort på hvidt, at deres globale program er finansieret af CISU (altså danske skattekroner via Udenrigsministeriet), New Democracy Fund og Nordisk Råd — plus EU og fonde. Baronen har peget på ca. 9 millioner kr. Det tal er endnu ikke slået op i et offentligt årsregnskab med indtægter i alt.",
+  "whatMoneyFor": "Tre spor ifølge årsrapport 2024: (1) **Danmark** — skoleworkshops, Food for Thought, Migrantour (byvandringer med migranter), Empowering Ukrainian Youth med kommuner. (2) **EU-program** — Erasmus+ m.m. i flere lande. (3) **Global-program** — Afrika, Kaukasus, Ukraine, Indien m.m., finansieret bl.a. af **CISU**. Formålet er unges engagement, dialog og «bæredygtig udvikling» — ikke klassisk nødhjælp.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / progressiv youth & DEI",
+  "orientationNote": "Sprog om global citizenship, mangfoldighed, empowerment og verdensmål er progressivt. Det er ikke en konservativ hjælpeorganisation.",
+  "homeCompare": {
+    "text": "Hvis Baronens **ca. 9 mio. kr.** holder, svarer det groft til **ca. 16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 16.4,
+    "taxPeopleApprox": 900
+  },
   "depth": {
     "status": "approved",
-    "headline": "Forstået på almindeligt dansk",
+    "headline": "Forstået på almindeligt dansk — det vi har gravet frem",
     "body": [
-      "Crossing Borders er en NGO, der arbejder med unge, dialog og «global citizenship». De skriver selv, at CISU/Danida er en hovedfinansier. Det præcise beløb (Baronen siger ca. 9 mio.) er ikke fuldt låst endnu.",
-      "**Hvad går pengene til?** Projekter for unge i Danmark og ude i verden: workshops, dialog, «demokratisk deltagelse». Finansiering fra CISU, EU, fonde m.m. **Præcis 9 mio. er stadig claim** — vi har kun små CISU-poster under org-navn i index.",
-      "**Politisk farve (vores vurdering):** Venstre / progressiv youth & DEI. Sprogbrug om global citizenship, mangfoldighed og empowerment peger progressivt. Ikke en konservativ missionsorganisation.",
-      "**Hvad kunne det være herhjemme?** **9.0 mio. kr.** kunne ca. dække **16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
-      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
-      "**Citat funding:** main funding partners = **Danida Civil Society Fund (CISU)**, New Democracy Fund, various EU, Anna Lindh Foundation. Plus membership, donations, Culture Council, BUPL solidarity fund.",
-      "**CISU-index:** kun **10.000 kr.** under org-navn (Council of All Beings / Folkemøde). Større midler har andre projekttitler eller kanaler (EU, NDF).",
-      "**CVR 32166121**, forening. Adresse: Søtorvet 5 / Nørre Allé 7, Kbh.",
-      "**Baronen ~9 mio.:** forbliver **claim** indtil vi har årsregnskab med beløb eller fuld CISU/UM-liste (aktindsigt A5).",
-      "**Grave-status:** næste er at hente regnskabsbilag fra virk.dk/proff (kvote/login) eller bede org/UM om bevillingsoversigt."
+      "Crossing Borders er en dansk NGO, der arbejder med unge, «global citizenship» og dialog i Danmark og ude i verden. De skriver sort på hvidt, at deres globale program er finansieret af CISU (altså danske skattekroner via Udenrigsministeriet), New Democracy Fund og Nordisk Råd — plus EU og fonde.",
+      "**Hvad går pengene til?** Tre spor ifølge årsrapport 2024: (1) Danmark — skoleworkshops, Food for Thought, Migrantour, ukrainske youth hubs med kommuner. (2) EU-program — Erasmus+ m.m. (3) Global-program — projekter i Afrika, Kaukasus, Ukraine, Indien m.m. finansieret bl.a. af CISU.",
+      "**Politisk farve:** Venstre / progressiv youth & DEI. Ikke partimedlemskab — men formålet er tydeligt progressivt.",
+      "**Hvad kunne 9 mio. være herhjemme?** Ca. 16 sygeplejerske-årsværk — eller 10.000 kr. lavere bundskat til ca. 900 personer (BT-model). *Kun relevant hvis claim holder.*",
+      "**Årsrapport 2024 (officielt fra org):** Global programme er «Funded by grants from the Danish Ministry of Foreign Affairs Civil Society Fund (**CISU**), the New Democracy Fund and the Nordic Council».",
+      "**Finansiering nævnt for 2024:** CISU, New Democracy Fund, Nordic Council, Dansk Kulturinstitut, Tuborgfondet, BUPL’s solidaritetsfond, Egmont, Spar Nord, GLOBUS, Hermod Lannungs Fond, Copenhagen Film Company + Anna Lindh Foundation (netværk).",
+      "**Org om afhængighed (2024):** «continued heavy dependence on public funding now presents challenges» — de vil diversificere til mere privat støtte.",
+      "**Financial Administration Feb 2025:** Offentlige kilder = EU-programmer, Civil Society Fund (CISU), Globus, New Democracy Fund under UM/Kulturstyrelsen; plus private fonde og egen indtjening (workshops, medlemskab).",
+      "**CISU under org-navn i vores katalog:** kun **10.000 kr.** (Folkemøde / Council of All Beings). Større CISU-projekter kan have andre titler eller ligge uden for sample — derfor mangler vi stadig 1:1 på 9 mio.",
+      "**CVR 32166121**, forening. Adresser nævnt: Søtorvet 5 / Nørre Allé 7, København.",
+      "**Grave-status:** Årsrapporterne er **fortællinger uden resultatopgørelse** (ingen «indtægter i alt: X kr.»). Fuld facit kræver årsregnskab fra virk/revisor eller fuld bevillingsliste fra CISU/UM. Aktindsigt kan vente, til du har automatisk mail-løsning."
     ],
     "sources": [
       {
-        "title": "Crossing Borders Annual Report 2023",
-        "url": "https://crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
+        "title": "Crossing Borders Annual Report 2024 (PDF)",
+        "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/03/Crossing-Borders-Annual-Report-2024.pdf",
         "kind": "org"
       },
       {
-        "title": "Crossing Borders website",
+        "title": "Crossing Borders Annual Report 2023 (PDF)",
+        "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
+        "kind": "org"
+      },
+      {
+        "title": "CB Financial Administration Feb 2025 (PDF)",
+        "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/02/CB-Financial-Administration-Feb-2025.pdf",
+        "kind": "org"
+      },
+      {
+        "title": "CISU: Council of All Beings (10.000 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ac3ea5ff-597f-474f-9e08-6e9c04073f0f",
+        "kind": "official"
+      },
+      {
+        "title": "Proff: Crossing Borders CVR 32166121",
+        "url": "https://www.proff.dk/firma/crossing-borders/k%C3%B8benhavn-k/pleje-og-omsorgstjenester/GSHS1UI10K7",
+        "kind": "official"
+      },
+      {
+        "title": "Crossing Borders hjemmeside",
         "url": "https://crossingborders.dk/",
         "kind": "org"
-      },
-      {
-        "title": "Proff CVR 32166121",
-        "url": "https://www.proff.dk/firma/crossing-borders/-/-/32166121",
-        "kind": "official"
       }
     ]
   },
   "relatedPosts": [
     "2083221437041479686"
   ],
-  "plainLead": "Crossing Borders er en NGO, der arbejder med unge, dialog og «global citizenship». De skriver selv, at CISU/Danida er en hovedfinansier. Det præcise beløb (Baronen siger ca. 9 mio.) er ikke fuldt låst endnu.",
-  "whatMoneyFor": "Projekter for unge i Danmark og ude i verden: workshops, dialog, «demokratisk deltagelse». Finansiering fra CISU, EU, fonde m.m. **Præcis 9 mio. er stadig claim** — vi har kun små CISU-poster under org-navn i index.",
-  "orientation": "venstre",
-  "orientationLabel": "Venstre / progressiv youth & DEI",
-  "orientationNote": "Sprogbrug om global citizenship, mangfoldighed og empowerment peger progressivt. Ikke en konservativ missionsorganisation.",
-  "homeCompare": {
-    "text": "**9.0 mio. kr.** kunne ca. dække **16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
-    "nursesApprox": 16.4,
-    "taxPeopleApprox": 900
+  "digStatus": {
+    "claim9m": "unverified_total",
+    "cisuAsFunder": "confirmed_by_org_annual_report_2023_and_2024",
+    "publicFundingDependence": "confirmed_by_org",
+    "fullAccountsWithDkk": "not_in_annual_report_pdf"
   }
 }

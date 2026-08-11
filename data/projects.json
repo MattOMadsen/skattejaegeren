@@ -243,13 +243,13 @@
     {
       "id": "100-for-boernene",
       "title": "100% for Børnene",
-      "amountDkk": 3500000,
-      "amountKind": "claim",
+      "amountDkk": 2685876,
+      "amountKind": "official",
       "org": "100% for Børnene",
       "pool": "Danida / CISU-spor (claim)",
       "country": "Ghana, Kenya, Ukraine",
-      "whatFor": "Baronen: ca. 3,5 mio. til politisk aktivisme.",
-      "angle": "Børnebrand — politisk indhold.",
+      "whatFor": "Youth advocacy for inkluderende uddannelse i Ghana (CISU 2.685.876 kr.).",
+      "angle": "Advocacy og politisk pres — ikke kun skolebyggeri.",
       "sources": [
         {
           "title": "Baronen NGO-mini-serie",
@@ -260,7 +260,7 @@
       "researchers": [
         "oresundsbaron"
       ],
-      "caseSlug": "ngo-miniserie"
+      "caseSlug": "100-for-boernene"
     },
     {
       "id": "colombia-solidaritet",
@@ -607,10 +607,10 @@
       "amountKind": "official",
       "org": "100% for Børnene",
       "pool": "Civilsamfundspuljen - Udviklingsindsats",
-      "country": "Se resume",
+      "country": "Ghana",
       "period": null,
-      "whatFor": "This project focuses on empowering youth organisations in Ghana to mobilize, build evidence and advocate for inclusive access and quality in education. The overall aim is twofold: 1) Consistent advocacy and performance monitorering to hold duty bearers accountable under the Ghana Education Strategic Plan 2018-2030 and 2) Increased attention and investment towards the educational sector from duty bearers. The project works in 8 selected municipalities to ensure inclusion of youth organisations working on the grassroot level. The Voices of Youth coalition is a strategic partner in the project, as the coalition over the years has developed into an influential stakeholder in the Ghanaian youth p",
-      "angle": "Officiel CISU-bevilling fra OpEn/relaterede puljer. Tjek formål: oplysning, advocacy eller feltarbejde?",
+      "whatFor": "Youth advocacy for inkluderende uddannelse i Ghana (CISU 2.685.876 kr.).",
+      "angle": "2,7 mio. til youth advocacy i Ghana — Baronen claim 3,5 mio. delvist bekræftet.",
       "sources": [
         {
           "title": "CISU bevilling",
@@ -619,7 +619,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "100-for-boernene",
       "cisuId": "5f531a6b-a668-4445-880f-66d27da94ed5"
     },
     {

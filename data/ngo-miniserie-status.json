@@ -61,7 +61,9 @@
           "title": "YOUTH ON BOARD Ghana education"
         }
       ],
-      "status": "partial_one_large_grant_found"
+      "status": "partial_2.69m_of_3.5m_claim",
+      "sumFound": 2685876,
+      "note": "CISU YOUTH ON BOARD 2.685.876 kr. confirmed. Baronen 3.5m partial. Org claims ~31.9m raised since 2022 (all sources)."
     },
     {
       "org": "Crossing Borders",
@@ -70,10 +72,14 @@
         {
           "amount": 10000,
           "title": "Council of All Beings Folkemødet"
+        },
+        {
+          "amount": null,
+          "title": "Global programme — CISU funded (org AR 2024, no DKK total in report)"
         }
       ],
-      "status": "funding_partner_cisu_confirmed_annual_report",
-      "note": "Annual Report 2023: main funding partners include Danida Civil Society Fund (CISU). Exact 9m multi-year total not yet extracted. Aktindsigt A5."
+      "status": "cisu_funder_confirmed_9m_still_claim",
+      "note": "AR 2024: Global programme funded by CISU+NDF+Nordic Council. Heavy public funding dependence. Only 10k under org name in CISU sample. 9m claim open."
     },
     {
       "org": "Ghana Venskab",
