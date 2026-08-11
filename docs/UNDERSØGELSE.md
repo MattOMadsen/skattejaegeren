@@ -225,3 +225,23 @@ Se `data/ngo-miniserie-status.json`.
 - YouTube: https://www.youtube.com/watch?v=VL70ZqwKxBI  
 - Altinget kritik: https://www.altinget.dk/artikel/strategichef-bt-naar-eklatant-lavpunkt-naar-de-promoverer-anonym-hoejreekstrem-og-antidemokratisk-kilde  
 
+
+---
+
+## MS ActionAid + Oxfam SPA (trin gennemført 2026-08-11)
+
+### MS / ActionAid Denmark
+- **Kilde:** [SPA Results 2025 PDF](https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf)
+- Total grant income 2025: **151,47 mio.** (forbrug 149,97 / 99%)
+- **Budget-split:** 58% partnere · 16% HQ DK · 14% non-HQ program · 7% Global Entity · 3% AAI · 2% IPE
+- SO: Democracy Delivers, Climate Justice (46% outcomes), Youth in Crises
+- 16 SPA-lande + Global Platforms
+- **UM C1975:** [PDF](https://um.dk/media/2bojzbzk/c1975-report-1.pdf) — 4,7 mio. til AA Uganda 2024; 627.452 kr. uregelmæssigheder
+
+### Oxfam Danmark
+- **103 mio./år** bekræftet UM + oxfam.dk
+- [Results 2025](https://oxfam.dk/wp-content/uploads/2026/07/Oxfam_Denmark_Results_Report-2025.pdf): 12 lande; 81,6% til lokale partnere; 47/36/17 % på tre change objectives
+- Public engagement i Danmark nævnt
+
+Data: `data/partner-deep-dive.json`
+

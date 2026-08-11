@@ -294,32 +294,37 @@
       "amountDkk": 129000000,
       "amountLabel": "129 mio. kr./år",
       "amountKind": "official",
-      "summary": "Mellemfolkeligt Samvirke / MS ActionAid får 129 mio. kr. årligt i strategisk partnerskab. Statsstyret har via aktindsigt peget på ansøgninger om arbejde med unge i valgkontekster og 'sociale bevægelser' i Afrika.",
+      "summary": "MS ActionAid: 129 mio. kr./år (UM). Egen 2025-rapport: 150 mio. total, kun 58% til partnere, 16% HQ DK. UM-sag om 627k uregelmæssigheder i Uganda. Youth/climate/democracy-fokus.",
       "angle": "Skatteyderen betaler for en dansk NGO, der er del af et internationalt ActionAid-netværk med eksplicit politiske mål. Det er ikke madpakker — det er magt og mobilisering.",
       "depth": {
         "status": "approved",
         "headline": "Dybde: 129 mio. er official — indholdet er politisk",
         "body": [
-          "**Beløbet er officielt:** MS ActionAid står på UM’s fordelingstabel med **129.000.000 kr. årligt** (2022–2026).",
-          "**Statsstyret (@Statsstyret)** har i feb. 2025 publiceret en lang tråd baseret på **aktindsigt** i ansøgningsmateriale fra Mellemfolkeligt Samvirke. Ifølge tråden fremgår bl.a. arbejde med 'unge i valgkontekster', skabelse af 'sociale bevægelser' og udvidelse af 'det demokratiske rum' internationalt, i EU og i Danmark.",
-          "Tråden nævner også ActionAid’s fokus på klima/'klimaretfærdighed', køn og social justice, samt samarbejde/midler til medieaktører (fx Reporters Without Borders, Free Press Unlimited i materialet Statsstyret gengiver).",
-          "Statsstyret noterede selv usikkerhed om en specifik 49 mio.-ansøgning blev bevilget — men **129 mio. partnerskabsbevillingen er dokumenteret hos UM**.",
-          "Baronen bruger samme 129 mio.-tal i debatten om Danida-puljer (aug. 2026) som kontekst til 'det er kun 0,4 %'-argumentet."
+          "**UM:** MS ActionAid får **129 mio. kr. årligt** i strategisk partnerskab (2022–2026-tabel).",
+          "**MS egen SPA-rapport 2025:** Samlet grant income **151,47 mio.** (SPA + top-ups), forbrug **149,97 mio.** (99% spend). Fordeling: **58%** transfer til partnere (87,2 mio.), **16%** HQ program/support i DK (24,5 mio.), **14%** non-HQ program/support, **7%** Global Entity, **3%** ActionAid International, **2%** IPE (Information & Public Engagement, 2,7 mio.).",
+          "**Tre strategiske mål:** Democracy Delivers, Climate Justice (46% af outcome-resultater), Youth in Crises (humanitær reach 447.706 i 2025). 16 SPA-lande + Global Platforms i 36 lande.",
+          "**UM C-sag C1975 (jul 2025):** AADK sendte **4,7 mio.** til ActionAid Uganda i 2024. Whistleblower + forensic audit: ineligible salary increases / per diem — **627.452 kr.** under mistanke, tilbagebetaling krævet. Country Director suspended.",
+          "Statsstyrets aktindsigt om valg-påvirkning og Baronens kritik af politisk mobilisering skal læses sammen med denne budget-split: store midler til youth/climate/democracy-apparatet, ikke kun humanitær felt-hjælp."
         ],
         "sources": [
           {
-            "title": "UM fordeling — MS ActionAid 129 mio.",
+            "title": "UM partnerskabstabel — 129 mio.",
             "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
             "kind": "official"
           },
           {
-            "title": "Statsstyret: aktindsigt / MS valg-påvirkning (X)",
-            "url": "https://x.com/Statsstyret/status/1888511754260394004",
-            "kind": "research"
+            "title": "MS: Danida SPA Results 2025 (PDF)",
+            "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+            "kind": "official"
           },
           {
-            "title": "Baronen: kontekst Civilsamfund + MS 129 mio. (X)",
-            "url": "https://x.com/oresundsbaron/status/2086920527436730876",
+            "title": "UM C1975 Uganda uregelmæssigheder",
+            "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
+            "kind": "official"
+          },
+          {
+            "title": "Statsstyret aktindsigt MS",
+            "url": "https://x.com/Statsstyret/status/1888511754260394004",
             "kind": "research"
           }
         ]
@@ -548,6 +553,57 @@
       "relatedPosts": [
         "2086361841295667262"
       ]
+    },
+    {
+      "slug": "oxfam-spa",
+      "title": "Oxfam Danmark: 103 mio./år + resultatrapport",
+      "status": "approved",
+      "priority": 2,
+      "tags": [
+        "danida",
+        "oxfam",
+        "partnerskab",
+        "officiel"
+      ],
+      "amountDkk": 103000000,
+      "amountLabel": "103 mio. kr./år",
+      "amountKind": "official",
+      "summary": "UM + Oxfam selv: 103 mio. kr. årligt i SPA 2022–2026. Results Report 2025: 12 lande, 81,6% af lande-forbrug til lokale partnere, 47% Leaving No-One Behind, 36% Just Societies, 17% Climate Justice. Også engagement i Danmark.",
+      "angle": "Store, statsfinansierede apparater med både humanitær hjælp og politisk/klima-advocacy. Offentlige resultatrapporter findes — brug dem.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Oxfam SPA 2025 i tal",
+        "body": [
+          "**Officielt:** 103 mio. kr./år (UM-tabel). Oxfam.dk bekræfter samme tal.",
+          "**Results Report 2025 (Danida SPA):** 12 lande (bl.a. Ghana, Uganda, Yemen, Palestine, Guatemala). Ca. **395.864** mennesker arbejdet med direkte (304k humanitært, 92k udvikling). **105** lokale partnere.",
+          "**Budget-andele (SPA-aktivitet):** Leaving No-One Behind **47%**, Just Societies **36%**, Climate Justice **17%**. **81,6%** af midler brugt i lande overført til lokale partnere.",
+          "**Danmark:** public engagement — World in School, kampagner (klima, fair tax, gender); titusinder i kampagne-deltagelse ifølge rapporten.",
+          "Spend rate ca. **99%** af revideret budget inkl. top-ups."
+        ],
+        "sources": [
+          {
+            "title": "UM partnerskabstabel — 103 mio.",
+            "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+            "kind": "official"
+          },
+          {
+            "title": "Oxfam om Danida-partnerskab",
+            "url": "https://oxfam.dk/om-os/partnerskaber/danida/",
+            "kind": "official"
+          },
+          {
+            "title": "Oxfam Results Report 2025 (PDF)",
+            "url": "https://oxfam.dk/wp-content/uploads/2026/07/Oxfam_Denmark_Results_Report-2025.pdf",
+            "kind": "official"
+          },
+          {
+            "title": "Oxfam Results Report 2024 (PDF)",
+            "url": "https://oxfam.dk/wp-content/uploads/2025/08/Oxfam-Denmark-Results-Report-2024-Update-August-2025-2.pdf",
+            "kind": "official"
+          }
+        ]
+      },
+      "relatedPosts": []
     }
   ]
 }

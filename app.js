@@ -84,19 +84,18 @@ async function fetchJson(path) {
 function applyStats(aid) {
   const year = aid?.thisYear?.label || FALLBACK_AID.thisYear.label;
   const y10 = aid?.last10Years?.label || FALLBACK_AID.last10Years.label;
-  const all = aid?.since2015?.label || FALLBACK_AID.since2015.label;
   const per = aid?.perDaneThisYear?.amountDkk ?? FALLBACK_AID.perDaneThisYear.amountDkk;
+  const tax = aid?.btTaxCut?.amountDkk ?? FALLBACK_AID.btTaxCut.amountDkk;
 
   const elY = document.getElementById('stat-year');
   const el10 = document.getElementById('stat-10');
-  const elA = document.getElementById('stat-all');
   const elP = document.getElementById('stat-per');
+  const elT = document.getElementById('stat-tax');
 
-  // Strip "kr." for compact display in cards
   if (elY) elY.textContent = year.replace(/\s*kr\.?/i, '').trim();
   if (el10) el10.textContent = y10.replace(/\s*kr\.?/i, '').trim();
-  if (elA) elA.textContent = all.replace(/\s*kr\.?/i, '').trim();
   if (elP) elP.textContent = Number(per).toLocaleString('da-DK');
+  if (elT) elT.textContent = Number(tax).toLocaleString('da-DK');
 }
 
 // Ensure stats never empty — run immediately with fallback
@@ -107,7 +106,7 @@ let cache = null;
 async function loadAll() {
   if (cache) return cache;
   try {
-    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie, partners, media] =
+    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie, partners, media, deepDive] =
       await Promise.all([
         fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
         fetchJson('data/projects.json'),
@@ -119,6 +118,7 @@ async function loadAll() {
         fetchJson('data/ngo-miniserie-status.json').catch(() => null),
         fetchJson('data/strategic-partners.json').catch(() => null),
         fetchJson('data/media-validation.json').catch(() => null),
+        fetchJson('data/partner-deep-dive.json').catch(() => null),
       ]);
     applyStats(aid);
     cache = {
@@ -132,6 +132,7 @@ async function loadAll() {
       miniSerie,
       partners,
       media,
+      deepDive,
     };
     return cache;
   } catch (e) {
@@ -409,6 +410,15 @@ function renderGrav(d) {
     </section>
 
     <div class="panel">
+      <h2>3.800 vs 10.000 kr. — hvad er forskellen?</h2>
+      <p><span class="badge ok">Pr. indbygger</span> <strong>ca. 3.800 kr.</strong> = 23,2 mia. ÷ alle indbyggere (inkl. børn).</p>
+      <p><span class="badge hot">BT / Olsen</span> <strong>10.000 kr.</strong> = skattelettelse for person med <em>gennemsnitsindkomst</em>, hvis hele bistandspotten bruges til lavere bundskat.
+        Citat fra <a href="https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden" target="_blank" rel="noopener">B.T. mener (4. aug. 2026)</a>, inspireret af podcasten med Baronen.
+        Matematisk: 23 mia. ÷ ca. 2,3 mio. fuldtidsjob ≈ 10.000 kr.</p>
+      <p class="muted">Begge tal kan «være rigtige» — de svarer bare på to forskellige spørgsmål.</p>
+    </div>
+
+    <div class="panel">
       <h2>BT-interview (3. aug. 2026)</h2>
       <p>
         Baronen var gæst i <strong>BT Borgerlig Tabloid</strong> med Joachim B. Olsen.
@@ -422,6 +432,25 @@ function renderGrav(d) {
         Det er den rigtige pointe: tallene er ikke hemmelige. Vi har selv låst flere via CISU/UM.
         Se sag: <a href="#/sag/bt-mediedækning">BT-mediedækning</a>.
       </p>
+    </div>
+
+    <div class="panel">
+      <h2>MS + Oxfam dybde (næste trin)</h2>
+      ${
+        d.deepDive
+          ? `
+        <p><strong>MS ActionAid</strong> (129 mio./år UM): 2025-rapport viser total ca. <strong>150 mio.</strong> (inkl. top-ups).
+        Kun <strong>58%</strong> transfer til partnere; <strong>16%</strong> HQ i DK; <strong>2%</strong> IPE.
+        Fokus: demokrati, climate justice, youth in crises.
+        <a href="#/sag/ms-actionaid">Sag →</a></p>
+        <p><strong>UM C1975:</strong> 4,7 mio. til ActionAid Uganda 2024; <strong>627.452 kr.</strong> uregelmæssigheder (løn/per diem) — tilbagebetaling.
+        <a href="https://um.dk/media/2bojzbzk/c1975-report-1.pdf" target="_blank" rel="noopener">PDF ↗</a></p>
+        <p><strong>Oxfam</strong> (103 mio./år): egen resultatrapport 2025 — 12 lande, 81,6% af lande-forbrug til partnere,
+        47% Leaving No-One Behind / 36% Just Societies / 17% Climate Justice.
+        <a href="#/sag/oxfam-spa">Sag →</a></p>
+        <p class="muted">${esc((d.deepDive.comparison && d.deepDive.comparison.headline) || '')}</p>`
+          : '<p>Se data/partner-deep-dive.json</p>'
+      }
     </div>
 
     <div class="panel">
@@ -551,7 +580,9 @@ function renderOm(d) {
       <h2>Tællerne</h2>
       <p><strong>2026:</strong> ca. 23,2 mia. kr. samlet udviklingsbistand (rapporteret).</p>
       <p><strong>10 år:</strong> ca. 187 mia. (2016–2025, afrundet).</p>
-      <p><strong>Siden 2015:</strong> ca. 228 mia. (inkl. 2026-budget). Ikke “al tid i historien”.</p>
+      <p><strong>Pr. indbygger:</strong> ca. <strong>3.800 kr.</strong> (23,2 mia. ÷ ca. 6,1 mio. danskere).</p>
+      <p><strong>BT 10.000 kr.:</strong> Joachim B. Olsen / <em>B.T. mener</em> (4. aug. 2026): hvis bistanden afskaffes og bruges til <strong>lavere bundskat</strong>, får en person med <strong>gennemsnitsindkomst</strong> ca. 10.000 kr. i skattelettelse om året — <em>ikke</em> det samme som pr. indbygger. 23 mia. ÷ ca. 2,3 mio. fuldtidsbeskæftigede ≈ 10.000 kr.</p>
+      <p><a href="https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden" target="_blank" rel="noopener">BT-leder ↗</a></p>
     </div>
     ${
       posts.length

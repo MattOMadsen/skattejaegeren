@@ -1,0 +1,114 @@
+{
+  "updated": "2026-08-11",
+  "note": "Næste trin på listen: MS ActionAid + Oxfam strategiske partnerskaber — hvad siger deres egne SPA/resultatrapporter?",
+  "partners": [
+    {
+      "id": "ms-actionaid",
+      "org": "Mellemfolkeligt Samvirke / ActionAid Denmark (AADK)",
+      "umAnnualGrantDkk": 129000000,
+      "umSource": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+      "period": "SPA II 2022–2026 (UM: 2022–2025 nævnt i C-sag)",
+      "report2025": {
+        "title": "Results — Danida Strategic Partnership 2025",
+        "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+        "kind": "official_org",
+        "totalGrantIncomeDkk": 151470000,
+        "totalExpenditureDkk": 149970000,
+        "spendRate": "99%",
+        "noteOnTotal": "151,47 mio. er SPA-bevilling + top-ups m.m. (ikke kun de rene 129 mio. UM-grundbevilling).",
+        "budgetSplit2025": [
+          { "line": "Transfer to partners (global/regional/national/local)", "amountDkk": 87190000, "pct": 58 },
+          { "line": "HQ programme & support costs (Danmark)", "amountDkk": 24530000, "pct": 16 },
+          { "line": "Non-HQ programme & support costs", "amountDkk": 21220000, "pct": 14 },
+          { "line": "Global Entity", "amountDkk": 9680000, "pct": 7 },
+          { "line": "AAI programme & support costs", "amountDkk": 4660000, "pct": 3 },
+          { "line": "IPE — Information and Public Engagement", "amountDkk": 2680000, "pct": 2 }
+        ],
+        "strategicObjectives": [
+          { "code": "SO1", "name": "Democracy Delivers", "focus": "Ungt demokrati, civic space, accountability, policy-ændringer" },
+          { "code": "SO2", "name": "Climate Justice", "focus": "Klima-advocacy, resilient livelihoods, COP/NDC-påvirkning (størst andel af outcome-resultater: 46%)" },
+          { "code": "SO3", "name": "Youth in Crises", "focus": "Humanitær response + youth leadership i kriser; 447.706 people reached (humanitarian) i 2025" }
+        ],
+        "spaCountries16": [
+          "Bangladesh", "Ethiopia", "Jordan", "Kenya", "Lebanon", "Liberia", "Mali",
+          "Myanmar", "Nigeria", "Palestine", "Syria", "Tanzania", "Ukraine",
+          "Somalia/Somaliland", "Zambia", "Zimbabwe"
+        ],
+        "capacityModel": [
+          "Global Platforms (93 platforms i 36 lande nævnt i rapport)",
+          "Training Centre for Development Cooperation (TCDC)",
+          "People4Change",
+          "GOLD / Social Movement Support Centre"
+        ],
+        "angle": "Kun 58% går direkte som transfer til partnere. 16% er HQ i DK + 2% IPE (oplysning/engagement). Resten er program/global entity/ActionAid International. Det er mere end 'nødhjælp i feltet' — det er et apparat til youth mobilisation, climate justice og democracy advocacy."
+      },
+      "irregularitiesUganda": {
+        "title": "UM C-sag C1975 — mistanke om uregelmæssigheder ActionAid Uganda",
+        "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
+        "date": "2025-07-16",
+        "umConfirms129m": true,
+        "ugandaSupport2024Dkk": 4700000,
+        "amountUnderSuspicionDkk": 627452,
+        "issue": "Whistleblower: ineligible salary increases i ActionAid Uganda fra 1. jan 2023; per diem non-compliance. Forensic audit (AA International feb 2025) bekræftede. Tilbagebetaling 627.452 kr. krævet. Country Director suspended.",
+        "angle": "Pengene når partnerlande via sub-grants — men kontrol svigter. 627k er 'småt' ift. 129 mio., men det viser risikoen i kæden AADK → AA-land → lokale implementører."
+      }
+    },
+    {
+      "id": "oxfam-denmark",
+      "org": "Oxfam Danmark (tidl. Oxfam IBIS)",
+      "umAnnualGrantDkk": 103000000,
+      "umSource": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+      "orgSelfConfirm": {
+        "url": "https://oxfam.dk/om-os/partnerskaber/danida/",
+        "quote": "Bevillingen til det strategiske partnerskab udgør i alt 103 mio. kr. årligt (2022–2026)."
+      },
+      "resultsReport2025": {
+        "title": "Results Report 2025 — Strategic Partnership with Danish MFA",
+        "url": "https://oxfam.dk/wp-content/uploads/2026/07/Oxfam_Denmark_Results_Report-2025.pdf",
+        "kind": "official_org",
+        "countries12": [
+          "Burkina Faso", "Ghana", "Kenya", "Mali", "Niger", "South Sudan", "Uganda",
+          "Palestine", "Syria crisis (incl. Lebanon)", "Yemen", "Colombia", "Guatemala"
+        ],
+        "changeObjectives": [
+          { "name": "Just Societies", "budgetShareApprox": "36%" },
+          { "name": "Leaving No-One Behind (humanitært m.m.)", "budgetShareApprox": "47%" },
+          { "name": "Climate Justice", "budgetShareApprox": "17%" }
+        ],
+        "fundsToLocalPartners": {
+          "pctOfCountrySpend": 81.6,
+          "note": "81,6% af midler brugt i lande overført til lokale partnere (ifølge rapportens nøglefigur)."
+        },
+        "reach2025": {
+          "peopleWorkedWithDirectly": 395864,
+          "humanitarian": 304276,
+          "development": 91588,
+          "localPartners": 105,
+          "localPartnersCoFinanced": 28
+        },
+        "denmarkPublicEngagement": "World in School, kampagner om klima, fair tax, gender — ca. 36.000 i kampagner; skole/engagement i DK nævnt.",
+        "spendRate": "99% af revideret budget (inkl. carry-over og top-ups)",
+        "angle": "Oxfam lægger mere vægt på humanitær 'Leaving No-One Behind' (47%) end MS's youth/climate democracy-profil. 81,6% til lokale partnere lyder højt — men rapporten er result/outcome-fokuseret; fuld HQ-admin-split kræver regnskabsbilag."
+      },
+      "resultsReport2024": {
+        "url": "https://oxfam.dk/wp-content/uploads/2025/08/Oxfam-Denmark-Results-Report-2024-Update-August-2025-2.pdf",
+        "note": "Samme SPA-ramme; opdateret aug 2025."
+      }
+    }
+  ],
+  "comparison": {
+    "headline": "MS vs Oxfam — begge statsfinansierede SPA-partnere, forskellig profil",
+    "points": [
+      "UM grundbevilling: MS 129 mio./år, Oxfam 103 mio./år (officielt).",
+      "MS 2025 total forbrug ca. 150 mio. (inkl. top-ups); kun 58% som transfer til partnere; 16% HQ DK + 2% IPE.",
+      "Oxfam rapporterer 81,6% af lande-forbrug til lokale partnere; 47% af SPA-aktivitet under humanitær/Leaving No-One Behind.",
+      "Begge kører climate justice + gender + advocacy — ikke kun 'mad og medicin'.",
+      "MS har konkret UM-sag om uregelmæssigheder hos partner i Uganda (627k tilbagebetaling)."
+    ]
+  },
+  "next": [
+    "Audited annual accounts (årsregnskab) for MS og Oxfam — fuld indtægtsfordeling inkl. private donationer vs Danida %",
+    "OpenAid projektlinjer pr. land når site er oppe",
+    "Ghana Venskab / Crossing Borders via cvr/årsregnskab"
+  ]
+}

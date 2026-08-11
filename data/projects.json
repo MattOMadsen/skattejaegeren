@@ -103,23 +103,23 @@
       "pool": "Strategisk partnerskab Danida",
       "country": "Zambia m.fl.",
       "period": "2022–2026 partnerskab",
-      "whatFor": "Baronen: mentoring, trainings, flexible funding til Youth4Parliament — politisk organisering af unge. Kobling til politikere/parti (Patriotic Front) beskrevet som revolutionært/anti-kapitalistisk i Baronens gennemgang. Statsstyret: aktindsigt om ‘unge i valgkontekster’ og sociale bevægelser.",
+      "whatFor": "UM: 129 mio. kr./år. MS SPA-rapport 2025: total forbrug ca. 150 mio. (inkl. top-ups). 58% transfer til partnere; 16% HQ DK; 2% IPE. SO: Democracy, Climate Justice, Youth in Crises. 16 SPA-lande. UM C1975: 4,7 mio. til AA Uganda 2024; 627k uregelmæssigheder under tilbagebetaling.",
       "angle": "Politisk mobilisering i udlandet betalt af dig — mens regeringen advarer mod udenlandsk indblanding hjemme.",
       "sources": [
         {
-          "title": "UM: MS ActionAid 129 mio./år",
+          "title": "UM 129 mio.",
           "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
           "kind": "official"
         },
         {
-          "title": "Baronen: MS Zambia / Y4P",
-          "url": "https://x.com/oresundsbaron/status/1887792165772022003",
-          "kind": "research"
+          "title": "MS SPA Results 2025 PDF",
+          "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+          "kind": "official"
         },
         {
-          "title": "Statsstyret: aktindsigt MS",
-          "url": "https://x.com/Statsstyret/status/1888511754260394004",
-          "kind": "research"
+          "title": "UM C1975 Uganda",
+          "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
+          "kind": "official"
         }
       ],
       "researchers": [
@@ -281,12 +281,22 @@
       "org": "MS ActionAid",
       "pool": "Strategisk partnerskab 2022–2026",
       "country": "Afrika, Asien, Europa (ifølge MS/debat)",
-      "whatFor": "Fast årlig ramme 129 mio. kr. til MS ActionAids samlede partnerskabsindsatser — humanitært, udviklings- og politisk arbejde ifølge organisationens egen profil og kritikernes gennemgang.",
+      "whatFor": "UM: 129 mio. kr./år. MS SPA-rapport 2025: total forbrug ca. 150 mio. (inkl. top-ups). 58% transfer til partnere; 16% HQ DK; 2% IPE. SO: Democracy, Climate Justice, Youth in Crises. 16 SPA-lande. UM C1975: 4,7 mio. til AA Uganda 2024; 627k uregelmæssigheder under tilbagebetaling.",
       "angle": "Én NGO. 129 millioner. Hvert år.",
       "sources": [
         {
-          "title": "UM fordelingstabel",
+          "title": "UM 129 mio.",
           "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        },
+        {
+          "title": "MS SPA Results 2025 PDF",
+          "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+          "kind": "official"
+        },
+        {
+          "title": "UM C1975 Uganda",
+          "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
           "kind": "official"
         }
       ],
@@ -1738,6 +1748,74 @@
         "JoachimBOlsen"
       ],
       "caseSlug": "bt-mediedækning"
+    },
+    {
+      "id": "ms-spa-2025-budget",
+      "title": "MS ActionAid SPA 2025 — budget-split",
+      "amountDkk": 151470000,
+      "amountKind": "official",
+      "org": "ActionAid Denmark / MS",
+      "pool": "Danida SPA II + top-ups",
+      "country": "16 SPA-lande + globale enheder",
+      "period": "2025",
+      "whatFor": "Egen rapport: grant income 151,47 mio., forbrug 149,97 mio. (99%). Split: 87,2 mio. (58%) til partnere; 24,5 mio. (16%) HQ DK; 21,2 mio. (14%) non-HQ program; 9,7 mio. Global Entity; 4,7 mio. AAI; 2,7 mio. IPE. Mål: demokrati, climate justice, youth in crises.",
+      "angle": "Når kun 58% går som transfer, og 16% bliver på HQ i København, er det legitimt at spørge: hvor meget er felt-hjælp, og hvor meget er apparat?",
+      "sources": [
+        {
+          "title": "MS SPA Results 2025",
+          "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+          "kind": "official"
+        }
+      ],
+      "researchers": [],
+      "caseSlug": "ms-actionaid"
+    },
+    {
+      "id": "ms-uganda-c1975",
+      "title": "ActionAid Uganda — UM uregelmæssighedssag",
+      "amountDkk": 627452,
+      "amountKind": "official",
+      "org": "ActionAid Uganda via AADK",
+      "pool": "Del af MS SPA (sub-grant 4,7 mio. i 2024)",
+      "country": "Uganda",
+      "period": "2023–2025 sag",
+      "whatFor": "UM C1975: 4,7 mio. til AA Uganda i 2024 under MS-partnerskab. Whistleblower + forensic audit: ineligible salary increases m.m. 627.452 kr. under mistanke — tilbagebetaling aftalt. Country Director suspended.",
+      "angle": "Kontrolsvigt i kæden. Småt ift. 129 mio. — men bevis på at «pengene går derned» ikke er det samme som «pengene bruges korrekt».",
+      "sources": [
+        {
+          "title": "UM C1975 PDF",
+          "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
+          "kind": "official"
+        }
+      ],
+      "researchers": [],
+      "caseSlug": "ms-actionaid"
+    },
+    {
+      "id": "oxfam-spa-2025",
+      "title": "Oxfam Danmark SPA 2025 — resultater",
+      "amountDkk": 103000000,
+      "amountKind": "official",
+      "org": "Oxfam Danmark",
+      "pool": "Danida strategisk partnerskab",
+      "country": "12 lande + DK engagement",
+      "period": "2025 (SPA 2022–2026)",
+      "whatFor": "103 mio./år (UM+Oxfam). Rapport 2025: 12 lande; 396k mennesker; 105 lokale partnere; 81,6% af lande-forbrug til partnere; budget-mix Leaving No-One Behind 47% / Just Societies 36% / Climate Justice 17%. Public engagement i Danmark.",
+      "angle": "Mere humanitær profil end MS i egne tal — men stadig climate/gender advocacy og dansk opinionsdannelse på skattekroner.",
+      "sources": [
+        {
+          "title": "Oxfam Results 2025 PDF",
+          "url": "https://oxfam.dk/wp-content/uploads/2026/07/Oxfam_Denmark_Results_Report-2025.pdf",
+          "kind": "official"
+        },
+        {
+          "title": "Oxfam Danida-side",
+          "url": "https://oxfam.dk/om-os/partnerskaber/danida/",
+          "kind": "official"
+        }
+      ],
+      "researchers": [],
+      "caseSlug": "oxfam-spa"
     }
   ],
   "investigationNote": "Se docs/UNDERSØGELSE.md — CISU-verificerede beløb for barnevogn, BIO RAP, kaffestop; Kunstfond PDF.",
