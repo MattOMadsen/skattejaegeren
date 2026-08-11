@@ -1002,6 +1002,17 @@ html[data-theme="light"] .vs-away .vs-kicker { color: var(--hot-num, #b91c1c); }
 .stance-against h3 { color: #fda4a4; }
 html[data-theme="light"] .stance-against h3 { color: var(--hot-num, #b91c1c); }
 
+.credit-panel h2 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+.credit-panel p {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;

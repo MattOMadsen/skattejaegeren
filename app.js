@@ -1417,7 +1417,29 @@ function renderOm(d) {
       </p>
     </section>
 
-    <div class="grid cols-2 stance-grid">
+    <div class="panel credit-panel">
+      <h2>Tak til dem der gravede før os</h2>
+      <p>
+        <a href="https://x.com/NamelessCoder" target="_blank" rel="noopener"><strong>@NamelessCoder</strong></a>
+        (Claus Due) driver
+        <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten.dk</a>
+        — bl.a. Danida- og OpEn-artiklerne vi bygger videre på. På X forsvarer han, at
+        <em>verificérbare fakta</em> er vigtigere end personangreb og stråmænd om Baronen, og kalder
+        prioriteringen i ulandsbistanden absurd: det handler ofte mere om NGO-projektmagere end om
+        at hjælpe dem, der har brug for det.
+      </p>
+      <p style="margin-top:.65rem">
+        <a href="https://x.com/oresundsbaron" target="_blank" rel="noopener"><strong>@oresundsbaron</strong></a>
+        (Baronen af Øresund) har leveret den primære research-serie med konkrete beløb og links.
+      </p>
+      <p class="meta" style="margin-top:.75rem">
+        Også: <a href="https://x.com/MikeHuntHurts89" target="_blank" rel="noopener">@MikeHuntHurts89</a>
+        · <a href="https://x.com/Statsstyret" target="_blank" rel="noopener">@Statsstyret</a>
+        · UM, CISU, regnskaber
+      </p>
+    </div>
+
+    <div class="grid cols-2 stance-grid" style="margin-top:1.25rem">
       <div class="card stance-for">
         <h3>Vi er for</h3>
         <ul class="stance-list">
@@ -1456,6 +1478,15 @@ function renderOm(d) {
            </div>
            <div class="panel">
              <p>${esc(bj.note)}</p>
+             ${
+               bj.operator
+                 ? `<p style="margin-top:.5rem">
+                      Platform:
+                      <a href="${esc(bj.operator.url)}" target="_blank" rel="noopener">${esc(bj.operator.handle)}</a>
+                      (${esc(bj.operator.name)}).
+                    </p>`
+                 : ''
+             }
              <p style="margin-top:.75rem"><strong>Artikler vi bruger (klik for at læse originalen):</strong></p>
              <ul class="sources" style="margin-top:.5rem">
                ${(bj.articles || [])

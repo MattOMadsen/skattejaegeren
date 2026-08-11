@@ -8,7 +8,7 @@ Driver: [@MattieDanmark](https://x.com/MattieDanmark).
 - Live: **https://mattomadsen.github.io/skattejaegeren/**
 - Sager: `data/cases/<slug>.json` (+ `index.json`)
 
-Grave-kilder: [@oresundsbaron](https://x.com/oresundsbaron), [Borgerjournalisten](https://borgerjournalisten.dk/), CISU/UM/regnskaber.  
+Grave-kilder: [@oresundsbaron](https://x.com/oresundsbaron), [Borgerjournalisten](https://borgerjournalisten.dk/) / [@NamelessCoder](https://x.com/NamelessCoder) (Claus Due), CISU/UM/regnskaber.  
 **Ikke** officiel side for nogen af kilderne. Claims vs. officielle tal er mærket i UI.
 
 ## Lokalt

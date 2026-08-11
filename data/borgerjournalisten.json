@@ -1,7 +1,13 @@
 {
   "name": "Borgerjournalisten.dk",
   "url": "https://borgerjournalisten.dk/",
-  "note": "Borgerjournalistik — bl.a. Baronen af Øresunds Danida-artikler. Vi linker og bruger tal som research; CISU/UM/regnskab forbliver primærkilder hvor muligt.",
+  "operator": {
+    "name": "Claus Due",
+    "handle": "@NamelessCoder",
+    "url": "https://x.com/NamelessCoder",
+    "note": "Open source-udvikler bag Borgerjournalisten. Publicerer bl.a. Danida/OpEn-artikler (ofte med Baronen som forfatter) og forsvarer i debatten, at verificérbare fakta er vigtigere end anonymitet/personangreb. Kritiserer NGO’er der lever af skattekroner til projekter i stedet for reel hjælp."
+  },
+  "note": "Borgerjournalistik — platform af @NamelessCoder; Danida-artikler m.fl. af bl.a. Baronen af Øresund. Vi linker og bruger tal som research; CISU/UM/regnskab forbliver primærkilder hvor muligt.",
   "articles": [
     {
       "id": "bj-open",

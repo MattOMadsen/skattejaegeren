@@ -6,8 +6,22 @@
     "ownerUrl": "https://x.com/MattieDanmark",
     "approval": "manual",
     "primarySource": "@oresundsbaron",
+    "contributors": [
+      {
+        "name": "Claus Due",
+        "handle": "@NamelessCoder",
+        "url": "https://x.com/NamelessCoder",
+        "role": "Borgerjournalisten.dk — platform + graveartikler (Danida/OpEn m.m.); forsvarer fakta frem for personangreb"
+      },
+      {
+        "name": "Baronen af Øresund",
+        "handle": "@oresundsbaron",
+        "url": "https://x.com/oresundsbaron",
+        "role": "Primær research / X-serie om bistand"
+      }
+    ],
     "secondaryQueued": [
-      "Borgerjournalisten.dk",
+      "Borgerjournalisten.dk / @NamelessCoder",
       "@Statsstyret",
       "@MikeHuntHurts89",
       "Facebook m.fl."
@@ -27,7 +41,7 @@
       {
         "name": "Borgerjournalisten.dk",
         "url": "https://borgerjournalisten.dk/",
-        "note": "Danida/OpEn-graveartikler — vi linker og krediterer"
+        "note": "Danida/OpEn-graveartikler — drevet af Claus Due (@NamelessCoder). Vi linker og krediterer."
       }
     ]
   },
