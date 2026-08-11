@@ -39,7 +39,9 @@
       "**Financial Administration Feb 2025:** Offentlige kilder = EU-programmer, Civil Society Fund (CISU), Globus, New Democracy Fund under UM/Kulturstyrelsen; plus private fonde og egen indtjening (workshops, medlemskab).",
       "**CISU under org-navn i vores katalog:** kun **10.000 kr.** (Folkemøde / Council of All Beings). Større CISU-projekter kan have andre titler eller ligge uden for sample — derfor mangler vi stadig 1:1 på 9 mio.",
       "**CVR 32166121**, forening. Adresser nævnt: Søtorvet 5 / Nørre Allé 7, København.",
-      "**Grave-status:** Årsrapporterne er **fortællinger uden resultatopgørelse** (ingen «indtægter i alt: X kr.»). Fuld facit kræver årsregnskab fra virk/revisor eller fuld bevillingsliste fra CISU/UM. Aktindsigt kan vente, til du har automatisk mail-løsning."
+      "**Grave-status:** Årsrapporterne er **fortællinger uden resultatopgørelse** (ingen «indtægter i alt: X kr.»). Fuld facit kræver årsregnskab fra virk/revisor eller fuld bevillingsliste fra CISU/UM. Aktindsigt kan vente, til du har automatisk mail-løsning.",
+      "**Borgerjournalisten:** Over **9 mio. kr.** 2021–2025 via 6 bevillinger (woman empowerment Indien, youth Zimbabwe, verdensmål Uganda/Nigeria/Ghana/Zimbabwe, skoler i DK). Kerneværdi: DEI. BJ skriver desuden, at foreningen har været under konkurs siden nov. 2025 — **vi har ikke uafhængigt bekræftet konkursstatus**; årsrapporter 2023–24 ligger stadig offentligt, og org præsenterer sig som aktiv. Tag konkurs-påstanden som research, der skal tjekkes.",
+      "BJ understøtter Baronens 9 mio.-niveau med en bevillingsliste — vores CISU-sample viser stadig kun 10k under org-navn; resten kan være andre titler/kanaler."
     ],
     "sources": [
       {
@@ -71,6 +73,11 @@
         "title": "Crossing Borders hjemmeside",
         "url": "https://crossingborders.dk/",
         "kind": "org"
+      },
+      {
+        "title": "Borgerjournalisten: Crossing Borders",
+        "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
+        "kind": "research"
       }
     ]
   },
@@ -81,6 +88,8 @@
     "claim9m": "unverified_total",
     "cisuAsFunder": "confirmed_by_org_annual_report_2023_and_2024",
     "publicFundingDependence": "confirmed_by_org",
-    "fullAccountsWithDkk": "not_in_annual_report_pdf"
+    "fullAccountsWithDkk": "not_in_annual_report_pdf",
+    "baronen9m": "supported_by_borgerjournalisten_research_not_full_accounts",
+    "konkursClaimBj": "unverified_by_us"
   }
 }

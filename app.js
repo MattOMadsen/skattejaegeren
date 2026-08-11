@@ -294,6 +294,7 @@ async function loadAll() {
       alternatives,
       timeline,
       orientation,
+      borgerjournalisten,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -310,6 +311,7 @@ async function loadAll() {
       fetchJson('data/alternatives.json').catch(() => null),
       fetchJson('data/timeline.json').catch(() => null),
       fetchJson('data/orientation-overview.json').catch(() => null),
+      fetchJson('data/borgerjournalisten.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -328,6 +330,7 @@ async function loadAll() {
       alternatives,
       timeline,
       orientation,
+      borgerjournalisten,
     };
     return cache;
   } catch (e) {
@@ -1078,6 +1081,7 @@ function renderIndsigt(d) {
 
     <nav class="page-jump" aria-label="Hop på siden">
       <button type="button" data-jump="farve">Venstre / højre</button>
+      <button type="button" data-jump="bj">Borgerjournalisten</button>
       <button type="button" data-jump="alt">Alternativer</button>
       <button type="button" data-jump="budget">MS &amp; Oxfam</button>
       <button type="button" data-jump="tidslinje">Tidslinje</button>
@@ -1085,8 +1089,36 @@ function renderIndsigt(d) {
     </nav>
 
     ${
+      d.borgerjournalisten
+        ? `<div class="section-head" id="bj"><h2>Fra Borgerjournalisten.dk</h2>
+             <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">borgerjournalisten.dk ↗</a>
+           </div>
+           <div class="panel">
+             <p>
+               Vi trækker på deres Danida-gravearbejde (bl.a. OpEn-fordeling og NGO-cases)
+               og linker til originalartiklerne. Primær belæg for beløb er stadig CISU/UM/regnskab, når vi har det.
+             </p>
+             <div class="grid cols-2" style="margin-top:1rem">
+               ${(d.borgerjournalisten.articles || [])
+                 .filter((a) => a.id !== 'bj-danida-tema')
+                 .map(
+                   (a) => `
+                 <a class="card" href="${esc(a.url)}" target="_blank" rel="noopener">
+                   <div class="card-top"><span class="badge hot">Research</span></div>
+                   <h3>${esc(a.title)}</h3>
+                   <p class="blurb">${esc((a.keyFacts && a.keyFacts[0]) || '')}</p>
+                   <p class="meta">Læs på Borgerjournalisten ↗</p>
+                 </a>`
+                 )
+                 .join('')}
+             </div>
+           </div>`
+        : ''
+    }
+
+    ${
       ori
-        ? `<div class="section-head" id="farve"><h2>Hvem får pengene?</h2></div>
+        ? `<div class="section-head" id="farve" style="margin-top:2rem"><h2>Hvem får pengene?</h2></div>
            <p class="muted" style="margin:-.35rem 0 1rem">${esc(ori.disclaimer || '')}</p>
            <div class="panel">
              <h2 style="margin-top:0">${esc(ori.headline || '')}</h2>
@@ -1227,25 +1259,53 @@ function renderIndsigt(d) {
 
 function renderOm(d) {
   const posts = (d.posts?.posts || []).slice(0, 4);
+  const bj = d.borgerjournalisten;
   const glossary = [
     { t: 'Danida', d: 'Danmarks udviklingssamarbejde under Udenrigsministeriet.' },
     { t: 'SPA', d: 'Strategisk partnerskab — fast årlig bevilling til store NGO’er (fx MS 129 mio., Oxfam 103 mio.).' },
     { t: 'CISU', d: 'Civilsamfund i Udvikling — forvalter bl.a. Civilsamfundspuljen og OpEn for UM.' },
     { t: 'OpEn', d: 'Oplysnings- og Engagementspuljen — ofte projekter i Danmark (podcasts, marches, content).' },
     { t: 'Officiel', d: 'Tal fra UM, CISU, regnskab eller lign. primær kilde.' },
-    { t: 'Claim', d: 'Påstand fra research (X m.m.) — under eller efter verifikation.' },
+    { t: 'Claim', d: 'Påstand fra research (X, Borgerjournalisten m.m.) — under eller efter verifikation.' },
   ];
   return `
     <section class="hero">
       <h1>Om</h1>
       <p>
         Uafhængig, borgerlig research. Kilder:
+        <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten.dk</a>,
         <a href="https://x.com/oresundsbaron" target="_blank" rel="noopener">@oresundsbaron</a>,
         <a href="https://x.com/MikeHuntHurts89" target="_blank" rel="noopener">@MikeHuntHurts89</a>,
         <a href="https://x.com/Statsstyret" target="_blank" rel="noopener">@Statsstyret</a>
         + UM, CISU og regnskaber.
       </p>
     </section>
+
+    ${
+      bj
+        ? `<div class="section-head" id="bj"><h2>Borgerjournalisten.dk</h2>
+             <a href="${esc(bj.url)}" target="_blank" rel="noopener">Åbn siden ↗</a>
+           </div>
+           <div class="panel">
+             <p>${esc(bj.note)}</p>
+             <p style="margin-top:.75rem"><strong>Artikler vi bruger (klik for at læse originalen):</strong></p>
+             <ul class="sources" style="margin-top:.5rem">
+               ${(bj.articles || [])
+                 .map(
+                   (a) =>
+                     `<li><span class="badge hot">Research</span>
+                      <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)} ↗</a>
+                      ${a.date ? `<span class="muted"> · ${esc(a.date)}</span>` : ''}
+                      ${a.author ? `<span class="muted"> · ${esc(a.author)}</span>` : ''}</li>`
+                 )
+                 .join('')}
+             </ul>
+             <p class="muted" style="margin-top:.75rem">
+               Vi stjæler ikke deres arbejde — vi bygger videre med CISU/regnskab og linker altid tilbage.
+             </p>
+           </div>`
+        : ''
+    }
 
     <div class="section-head"><h2>Ordliste</h2></div>
     <div class="grid cols-2">

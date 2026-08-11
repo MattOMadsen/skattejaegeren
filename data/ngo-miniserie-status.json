@@ -61,9 +61,9 @@
           "title": "YOUTH ON BOARD Ghana education"
         }
       ],
-      "status": "partial_2.69m_of_3.5m_claim",
-      "sumFound": 2685876,
-      "note": "CISU YOUTH ON BOARD 2.685.876 kr. confirmed. Baronen 3.5m partial. Org claims ~31.9m raised since 2022 (all sources)."
+      "status": "bj_2024_3.5m_plus_cisu_2.69m",
+      "sumFound": 3500000,
+      "note": "BJ: 3.5m state 2024 ~65% budget, 2 FTE 1.18m wages. CISU sample 2.69m. Link borgerjournalisten.dk"
     },
     {
       "org": "Crossing Borders",
@@ -79,7 +79,7 @@
         }
       ],
       "status": "cisu_funder_confirmed_9m_still_claim",
-      "note": "AR 2024: Global programme funded by CISU+NDF+Nordic Council. Heavy public funding dependence. Only 10k under org name in CISU sample. 9m claim open."
+      "note": "AR 2024: Global programme funded by CISU+NDF+Nordic Council. Heavy public funding dependence. Only 10k under org name in CISU sample. 9m claim open. BJ: 9m+ 2021-25, DEI core; konkurs-claim nov 2025 unverified by us. https://borgerjournalisten.dk/"
     },
     {
       "org": "Ghana Venskab",
@@ -90,16 +90,17 @@
           "title": "Ghana Venskab egen side: omsætning mere end 11 mio. (Danida, CISU, fonde, private)"
         }
       ],
-      "status": "org_self_reports_11m_plus",
-      "note": "ghanavenskab.dk/voresarbejde bekræfter >11 mio. årlig omsætning og Danida/CISU-finansiering. Empowerment for Life 2024-2027. Aktindsigt A4 skal fremskaffe konkrete bevillings-IDs.",
-      "sumFound": 11000000
+      "status": "bj_2024_11.4m_95pct_state",
+      "note": "Borgerjournalisten: 11.4m state 2024, 95% of 12.1m budget, 3 staff 1.83m wages. Link borgerjournalisten.dk",
+      "sumFound": 11400000
     },
     {
       "org": "Colombia Solidaritet",
       "baronenClaim": 4000000,
       "found": [],
-      "status": "not_found_as_title",
-      "note": "Colombia-projekter findes, men ikke under \"Colombia Solidaritet\""
+      "status": "bj_claim_4m",
+      "note": "Borgerjournalisten: knap 4 mio 2020-26 far-left Colombia. Link artiklen.",
+      "sumFound": 4000000
     },
     {
       "org": "Kaffestop Rwanda",
@@ -111,6 +112,12 @@
         }
       ],
       "status": "confirmed"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Borgerjournalisten.dk",
+      "url": "https://borgerjournalisten.dk/"
     }
   ]
 }

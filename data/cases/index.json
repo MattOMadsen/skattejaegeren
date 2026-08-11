@@ -5,11 +5,19 @@
     "approval": "manual",
     "primarySource": "@oresundsbaron",
     "secondaryQueued": [
+      "Borgerjournalisten.dk",
       "@Statsstyret",
       "@MikeHuntHurts89",
       "Facebook m.fl."
     ],
-    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
+    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'.",
+    "mediaPartners": [
+      {
+        "name": "Borgerjournalisten.dk",
+        "url": "https://borgerjournalisten.dk/",
+        "note": "Danida/OpEn-graveartikler — vi linker og krediterer"
+      }
+    ]
   },
   "totals": {
     "strategicPartnershipsAnnualDkk": 1264000000,
@@ -36,6 +44,7 @@
     "crossing-borders",
     "danwatch-klima",
     "female-freedom",
+    "colombia-solidaritet",
     "dreamtown-metropolis",
     "ghana-venskab",
     "ngo-miniserie",

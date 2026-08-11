@@ -9,10 +9,10 @@
     "ghana",
     "baronen"
   ],
-  "amountDkk": 11000000,
-  "amountLabel": "~10–11 mio. (regnskab 2021 + org)",
+  "amountDkk": 11400000,
+  "amountLabel": "~11–11,4 mio. kr./år (stat; BJ + org)",
   "amountKind": "reported",
-  "summary": "CVR 10021979. Regnskab 2021 ca. 10 mio. indtægter (næsten alt CISU). Matcher Baronens ~11 mio.",
+  "summary": "Ghana Venskab (Aarhus): Borgerjournalisten opgør ca. 11,4 mio. kr. fra staten i 2024 (~95% af budget 12,1 mio.), 3 ansatte med samlet løn ca. 1,83 mio. (ca. 610k pr. årsværk). CISU-program E4L ca. 9,7 mio./år 2024–27. Matcher Baronens ~11 mio. og vores 2021-regnskab.",
   "angle": "Næsten hele butikken er skattefinansieret. Det er «bistand» med dansk forening som mellemmand.",
   "depth": {
     "status": "approved",
@@ -25,7 +25,9 @@
       "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**Org-egen side (ghanavenskab.dk):** finansiering fra Danida, CISU, fonde og private; **årlig omsætning mere end 11 millioner kroner**.",
       "**CISU-index:** ingen titel der hedder «Ghana Venskab» blandt 3.288 poster — bevillinger kan ligge under programnavne (E4L) eller via andre mekanismer.",
-      "**Næste:** Aktindsigt A4 til UM om alle bevillinger 2020–2026."
+      "**Næste:** Aktindsigt A4 til UM om alle bevillinger 2020–2026.",
+      "**Borgerjournalisten (2. aug. 2026):** 2024: ca. **11,4 mio. kr.** fra staten = ca. **95 %** af budget **12,1 mio.** Tre fuldtidsansatte; løn i alt **1.829.538 kr.** (ca. **610.000 kr.** pr. årsværk). E4L med fire ghanesiske partnere; fokus DEI, klima, kvinders empowerment; USAID nævnt blandt partneres samarbejdspartnere.",
+      "Vi linker til Borgerjournalisten som research-kilde og holder CISU/regnskab som primær belæg hvor vi har det."
     ],
     "sources": [
       {
@@ -37,20 +39,25 @@
         "title": "Aktindsigt A4 (planlagt)",
         "url": "https://github.com/MattOMadsen/skattejaegeren/blob/main/data/aktindsigt/templates/A4-um-ghana-venskab.md",
         "kind": "research"
+      },
+      {
+        "title": "Borgerjournalisten: Ghana Venskab / venstrefløjs-aktivisme",
+        "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
+        "kind": "research"
       }
     ]
   },
   "relatedPosts": [
     "2083221437041479686"
   ],
-  "plainLead": "Ghana Venskab er en dansk forening med projekter i Ghana. Regnskabet viser, at indtægterne i høj grad er CISU/Danida — ikke private indsamlinger alene.",
-  "whatMoneyFor": "Programmet Empowerment for Life m.m.: uddannelse, køn, klimatilpasning, entreprenørskab. **2021-regnskab:** ca. 10,1 mio. i indtægter, heraf ca. 9,8 mio. CISU-program. Org selv: over 11 mio. årligt.",
+  "plainLead": "Ghana Venskab i Aarhus får over 11 millioner kr. om året fra staten — ifølge Borgerjournalisten ca. 95 % af hele budgettet. Tre ansatte deler knap 1,8 mio. i løn. Resten går til projekter i Ghana om bl.a. landbrug, uddannelse og «empowerment».",
+  "whatMoneyFor": "Ifølge Borgerjournalisten (2024): ca. **11,4 mio.** fra staten af et budget på **12,1 mio.** Løn ca. **1,83 mio.** til 3 årsværk. Program/projekt ca. **9,8 mio.** — bl.a. Empowerment for Life med ghanesiske partnere (CLIP, GDCA, YEfL, School for Life). Temaer: DEI, klima, kvinders empowerment. Civilsamfundspulje **9,7 mio./år** 2024–2027; klimapulje **5 mio.** 2023–2025.",
   "orientation": "venstre",
   "orientationLabel": "Progressiv udvikling / empowerment",
   "orientationNote": "Fokus på køn, klima, empowerment og demokrati i Ghana. Typisk moderne Danida-profil — mere venstre end «klassisk mission».",
   "homeCompare": {
-    "text": "**11.0 mio. kr.** kunne ca. dække **20 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **1.100 personer** med gennemsnitsindkomst (BT-model).",
-    "nursesApprox": 20.0,
-    "taxPeopleApprox": 1100
+    "text": "**11,4 mio. kr.** kunne ca. dække **ca. 21 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **ca. 1.140 personer** (BT-model).",
+    "nursesApprox": 20.7,
+    "taxPeopleApprox": 1140
   }
 }

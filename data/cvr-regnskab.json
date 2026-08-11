@@ -18,7 +18,8 @@
       "orgClaims": {
         "annualTurnover": "Mere end 11 mio. kr. (egen hjemmeside)",
         "funding": "Danida, CISU, fonde og private bidragsydere",
-        "mainProgram": "Empowerment for Life (E4L) 2024–2027"
+        "mainProgram": "Empowerment for Life (E4L) 2024–2027",
+        "bj2024": "11,4 mio. stat / 12,1 mio. budget; løn 1,83 mio. til 3 årsværk (Borgerjournalisten)"
       },
       "regnskab": [
         {
@@ -36,7 +37,7 @@
       ],
       "caseSlug": "ghana-venskab",
       "baronenClaimDkk": 11000000,
-      "matchNote": "Baronens ~11 mio. matcher org-egen påstand og 2021-regnskab (~10,1 mio. indtægter, heraf ~9,8 mio. CISU)."
+      "matchNote": "BJ 2024 + regnskab 2021 + org >11 mio. Kilde: borgerjournalisten.dk"
     },
     {
       "id": "crossing-borders",
@@ -59,7 +60,7 @@
       "regnskabNote": "Årsrapport 2023+2024 bekræfter CISU som finansier af Global programme. Financial Administration Feb 2025 lister offentlige kilder (EU, CISU, NDF, Globus). Ingen resultatopgørelse med indtægter i alt i annual report-PDF'erne. Baronen ~9 mio. forbliver claim. CISU under org-navn i sample: 10.000 kr.",
       "caseSlug": "crossing-borders",
       "baronenClaimDkk": 9000000,
-      "matchNote": "CISU-funder bekræftet af org. 9 mio. claim ikke 1:1 i vores CISU-sample.",
+      "matchNote": "BJ: 9m+ 2021-25. AR 2024 CISU funder. Konkurs-claim BJ uverificeret. https://borgerjournalisten.dk/",
       "annualReports": [
         {
           "year": 2024,
@@ -199,7 +200,8 @@
       "website": "https://100pct.org/",
       "orgClaims": {
         "raisedSince2022": "Ca. 31,9 mio. kr. indsamlet siden 2022 (org engelsk side)",
-        "reach": "Ca. 47.110 børn/unge via 24 indsatser siden 2022 (org)"
+        "reach": "Ca. 47.110 børn/unge via 24 indsatser siden 2022 (org)",
+        "bj2024": "3,5 mio. stat ~65% budget; løn 1,18 mio. til 2 årsværk (Borgerjournalisten)"
       },
       "regnskab": [],
       "regnskabNote": "Fuld årsrapport ikke hentet endnu (org-site WAF). CISU-bevilling 2.685.876 kr. i sample.",
@@ -210,7 +212,7 @@
       ],
       "caseSlug": "100-for-boernene",
       "baronenClaimDkk": 3500000,
-      "matchNote": "CISU 2,69 mio. officielt. Baronen ~3,5 mio. delvist bekræftet."
+      "matchNote": "BJ 3,5 mio. 2024 + CISU 2,69 mio. i sample. https://borgerjournalisten.dk/"
     }
   ]
 }

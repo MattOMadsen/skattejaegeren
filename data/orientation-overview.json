@@ -8,7 +8,8 @@
     "OpEn (oplysning i Danmark) finansierer ofte **TV, marches, spil, journalistik og workshops i DK** — ikke brønde i Afrika.",
     "Eksempler med mere **traditionel/kirkelig** profil findes (Danske Kirke i Udlandet), men de ligger ofte i andre kasser end CISU-aktivismen.",
     "Konklusion til den almindelige dansker: bistand er ikke «neutralt teknisk hjælpearbejde». Det er også **ideologi i kroner**.",
-    "Crossing Borders: CISU bekræftet som finansier i årsrapport 2024, men **ingen kronebeløb** i rapporten — 9 mio. er stadig claim."
+    "Crossing Borders: CISU bekræftet som finansier i årsrapport 2024, men **ingen kronebeløb** i rapporten — 9 mio. er stadig claim.",
+    "Borgerjournalisten.dk (aug. 2026): OpEn-midler skævt fordelt — klima+kvinder ≈ 47% af tilskud; konkrete regnestykker på barnevogn, Ghana Venskab, 100% for Børnene m.m."
   ],
   "whoGetsMost": [
     {
@@ -55,7 +56,7 @@
     }
   ],
   "counts": {
-    "venstre": 20,
+    "venstre": 21,
     "højre": 1,
     "blandet": 1,
     "neutral": 1
@@ -65,5 +66,9 @@
     "højre": 35400000,
     "blandet": 0,
     "neutral": 0
+  },
+  "borgerjournalisten": {
+    "url": "https://borgerjournalisten.dk/",
+    "note": "Research-partner/kilde — altid link tilbage"
   }
 }

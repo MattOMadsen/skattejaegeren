@@ -9,20 +9,20 @@
     "baronen",
     "official"
   ],
-  "amountDkk": 2685876,
-  "amountLabel": "2.685.876 kr. (CISU) · Baronen claim ~3,5 mio.",
-  "amountKind": "official",
-  "summary": "Officiel CISU-bevilling på 2.685.876 kr. til «YOUTH ON BOARD» i Ghana: unge skal presse på for bedre uddannelse. Baronens ca. 3,5 mio. er delvist bekræftet (én stor post fundet). Org CVR 31841178. Org oplyser selv (hjemmeside) at have indsamlet ca. 31,9 mio. kr. siden 2022 til 24 indsatser — bredere end CISU alene.",
+  "amountDkk": 3500000,
+  "amountLabel": "3,5 mio. (BJ 2024) · CISU-post 2,69 mio. i vores sample",
+  "amountKind": "reported",
+  "summary": "Borgerjournalisten: ca. 3,5 mio. kr. fra staten i 2024 (~65% af budget); 2 årsværk, løn 1,18 mio. (ca. 590k pr.). Vores CISU-sample: 2.685.876 kr. til YOUTH ON BOARD Ghana. Temaer: gender equality, menstruationsundervisning, seksualundervisning, minority rights.",
   "angle": "Pengene går til **politisk mobilisering og advocacy** om uddannelse i Ghana — ikke til madpakker. Det kan være fint; det er bare vigtigt at sige det på dansk.",
-  "plainLead": "100% for Børnene er en dansk forening, der arbejder for udsatte børn. Via CISU har de fået knap 2,7 millioner kr. til et projekt i Ghana, hvor unge organisationer skal overvåge og presse myndighederne for bedre uddannelse. Baronen har nævnt ca. 3,5 mio. — vi har indtil videre låst den store enkeltpost på 2,69 mio.",
-  "whatMoneyFor": "Projektet «YOUTH ON BOARD»: unge i Ghana skal samle evidens og lave advocacy for inkluderende, god uddannelse under Ghana Education Strategic Plan 2018–2030. Arbejde i 8 kommuner. Partner: Voices of Youth-koalitionen. **Pulje:** Civilsamfundspuljen (udviklingsindsats) — altså skattekroner via CISU/UM.",
+  "plainLead": "100% for Børnene fik ifølge Borgerjournalisten ca. 3,5 millioner kr. fra staten i 2024 — omkring to tredjedele af budgettet. To ansatte deler ca. 1,18 mio. i løn. Pengene går bl.a. til gender equality, menstruations- og seksualundervisning i Afrika og minority rights i Ukraine.",
+  "whatMoneyFor": "Borgerjournalisten (2024): **3,5 mio.** statstilskud (~65 % af budget). Løn **1,18 mio.** til 2 årsværk. Projekter om gender equality/social justice (Ghana), menstruation (Ghana), seksualundervisning (Kenya), minority rights (Ukraine). Vi har desuden låst CISU **2.685.876 kr.** til YOUTH ON BOARD (youth advocacy om uddannelse i Ghana).",
   "orientation": "venstre",
   "orientationLabel": "Venstre / progressiv youth & rettigheder",
   "orientationNote": "Fokus på youth empowerment, inklusion og at holde «duty bearers» ansvarlige — klassisk progressiv udviklingsprofil.",
   "homeCompare": {
-    "text": "**2,7 mio. kr.** kunne ca. dække **ca. 5 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **ca. 269 personer** med gennemsnitsindkomst (BT-model).",
-    "nursesApprox": 4.9,
-    "taxPeopleApprox": 269
+    "text": "**3,5 mio. kr.** kunne ca. dække **ca. 6 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til **350 personer** (BT-model).",
+    "nursesApprox": 6.4,
+    "taxPeopleApprox": 350
   },
   "depth": {
     "status": "approved",
@@ -35,7 +35,9 @@
       "**Baronen claim ~3,5 mio.:** Status **delvist bekræftet**. Vi har 2,69 mio. i én post. Resten kan ligge i andre bevillinger uden for vores sample.",
       "**CVR 31841178**, forening, c/o Ubuntu Huset, Købmagergade 43, 1., 1150 København K (Proff).",
       "**Org-egen tal (hjemmeside, engelsk):** siden 2022 hjulpet ca. 47.110 børn/unge via 24 indsatser og indsamlet ca. **31,9 mio. kr.** — det er **alle** indtægter/indsamling, ikke kun CISU. Tal fra org-side; vi har ikke hentet fuld årsrapport endnu (site blokerede automatisk adgang).",
-      "**Grave-status:** Næste skridt er årsregnskab via virk/proff eller manuel download fra 100pct.org, når det er tilgængeligt."
+      "**Grave-status:** Næste skridt er årsregnskab via virk/proff eller manuel download fra 100pct.org, når det er tilgængeligt.",
+      "**Borgerjournalisten:** 2024-statstilskud ca. **3,5 mio.** (~65 % af budget). To årsværk, løn i alt **1,18 mio.** (ca. **590.000 kr.** pr. ansat). Ca. 22 % af budgettet til løn. Det forklarer Baronens 3,5 mio.-claim bedre end vores ene CISU-post alene.",
+      "Kilde: Borgerjournalisten (link under kilder) — vi linker; tal er research indtil fuld regnskabs-PDF er indlæst."
     ],
     "sources": [
       {
@@ -56,6 +58,11 @@
       {
         "title": "Baronen NGO-mini-serie",
         "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+        "kind": "research"
+      },
+      {
+        "title": "Borgerjournalisten: 100% for Børnene",
+        "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
         "kind": "research"
       }
     ]

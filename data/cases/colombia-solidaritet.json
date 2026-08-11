@@ -1,0 +1,53 @@
+{
+  "slug": "colombia-solidaritet",
+  "title": "Colombia Solidaritet: knap 4 mio. til venstre-aktivisme (BJ)",
+  "status": "approved",
+  "priority": 4,
+  "tags": [
+    "cisu",
+    "baronen",
+    "claim",
+    "colombia"
+  ],
+  "amountDkk": 4000000,
+  "amountLabel": "knap 4 mio. 2020–26 (Borgerjournalisten)",
+  "amountKind": "claim",
+  "summary": "Borgerjournalisten: knap 4 mio. kr. via Danida/CISU 2020–2026 til politisk aktivisme i Colombia (Popular Brigades, Protesta Digna m.m.). Kerneværdier: social justice, klima, DEI, queer/trans, anti-«hvidt vestligt patriarkat».",
+  "angle": "Hvis bistand skal være livreddende hjælp, er «far left»-mobilisering i Colombia en anden diskussion — den bør føres åbent.",
+  "plainLead": "Colombia Solidaritet har ifølge Borgerjournalisten fået knap 4 millioner kr. over en årrække til politisk aktivisme i Colombia — ikke til klassisk nødhjælp.",
+  "whatMoneyFor": "Ifølge BJ: bl.a. politiske grupper («Popular Brigades»), aktivistnetværk og styrkelse af partner Dignidad y Participación. Værdier: social justice, klima, DEI, queer/trans, anti-kolonial/imperialistisk sprog.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / far-left aktivisme",
+  "orientationNote": "Org og BJ beskriver eksplicit venstreorienterede kerneværdier.",
+  "homeCompare": {
+    "text": "**4 mio. kr.** kunne ca. dække **ca. 7 sygeplejerske-årsværk** — eller **10.000 kr. skattelettelse** til **400 personer** (BT-model).",
+    "nursesApprox": 7.3,
+    "taxPeopleApprox": 400
+  },
+  "depth": {
+    "status": "approved",
+    "headline": "Forstået på almindeligt dansk",
+    "body": [
+      "Colombia Solidaritet er med i Baronens NGO-serie. **Borgerjournalisten** har samlet ca. **4 mio. kr.** over 2020–2026 og 11 bevillinger.",
+      "**Hvad går pengene til (ifølge BJ)?** Politisk organisering og aktivisme i Colombia — ikke «mad og medicin»-bistand.",
+      "**Politisk farve:** Tydelig venstre / far-left.",
+      "**Status hos os:** Research-kilde er Borgerjournalisten. Vi har endnu ikke matchet alle 11 CISU-ID’er 1:1 i vores sample. Se kilder.",
+      "Læs artiklen hos Borgerjournalisten (link under kilder) — vi vil ikke stjæle deres gravearbejde uden at pege tilbage."
+    ],
+    "sources": [
+      {
+        "title": "Borgerjournalisten: Venstrefløjs-aktivisme for Danida-midler",
+        "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
+        "kind": "research"
+      },
+      {
+        "title": "Borgerjournalisten.dk (forside)",
+        "url": "https://borgerjournalisten.dk/",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2083221437041479686"
+  ]
+}

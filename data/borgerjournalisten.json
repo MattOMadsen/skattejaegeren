@@ -1,0 +1,47 @@
+{
+  "name": "Borgerjournalisten.dk",
+  "url": "https://borgerjournalisten.dk/",
+  "note": "Borgerjournalistik — bl.a. Baronen af Øresunds Danida-artikler. Vi linker og bruger tal som research; CISU/UM/regnskab forbliver primærkilder hvor muligt.",
+  "articles": [
+    {
+      "id": "bj-open",
+      "title": "OpEn puljen - FN's verdensmål i Danmark",
+      "url": "https://borgerjournalisten.dk/artikler/danida/open-puljen-fns-verdensmaal-i-danmark",
+      "date": "2026-08-02",
+      "author": "Baronen af Øresund",
+      "keyFacts": [
+        "OpEn ca. 21 mio. kr./år; siden maj 2022: 202 projekter, ca. 79–81 mio. kr. i alt",
+        "Klima: 72 bevillinger, 31,3 mio. (ca. 36% af midler)",
+        "Kvinder: 22 bevillinger, 6,88 mio.",
+        "Klima+kvinder: 91 bevillinger, 37,7 mio. ≈ 47% af tilskud",
+        "Mænd: 1 bevilling, 62.200 kr.",
+        "Barnevogn: ca. 1.000 kr. pr. deltager (1.537 deltagere / 15 marcher i 2026) — 1,5 mio. til at rejse ca. 268k til Kenya",
+        "BIO RAP / orangutang-rap ca. 800k; trans Indien 200k; indisk mad 150k; brætspil Nepal 1 mio."
+      ]
+    },
+    {
+      "id": "bj-aktivisme",
+      "title": "Venstrefløjs-aktivisme for Danida-midler",
+      "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
+      "date": "2026-08-02",
+      "author": "Baronen af Øresund",
+      "keyFacts": [
+        "Ghana Venskab: ca. 11,4 mio. fra staten i 2024 (~95% af budget 12,1 mio.); 3 ansatte, løn i alt 1,83 mio. (ca. 610k pr. årsværk); E4L/CISU 9,7 mio./år 2024-27; klimapulje 5 mio. 2023-25",
+        "100% for Børnene: ca. 3,5 mio. fra staten 2024 (~65% af budget); 2 årsværk, løn 1,18 mio. (ca. 590k pr.)",
+        "Female Freedom: 1,2 mio. 2024-26 — queer/LGBTQ+ aktivisme DK+Sydafrika",
+        "Crossing Borders: over 9 mio. 2021-25 — DEI/woke, verdensmål, woman empowerment; BJ: konkurs fra nov 2025 (ikke uafhængigt verificeret her)",
+        "Colombia Solidaritet: knap 4 mio. 2020-26 — far-left aktivisme i Colombia"
+      ]
+    },
+    {
+      "id": "bj-danida-tema",
+      "title": "Tema: Danida",
+      "url": "https://borgerjournalisten.dk/artikler/danida",
+      "date": "2026-08",
+      "author": "Borgerjournalisten",
+      "keyFacts": [
+        "Oversigt over Danida-struktur og artikler"
+      ]
+    }
+  ]
+}
