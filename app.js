@@ -296,6 +296,7 @@ async function loadAll() {
       orientation,
       borgerjournalisten,
       homeShortage,
+      absurdOpen,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -314,6 +315,7 @@ async function loadAll() {
       fetchJson('data/orientation-overview.json').catch(() => null),
       fetchJson('data/borgerjournalisten.json').catch(() => null),
       fetchJson('data/home-shortage.json').catch(() => null),
+      fetchJson('data/absurd-open.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -334,6 +336,7 @@ async function loadAll() {
       orientation,
       borgerjournalisten,
       homeShortage,
+      absurdOpen,
     };
     return cache;
   } catch (e) {
@@ -358,46 +361,32 @@ function projectCard(p) {
 
 const SHOCK = [
   {
-    amt: '25 mio.',
-    title: 'LGBT+Danmark i regnskab 2025',
-    text: 'Indtægter 25,2 mio. · projektindtægter 14,8 mio. · CISU Ukraine-projekt 4,5 mio.',
-    href: '#/sag/lgbt-danmark-cisu',
-    tag: 'Regnskab',
-  },
-  {
-    amt: '11,6 mio.',
-    title: 'Global Aktion i CISU-sample',
-    text: '8 poster — climate justice & peasants’ rights. Største org i kataloget.',
-    href: '#/sag/global-aktion',
-    tag: 'Officiel',
+    amt: '1,5 mio.',
+    title: 'Barnevognsmarch i Danmark',
+    text: 'Sex & Samfund · OpEn — verificeret. Ca. 1.000 kr. pr. deltager (BJ).',
+    href: '#/sag/barnevogn-og-prioritering',
+    tag: 'OpEn',
   },
   {
     amt: '1,5 mio.',
-    title: 'Barnevognsmarch i Danmark',
-    text: 'Sex & Samfund · OpEn — verificeret CISU 1.498.642 kr.',
-    href: '#/sag/barnevogn-og-prioritering',
-    tag: 'Officiel',
-  },
-  {
-    amt: '2,5 mio.',
-    title: 'Amnesty gamification i DK',
-    text: 'OpEn: menneskerettigheder til 13–18-årige — Astralis, Gyldendal, Serious Games.',
-    href: '#/sag/amnesty-open',
+    title: 'Fodbold-satire til Mandsholdet',
+    text: 'Seriefodboldens Ballon d’Or — content til danske mænd, betalt som bistand.',
+    href: '#/indsigt',
     tag: 'OpEn',
   },
   {
     amt: '58%',
     title: 'MS: kun så meget til partnere',
-    text: 'ActionAid DK SPA 2025 — 16% HQ i Danmark, 2% IPE.',
+    text: 'ActionAid 129 mio./år — 16% HQ i Danmark.',
     href: '#/sag/ms-actionaid',
-    tag: 'Rapport',
+    tag: 'SPA',
   },
   {
-    amt: '1,5 mio.',
-    title: 'Blackfish på DR1 via OpEn',
-    text: 'Mille og Verdens skove — naturdokumentar med 1,5 mio. i bistandspulje.',
-    href: '#/sag/blackfish-mille',
-    tag: 'OpEn',
+    amt: '531 mio.',
+    title: 'Lolland mangler — skoler truet',
+    text: 'Kommunalt hul. Samtidig 1,26 mia./år til 18 NGO-partnerskaber.',
+    href: '#/indsigt',
+    tag: 'Hjemme',
   },
 ];
 
@@ -405,31 +394,33 @@ function renderHomeVsAway(d, opts = {}) {
   const hs = d.homeShortage;
   if (!hs?.pairings?.length && !hs?.items?.length) return '';
   const full = opts.full;
-  const pairs = (hs.pairings || []).slice(0, full ? 99 : 4);
+  const pairs = (hs.pairings || []).slice(0, full ? 8 : 4);
   const items = full ? hs.items || [] : [];
   return `
     <div class="section-head" id="hjemme">
       <h2>${esc(hs.headline || 'Hjemme vs. ude')}</h2>
-      ${full ? '' : '<a href="#/indsigt">Flere artikler →</a>'}
+      ${full ? '' : '<a href="#/indsigt">Se alle →</a>'}
     </div>
-    <p class="muted" style="margin:-.35rem 0 1rem">${esc(hs.disclaimer || '')}</p>
-    <div class="chips">
+    <p class="muted section-lead">${esc(hs.disclaimer || '')}</p>
+    <div class="vs-stack">
       ${pairs
         .map(
           (p) => `
-        <div class="chip">
-          <div class="chip-home">
-            <strong>Hjemme</strong> · ${esc(p.home)}
+        <div class="vs-row">
+          <div class="vs-col vs-home">
+            <span class="vs-kicker">I får ikke herhjemme</span>
+            <p>${esc(p.home)}</p>
             ${
               p.homeUrl
-                ? `<div class="meta" style="margin-top:.35rem"><a href="${esc(p.homeUrl)}" target="_blank" rel="noopener">Artikel ↗</a></div>`
+                ? `<a class="vs-link" href="${esc(p.homeUrl)}" target="_blank" rel="noopener">Læs artikel ↗</a>`
                 : ''
             }
           </div>
-          <div class="chip-vs">VS</div>
-          <div class="chip-away">
-            <strong>Ude / bistand</strong> · ${esc(p.away)}
-            ${p.awayHref ? `<div class="meta" style="margin-top:.35rem"><a href="${esc(p.awayHref)}">Sag →</a></div>` : ''}
+          <div class="vs-mid" aria-hidden="true">vs</div>
+          <div class="vs-col vs-away">
+            <span class="vs-kicker">I betaler ude</span>
+            <p>${esc(p.away)}</p>
+            ${p.awayHref ? `<a class="vs-link" href="${esc(p.awayHref)}">Se sag →</a>` : ''}
           </div>
         </div>`
         )
@@ -437,38 +428,28 @@ function renderHomeVsAway(d, opts = {}) {
     </div>
     ${
       full && items.length
-        ? `<div class="grid cols-2" style="margin-top:1.25rem">
+        ? `<div class="grid cols-2" style="margin-top:1.5rem">
             ${items
               .map(
                 (it) => `
-              <div class="card">
+              <article class="card card-deep">
                 <div class="card-top">
                   <span class="badge warn">${esc(it.area || 'DK')}</span>
                   ${it.amountLabel ? `<span class="amt">${esc(it.amountLabel)}</span>` : ''}
                 </div>
                 <h3>${esc(it.title)}</h3>
                 <p class="blurb">${esc(it.shortage)}</p>
-                <p class="blurb" style="margin-top:.5rem"><strong>Modsat:</strong> ${esc(it.abroad)}</p>
-                ${
-                  (it.contrastAid || []).length
-                    ? `<p class="meta" style="margin-top:.5rem">${(it.contrastAid || [])
-                        .map((c) =>
-                          c.href
-                            ? `<a href="${esc(c.href)}">${esc(c.label)}</a> (${esc(fmtShort(c.amountDkk))})`
-                            : `${esc(c.label)} (${esc(fmtShort(c.amountDkk))})`
-                        )
-                        .join(' · ')}</p>`
-                    : ''
-                }
-                <p class="meta" style="margin-top:.65rem">
+                <p class="blurb contrast-line"><strong>Ude:</strong> ${esc(it.abroad)}</p>
+                <div class="card-links">
                   ${(it.sources || [])
+                    .slice(0, 2)
                     .map(
                       (s) =>
                         `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a>`
                     )
-                    .join('<br>')}
-                </p>
-              </div>`
+                    .join('')}
+                </div>
+              </article>`
               )
               .join('')}
           </div>`
@@ -476,26 +457,65 @@ function renderHomeVsAway(d, opts = {}) {
     }`;
 }
 
-function renderHome(d) {
-  const projects = [...d.projects.projects]
-    .filter((p) => p.amountDkk > 0)
-    .sort((a, b) => b.amountDkk - a.amountDkk)
-    .slice(0, 6);
+function renderAbsurd(d, limit) {
+  const ab = d.absurdOpen;
+  if (!ab?.items?.length) return '';
+  const items = limit ? ab.items.slice(0, limit) : ab.items;
+  return `
+    <div class="section-head" id="absurd">
+      <h2>${esc(ab.headline || 'Svært at forklare')}</h2>
+      ${limit ? '<a href="#/indsigt">Alle →</a>' : ''}
+    </div>
+    <p class="muted section-lead">${esc(ab.intro || '')}</p>
+    <div class="grid cols-2 absurd-grid">
+      ${items
+        .map(
+          (it) => `
+        <article class="card absurd-card">
+          <div class="card-top">
+            <span class="badge hot">${esc(it.tag || 'OpEn')}</span>
+            <span class="amt">${esc(fmtShort(it.amountDkk))}</span>
+          </div>
+          <h3>${esc(it.title)}</h3>
+          <p class="meta">${esc(it.org || '')}</p>
+          <p class="blurb">${esc(it.plain)}</p>
+          <p class="home-hit"><strong>Herhjemme:</strong> ${esc(it.homeHit || '')}</p>
+          <p class="meta">
+            ${
+              it.url?.startsWith('#')
+                ? `<a href="${esc(it.url)}">Åbn sag →</a>`
+                : `<a href="${esc(it.url)}" target="_blank" rel="noopener">CISU-bevilling ↗</a>`
+            }
+          </p>
+        </article>`
+        )
+        .join('')}
+    </div>
+    ${!limit ? `<p class="muted" style="margin-top:1rem">${esc(ab.disclaimer || '')}</p>` : ''}
+  `;
+}
 
+function renderHome(d) {
   return `
     <section class="hero">
+      <p class="eyebrow">Uafhængig · borgerlig · kilder på hver sag</p>
       <h1>Følg milliarderne.<br>Ikke pressemeddelelsen.</h1>
-      <p>
-        Hvad går dansk ulandsbistand til — og hvorfor er der råd derude,
-        når skoler, ældre og sengepladser mangler penge herhjemme?
+      <p class="hero-lead">
+        Hvad I <strong>ikke får</strong> til skoler, ældre og senge herhjemme —
+        og hvad der i stedet betales som «bistand» til marches, hiphop og HQ i København.
       </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#/indsigt">Hjemme vs. ude</a>
+        <a class="btn" href="#/open">OpEn-katalog</a>
+        <a class="btn" href="#/sager">Sager</a>
+      </div>
     </section>
 
     <div class="section-head">
-      <h2>Største chok</h2>
-      <a href="#/open">OpEn-katalog →</a>
+      <h2>Fire tal der gør ondt</h2>
+      <a href="#/sager">Flere sager →</a>
     </div>
-    <div class="grid cols-3 shock-grid">
+    <div class="grid cols-2 shock-grid">
       ${SHOCK.map(
         (s) => `
         <a class="card shock" href="${esc(s.href)}">
@@ -508,17 +528,11 @@ function renderHome(d) {
     </div>
 
     ${renderHomeVsAway(d, { full: false })}
+    ${renderAbsurd(d, 4)}
 
-    <div class="section-head">
-      <h2>Projekter</h2>
-      <a href="#/projekter">Udforsk →</a>
-    </div>
-    <div class="grid cols-3">
-      ${projects.map(projectCard).join('')}
-    </div>
     <div class="home-links">
-      <a class="btn" href="#/indsigt">Indsigt: hjemme vs. ude</a>
-      <a class="btn" href="#/open">OpEn-katalog</a>
+      <a class="btn btn-primary" href="#/indsigt">Fuld oversigt</a>
+      <a class="btn" href="#/projekter">Søg projekter</a>
     </div>
   `;
 }
@@ -1136,91 +1150,66 @@ function renderIndsigt(d) {
   const ori = d.orientation;
 
   return `
-    <section class="hero">
+    <section class="hero hero-tight">
+      <p class="eyebrow">Prioritering i tal</p>
       <h1>Indsigt</h1>
-      <p>
-        Hvad 23 mia. også kunne være herhjemme — og hvem der får pengene,
-        når man kigger på formål (venstre/højre) i stedet for engelsk projektjargon.
+      <p class="hero-lead">
+        Først: hvad I mangler herhjemme. Så: hvad der betales som bistand.
+        Til sidst: de store NGO-budgetter.
       </p>
     </section>
 
     <nav class="page-jump" aria-label="Hop på siden">
-      <button type="button" data-jump="hjemme">Hjemme vs. ude</button>
-      <button type="button" data-jump="farve">Venstre / højre</button>
-      <button type="button" data-jump="bj">Borgerjournalisten</button>
-      <button type="button" data-jump="alt">Alternativer</button>
-      <button type="button" data-jump="budget">MS &amp; Oxfam</button>
-      <button type="button" data-jump="tidslinje">Tidslinje</button>
-      <a href="#/sager">Alle sager →</a>
+      <button type="button" data-jump="hjemme">1. Hjemme vs. ude</button>
+      <button type="button" data-jump="absurd">2. Svært at forklare</button>
+      <button type="button" data-jump="farve">3. Hvem får?</button>
+      <button type="button" data-jump="budget">4. MS &amp; Oxfam</button>
+      <a href="#/sager">Sager →</a>
     </nav>
 
     ${renderHomeVsAway(d, { full: true })}
-
-    ${
-      d.borgerjournalisten
-        ? `<div class="section-head" id="bj"><h2>Fra Borgerjournalisten.dk</h2>
-             <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">borgerjournalisten.dk ↗</a>
-           </div>
-           <div class="panel">
-             <p>
-               Vi trækker på deres Danida-gravearbejde (bl.a. OpEn-fordeling og NGO-cases)
-               og linker til originalartiklerne. Primær belæg for beløb er stadig CISU/UM/regnskab, når vi har det.
-             </p>
-             <div class="grid cols-2" style="margin-top:1rem">
-               ${(d.borgerjournalisten.articles || [])
-                 .filter((a) => a.id !== 'bj-danida-tema')
-                 .map(
-                   (a) => `
-                 <a class="card" href="${esc(a.url)}" target="_blank" rel="noopener">
-                   <div class="card-top"><span class="badge hot">Research</span></div>
-                   <h3>${esc(a.title)}</h3>
-                   <p class="blurb">${esc((a.keyFacts && a.keyFacts[0]) || '')}</p>
-                   <p class="meta">Læs på Borgerjournalisten ↗</p>
-                 </a>`
-                 )
-                 .join('')}
-             </div>
-           </div>`
-        : ''
-    }
+    ${renderAbsurd(d)}
 
     ${
       ori
-        ? `<div class="section-head" id="farve" style="margin-top:2rem"><h2>Hvem får pengene?</h2></div>
-           <p class="muted" style="margin:-.35rem 0 1rem">${esc(ori.disclaimer || '')}</p>
-           <div class="panel">
-             <h2 style="margin-top:0">${esc(ori.headline || '')}</h2>
-             ${(ori.findings || []).map((f) => `<p>· ${rich(f)}</p>`).join('')}
-           </div>
-           <div class="grid cols-2" style="margin-top:1rem">
+        ? `<div class="section-head" id="farve" style="margin-top:2.25rem"><h2>Hvem får pengene?</h2></div>
+           <p class="muted section-lead">${esc(ori.disclaimer || '')}</p>
+           <div class="grid cols-2">
              <div class="card">
-               <h3>Sager efter farve</h3>
+               <h3>Farve på sagerne</h3>
                <p class="blurb">
-                 <span class="badge orient-left">Venstre</span> ${ori.counts?.venstre ?? '—'} sager<br>
-                 <span class="badge orient-right">Højre / traditionel</span> ${ori.counts?.højre ?? '—'} sager<br>
-                 <span class="badge orient-mix">Blandet</span> ${ori.counts?.blandet ?? '—'} sager<br>
-                 <span class="badge orient-neu">Neutral</span> ${ori.counts?.neutral ?? '—'} sager
+                 <span class="badge orient-left">Venstre</span> ${ori.counts?.venstre ?? '—'} ·
+                 <span class="badge orient-right">Højre</span> ${ori.counts?.højre ?? '—'} ·
+                 <span class="badge orient-mix">Blandet</span> ${ori.counts?.blandet ?? '—'}
                </p>
+               <p class="meta" style="margin-top:.75rem"><a href="#/sager">Åbn alle sager →</a></p>
              </div>
              <div class="card">
                <h3>Største beløb</h3>
-               <p class="blurb">
+               <p class="blurb compact-list">
                  ${(ori.whoGetsMost || [])
+                   .slice(0, 5)
                    .map(
                      (w) =>
-                       `<strong>${esc(w.rank)}. ${esc(w.label)}</strong><br>
-                        ${esc(w.amountLabel)} · ${esc(w.orientation)}<br>
-                        <span class="muted">${esc(w.note || '')}</span><br><br>`
+                       `<span><strong>${esc(w.label)}</strong> — ${esc(w.amountLabel)}</span>`
                    )
-                   .join('')}
+                   .join('<br>')}
                </p>
              </div>
-           </div>`
+           </div>
+           ${
+             d.borgerjournalisten
+               ? `<p class="meta" style="margin-top:1rem">
+                    Research også hos
+                    <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten.dk ↗</a>
+                    · <a href="#/om">Om &amp; kilder</a>
+                  </p>`
+               : ''
+           }`
         : ''
     }
 
-
-    <div class="section-head" id="alt"><h2>Hvad kunne det have været?</h2></div>
+    <div class="section-head" id="alt" style="margin-top:2.25rem"><h2>Hvis 23 mia. blev herhjemme</h2></div>
     <p class="muted" style="margin:-.35rem 0 1rem">${esc(alt?.disclaimer || 'Grovte regnestykker til illustration.')}</p>
     <div class="grid cols-3">
       ${(alt?.items || [])
@@ -1306,22 +1295,24 @@ function renderIndsigt(d) {
         : ''
     }
 
-    <div class="section-head" id="tidslinje" style="margin-top:2rem"><h2>Tidslinje</h2></div>
-    <div class="timeline">
-      ${tl
-        .map(
-          (e) => `
-        <div class="tl-item">
-          <time>${esc(e.date)}</time>
-          <div>
-            <strong>${esc(e.title)}</strong>
-            <p>${esc(e.text)}</p>
-          </div>
-        </div>`
-        )
-        .join('')}
-    </div>
-    <p class="meta" style="margin-top:1rem"><a href="#/grav">Udvidet undersøgelse →</a></p>
+    <details class="more-box" id="tidslinje">
+      <summary>Tidslinje &amp; dybere note</summary>
+      <div class="timeline" style="margin-top:1rem">
+        ${tl
+          .map(
+            (e) => `
+          <div class="tl-item">
+            <time>${esc(e.date)}</time>
+            <div>
+              <strong>${esc(e.title)}</strong>
+              <p>${esc(e.text)}</p>
+            </div>
+          </div>`
+          )
+          .join('')}
+      </div>
+      <p class="meta" style="margin-top:1rem"><a href="#/grav">Udvidet undersøgelse →</a></p>
+    </details>
   `;
 }
 

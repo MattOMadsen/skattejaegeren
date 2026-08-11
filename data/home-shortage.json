@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-11",
-  "headline": "Hjemme mangler pengene — ude er der råd",
+  "headline": "Det I ikke får herhjemme — det I betaler ude",
   "disclaimer": "Kontrasterne er politiske prioriteringer, ikke en regnskabsmodel. Artiklerne er konkrete eksempler fra danske medier. Bistandsbeløb er fra vores sager/CISU/UM.",
   "items": [
     {
@@ -12,8 +12,16 @@
       "amountLabel": "ca. 531 mio. kr. (kommunens hul)",
       "abroad": "Samme størrelsesorden som under en halv procent af den årlige ulandsbistand (23,2 mia.) — eller ca. fire gange MS ActionAids årlige UM-partnerskab (129 mio.).",
       "contrastAid": [
-        { "label": "MS ActionAid SPA / år", "amountDkk": 129000000, "href": "#/sag/ms-actionaid" },
-        { "label": "Strategiske partnerskaber / år", "amountDkk": 1264000000, "href": "#/sag/strategiske-partnerskaber" }
+        {
+          "label": "MS ActionAid SPA / år",
+          "amountDkk": 129000000,
+          "href": "#/sag/ms-actionaid"
+        },
+        {
+          "label": "Strategiske partnerskaber / år",
+          "amountDkk": 1264000000,
+          "href": "#/sag/strategiske-partnerskaber"
+        }
       ],
       "sources": [
         {
@@ -42,9 +50,21 @@
       "amountLabel": "83 % af lærere (survey)",
       "abroad": "Samtidig går OpEn-millioner til barnevognsmarches, rap-konkurrencer og brætspil i Danmark — betalt som «udviklingsbistand».",
       "contrastAid": [
-        { "label": "Barnevognsmarch (OpEn)", "amountDkk": 1498642, "href": "#/sag/barnevogn-og-prioritering" },
-        { "label": "Amnesty gamification (OpEn)", "amountDkk": 2499952, "href": "#/sag/amnesty-open" },
-        { "label": "OpEn ca. pr. år (BJ)", "amountDkk": 21000000, "href": "#/sag/civilsamfundspuljen" }
+        {
+          "label": "Barnevognsmarch (OpEn)",
+          "amountDkk": 1498642,
+          "href": "#/sag/barnevogn-og-prioritering"
+        },
+        {
+          "label": "Amnesty gamification (OpEn)",
+          "amountDkk": 2499952,
+          "href": "#/sag/amnesty-open"
+        },
+        {
+          "label": "OpEn ca. pr. år (BJ)",
+          "amountDkk": 21000000,
+          "href": "#/sag/civilsamfundspuljen"
+        }
       ],
       "sources": [
         {
@@ -68,9 +88,21 @@
       "amountLabel": "Besparelser i mange kommuner",
       "abroad": "Én SPA-partner alene (Oxfam 103 mio./år eller MS 129 mio./år) svarer til mange års værdi af lokale ældre-spareplaner.",
       "contrastAid": [
-        { "label": "Oxfam SPA / år", "amountDkk": 103000000, "href": "#/sag/oxfam-spa" },
-        { "label": "Ghana Venskab ~årlig stat", "amountDkk": 11400000, "href": "#/sag/ghana-venskab" },
-        { "label": "LGBT+ Danmark indtægter 2025", "amountDkk": 25181092, "href": "#/sag/lgbt-danmark-cisu" }
+        {
+          "label": "Oxfam SPA / år",
+          "amountDkk": 103000000,
+          "href": "#/sag/oxfam-spa"
+        },
+        {
+          "label": "Ghana Venskab ~årlig stat",
+          "amountDkk": 11400000,
+          "href": "#/sag/ghana-venskab"
+        },
+        {
+          "label": "LGBT+ Danmark indtægter 2025",
+          "amountDkk": 25181092,
+          "href": "#/sag/lgbt-danmark-cisu"
+        }
       ],
       "sources": [
         {
@@ -94,8 +126,16 @@
       "amountLabel": "Kapacitet & personale",
       "abroad": "16 % af MS’ SPA-forbrug (HQ i DK) alene er ca. 24–25 mio. kr. — nok til mange sygeplejerske-årsværk herhjemme.",
       "contrastAid": [
-        { "label": "MS HQ Danmark (16% af SPA-forbrug)", "amountDkk": 24530000, "href": "#/sag/ms-actionaid" },
-        { "label": "Hele ulandsbistanden 2026", "amountDkk": 23214400000, "href": "#/indsigt" }
+        {
+          "label": "MS HQ Danmark (16% af SPA-forbrug)",
+          "amountDkk": 24530000,
+          "href": "#/sag/ms-actionaid"
+        },
+        {
+          "label": "Hele ulandsbistanden 2026",
+          "amountDkk": 23214400000,
+          "href": "#/indsigt"
+        }
       ],
       "sources": [
         {
@@ -124,8 +164,16 @@
       "amountLabel": "ca. 23,2 mia. kr. / år",
       "abroad": "Det er rammen. Inde i rammen ligger både humanitært arbejde og OpEn-marches, SPA-advocacy og NGO-HQ.",
       "contrastAid": [
-        { "label": "Pr. indbygger", "amountDkk": 3800, "href": "#/om" },
-        { "label": "BT skattelettelse-model", "amountDkk": 10000, "href": "#/sag/bt-mediedækning" }
+        {
+          "label": "Pr. indbygger",
+          "amountDkk": 3800,
+          "href": "#/om"
+        },
+        {
+          "label": "BT skattelettelse-model",
+          "amountDkk": 10000,
+          "href": "#/sag/bt-mediedækning"
+        }
       ],
       "sources": [
         {
@@ -136,6 +184,62 @@
         {
           "title": "BT podcast: Baronen af Øresund",
           "url": "https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur",
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "id": "aarhus-90",
+      "area": "Sundhed & omsorg",
+      "title": "Aarhus: 90 mio. mindre til sundhed og omsorg",
+      "shortage": "Aarhus Kommune: Sundhed og Omsorg skal bruge 90 millioner kroner mindre end planlagt i 2026. Det rammer det nære velfærdssystem i Danmarks næststørste by.",
+      "amountDkk": 90000000,
+      "amountLabel": "90 mio. kr. mindre",
+      "abroad": "90 mio. er mindre end ét års Oxfam-SPA (103 mio.) — og under MS (129 mio.).",
+      "contrastAid": [
+        {
+          "label": "Oxfam SPA / år",
+          "amountDkk": 103000000,
+          "href": "#/sag/oxfam-spa"
+        },
+        {
+          "label": "MS SPA / år",
+          "amountDkk": 129000000,
+          "href": "#/sag/ms-actionaid"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aarhus.dk: Sundhed og Omsorg må holde igen (90 mio.)",
+          "url": "https://aarhus.dk/nyt/sundhed-og-omsorg/2026/sundhed-og-omsorg-maa-holde-igen-skal-bruge-90-millioner-kroner-mindre",
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "id": "hjaelpemidler-60",
+      "area": "Ældre / hjælpemidler",
+      "title": "60 af 98 kommuner skærer i hjælpemidler",
+      "shortage": "Ældre Sagen (2026): 60 ud af 98 kommuner skærer i budgettet til hjælpemidler mv. til ældre ifølge Danmarks Statistik-budgettal.",
+      "amountDkk": null,
+      "amountLabel": "60 / 98 kommuner",
+      "abroad": "Samtidig får OpEn hundredtusinder til hiphop, brætspil og kirkekaffe-oplysning.",
+      "contrastAid": [
+        {
+          "label": "Brætspil Nepal (OpEn)",
+          "amountDkk": 994395,
+          "href": "#/indsigt"
+        },
+        {
+          "label": "Rapolitics hiphop (OpEn)",
+          "amountDkk": 1499682,
+          "href": "#/indsigt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ældre Sagen: 60 af 98 kommuner skærer i hjælpemidler",
+          "url": "https://www.aeldresagen.dk/maerkesager-og-resultater/viden-og-tal/aeldre-i-tal/2026-supplement-kommunernes-budgetter",
           "kind": "media"
         }
       ]
@@ -165,6 +269,24 @@
       "away": "ca. 25 mio. til MS HQ i Danmark (16 % af SPA)",
       "homeUrl": "https://www.kl.dk/momentum/arkiv/2024/8-kortere-indlaeggelser-kraever-styrkelse-af-det-naere-sundhedsvaesen",
       "awayHref": "#/sag/ms-actionaid"
+    },
+    {
+      "home": "Aarhus: 90 mio. mindre til sundhed & omsorg (2026)",
+      "away": "Oxfam 103 mio./år · MS 129 mio./år i SPA",
+      "homeUrl": "https://aarhus.dk/nyt/sundhed-og-omsorg/2026/sundhed-og-omsorg-maa-holde-igen-skal-bruge-90-millioner-kroner-mindre",
+      "awayHref": "#/sag/oxfam-spa"
+    },
+    {
+      "home": "60/98 kommuner skærer i ældres hjælpemidler",
+      "away": "1,5 mio. til hiphop + 1 mio. til brætspil (OpEn)",
+      "homeUrl": "https://www.aeldresagen.dk/maerkesager-og-resultater/viden-og-tal/aeldre-i-tal/2026-supplement-kommunernes-budgetter",
+      "awayHref": "#/indsigt"
+    },
+    {
+      "home": "Lolland: skoler kan gå fra 6 til 3",
+      "away": "Ca. 1,5 mio. til seriefodbold-satire via Mandsholdet (OpEn)",
+      "homeUrl": "https://nyheder.tv2.dk/samfund/2026-08-05-lolland-skal-spare-531-millioner-staar-paa-en-braendende-platform-siger-borgmester",
+      "awayHref": "#/indsigt"
     }
   ]
 }
