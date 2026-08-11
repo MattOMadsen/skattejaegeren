@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skattejægeren — plan live</title>
+  <meta name="description" content="Borgerlig tracker af ulandsbistand og statens penge. Placeholder indtil design godkendes." />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="top">
+    <span class="mark">SKATTEJÆGEREN</span>
+    <span class="badge">PLACEHOLDER · AFVENTER DESIGN-GODKENDELSE</span>
+  </header>
+
+  <main class="wrap">
+    <p class="kicker">Borgerlig research · dine penge · offentlige kilder</p>
+    <h1>Statens penge forsvinder ikke i stilhed.</h1>
+    <p class="lead">
+      En planlagt side der samler research (inspireret af
+      <a href="https://x.com/oresundsbaron" rel="noopener noreferrer" target="_blank">@oresundsbaron</a>),
+      graver dybere i ulandsbistand og puljer — og gør regningen synlig for skatteyderen.
+    </p>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Hvad det bliver</h2>
+        <ul>
+          <li>Opslag + <strong>sagsmapper</strong> (Danida, civilsamfund, partnerskaber)</li>
+          <li>Automatisk dybde med <strong>primærkilder</strong></li>
+          <li>Tydeligt <strong>borgerlig vinkel</strong> — ikke “neutral vasketøj”</li>
+          <li>Three.js som <strong>krydderi</strong> (penge i bevægelse)</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>Status nu</h2>
+        <ol>
+          <li>✅ GitHub-repo + Pages</li>
+          <li>✅ Plan skrevet (<code>PLAN.md</code>)</li>
+          <li>⏳ Du godkender plan + open questions</li>
+          <li>⬜ Endeligt design + første sager</li>
+          <li>⬜ Auto-pipeline</li>
+        </ol>
+      </section>
+    </div>
+
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/MattOMadsen/skattejaegeren/blob/main/PLAN.md">Læs PLAN.md</a>
+      <a class="btn" href="https://github.com/MattOMadsen/skattejaegeren">GitHub-repo</a>
+      <a class="btn" href="https://x.com/oresundsbaron" target="_blank" rel="noopener noreferrer">Baronen på X</a>
+    </div>
+
+    <p class="fine">
+      Uafhængig side under opbygning. Ikke tilknyttet Baronen af Øresund.
+      Three.js-demo nedenfor er midlertidig baggrund — ikke endeligt design.
+    </p>
+  </main>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="hero.js"></script>
+</body>
+</html>
