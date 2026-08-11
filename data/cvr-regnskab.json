@@ -60,6 +60,33 @@
       "caseSlug": "crossing-borders",
       "baronenClaimDkk": 9000000,
       "matchNote": "CISU-funding bekræftet i årsrapport; fuld 9 mio. sum afventer flere regnskabsår eller aktindsigt."
+    },
+    {
+      "id": "female-freedom",
+      "name": "Female Freedom",
+      "legalName": "Female Freedom",
+      "cvr": null,
+      "form": "Forening / CISU-modtager",
+      "founded": null,
+      "address": null,
+      "status": "Aktiv (CISU)",
+      "employeesApprox": null,
+      "virkSearch": null,
+      "website": null,
+      "orgClaims": {
+        "funding": "CISU OpEn/civilsamfund — 3 bevillinger i katalog, sum ca. 1,2 mio. kr."
+      },
+      "regnskab": [],
+      "regnskabNote": "CVR og årsregnskab endnu ikke matchet i offentlige registre her. Beløb fra CISU-katalog (OpEn/sample).",
+      "cisuSumDkk": 1199006,
+      "cisuCount": 3,
+      "cisuExamples": [
+        "In MaThoko’s Footsteps: Re-indiginizing LGBTQI+ Youth Activism (499.940 kr.)",
+        "In MaThoko’s Footsteps: LGBTQI+ Youth Activists (499.786 kr.)",
+        "Female Freedom (199.280 kr.)"
+      ],
+      "baronenClaimDkk": null,
+      "matchNote": "CISU-sum 1.199.006 kr. over 3 poster i vores OpEn/katalog-sample — ikke fuld regnskab."
     }
   ]
 }

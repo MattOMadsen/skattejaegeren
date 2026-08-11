@@ -83,15 +83,19 @@ function setNav(page) {
   });
 }
 
-function shareBlock(title, path) {
+function shareBlock(title, path, opts = {}) {
   const url = `https://mattomadsen.github.io/skattejaegeren/${path || ''}`;
   const text = encodeURIComponent(title + ' — Skattejægeren');
   const u = encodeURIComponent(url);
+  const printBtn = opts.print
+    ? `<button type="button" class="share-btn" data-print="1">Print faktaark</button>`
+    : '';
   return `
     <div class="share" role="group" aria-label="Del">
       <span class="share-label">Del</span>
       <button type="button" class="share-btn" data-copy="${esc(url)}">Kopiér link</button>
       <a class="share-btn" href="https://x.com/intent/tweet?text=${text}&url=${u}" target="_blank" rel="noopener">X</a>
+      ${printBtn}
     </div>`;
 }
 
@@ -106,6 +110,35 @@ function bindShare() {
       } catch {
         prompt('Kopiér link:', v);
       }
+    });
+  });
+  document.querySelectorAll('.share-btn[data-print]').forEach((btn) => {
+    btn.addEventListener('click', () => window.print());
+  });
+}
+
+function bindTipForm() {
+  const form = document.getElementById('tip-form');
+  if (!form) return;
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const topic = (form.querySelector('[name=topic]')?.value || '').trim();
+    const body = (form.querySelector('[name=body]')?.value || '').trim();
+    const source = (form.querySelector('[name=source]')?.value || '').trim();
+    const subject = encodeURIComponent('Tip til Skattejægeren: ' + (topic || 'uden emne'));
+    const text = encodeURIComponent(
+      `Emne: ${topic}\n\n${body}\n\nKilde/link: ${source || '—'}\n\n— sendt via skattejaegeren tip-form`
+    );
+    // mailto — ingen backend; brugerens egen mailklient
+    window.location.href = `mailto:mattomadsen+skattejaegeren@gmail.com?subject=${subject}&body=${text}`;
+  });
+}
+
+function bindPageJump() {
+  document.querySelectorAll('[data-jump]').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = el.getAttribute('data-jump');
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }
@@ -150,10 +183,57 @@ function applyStats(aid) {
   if (el10) el10.textContent = y10.replace(/\s*kr\.?/i, '').trim();
   if (elP) elP.textContent = Number(per).toLocaleString('da-DK');
   if (elT) elT.textContent = Number(tax).toLocaleString('da-DK');
+
+  // Animate integer stats (per person / BT) once
+  if (!applyStats._didAnim) {
+    applyStats._didAnim = true;
+    animateCount(elP, per, 900);
+    animateCount(elT, tax, 1100);
+  }
+}
+
+function animateCount(el, target, ms) {
+  if (!el || target == null || Number.isNaN(Number(target))) return;
+  const end = Number(target);
+  const start = performance.now();
+  el.classList.add('is-animating');
+  const step = (now) => {
+    const t = Math.min(1, (now - start) / ms);
+    const eased = 1 - Math.pow(1 - t, 3);
+    el.textContent = Math.round(end * eased).toLocaleString('da-DK');
+    if (t < 1) requestAnimationFrame(step);
+    else {
+      el.textContent = end.toLocaleString('da-DK');
+      el.classList.remove('is-animating');
+    }
+  };
+  requestAnimationFrame(step);
+}
+
+function initTheme() {
+  const saved = localStorage.getItem('sj-theme');
+  if (saved === 'light' || saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', saved === 'light' ? 'light' : '');
+    if (saved === 'dark') document.documentElement.removeAttribute('data-theme');
+  }
+  const btn = document.getElementById('theme-toggle');
+  if (!btn || btn.dataset.bound) return;
+  btn.dataset.bound = '1';
+  btn.addEventListener('click', () => {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('sj-theme', 'dark');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('sj-theme', 'light');
+    }
+  });
 }
 
 // Ensure stats never empty — run immediately with fallback
 applyStats(FALLBACK_AID);
+initTheme();
 
 let cache = null;
 
@@ -526,7 +606,8 @@ function renderCase(d, slug) {
     <div style="display:flex;gap:.5rem;margin-bottom:.35rem">${badge(c.amountKind)}</div>
     <h1 style="margin:0;font-size:clamp(1.5rem,3.5vw,2rem);letter-spacing:-.03em">${esc(c.title)}</h1>
     <p class="detail-amt">${esc(c.amountLabel)}</p>
-    ${shareBlock(c.title, `#/sag/${c.slug}`)}
+    ${shareBlock(c.title, `#/sag/${c.slug}`, { print: true })}
+    <p class="print-only-note">Skattejægeren — faktaark · ${esc(c.title)} · mattomadsen.github.io/skattejaegeren</p>
     <div class="panel"><h2>Kort</h2><p>${esc(c.summary)}</p></div>
     <div class="panel"><h2>Vinkel</h2><p>${esc(c.angle)}</p></div>
     <div class="panel">
@@ -578,6 +659,43 @@ function renderAktindsigt() {
   `;
 }
 
+function hallOfNumbers(grants, n = 20) {
+  const top = [...grants]
+    .filter((g) => g.amountDkk > 0)
+    .sort((a, b) => b.amountDkk - a.amountDkk)
+    .slice(0, n);
+  if (!top.length) return '';
+  return `
+    <div class="section-head" id="hall"><h2>Hall of Numbers</h2>
+      <button type="button" class="linkish" data-jump="filter-bar">Søg alle →</button>
+    </div>
+    <p class="muted" style="margin:-.35rem 0 0.85rem">Top ${top.length} største bevillinger i kataloget (CISU-sample).</p>
+    <div class="panel" style="padding:0.5rem 1rem 0.25rem;overflow-x:auto">
+      <table class="hall-table">
+        <thead>
+          <tr><th>#</th><th>Beløb</th><th>Projekt</th><th>Org</th></tr>
+        </thead>
+        <tbody>
+          ${top
+            .map(
+              (g, i) => `
+            <tr>
+              <td class="hall-rank">${i + 1}</td>
+              <td class="num">${esc(fmtShort(g.amountDkk))}</td>
+              <td>${
+                g.url
+                  ? `<a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.title)}</a>`
+                  : esc(g.title)
+              }</td>
+              <td class="muted">${esc(g.org || '—')}</td>
+            </tr>`
+            )
+            .join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+
 function renderOpen(d) {
   const og = d.openGrants;
   if (!og?.grants?.length) {
@@ -593,9 +711,10 @@ function renderOpen(d) {
         sum <strong style="color:#fda4a4">${esc(fmtShort(og.sumAmountDkk))} kr.</strong>
       </p>
     </section>
+    ${hallOfNumbers(og.grants, 20)}
     ${
       orgs.length
-        ? `<div class="section-head"><h2>Største modtagere</h2></div>
+        ? `<div class="section-head" style="margin-top:1.75rem"><h2>Største modtagere</h2></div>
            <div class="grid cols-3" style="margin-bottom:1.25rem">
            ${orgs
              .map(
@@ -610,6 +729,7 @@ function renderOpen(d) {
            </div>`
         : ''
     }
+    <div class="section-head"><h2>Søg i kataloget</h2></div>
     ${filterBar('Søg titel, org, resume…').replace(
       `<select id="kind" class="filter-select" aria-label="Type">
         <option value="">Alle typer</option>
@@ -628,32 +748,42 @@ function renderCvr(d) {
     ${subnavUdforsk('cvr')}
     <section class="hero hero-tight">
       <h1>CVR &amp; regnskab</h1>
-      <p>Offentlige foreningsdata.</p>
+      <p>Offentlige foreningsdata og CISU-match.</p>
     </section>
     <div class="grid cols-2">
       ${orgs
         .map((o) => {
           const r = (o.regnskab && o.regnskab[0]) || null;
+          const cvrLabel = o.cvr ? `CVR ${o.cvr}` : 'CISU';
           return `
           <div class="card">
             <div class="card-top">
-              <span class="badge ok">CVR ${esc(o.cvr)}</span>
-              <span class="amt">${esc(o.status)}</span>
+              <span class="badge ok">${esc(cvrLabel)}</span>
+              <span class="amt">${esc(o.status || '')}</span>
             </div>
             <h3>${esc(o.name)}</h3>
-            <p class="meta">${esc(o.form)} · ${esc(o.address)}</p>
-            <p class="blurb" style="margin-top:.65rem">${esc(o.orgClaims?.annualTurnover || o.orgClaims?.fundingPartners || '')}</p>
+            <p class="meta">${esc([o.form, o.address].filter(Boolean).join(' · ') || '—')}</p>
+            <p class="blurb" style="margin-top:.65rem">${esc(
+              o.orgClaims?.annualTurnover || o.orgClaims?.fundingPartners || o.orgClaims?.funding || ''
+            )}</p>
             ${
               r
                 ? `<p class="blurb"><strong>${r.year}:</strong> indtægter ${esc(fmtKr(r.indtægterIAltDkk))}
                    · CISU-program ca. ${esc(fmtShort(r.cisuProgramBevillingDkk))}
                    · resultat ${esc(fmtKr(r.aaretsResultatDkk))}</p>`
-                : `<p class="blurb muted">${esc(o.regnskabNote || 'Regnskabstal under udbygning.')}</p>`
+                : o.cisuSumDkk
+                  ? `<p class="blurb"><strong>CISU-sum:</strong> ${esc(fmtShort(o.cisuSumDkk))} kr.
+                     (${o.cisuCount || '?'} poster)
+                     ${(o.cisuExamples || []).map((ex) => `<br>· ${esc(ex)}`).join('')}</p>
+                     <p class="blurb muted">${esc(o.regnskabNote || '')}</p>`
+                  : `<p class="blurb muted">${esc(o.regnskabNote || 'Regnskabstal under udbygning.')}</p>`
             }
             <p class="meta" style="margin-top:.75rem">
               ${o.caseSlug ? `<a href="#/sag/${esc(o.caseSlug)}">Sag</a> · ` : ''}
-              <a href="${esc(o.website)}" target="_blank" rel="noopener">Hjemmeside</a>
+              ${o.website ? `<a href="${esc(o.website)}" target="_blank" rel="noopener">Hjemmeside</a>` : '<span class="muted">Hjemmeside ukendt</span>'}
+              ${o.virkSearch ? ` · <a href="${esc(o.virkSearch)}" target="_blank" rel="noopener">CVR</a>` : ''}
               ${r?.sourceUrl ? ` · <a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">Årsrapport</a>` : ''}
+              ${!o.website && !o.caseSlug ? ` · <a href="#/open">OpEn-katalog</a>` : ''}
             </p>
           </div>`;
         })
@@ -839,7 +969,10 @@ function renderIndsigt(d) {
   const alt = d.alternatives;
   const tl = d.timeline?.events || [];
   const ms = d.deepDive?.partners?.find((p) => p.id === 'ms-actionaid');
+  const ox = d.deepDive?.partners?.find((p) => p.id === 'oxfam-denmark');
   const split = ms?.report2025?.budgetSplit2025 || [];
+  const oxObj = ox?.resultsReport2025?.changeObjectives || [];
+  const oxPartnerPct = ox?.resultsReport2025?.fundsToLocalPartners?.pctOfCountrySpend;
 
   return `
     <section class="hero">
@@ -847,7 +980,14 @@ function renderIndsigt(d) {
       <p>Prioritering i tal — hvad 23 mia. også kunne være, og hvordan de store NGO’er fordeler pengene.</p>
     </section>
 
-    <div class="section-head"><h2>Hvad kunne det have været?</h2></div>
+    <nav class="page-jump" aria-label="Hop på siden">
+      <button type="button" data-jump="alt">Alternativer</button>
+      <button type="button" data-jump="budget">MS &amp; Oxfam</button>
+      <button type="button" data-jump="tidslinje">Tidslinje</button>
+      <a href="#/grav">Dybere →</a>
+    </nav>
+
+    <div class="section-head" id="alt"><h2>Hvad kunne det have været?</h2></div>
     <p class="muted" style="margin:-.35rem 0 1rem">${esc(alt?.disclaimer || 'Grovte regnestykker til illustration.')}</p>
     <div class="grid cols-3">
       ${(alt?.items || [])
@@ -876,26 +1016,64 @@ function renderIndsigt(d) {
         : ''
     }
 
-    <div class="section-head" style="margin-top:2rem"><h2>MS ActionAid — budget 2025</h2>
-      <a href="#/sag/ms-actionaid">Sag →</a>
+    <div class="section-head" id="budget" style="margin-top:2rem">
+      <h2>MS vs Oxfam — SPA-profil</h2>
     </div>
-    <div class="panel">
-      <p class="muted" style="margin-bottom:1rem">Egen SPA-rapport: total ca. 150 mio. (inkl. top-ups). Kun 58% går som transfer til partnere.</p>
-      ${
-        split.length
-          ? split.map((r) => barRow(r.line, r.pct, r.pct >= 50 ? 'ok' : r.pct >= 15 ? 'hot' : '')).join('')
-          : barRow('Transfer til partnere', 58, 'ok') +
-            barRow('HQ Danmark', 16, 'hot') +
-            barRow('Øvrigt program / global', 24, '') +
-            barRow('IPE (oplysning)', 2, '')
-      }
-      <p class="meta" style="margin-top:1rem">
-        <a href="https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf" target="_blank" rel="noopener">MS rapport PDF ↗</a>
-        · <a href="#/sag/oxfam-spa">Oxfam SPA</a>
-      </p>
+    <p class="muted" style="margin:-.35rem 0 1rem">
+      UM grundbevilling: MS <strong>129 mio.</strong>/år · Oxfam <strong>103 mio.</strong>/år.
+      Tallene nedenfor er fra deres egne resultatrapporter (forskellige opgørelser — ikke 1:1).
+    </p>
+    <div class="budget-duo">
+      <div class="panel">
+        <h2 style="margin-top:0">MS ActionAid 2025</h2>
+        <p class="muted" style="margin-bottom:1rem">Total ca. 150 mio. (inkl. top-ups). Fordeling af forbrug:</p>
+        ${
+          split.length
+            ? split.map((r) => barRow(r.line, r.pct, r.pct >= 50 ? 'ok' : r.pct >= 15 ? 'hot' : '')).join('')
+            : barRow('Transfer til partnere', 58, 'ok') +
+              barRow('HQ Danmark', 16, 'hot') +
+              barRow('Øvrigt program / global', 24, '') +
+              barRow('IPE (oplysning)', 2, '')
+        }
+        <p class="meta" style="margin-top:1rem">
+          <a href="#/sag/ms-actionaid">Sag</a> ·
+          <a href="https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </p>
+      </div>
+      <div class="panel">
+        <h2 style="margin-top:0">Oxfam Danmark 2025</h2>
+        <p class="muted" style="margin-bottom:1rem">
+          Change objectives (andel af SPA-aktivitet).
+          ${oxPartnerPct != null ? `Landemidler til lokale partnere: <strong>${oxPartnerPct}%</strong>.` : ''}
+        </p>
+        ${
+          oxObj.length
+            ? oxObj
+                .map((o) => {
+                  const pct = parseFloat(String(o.budgetShareApprox).replace('%', '')) || 0;
+                  return barRow(o.name, pct, pct >= 40 ? 'ok' : pct >= 30 ? 'hot' : '');
+                })
+                .join('')
+            : barRow('Leaving No-One Behind', 47, 'ok') +
+              barRow('Just Societies', 36, 'hot') +
+              barRow('Climate Justice', 17, '')
+        }
+        <p class="meta" style="margin-top:1rem">
+          <a href="#/sag/oxfam-spa">Sag</a> ·
+          <a href="https://oxfam.dk/wp-content/uploads/2026/07/Oxfam_Denmark_Results_Report-2025.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </p>
+      </div>
     </div>
+    ${
+      d.deepDive?.comparison?.points?.length
+        ? `<div class="panel" style="margin-top:1rem">
+            <h2>Kort sagt</h2>
+            ${d.deepDive.comparison.points.map((p) => `<p>· ${esc(p)}</p>`).join('')}
+          </div>`
+        : ''
+    }
 
-    <div class="section-head" style="margin-top:2rem"><h2>Tidslinje</h2></div>
+    <div class="section-head" id="tidslinje" style="margin-top:2rem"><h2>Tidslinje</h2></div>
     <div class="timeline">
       ${tl
         .map(
@@ -964,7 +1142,26 @@ function renderOm(d) {
 
     <div class="panel" style="text-align:center">
       <p class="badge warn">Aktindsigt · kommer snart</p>
-      <p class="muted" style="margin:.5rem 0 0">Flere originale dokumenter fra myndighederne.</p>
+      <p class="muted" style="margin:.5rem 0 0">Flere originale dokumenter fra myndighederne. <a href="#/aktindsigt">Status →</a></p>
+    </div>
+
+    <div class="section-head" id="tip"><h2>Indsend tip</h2></div>
+    <div class="panel">
+      <p class="muted" style="margin:0 0 1rem">
+        Har du et CISU-link, regnskab eller en sag, vi bør tjekke? Åbner din mail — intet lagres her.
+      </p>
+      <form class="tip-form" id="tip-form">
+        <label>Emne
+          <input name="topic" type="text" placeholder="Fx org-navn + beløb" required maxlength="120" />
+        </label>
+        <label>Hvad skal vi se på?
+          <textarea name="body" placeholder="Kort beskrivelse…" required maxlength="2000"></textarea>
+        </label>
+        <label>Kilde / link (valgfri)
+          <input name="source" type="url" placeholder="https://…" />
+        </label>
+        <button type="submit">Åbn mail med tip</button>
+      </form>
     </div>
 
     ${
@@ -1011,6 +1208,8 @@ async function paint() {
     app.innerHTML = html;
     window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
     bindShare();
+    bindTipForm();
+    bindPageJump();
     if (page === 'projekter') bindProjectFilter(d.projects.projects);
     if (page === 'open' || page === 'katalog') bindOpenFilter(d.openGrants?.grants || []);
   } catch (e) {
