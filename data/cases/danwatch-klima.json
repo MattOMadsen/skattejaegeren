@@ -1,0 +1,35 @@
+{
+  "slug": "danwatch-klima",
+  "title": "Danwatch: 1,5 mio. OpEn til klima-journalistik for unge",
+  "status": "approved",
+  "priority": 3,
+  "tags": [
+    "open",
+    "cisu",
+    "medier",
+    "official"
+  ],
+  "amountDkk": 1499321,
+  "amountLabel": "1.499.321 kr. (OpEn)",
+  "amountKind": "official",
+  "summary": "Danwatch fik 1.499.321 kr. fra OpEn til 'Dit (klima-) aftryk i verden': afslørende journalistik + video/podcast for unge danskere, koblet til udviklingslande. Det Udenrigspolitiske Selskab holder debatter i hele landet.",
+  "angle": "Uafhængig journalistik finansieret af udviklingsbistandspulje — legitimt engagement, men det er stadig skattekroner til dansk medieproduktion.",
+  "depth": {
+    "status": "approved",
+    "headline": "1,5 mio. til klimajournalistik i DK",
+    "body": [
+      "**Bevilling:** 1.499.321 kr. (100 % af budget) · **OpEn**.",
+      "**Mål:** koble klimahandling i hverdagen med udviklingsproblematikker — især unge danskere.",
+      "**Metode:** afslørende journalistiske undersøgelser, interviews, videoexplainers, podcasts; debatter med Det Udenrigspolitiske Selskab i hele landet.",
+      "**Vinkel:** Pressefrihed og gravejournalistik er værdifuldt — men OpEn er stadig en **bistandspulje**. Prioriteringen er politisk."
+    ],
+    "sources": [
+      {
+        "title": "CISU: Dit (klima-) aftryk i verden",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f9931c2a-c35f-4cf3-b8c2-422e486ebb08",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": []
+}

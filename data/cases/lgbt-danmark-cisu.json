@@ -1,0 +1,54 @@
+{
+  "slug": "lgbt-danmark-cisu",
+  "title": "LGBT+Danmark: 25 mio. i regnskab — CISU-projekter i millionklassen",
+  "status": "approved",
+  "priority": 2,
+  "tags": [
+    "cisu",
+    "regnskab",
+    "lgbt",
+    "ukraine",
+    "official"
+  ],
+  "amountDkk": 25181092,
+  "amountLabel": "25,2 mio. kr. indtægter 2025 (regnskab)",
+  "amountKind": "official",
+  "summary": "Revideret årsregnskab 2025: indtægter i alt 25,2 mio. kr., heraf 14,8 mio. i projektindtægter. Driftstilskud fra staten (Ligestillingsministeriet) 4,5 mio. CISU-kataloget i vores sample: 10 poster, sum ca. 11,1 mio. — største enkeltbevilling 4,5 mio. til LGBTQ+ i Ukraine.",
+  "angle": "Ikke en lille forening med lommerusk: offentlig drift + store projektbevillinger. CISU er en af motorerne — dokumenteret i både regnskab (note 18 mellemregnskaber) og CISU-sider.",
+  "depth": {
+    "status": "approved",
+    "headline": "Regnskab 2025 + CISU-toppen",
+    "body": [
+      "**Årsregnskab 2025 (revideret, godkendt 30. maj 2026):** Indtægter i alt **25.181.092 kr.** (2024: 26,99 mio.). Heraf **projektindtægter 14.795.772 kr.** og driftsindtægter ca. 10,4 mio.",
+      "**Offentlig drift:** Ligestillingsministeriet **4.500.000 kr.** driftstilskud; kommunale driftstilskud ca. 1,86 mio.; Social- og Boligstyrelsen 0,4 mio.",
+      "**Resultat:** overskud **1.386.634 kr.**; egenkapital 4,1 mio. pr. 31.12.2025. 27 igangværende projekter; 22,5 årsværk.",
+      "**CISU i regnskabet:** Projektoversigt lister bl.a. Together for Equality Ukraine, Empowering Voices Kenya, Abusua Fie Ghana, Regional LGBT+ Armenien, Moldova m.fl. Note 18 er «Mellemregnskaber til CISU».",
+      "**CISU-katalog (vores sample, 10 poster):** sum **11.064.029 kr.** Størst: *Together for Equality* Ukraine **4.498.945 kr.** (01.07.2025–30.06.2027) — safe spaces, legal advocacy (Draft Law 5488), partnere Insight, Gender Stream, Resistance.",
+      "Næststørst i sample: *Empowering Voices* **3.481.892 kr.** (LGBTIQ+ inclusion).",
+      "**Vinkel:** Pengene er officielle. Spørgsmålet er prioritering — hvorfor millioner til advocacy/engagement-spor, når andre velfærdsområder skærer."
+    ],
+    "sources": [
+      {
+        "title": "LGBT+ Danmark årsrapport/regnskab 2025 (PDF)",
+        "url": "https://lgbt.dk/wp-content/uploads/2026/06/Aarsrapport_LGBT_Danmark_2025_1305526.pdf",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Together for Equality Ukraine (4.498.945 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f5e12531-cd6e-40be-99ae-f57a20c6e118",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Empowering Voices (3.481.892 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0e8572bd-7687-4e1c-8228-f62e40f3c3e2",
+        "kind": "official"
+      },
+      {
+        "title": "LGBT+ Danmark — foreningen / regnskaber",
+        "url": "https://lgbt.dk/foreningen/",
+        "kind": "org"
+      }
+    ]
+  },
+  "relatedPosts": []
+}

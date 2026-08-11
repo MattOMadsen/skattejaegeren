@@ -142,8 +142,28 @@
       "orgClaims": {
         "funding": "CISU civilsamfund + klima/miljø-puljer; regnskaber på org-hjemmeside"
       },
-      "regnskab": [],
-      "regnskabNote": "Org publicerer regnskaber på globalaktion.dk/økonomi — tal ikke manuelt indtastet her endnu. CISU-sample sum 11,6 mio. (8 poster).",
+      "regnskab": [
+        {
+          "year": 2024,
+          "source": "Årsregnskab 2024 (revideret)",
+          "sourceUrl": "https://drive.google.com/file/d/1BddSLY5PHdU8HFlLrb5jnco_QmByDkxG/view",
+          "indtægterIAltDkk": 2508607,
+          "aaretsResultatDkk": 247268,
+          "egenkapitalNote": "770.488 kr. pr. 31.12.2024",
+          "cisuProgramBevillingDkk": 11625898,
+          "cisuProgramBevillingNote": "CISU-sample (8 poster, multi-år) — ikke samme som års-revenue. Interim reports i note 11.",
+          "angle": "Års-revenue ~2,5 mio. (overhead/løn/donationer). CISU-portefølje 11,6 mio. multi-år i sample."
+        },
+        {
+          "year": 2023,
+          "source": "Årsregnskab 2023",
+          "sourceUrl": "https://globalaktion.dk/wp-content/uploads/2024/02/Aarsregnskab-Global-Aktion-2023.pdf",
+          "indtægterIAltDkk": 2169786,
+          "aaretsResultatDkk": -78792,
+          "angle": "Underskud 79k. EU contingent liability ~0,9 mio. anerkendes ikke."
+        }
+      ],
+      "regnskabNote": null,
       "cisuSumDkk": 11625898,
       "cisuCount": 8,
       "cisuExamples": [
@@ -152,7 +172,7 @@
         "Building Climate Justice Advocacy (1.999.146 kr.)"
       ],
       "caseSlug": "global-aktion",
-      "matchNote": "Største org i vores CISU-katalog-ranking."
+      "matchNote": "Regnskab 2024 indlæst. CISU-sum er multi-år portefølje."
     }
   ]
 }

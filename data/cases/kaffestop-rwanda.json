@@ -1,0 +1,49 @@
+{
+  "slug": "kaffestop-rwanda",
+  "title": "Kaffestop i Rwanda: 149.200 kr. fra OpEn",
+  "status": "approved",
+  "priority": 0,
+  "tags": [
+    "open",
+    "mikehunt",
+    "officiel",
+    "symbol"
+  ],
+  "amountDkk": 149200,
+  "amountLabel": "149.200 kr.",
+  "amountKind": "official",
+  "summary": "Officiel CISU/OpEn-bevilling til Lasse Schoeber: rejse til Rwanda ifm. cykel-VM, Instagram/podcast til Mandsholdet, og ‘et lille kaffestop’. Hele budgettet dækket af staten. Mike Hunt har også peget på habilitetsspørgsmål ift. OpEn-bevillingsudvalg.",
+  "angle": "Mens Lolland mangler 300 mio., betaler du fly og kaffe-content i Rwanda. Det er ikke ‘bistand’ i klassisk forstand — det er statsfinansieret influencer-rejse.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: Hvad står der i den officielle bevilling?",
+    "body": [
+      "CISU’s bevillingsside bekræfter **149.200 kr.** fra **OpEn** (Udenrigsministeriets oplysnings- og engagementspulje) til organisationen Lasse Schoeber, projekt **‘Kaffestop i Rwanda’**, periode 21.10.2024–31.10.2025. Samlet budget = bevilget beløb (100 % dækket).",
+      "Resumeet: Med afsæt i cykel-VM i Afrika vil projektet oplyse Mandsholdets Instagram-følgere om udviklingsproblematikker via cyklen; rejse til Rwanda; bruge Instagram, video og podcast; **bygge et lille kaffestop** og invitere lokale personer og cykelhold.",
+      "Mike Hunt (@MikeHuntHurts89) har publiceret sagen og efterfølgende spurgt til **habilitet**, fordi samme person angiveligt figurerer i OpEn-bevillingsudvalgets medlemsoversigt — uden at påstå at han behandlede egen ansøgning. Det er et legitimt transparens-spørgsmål.",
+      "Sagen er lille i kroner — og stor som **prioriteringssymbol**: samme stat der skærer lokalt finder fuld finansiering til content-tur."
+    ],
+    "sources": [
+      {
+        "title": "CISU: Kaffestop i Rwanda (officiel bevilling)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=9640e38a-5768-4390-b624-11ffdd342ab9",
+        "kind": "official"
+      },
+      {
+        "title": "MikeHuntHurts89: Kaffestop",
+        "url": "https://x.com/MikeHuntHurts89/status/2084223617148108834",
+        "kind": "research"
+      },
+      {
+        "title": "MikeHuntHurts89: Lolland vs Danida",
+        "url": "https://x.com/MikeHuntHurts89/status/2086486242548428847",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2084223617148108834",
+    "2084339602899214485",
+    "2086486242548428847"
+  ]
+}

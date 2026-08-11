@@ -60,11 +60,20 @@ Overblik · Udforsk · Indsigt · Om
 
 Gamle links (`#/grav`, `#/open` …) virker stadig. **Ingen nye hovedmenupunkter** uden god grund.
 
+## Sagsfiler (vigtigt)
+
+```
+data/cases/index.json     ← slug-liste + editorial
+data/cases/<slug>.json    ← ÉN fil pr. sag (udvid depth.body her)
+```
+
+Appen loader alle sager via `loadCases()`. `data/cases.json` er kun en pegepind.
+
 ## Næste prioritet (forslag)
 
-1. Idé 11 — Global Aktion årsregnskab (tal fra PDF) + Crossing Borders regnskab  
-2. Idé 13 — aktindsigt (copy-paste mails; **ikke** Proton Bridge)  
-3. Flere Hall of Numbers-sager (Blackfish, Danwatch, Dreamtown…)  
+1. Udvid dybde i de nye sagsfiler (kilder, citater, graver-noter)  
+2. Crossing Borders — rigtigt årsregnskab (virk/proff)  
+3. Idé 13 — aktindsigt (copy-paste; ikke Proton Bridge)  
 4. Idé 10 — RSS / seneste 10  
-5. Idé 17 — engelsk short page  
+
 

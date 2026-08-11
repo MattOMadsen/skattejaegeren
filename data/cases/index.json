@@ -1,0 +1,47 @@
+{
+  "updated": "2026-08-11",
+  "editorial": {
+    "stance": "borgerlig",
+    "approval": "manual",
+    "primarySource": "@oresundsbaron",
+    "secondaryQueued": [
+      "@Statsstyret",
+      "@MikeHuntHurts89",
+      "Facebook m.fl."
+    ],
+    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
+  },
+  "totals": {
+    "strategicPartnershipsAnnualDkk": 1264000000,
+    "strategicPartnershipsNote": "Officielt: UM — 1,264 mia. kr./år til 18 strategiske partnerskaber 2022–2026",
+    "civilSocietyPuljeClaim2026Dkk": 200000000,
+    "openPuljeWithCivilClaim2026Dkk": 221000000,
+    "developmentAidClaimTotalDkk": 23000000000,
+    "perDaneApproxStrategicPartnerships": "Ca. 210 kr./dansker/år alene til strategiske partnerskaber (1,264 mia / ~6 mio indbyggere — groft regnestykke)"
+  },
+  "slugs": [
+    "barnevogn-og-prioritering",
+    "bt-mediedækning",
+    "kaffestop-rwanda",
+    "strategiske-partnerskaber",
+    "global-aktion",
+    "lgbt-danmark-cisu",
+    "ms-actionaid",
+    "oxfam-spa",
+    "sex-samfund-uganda",
+    "amnesty-open",
+    "blackfish-mille",
+    "civilsamfundspuljen",
+    "danwatch-klima",
+    "female-freedom",
+    "dreamtown-metropolis",
+    "ghana-venskab",
+    "ngo-miniserie",
+    "crossing-borders",
+    "orangutang-rap",
+    "statens-kunstfond",
+    "information-mediestoette",
+    "kirke-udland"
+  ],
+  "note": "Én fil pr. sag: data/cases/<slug>.json. index.json = metadata + slug-liste. Udvid depth.body for mere gravning."
+}

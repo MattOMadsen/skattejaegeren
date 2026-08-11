@@ -1,0 +1,55 @@
+{
+  "slug": "civilsamfundspuljen",
+  "title": "Civilsamfundspuljen & OpEn: 'små' 221 mio. der ikke er små",
+  "status": "approved",
+  "priority": 3,
+  "tags": [
+    "danida",
+    "cisu",
+    "open",
+    "baronen"
+  ],
+  "amountDkk": 221000000,
+  "amountLabel": "221 mio. kr. (claim 2026)",
+  "amountKind": "claim",
+  "summary": "Baronen: Civilsamfundspuljen 200 mio. + OpEn giver tilsammen ca. 221 mio. i 2026 (~1 % af 23 mia. bistand). Det er rammen for 'fjollede projekter' — og den rigtige diskussion er summen af alle civilsamfundsspor, ikke enkelt-projekter alene.",
+  "angle": "Klassisk spin: peg på ét lille projekt og sig '0,4 %'. Skattejægeren summerer rammen og spørger: hvorfor betaler vi for ideologisk eksport?",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: CISU forvalter — skattekroner finansierer",
+    "body": [
+      "Civilsamfundspuljen forvaltes af **CISU** (Civilsamfund i Udvikling) med midler fra Udenrigsministeriet/Danida. CISU beskriver sig som støttefacilitet for danske civilsamfundsorganisationer.",
+      "OpEn (Information and Engagement Fund) er en særskilt pulje under UM med fokus på oplysning og engagement i Danmark om globale spørgsmål — se openpuljen.dk.",
+      "Baronens tal for **200 mio. (Civilsamfund) + samlet 221 mio. med OpEn (2026)** er fremsat i offentlig debat (X / Borgerlig Tabloid). De er mærket **claim**, indtil vi har den præcise finanslovs-/bevillingstekst for 2026 i arkivet.",
+      "Selv hvis man accepterer 'kun 1 % af 23 mia.', er 221 mio. kr. stadig **mange skoler, sengepladser eller skattelettelser**. Og det er **før** de 1,264 mia. i strategiske partnerskaber.",
+      "Baronens NGO-mini-serie (dec. 2025 / opsummeret jul. 2026) peger på konkrete organisationer i puljen — se egen sag."
+    ],
+    "sources": [
+      {
+        "title": "CISU — Civil Society Fund",
+        "url": "https://cisu.dk/en/funding/civil-society-fund/",
+        "kind": "official"
+      },
+      {
+        "title": "OpEn-puljen",
+        "url": "https://openpuljen.dk/en/",
+        "kind": "official"
+      },
+      {
+        "title": "Baronen: 200 + 221 mio. kontekst (X)",
+        "url": "https://x.com/oresundsbaron/status/2086920527436730876",
+        "kind": "research"
+      },
+      {
+        "title": "Baronen: intro til Civilsamfundspuljen (X, dec 2025)",
+        "url": "https://x.com/oresundsbaron/status/2002304077615759548",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2086920527436730876",
+    "2002304077615759548",
+    "2083221437041479686"
+  ]
+}

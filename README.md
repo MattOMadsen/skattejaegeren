@@ -3,6 +3,7 @@
 Borgerlig tracker af **ulandsbistand, Danida, puljer og statsstøtte**.
 
 - Live: **https://mattomadsen.github.io/skattejaegeren/**
+- Sager: **én JSON-fil pr. sag** i `data/cases/<slug>.json` (+ `data/cases/index.json`)
 - Plan: [PLAN.md](./PLAN.md)
 - Data: `data/cases.json`, `data/posts.json`
 

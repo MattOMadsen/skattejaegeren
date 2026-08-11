@@ -1,0 +1,59 @@
+{
+  "slug": "global-aktion",
+  "title": "Global Aktion: 11,6 mio. i CISU-sample — climate justice-aktivisme",
+  "status": "approved",
+  "priority": 2,
+  "tags": [
+    "cisu",
+    "klima",
+    "advocacy",
+    "official"
+  ],
+  "amountDkk": 11625898,
+  "amountLabel": "11,6 mio. CISU-sample · regnskab 2,5 mio. (2024)",
+  "amountKind": "official",
+  "summary": "CISU-katalog: 8 poster, sum 11,6 mio. (største org i sample). Eget årsregnskab 2024: revenue 2,51 mio. kr. — fordi CISU-projektmidler primært kører som interim/projektregnskaber (note 11), ikke som fuld omsætning. Overskud 247k i 2024. EU-krav om tilbagebetaling T.EUR 124 (ca. 0,9 mio.) anerkendes ikke af org.",
+  "angle": "To lag: (1) millioner i CISU-bevillinger til climate justice-advocacy, (2) et lille sekretariats-regnskab der lever af projektadmin, projektløn og aktivisme — ikke «nødhjælpsfabrik».",
+  "depth": {
+    "status": "approved",
+    "headline": "Regnskab vs. CISU-portefølje",
+    "body": [
+      "**CVR 13729107** · Global Aktion (tidl. Afrika Kontakt). Offentlige årsregnskaber på globalaktion.dk.",
+      "**Årsregnskab 2024 (revideret):** Revenue **2.508.607 kr.** (2023: 2.169.786). Resultat **+247.268 kr.** (2023: −78.792). Egenkapital 770.488 kr.",
+      "**Hvad indtægterne er (note 1, 2024):** medlemskab 123k · private donationer 247k · Tips/Lotto 61k · **project administration fees 466k** · **project salaries 436k** · projects operating costs 317k · wage refunds 512k · husleje-indtægt 108k. Sekretariatet finansieres i høj grad af projekt-overhead og lønoverførsel.",
+      "**CISU-sample (8 poster, multi-år):** sum **11.625.898 kr.** Top: Peasants' rights **3.556.657** · Pathway to Climate Justice **3.368.765** · Building Climate Justice Advocacy **1.999.146** · OpEn «2-0 til de små» **1.487.006**.",
+      "**Note 11 i regnskabet:** lange rækker interim reports med CISU j.nr. — bevillinger bogføres ikke som fuld «omsætning» i driftregnskabet, men som projektregnskaber.",
+      "**Kontingent:** EU-kommissionen har ifølge regnskab 2023 krævet tilbagebetaling **T.EUR 124 (~0,9 mio. kr.)** for et Swaziland-projekt; Global Aktion anerkender ikke gælden (dokumenter forsvundet under COVID).",
+      "**Org-side om løn (2023-tal):** sekretariatsleder ca. 38.395 kr./md; øvrige ca. 26.260 kr./md inkl. pension/ferie; studentermedhjælp 143 kr./time. Formål: støtte 200+ aktivister.",
+      "**Vinkel:** 11,6 mio. er portefølje over flere år — 2,5 mio. er års-drift. Begge er rigtige; de svarer på forskellige spørgsmål. Advocacy/climate justice er kerneproduktet."
+    ],
+    "sources": [
+      {
+        "title": "Årsregnskab 2024 (Drive/org)",
+        "url": "https://drive.google.com/file/d/1BddSLY5PHdU8HFlLrb5jnco_QmByDkxG/view",
+        "kind": "official"
+      },
+      {
+        "title": "Årsregnskab 2023 (PDF)",
+        "url": "https://globalaktion.dk/wp-content/uploads/2024/02/Aarsregnskab-Global-Aktion-2023.pdf",
+        "kind": "official"
+      },
+      {
+        "title": "Global Aktion — økonomi og regnskaber",
+        "url": "https://globalaktion.dk/om-global-aktion/formelle-dokumenter/oekonomi-og-regnskaber/",
+        "kind": "org"
+      },
+      {
+        "title": "CISU: Peasants' rights achieve climate justice",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=d10654b9-f146-449f-a98a-95a840400c07",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Pathway to Climate Justice",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=6c024dcf-99e2-429b-a652-5703f9b77b96",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": []
+}

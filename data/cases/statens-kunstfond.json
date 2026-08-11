@@ -1,0 +1,43 @@
+{
+  "slug": "statens-kunstfond",
+  "title": "Statens Kunstfond: 27,8 mio. til billedkunstprojekter",
+  "status": "approved",
+  "priority": 6,
+  "tags": [
+    "kultur",
+    "kunstfond",
+    "baronen",
+    "spareplan"
+  ],
+  "amountDkk": 27800000,
+  "amountLabel": "27,8 mio. kr. (2025, claim)",
+  "amountKind": "claim",
+  "summary": "Baronens spor uden for Danida: Statens Kunstfond — residencies i NY, 'Hybrid Mutation', udstillinger hos Politiken. Spareplanen runder ifølge ham over en kvart mia. og sigter mod en halv.",
+  "angle": "Samme princip: højt skattetryk + luksusforbrug for eliten. Kultur er ikke hellig, når regningen er din.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: Kultursporet i spareplanen",
+    "body": [
+      "Baronen (aug. 2026) gennemgik projektstøtte til billedkunst: bl.a. **14,5 mio.** til værkproduktion/udstillinger, **9,4 mio.** til etårige udstillingsprogrammer, residencies i udlandet (fx ~200.000 kr. til NY-ophold), og eksempler som 'Hybrid Mutation' (200.000 kr.) og Politiken-udstillinger (160.000 kr.).",
+      "Han angiver **27,8 mio. kr. (2025)** til billedkunstprojekter og nævner at Statens Kunstfond samlet bevilliger **500–600 mio. kr./år** på tværs af kunstarter — claim, der skal matches med fondens offentlige regnskaber.",
+      "Skattejægeren tracker dette som **beslægtet sag**: samme skatteyder, samme prioriteringskritik, anden kasse end Danida."
+    ],
+    "sources": [
+      {
+        "title": "Baronen: 27,8 mio. billedkunst (X)",
+        "url": "https://x.com/oresundsbaron/status/2086090346891534727",
+        "kind": "research"
+      },
+      {
+        "title": "Baronen: Hybrid Mutation 200.000 (X)",
+        "url": "https://x.com/oresundsbaron/status/2086044804387942797",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2086090346891534727",
+    "2086044804387942797",
+    "2086060022824378407"
+  ]
+}

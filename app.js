@@ -241,6 +241,28 @@ initTheme();
 
 let cache = null;
 
+async function loadCases() {
+  // One file per case: data/cases/<slug>.json + index.json
+  const index = await fetchJson('data/cases/index.json');
+  const list = await Promise.all(
+    (index.slugs || []).map((slug) =>
+      fetchJson(`data/cases/${slug}.json`).catch((e) => {
+        console.warn('case missing', slug, e);
+        return null;
+      })
+    )
+  );
+  const cases = list.filter(Boolean);
+  // priority sort (same as index)
+  cases.sort((a, b) => (a.priority ?? 99) - (b.priority ?? 99) || a.slug.localeCompare(b.slug, 'da'));
+  return {
+    updated: index.updated,
+    editorial: index.editorial,
+    totals: index.totals,
+    cases,
+  };
+}
+
 async function loadAll() {
   if (cache) return cache;
   try {
@@ -262,7 +284,7 @@ async function loadAll() {
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
-      fetchJson('data/cases.json'),
+      loadCases(),
       fetchJson('data/posts.json'),
       fetchJson('data/source-map.json').catch(() => null),
       fetchJson('data/cisu-open-grants.json').catch(() => null),
@@ -350,11 +372,11 @@ const SHOCK = [
     tag: 'Rapport',
   },
   {
-    amt: '1,2 mio.',
-    title: 'Female Freedom ≈ CISU-sum',
-    text: 'Tre poster 1.199.006 kr. · CVR 43447203 (stiftet 2022).',
-    href: '#/sag/female-freedom',
-    tag: 'Match',
+    amt: '1,5 mio.',
+    title: 'Blackfish på DR1 via OpEn',
+    text: 'Mille og Verdens skove — naturdokumentar med 1,5 mio. i bistandspulje.',
+    href: '#/sag/blackfish-mille',
+    tag: 'OpEn',
   },
 ];
 

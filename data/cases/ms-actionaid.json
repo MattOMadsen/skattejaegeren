@@ -1,0 +1,56 @@
+{
+  "slug": "ms-actionaid",
+  "title": "MS ActionAid: 129 mio. kr./år + aktindsigt om valg-påvirkning",
+  "status": "approved",
+  "priority": 2,
+  "tags": [
+    "danida",
+    "ms",
+    "actionaid",
+    "statsstyret",
+    "aktindsigt"
+  ],
+  "amountDkk": 129000000,
+  "amountLabel": "129 mio. kr./år",
+  "amountKind": "official",
+  "summary": "MS ActionAid: 129 mio. kr./år (UM). Egen 2025-rapport: 150 mio. total, kun 58% til partnere, 16% HQ DK. UM-sag om 627k uregelmæssigheder i Uganda. Youth/climate/democracy-fokus.",
+  "angle": "Skatteyderen betaler for en dansk NGO, der er del af et internationalt ActionAid-netværk med eksplicit politiske mål. Det er ikke madpakker — det er magt og mobilisering.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: 129 mio. er official — indholdet er politisk",
+    "body": [
+      "**UM:** MS ActionAid får **129 mio. kr. årligt** i strategisk partnerskab (2022–2026-tabel).",
+      "**MS egen SPA-rapport 2025:** Samlet grant income **151,47 mio.** (SPA + top-ups), forbrug **149,97 mio.** (99% spend). Fordeling: **58%** transfer til partnere (87,2 mio.), **16%** HQ program/support i DK (24,5 mio.), **14%** non-HQ program/support, **7%** Global Entity, **3%** ActionAid International, **2%** IPE (Information & Public Engagement, 2,7 mio.).",
+      "**Tre strategiske mål:** Democracy Delivers, Climate Justice (46% af outcome-resultater), Youth in Crises (humanitær reach 447.706 i 2025). 16 SPA-lande + Global Platforms i 36 lande.",
+      "**UM C-sag C1975 (jul 2025):** AADK sendte **4,7 mio.** til ActionAid Uganda i 2024. Whistleblower + forensic audit: ineligible salary increases / per diem — **627.452 kr.** under mistanke, tilbagebetaling krævet. Country Director suspended.",
+      "Statsstyrets aktindsigt om valg-påvirkning og Baronens kritik af politisk mobilisering skal læses sammen med denne budget-split: store midler til youth/climate/democracy-apparatet, ikke kun humanitær felt-hjælp."
+    ],
+    "sources": [
+      {
+        "title": "UM partnerskabstabel — 129 mio.",
+        "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+        "kind": "official"
+      },
+      {
+        "title": "MS: Danida SPA Results 2025 (PDF)",
+        "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
+        "kind": "official"
+      },
+      {
+        "title": "UM C1975 Uganda uregelmæssigheder",
+        "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
+        "kind": "official"
+      },
+      {
+        "title": "Statsstyret aktindsigt MS",
+        "url": "https://x.com/Statsstyret/status/1888511754260394004",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "1888511754260394004",
+    "2086920527436730876",
+    "2079270077728248030"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ngo-miniserie",
+  "title": "NGO-mini-serie: Ghana, DEI, trans-aktivisme m.m.",
+  "status": "approved",
+  "priority": 4,
+  "tags": [
+    "danida",
+    "ngo",
+    "baronen",
+    "claim"
+  ],
+  "amountDkk": 28700000,
+  "amountLabel": "≥28,7 mio. kr. (sum af claims)",
+  "amountKind": "claim",
+  "summary": "Baronens serie om konkrete NGO-bevillinger via Danida/CISU: Ghana Venskab, 100% for Børnene, Female Freedom, Crossing Borders, Colombia Solidaritet m.fl. Beløb er claims fra research-opslag — skal matchés med CISU/Danida-bevillingslister.",
+  "angle": "Når man åbner regnskaberne, er det ikke abstrakt 'bistand' — det er navngivne projekter med ideologisk indhold.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: Hvad Baronen har peget på (under verifikation)",
+    "body": [
+      "Ifølge Baronens opsummering (jul. 2026, henvisning til dec. 2025-serie):",
+      "• **Ghana Venskab** — ca. 11 mio. kr. (DEI, klima, empowerment i Ghana)",
+      "• **100% for Børnene** — ca. 3,5 mio. kr. (politisk aktivisme i Ghana, Kenya, Ukraine)",
+      "• **Female Freedom** — ca. 1,2 mio. kr. (trans/pro-kommunistisk/anti-kapitalistisk aktivisme i Sydafrika)",
+      "• **Crossing Borders** — ca. 9 mio. kr. (DEI i DK, Indien, Afrika)",
+      "• **Colombia Solidaritet** — ca. 4 mio. kr. ('far left' propaganda i Colombia)",
+      "Summen af disse claims ≈ **28,7 mio. kr.** — kun et udsnit. Næste skridt for Skattejægeren: matche hvert tal med CISU-bevillingsarkiv / OpenAid / aktindsigt.",
+      "Status: **manuel godkendelse** af påstande; vi publicerer claims som claims, ikke som facit."
+    ],
+    "sources": [
+      {
+        "title": "Baronen: NGO-mini-serie opsummering (X)",
+        "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+        "kind": "research"
+      },
+      {
+        "title": "CISU funding (til verifikation)",
+        "url": "https://cisu.dk/en/funding/civil-society-fund/",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2083221437041479686",
+    "2002304077615759548"
+  ]
+}

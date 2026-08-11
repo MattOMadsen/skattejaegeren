@@ -1,0 +1,45 @@
+{
+  "slug": "barnevogn-og-prioritering",
+  "title": "Barnevognsmarch vs. livsnødvendig creme",
+  "status": "approved",
+  "priority": 0,
+  "tags": [
+    "open",
+    "sexogsamfund",
+    "prioritering",
+    "baronen",
+    "verificeret"
+  ],
+  "amountDkk": 1498642,
+  "amountLabel": "1.498.642 kr. (OpEn)",
+  "amountKind": "official",
+  "summary": "VERIFICERET CISU: Sex & Samfund fik 1.498.642 kr. fra OpEn til barnevognsmarch 2025/2026 (samlet budget 2,2 mio.). Baronens ~1,5 mio. holder. Samme debattråd: Magnus i Struer nægtes ca. 60.000 kr./år til lægeordineret creme.",
+  "angle": "Hvis velfærdsstaten ‘ikke har råd’ til 60.000 hjemme, men har råd til 1,5 mio. til marches, er det et politisk valg — ikke naturlov.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: Fra claim til officiel bevilling",
+    "body": [
+      "**CISU/OpEn bekræfter:** Projektet *Barnevognsmarch: Gå for verdens mødre på mors dag 2025/2026* — bevilget **1.498.642 kr.**, samlet budget 2.198.642 kr., organisation Sex & Samfund.",
+      "Formål i den officielle tekst: marches i hele landet, så flere (især forældre) kender til global mødredødelighed. Det er **oplysning i Danmark**, ikke medicin i feltet.",
+      "Martin Ågerup / Skattebetalerne: **Magnus** nægtes ca. **60.000 kr./år** til creme i Struer. Baronens kontrast står stadig — nu med hård CISU-kilde bag march-beløbet.",
+      "Kildesti: Baronen peget → vi matchede CISU-id `0edadb48-…` → beløb låst som **officiel**."
+    ],
+    "sources": [
+      {
+        "title": "CISU bevilling 1.498.642 kr.",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d",
+        "kind": "official"
+      },
+      {
+        "title": "Baronen: Magnus vs barnevogn",
+        "url": "https://x.com/oresundsbaron/status/2082152856606384234",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2082152856606384234",
+    "2080533439967895599",
+    "2082341720243495390"
+  ]
+}

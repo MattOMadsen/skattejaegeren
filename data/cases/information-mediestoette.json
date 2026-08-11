@@ -1,0 +1,34 @@
+{
+  "slug": "information-mediestoette",
+  "title": "Information: 22,5 mio. kr. i mediestøtte",
+  "status": "approved",
+  "priority": 7,
+  "tags": [
+    "medier",
+    "mediestøtte",
+    "baronen"
+  ],
+  "amountDkk": 22500000,
+  "amountLabel": "22,5 mio. kr. (2026, claim)",
+  "amountKind": "claim",
+  "summary": "Baronen: Information har fået 22,5 mio. i 2026 — næsten dobbelt op ift. loft for andre landsdækkende medier (12,5 mio.) pga. særregler for mindre landsdækkende.",
+  "angle": "Særregler til venstreorienterede medier er også skattepolitik.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: Mediestøtte som politisk skævhed?",
+    "body": [
+      "Påstand fra Baronen (aug. 2026): **22,5 mio. kr.** til Information i 2026 vs. øvre grænse **12,5 mio.** for andre landsdækkende — via særregler for 'mindre landsdækkende'.",
+      "Beløbet er **claim** indtil vi har indsat det officielle mediestøtte-regnskab for 2026. Sagen er relevant for Skattejægeren, fordi den viser **hvordan regler skrues**, ikke kun om man får støtte."
+    ],
+    "sources": [
+      {
+        "title": "Baronen: Information 22,5 mio. (X)",
+        "url": "https://x.com/oresundsbaron/status/2086361841295667262",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2086361841295667262"
+  ]
+}

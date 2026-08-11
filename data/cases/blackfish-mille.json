@@ -1,0 +1,35 @@
+{
+  "slug": "blackfish-mille",
+  "title": "Blackfish: 1,5 mio. OpEn til DR1-naturdokumentar",
+  "status": "approved",
+  "priority": 3,
+  "tags": [
+    "open",
+    "cisu",
+    "medier",
+    "official"
+  ],
+  "amountDkk": 1500000,
+  "amountLabel": "1.500.000 kr. (OpEn)",
+  "amountKind": "official",
+  "summary": "Blackfish fik 1,5 mio. kr. fra OpEn til 'Mille og Verdens skove' — afsnit 2 i en naturdokumentarserie til DR1. Samlet budget 2,35 mio. Formål: klima, truede arter og 'bæredygtig handling' hos nye generationer, med tråde til danske projekter.",
+  "angle": "Skattekroner til TV-produktion i DR-regi via OpEn — oplysning/engagement, ikke felt-nødhjælp.",
+  "depth": {
+    "status": "approved",
+    "headline": "1,5 mio. til dokumentar på DR1",
+    "body": [
+      "**Bevilling:** 1.500.000 kr. · **budget:** 2.350.000 kr. · pulje: **OpEn**.",
+      "**Indhold:** Afsnit 2 i serie; første afsnit *Mille og Verdenshavene* fondsstøttet 2023, vist på DR1 2024. Fokus: klimaforandringer, truede arter, opvarmede oceaner, løsningsorienterede projekter med tråde til Danmark.",
+      "**Mål:** inspirere 'nye generationer og deres familier' til bæredygtig handling.",
+      "**Vinkel:** Samme mønster som BIO RAP / barnevogn: OpEn finansierer **dansk formidling** i stor skala. Spørgsmål: er DR1-dokumentar det bedste brug af udviklingsbistandspenge?"
+    ],
+    "sources": [
+      {
+        "title": "CISU: Mille og Verdens skove (1.500.000 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=517121a1-b278-4574-9d5c-e37eeb469fa3",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": []
+}

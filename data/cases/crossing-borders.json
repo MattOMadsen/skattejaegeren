@@ -1,0 +1,49 @@
+{
+  "slug": "crossing-borders",
+  "title": "Crossing Borders — CISU/Danida som funding partner",
+  "status": "approved",
+  "priority": 5,
+  "tags": [
+    "cisu",
+    "danida",
+    "baronen"
+  ],
+  "amountDkk": 9000000,
+  "amountLabel": "~9 mio. (Baronen claim — under verifikation)",
+  "amountKind": "claim",
+  "summary": "Annual Report 2023 bekræfter Danida Civil Society Fund (CISU) som main funding partner (sammen med New Democracy Fund, EU, Anna Lindh m.fl.). Org skriver selv, at de kæmper med at diversificere væk fra public funding. Kun 10.000 kr. under org-navn i vores CISU-index — større midler ligger under projekttitler/andre kanaler. Baronens ~9 mio. forbliver claim indtil fuld sum.",
+  "angle": "Org lever af offentlige midler til «dialog» og youth — vi vil se den fulde regning.",
+  "depth": {
+    "status": "approved",
+    "headline": "Dybde: funding partners bekræftet, total mangler",
+    "body": [
+      "**Årsrapport 2023 (PDF, 20 sider):** narrativ/impact-rapport — **ingen fuld resultatopgørelse** med indtægter i alt. Bekræfter dog funding partners eksplicit.",
+      "**Citat funding:** main funding partners = **Danida Civil Society Fund (CISU)**, New Democracy Fund, various EU, Anna Lindh Foundation. Plus membership, donations, Culture Council, BUPL solidarity fund.",
+      "**Afhængighed:** org skriver, at de kæmper for «sufficient and stable funding» og vil diversificere væk fra ensidig public funding.",
+      "**CISU-index:** kun **10.000 kr.** under org-navn (Council of All Beings / Folkemøde). Større midler har andre projekttitler eller kanaler (EU, NDF).",
+      "**CVR 32166121**, forening. Adresse: Søtorvet 5 / Nørre Allé 7, Kbh.",
+      "**Baronen ~9 mio.:** forbliver **claim** indtil vi har årsregnskab med beløb eller fuld CISU/UM-liste (aktindsigt A5).",
+      "**Grave-status:** næste er at hente regnskabsbilag fra virk.dk/proff (kvote/login) eller bede org/UM om bevillingsoversigt."
+    ],
+    "sources": [
+      {
+        "title": "Crossing Borders Annual Report 2023",
+        "url": "https://crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
+        "kind": "org"
+      },
+      {
+        "title": "Crossing Borders website",
+        "url": "https://crossingborders.dk/",
+        "kind": "org"
+      },
+      {
+        "title": "Proff CVR 32166121",
+        "url": "https://www.proff.dk/firma/crossing-borders/-/-/32166121",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2083221437041479686"
+  ]
+}

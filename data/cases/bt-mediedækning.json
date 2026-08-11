@@ -1,0 +1,51 @@
+{
+  "slug": "bt-mediedækning",
+  "title": "BT & Borgerlig Tabloid: tallene i mainstream",
+  "status": "approved",
+  "priority": 0,
+  "tags": [
+    "medier",
+    "baronen",
+    "bt",
+    "validering"
+  ],
+  "amountDkk": 23200000000,
+  "amountLabel": "ca. 23 mia. (ramme i podcast)",
+  "amountKind": "reported",
+  "summary": "3. aug. 2026: Baronen gæster BT’s podcast Borgerlig Tabloid med Joachim B. Olsen. Promotekst bruger «næsten 23 mia.» og sammenligner med uddannelse og politi. BT-chefredaktør har forsvaret interviewet. Kritikere angreb anonymitet men noterede at eksemplerne er offentligt tilgængelige — hvilket matcher vores CISU/UM-verifikation.",
+  "angle": "Mediedækning er ikke facit — men det er et gennembrud: debatten er ude af X-boblen. Vi holder stadig krav om officielle kilder på hvert beløb.",
+  "depth": {
+    "status": "approved",
+    "headline": "Hvad kan vi sige præcist?",
+    "body": [
+      "**Fakta:** BT publicerede podcast-afsnittet *Baronen af Øresund: Hvor mange mennesker redder de ved at gå en tur!?* (3. aug. 2026). Vært: Joachim B. Olsen. Journalister: Maria Asmine Dam og Emilie Maja Jeppesen.",
+      "**Promotekst (BT):** «Næsten 23 milliarder kroner» i udviklingsbistand om året — «langt mere end vi bruger på videregående uddannelser» og «mere end vi bruger på politiet». Gæsten har kigget på konkrete bistandsprojekter.",
+      "**X-opslag:** https://x.com/oresundsbaron/status/2084253347566031129 — video/podcast-promo (~32 min / længere video-upload).",
+      "**BT’s forsvar:** Baronen skriver 11. aug. at chefredaktør Simon Richard og BT har holdt stand imod pres; interview inden for etiske retningslinjer.",
+      "**Kritik:** Enhedslistens strategichef i Altinget kalder det lavpunkt pga. anonymitet — men skriver eksplicit at Baronen havde «eksempler med i studiet, som alle sammen ligger offentligt tilgængeligt». Det understøtter at kilderne er verificerbare.",
+      "**Vores linje:** Vi behandler BT som **medieplatform og social validering**, ikke som erstatning for CISU/UM. De konkrete tal vi har låst (barnevogn, BIO RAP, kaffestop, partnerskaber) står på officielle sider uafhængigt af podcasten."
+    ],
+    "sources": [
+      {
+        "title": "X: interview-post",
+        "url": "https://x.com/oresundsbaron/status/2084253347566031129",
+        "kind": "research"
+      },
+      {
+        "title": "BT podcast episode",
+        "url": "https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur",
+        "kind": "media"
+      },
+      {
+        "title": "Altinget kritik (EL)",
+        "url": "https://www.altinget.dk/artikel/strategichef-bt-naar-eklatant-lavpunkt-naar-de-promoverer-anonym-hoejreekstrem-og-antidemokratisk-kilde",
+        "kind": "media"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2084253347566031129",
+    "2087071522234007835",
+    "2086920527436730876"
+  ]
+}

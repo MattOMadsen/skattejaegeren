@@ -1,0 +1,35 @@
+{
+  "slug": "dreamtown-metropolis",
+  "title": "Dreamtown: 1,5 mio. OpEn til Metropolis i København",
+  "status": "approved",
+  "priority": 4,
+  "tags": [
+    "open",
+    "cisu",
+    "ungdom",
+    "official"
+  ],
+  "amountDkk": 1499867,
+  "amountLabel": "1.499.867 kr. (OpEn)",
+  "amountKind": "official",
+  "summary": "Dreamtown fik 1.499.867 kr. til Metropolis — interaktivt engagementsunivers om bæredygtig byudvikling og verdensmål i Københavns gader. 196 elever + 14 lærere co-designer stationer; udbredelse til 7 gymnasier.",
+  "angle": "Endnu et OpEn-projekt hvor 'udvikling' primært er unges oplevelser i København.",
+  "depth": {
+    "status": "approved",
+    "headline": "Verdensmål i Københavns gader",
+    "body": [
+      "**Bevilling:** 1.499.867 kr. · **OpEn**.",
+      "**Produkt:** Metropolis — interaktivt engagementsunivers; 5 nye + i alt 12 verdensmålsstationer; website; 7 gymnasier i København.",
+      "**Dreamtown i sample:** også Gatekeepers (~1,5 mio.) og Roskilde Festival-post (~196k) — org er stor OpEn-spiller.",
+      "**Vinkel:** Engagement i DK kan være fint — men det er værd at tælle hvor stor en andel af 'bistand' der aldrig forlader København."
+    ],
+    "sources": [
+      {
+        "title": "CISU: Metropolis",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=c5c8dacb-83f1-47d3-9f36-535941784475",
+        "kind": "official"
+      }
+    ]
+  },
+  "relatedPosts": []
+}

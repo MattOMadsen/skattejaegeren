@@ -1,0 +1,42 @@
+{
+  "slug": "ghana-venskab",
+  "title": "Ghana Venskab: >11 mio. omsætning (Danida/CISU)",
+  "status": "approved",
+  "priority": 4,
+  "tags": [
+    "danida",
+    "cisu",
+    "ghana",
+    "baronen"
+  ],
+  "amountDkk": 11000000,
+  "amountLabel": "~10–11 mio. (regnskab 2021 + org)",
+  "amountKind": "reported",
+  "summary": "CVR 10021979. Årsrapport 2021: indtægter ca. 10,1 mio., heraf CISU-program ca. 9,8 mio. Org selv: >11 mio. årlig omsætning. Matcher Baronens ~11 mio.-niveau. Empowerment for Life 2024–2027.",
+  "angle": "Når org selv siger 11+ mio. og Danida/CISU, er det ikke «småpenge». Vi vil have kvitteringerne via UM.",
+  "depth": {
+    "status": "approved",
+    "headline": "Hvad vi ved — og hvad aktindsigt skal lukke",
+    "body": [
+      "**Org-egen side (ghanavenskab.dk):** finansiering fra Danida, CISU, fonde og private; **årlig omsætning mere end 11 millioner kroner**.",
+      "**Program:** Empowerment for Life (E4L) 5. fase 2024–2027 med fire ghanesiske partnere (GDCA, School for Life, YEfL-Ghana, CLIP). Fokus: uddannelse, køn, klimatilpasning, entreprenørskab, demokratisk deltagelse.",
+      "**CISU-index:** ingen titel der hedder «Ghana Venskab» blandt 3.288 poster — bevillinger kan ligge under programnavne (E4L) eller via andre mekanismer.",
+      "**Næste:** Aktindsigt A4 til UM om alle bevillinger 2020–2026."
+    ],
+    "sources": [
+      {
+        "title": "Ghana Venskab — Vores arbejde",
+        "url": "https://www.ghanavenskab.dk/voresarbejde",
+        "kind": "org"
+      },
+      {
+        "title": "Aktindsigt A4 (planlagt)",
+        "url": "https://github.com/MattOMadsen/skattejaegeren/blob/main/data/aktindsigt/templates/A4-um-ghana-venskab.md",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2083221437041479686"
+  ]
+}
