@@ -660,7 +660,11 @@ function renderProjects(d) {
     ${subnavUdforsk('projekter')}
     <section class="hero hero-tight">
       <h1>Projekter</h1>
-      <p>${projects.length} poster. Søg og filtrer.</p>
+      <p>
+        ${projects.length} uddybede poster (dansk tekst, kilder, hjemme-sammenligning).
+        Rå CISU-lister: <a href="#/open">OpEn-katalog</a> ·
+        <a href="#/indsigt">Svært at forklare</a>.
+      </p>
     </section>
     ${filterBar('Søg projekter, org, land…')}
   `;
@@ -671,34 +675,62 @@ function renderProject(d, id) {
   if (!p) {
     return `<a class="back" href="#/projekter">← Projekter</a><p class="error">Projekt ikke fundet.</p>`;
   }
+  // Merge case text if linked and project is thin
+  const linked = p.caseSlug ? d.cases.cases.find((c) => c.slug === p.caseSlug) : null;
+  const home = p.homeCompare?.text || linked?.homeCompare?.text;
+  const lead = p.plainLead || linked?.plainLead || p.whatFor;
+  const what = p.whatFor || linked?.whatMoneyFor;
+  const angle = p.angle || linked?.angle;
   return `
     <a class="back" href="#/projekter">← Projekter</a>
     <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.35rem;align-items:center">
       ${badge(p.amountKind)}
+      ${p.profile ? `<span class="badge warn">${esc(p.profile)}</span>` : ''}
     </div>
     <h1 style="margin:0;font-size:clamp(1.5rem,3.5vw,2rem);letter-spacing:-.03em">${esc(p.title)}</h1>
     <p class="detail-amt">${esc(p.amountDkk ? fmtKr(p.amountDkk) : p.amountNote || '—')}</p>
-    ${shareBlock(p.title, `#/projekt/${p.id}`)}
+    ${shareBlock(p.title, `#/projekt/${p.id}`, { print: true })}
+    <p class="print-only-note">Skattejægeren — projekt · ${esc(p.title)}</p>
+
+    <div class="panel lead-panel">
+      <h2>Kort fortalt</h2>
+      <p class="lead-text">${rich(lead)}</p>
+    </div>
 
     <div class="panel">
       <h2>Fakta</h2>
       <div class="kv">
-        <div class="kv-row"><span>Org</span><div>${esc(p.org)}</div></div>
-        <div class="kv-row"><span>Pulje</span><div>${esc(p.pool)}</div></div>
-        <div class="kv-row"><span>Land</span><div>${esc(p.country || '—')}</div></div>
+        <div class="kv-row"><span>Organisation</span><div>${esc(p.org)}</div></div>
+        <div class="kv-row"><span>Pulje / ramme</span><div>${esc(p.pool)}</div></div>
+        <div class="kv-row"><span>Land / område</span><div>${esc(p.country || '—')}</div></div>
         ${p.period ? `<div class="kv-row"><span>Periode</span><div>${esc(p.period)}</div></div>` : ''}
-        <div class="kv-row"><span>Research</span><div>${esc((p.researchers || []).map((r) => '@' + r).join(', ') || '—')}</div></div>
+        ${p.profile ? `<div class="kv-row"><span>Profil</span><div>${esc(p.profile)}</div></div>` : ''}
+        ${
+          (p.researchers || []).length
+            ? `<div class="kv-row"><span>Research</span><div>${esc(p.researchers.map((r) => '@' + r).join(', '))}</div></div>`
+            : ''
+        }
       </div>
     </div>
 
     <div class="panel">
-      <h2>Hvad gik pengene til?</h2>
-      <p>${esc(p.whatFor)}</p>
+      <h2>Hvad går pengene til?</h2>
+      <p>${rich(what)}</p>
     </div>
 
+    ${
+      home
+        ? `<div class="panel home-compare">
+            <h2>Hvad kunne det være herhjemme?</h2>
+            <p>${rich(home)}</p>
+            <p class="muted" style="margin-top:.5rem">Grovte regnestykker til prioritering — ikke budgetlov.</p>
+          </div>`
+        : ''
+    }
+
     <div class="panel">
-      <h2>Vinkel</h2>
-      <p>${esc(p.angle)}</p>
+      <h2>Vores vinkel</h2>
+      <p>${rich(angle)}</p>
     </div>
 
     <div class="panel">
@@ -707,15 +739,20 @@ function renderProject(d, id) {
         ${(p.sources || [])
           .map(
             (s) =>
-              `<li>${badge(s.kind === 'official' ? 'official' : 'claim')}
+              `<li>${badge(s.kind === 'official' || s.kind === 'org' ? 'official' : 'claim')}
               <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></li>`
           )
           .join('')}
       </ul>
+      ${
+        !p.sources?.length
+          ? '<p class="muted">Ingen kilder angivet — tilføj i data/projects.json.</p>'
+          : ''
+      }
     </div>
     ${
       p.caseSlug
-        ? `<p style="margin-top:1rem"><a href="#/sag/${esc(p.caseSlug)}">Åbn sagsmappe →</a></p>`
+        ? `<p style="margin-top:1.25rem"><a class="btn btn-primary" href="#/sag/${esc(p.caseSlug)}">Åbn fuld sagsmappe →</a></p>`
         : ''
     }
   `;
