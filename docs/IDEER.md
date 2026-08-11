@@ -69,12 +69,11 @@ data/cases/<slug>.json    ← ÉN fil pr. sag (udvid depth.body her)
 
 Appen loader alle sager via `loadCases()`. `data/cases.json` er kun en pegepind.
 
-## Næste prioritet (forslag)
+## Næste prioritet
 
-1. Crossing Borders — **årsregnskab med kronebeløb** (virk/revisor; AR er kun narrative)  
-2. 100% for Børnene — fuld årsrapport (site WAF-blokeret for bot)  
-3. Flere SPA-regnskaber  
-4. Aktindsigt — **venter** på automatisk mailløsning (bruger)  
-5. Idé 10 — RSS  
+**Se `docs/NAESTE-GANG.md`** (opdateret ved pause 2026-08-11).
+
+Kort: Crossing Borders 9 mio. · Colombia CISU · 100% regnskab · spareplaner · flagskibe klar til deling senere. Mail/deling på pause.  
+
 
 
