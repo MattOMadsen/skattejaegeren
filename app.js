@@ -297,6 +297,7 @@ async function loadAll() {
       borgerjournalisten,
       homeShortage,
       absurdOpen,
+      absurdCivil,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -316,6 +317,7 @@ async function loadAll() {
       fetchJson('data/borgerjournalisten.json').catch(() => null),
       fetchJson('data/home-shortage.json').catch(() => null),
       fetchJson('data/absurd-open.json').catch(() => null),
+      fetchJson('data/absurd-civil.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -337,6 +339,7 @@ async function loadAll() {
       borgerjournalisten,
       homeShortage,
       absurdOpen,
+      absurdCivil,
     };
     return cache;
   } catch (e) {
@@ -457,34 +460,43 @@ function renderHomeVsAway(d, opts = {}) {
     }`;
 }
 
-function renderAbsurd(d, limit) {
-  const ab = d.absurdOpen;
+function renderGrantGallery(ab, opts = {}) {
   if (!ab?.items?.length) return '';
+  const { limit, id = 'absurd', cardClass = 'absurd-card' } = opts;
   const items = limit ? ab.items.slice(0, limit) : ab.items;
+  const sumNote =
+    ab.sumDkk != null
+      ? ` · sum ca. ${fmtShort(ab.sumDkk)} kr. i listen`
+      : '';
   return `
-    <div class="section-head" id="absurd">
-      <h2>${esc(ab.headline || 'Svært at forklare')}</h2>
-      ${limit ? '<a href="#/indsigt">Alle →</a>' : ''}
+    <div class="section-head" id="${esc(id)}">
+      <h2>${esc(ab.headline || 'Bevillinger')}</h2>
+      ${limit ? `<a href="#/indsigt">Alle ${ab.count || items.length} →</a>` : ''}
     </div>
-    <p class="muted section-lead">${esc(ab.intro || '')}</p>
+    <p class="muted section-lead">${esc(ab.intro || '')}${limit ? sumNote : ''}</p>
     <div class="grid cols-2 absurd-grid">
       ${items
         .map(
           (it) => `
-        <article class="card absurd-card">
+        <article class="card ${cardClass}">
           <div class="card-top">
-            <span class="badge hot">${esc(it.tag || 'OpEn')}</span>
+            <span class="badge hot">${esc(it.tag || it.pool || 'CISU')}</span>
             <span class="amt">${esc(fmtShort(it.amountDkk))}</span>
           </div>
           <h3>${esc(it.title)}</h3>
-          <p class="meta">${esc(it.org || '')}</p>
+          <p class="meta">${esc(it.org || '')}${it.pool ? ' · ' + esc(it.pool) : ''}</p>
           <p class="blurb">${esc(it.plain)}</p>
           <p class="home-hit"><strong>Herhjemme:</strong> ${esc(it.homeHit || '')}</p>
           <p class="meta">
             ${
+              it.caseSlug
+                ? `<a href="#/sag/${esc(it.caseSlug)}">Sag →</a> · `
+                : ''
+            }
+            ${
               it.url?.startsWith('#')
-                ? `<a href="${esc(it.url)}">Åbn sag →</a>`
-                : `<a href="${esc(it.url)}" target="_blank" rel="noopener">CISU-bevilling ↗</a>`
+                ? `<a href="${esc(it.url)}">Åbn →</a>`
+                : `<a href="${esc(it.url)}" target="_blank" rel="noopener">CISU ↗</a>`
             }
           </p>
         </article>`
@@ -493,6 +505,14 @@ function renderAbsurd(d, limit) {
     </div>
     ${!limit ? `<p class="muted" style="margin-top:1rem">${esc(ab.disclaimer || '')}</p>` : ''}
   `;
+}
+
+function renderAbsurd(d, limit) {
+  return renderGrantGallery(d.absurdOpen, { limit, id: 'absurd', cardClass: 'absurd-card' });
+}
+
+function renderCivil(d, limit) {
+  return renderGrantGallery(d.absurdCivil, { limit, id: 'civil', cardClass: 'civil-card' });
 }
 
 function renderHome(d) {
@@ -528,7 +548,8 @@ function renderHome(d) {
     </div>
 
     ${renderHomeVsAway(d, { full: false })}
-    ${renderAbsurd(d, 6)}
+    ${renderAbsurd(d, 4)}
+    ${renderCivil(d, 4)}
 
     <div class="home-links">
       <a class="btn btn-primary" href="#/indsigt">Fuld oversigt</a>
@@ -1161,14 +1182,16 @@ function renderIndsigt(d) {
 
     <nav class="page-jump" aria-label="Hop på siden">
       <button type="button" data-jump="hjemme">1. Hjemme vs. ude</button>
-      <button type="button" data-jump="absurd">2. Svært at forklare</button>
-      <button type="button" data-jump="farve">3. Hvem får?</button>
-      <button type="button" data-jump="budget">4. MS &amp; Oxfam</button>
+      <button type="button" data-jump="absurd">2. OpEn (DK)</button>
+      <button type="button" data-jump="civil">3. Civilsamfund</button>
+      <button type="button" data-jump="farve">4. Hvem får?</button>
+      <button type="button" data-jump="budget">5. MS &amp; Oxfam</button>
       <a href="#/sager">Sager →</a>
     </nav>
 
     ${renderHomeVsAway(d, { full: true })}
     ${renderAbsurd(d)}
+    ${renderCivil(d)}
 
     ${
       ori
