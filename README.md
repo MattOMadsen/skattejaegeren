@@ -1,17 +1,15 @@
 # Skattejægeren
 
-Borgerlig tracker af **ulandsbistand, Danida, puljer og statsstøtte**.
+Borgerlig tracker: **danske skattekroner** i ulandsbistand, Danida, OpEn og NGO-partnerskaber.
+
+Linje: **danskerne først** — imod meningsløs venstrefløjs-/LGBTQ+-eksport med skattekroner, mens skoler og ældre skæres.  
+Driver: [@MattieDanmark](https://x.com/MattieDanmark).
 
 - Live: **https://mattomadsen.github.io/skattejaegeren/**
-- Sager: **én JSON-fil pr. sag** i `data/cases/<slug>.json` (+ `data/cases/index.json`)
-- Plan: [PLAN.md](./PLAN.md)
-- Data: `data/cases.json`, `data/posts.json`
+- Sager: `data/cases/<slug>.json` (+ `index.json`)
 
-Primær start: [@oresundsbaron](https://x.com/oresundsbaron).  
-Supplerende: [@Statsstyret](https://x.com/Statsstyret) (aktindsigt MS).  
-Flere kilder (MikeHunt-handle, Facebook …) i `data/sources-queue.json`.
-
-**Ikke** en officiel side for nogen af kilderne. Dybde er manuelt godkendt. Claims vs. officielle tal er mærket i UI.
+Grave-kilder: [@oresundsbaron](https://x.com/oresundsbaron), [Borgerjournalisten](https://borgerjournalisten.dk/), CISU/UM/regnskaber.  
+**Ikke** officiel side for nogen af kilderne. Claims vs. officielle tal er mærket i UI.
 
 ## Lokalt
 
