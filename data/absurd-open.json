@@ -1,9 +1,19 @@
 {
   "updated": "2026-08-11",
   "headline": "Pengene der er sværest at forklare",
-  "intro": "OpEn er «oplysning i Danmark» med udviklingsbistand. Her er konkrete CISU-bevillinger, der især får folk til at spørge: er det det, bistand skal være?",
-  "disclaimer": "Beløb er officielle CISU-bevillinger. «Svært at forklare» er en prioriteringsvurdering — ikke en juridisk fejl.",
+  "intro": "OpEn er «oplysning i Danmark» betalt som udviklingsbistand. Her er 28 konkrete CISU-bevillinger (sum ca. 20.8 mio. kr. i denne liste), der især får folk til at spørge: er det det, bistand skal være?",
+  "disclaimer": "Beløb er officielle CISU-bevillinger. «Svært at forklare» er en prioriteringsvurdering — ikke en juridisk fejl. Flere er også omtalt hos Borgerjournalisten.dk.",
   "items": [
+    {
+      "id": "rapolitics",
+      "title": "Re:Act — rettigheder via hiphop",
+      "amountDkk": 1499682,
+      "org": "Rapolitics",
+      "plain": "Ca. 1,5 mio. kr. til at engagere danske unge i globale menneskerettigheder gennem hiphop.",
+      "homeHit": "Ca. 3 sygeplejerske-årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=6249a7be-876f-47f2-82e0-afc15040b8c6",
+      "tag": "OpEn · hiphop"
+    },
     {
       "id": "ballon-dor",
       "title": "Seriefodboldens Ballon d'Or",
@@ -15,24 +25,54 @@
       "tag": "OpEn · content"
     },
     {
-      "id": "braetspil-nepal",
-      "title": "Brætspil om Nepal på 6 efterskoler",
-      "amountDkk": 994395,
-      "org": "Skoleliv i Nepal",
-      "plain": "Næsten 1 mio. kr. til at 250 danske efterskoleelever udvikler brætspil om ungdomsliv i Nepal — afsluttes med brætspilsaften for forældre.",
-      "homeHit": "Ca. 2 sygeplejerske-årsværk til spilleaftener.",
-      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=1c7d35ea-49f9-49a4-b354-eb0220017a59",
+      "id": "verden-i-tingen",
+      "title": "Verden i tingen — undervisning om «ting»",
+      "amountDkk": 1499300,
+      "org": "Koncentrat ApS",
+      "plain": "Ca. 1,5 mio. kr. til undervisning om, hvordan menneskers relationer til konkrete ting forbinder verden. Skoleprojekt i Danmark.",
+      "homeHit": "Ca. 3 sygeplejerske-årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=e6ca8813-70c4-40cd-94fa-58a428c36dd2",
       "tag": "OpEn · skole"
     },
     {
-      "id": "kirkekaffe",
-      "title": "Hen hvor kirkekaffen gror",
-      "amountDkk": 199305,
-      "org": "café directo ApS RSV",
-      "plain": "Ca. 200.000 kr. til at fortælle kirkekaffedrikkere om sammenhængen mellem kirkekaffe og kaffeproducenter.",
-      "homeHit": "Ca. ⅓ sygeplejerske-årsværk.",
-      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f933d4e8-c388-4911-b123-005a1cddefb5",
-      "tag": "OpEn · kaffe"
+      "id": "gatekeepers-dreamtown",
+      "title": "Gatekeepers — lærere som engagement-vagter",
+      "amountDkk": 1497658,
+      "org": "Dreamtown",
+      "plain": "Ca. 1,5 mio. kr. til at skabe engagement blandt lærere og lærerstuderende om globalt engagement. Endnu et Dreamtown/OpEn-millionbeløb i det danske uddannelsessystem.",
+      "homeHit": "Ca. 3 årsværk — midler der kunne være flere lærere i klasserne.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=280e764b-be10-444b-bba9-c957521896d9",
+      "tag": "OpEn · lærere"
+    },
+    {
+      "id": "satire-radio-fant",
+      "title": "Satiriske radioreportager (r8Dio)",
+      "amountDkk": 1497173,
+      "org": "For a new tomorrow (FANT)",
+      "plain": "Ca. 1,5 mio. kr. til satiriske radioprogrammer og events for r8Dios lyttere — for at «nuancere» fortællinger og skabe engagement. Endnu et content-projekt til danske ører.",
+      "homeHit": "Ca. 3 sygeplejerske-årsværk til satire-radio.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=1f11a757-7dcc-4c2c-8d79-1c780113a554",
+      "tag": "OpEn · radio"
+    },
+    {
+      "id": "2-0-smaa",
+      "title": "2-0 til de små (dokumentar, Global Aktion)",
+      "amountDkk": 1487006,
+      "org": "Global Aktion",
+      "plain": "Ca. 1,5 mio. kr. til dokumentarfilm og engagement om klimakrise i internationalt perspektiv — til den danske befolkning. Global Aktions OpEn-spor.",
+      "homeHit": "Ca. 3 sygeplejerske-årsværk til en dokumentar-kampagne.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=d1ae403e-8379-47c3-88d1-524c708d8d83",
+      "tag": "OpEn · film"
+    },
+    {
+      "id": "go-zebra-nepal",
+      "title": "Hverdagsliv og handlekraft i Nepal (9–12 år)",
+      "amountDkk": 1428040,
+      "org": "Go Zebra",
+      "plain": "Ca. 1,4 mio. kr. til at engagere danske børn 9–12 år i globale problematikker via børns hverdag i Nepal. Undervisning/engagement i DK i stor skala.",
+      "homeHit": "Ca. 2–3 sygeplejerske-årsværk — eller flere voksne i SFO/skole.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=1200672c-6093-4945-8ec0-d5a08c2de498",
+      "tag": "OpEn · børn"
     },
     {
       "id": "the-kick",
@@ -55,34 +95,24 @@
       "tag": "OpEn · TV"
     },
     {
-      "id": "rapolitics",
-      "title": "Re:Act — rettigheder via hiphop",
-      "amountDkk": 1499682,
-      "org": "Rapolitics",
-      "plain": "Ca. 1,5 mio. kr. til at engagere danske unge i globale menneskerettigheder gennem hiphop.",
-      "homeHit": "Ca. 3 sygeplejerske-årsværk.",
-      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=6249a7be-876f-47f2-82e0-afc15040b8c6",
-      "tag": "OpEn · hiphop"
+      "id": "avatar-skove",
+      "title": "Avatar-eksperiment for regnskov-engagement",
+      "amountDkk": 1099845,
+      "org": "Verdens Skove",
+      "plain": "Ca. 1,1 mio. kr. til engagement inspireret af Avatar-filmen og computerspillet «Frontiers of Pandora». Oplysning til danskere via popkultur — ikke skovarbejde i felten alene.",
+      "homeHit": "Ca. 2 sygeplejerske-årsværk til film/spil-nudging.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=b0fa03d4-68ff-4514-a4d0-0d9f14675b83",
+      "tag": "OpEn · popkultur"
     },
     {
-      "id": "verden-i-tingen",
-      "title": "Verden i tingen — undervisning om «ting»",
-      "amountDkk": 1499300,
-      "org": "Koncentrat ApS",
-      "plain": "Ca. 1,5 mio. kr. til undervisning om, hvordan menneskers relationer til konkrete ting forbinder verden. Skoleprojekt i Danmark.",
-      "homeHit": "Ca. 3 sygeplejerske-årsværk.",
-      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=e6ca8813-70c4-40cd-94fa-58a428c36dd2",
-      "tag": "OpEn · skole"
-    },
-    {
-      "id": "afrobeats",
-      "title": "Afrobeats om postkolonialisme",
-      "amountDkk": 499879,
-      "org": "Schekhina",
-      "plain": "Ca. 500.000 kr. til undervisningsdokumentar om nigeriansk afrobeats som indgang til Europas præg på Afrika — til danske udskolingselever.",
-      "homeHit": "Ca. 1 sygeplejerske-årsværk.",
-      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=87aa2b33-0a17-485d-a522-5b39e3b1f50b",
-      "tag": "OpEn · musik"
+      "id": "cphdox-verden",
+      "title": "CPH:DOX — Verden i Danmark",
+      "amountDkk": 1023490,
+      "org": "CPH:DOX",
+      "plain": "Ca. 1 mio. kr. til dokumentar, debat og deltagelse på filmfestival — så danskere ikke bare ser film om verdensmål, men også «deltager». Festival-engagement som bistand.",
+      "homeHit": "Ca. 2 sygeplejerske-årsværk til festivalspor.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=4ff7b29b-fcad-4a0b-a17a-473f7db56f4b",
+      "tag": "OpEn · festival"
     },
     {
       "id": "klimahelt",
@@ -95,6 +125,96 @@
       "tag": "OpEn · klima"
     },
     {
+      "id": "braetspil-nepal",
+      "title": "Brætspil om Nepal på 6 efterskoler",
+      "amountDkk": 994395,
+      "org": "Skoleliv i Nepal",
+      "plain": "Næsten 1 mio. kr. til at 250 danske efterskoleelever udvikler brætspil om ungdomsliv i Nepal — afsluttes med brætspilsaften for forældre.",
+      "homeHit": "Ca. 2 sygeplejerske-årsværk til spilleaftener.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=1c7d35ea-49f9-49a4-b354-eb0220017a59",
+      "tag": "OpEn · skole"
+    },
+    {
+      "id": "skurvogn-sa",
+      "title": "Global skurvogn fra Sydafrika til Danmark",
+      "amountDkk": 499924,
+      "org": "Global Frame",
+      "plain": "Ca. 500.000 kr. til landsdækkende kampagne med skurvogn/byggeri-engagement baseret på Sydafrika-erfaringer — 100 bygninger nævnt i opskalering. Engagement i DK.",
+      "homeHit": "Ca. 1 sygeplejerske-årsværk til skurvognskampagne.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=eaa5ec13-2c02-483c-933d-23e7a825e88e",
+      "tag": "OpEn · kampagne"
+    },
+    {
+      "id": "afrobeats",
+      "title": "Afrobeats om postkolonialisme",
+      "amountDkk": 499879,
+      "org": "Schekhina",
+      "plain": "Ca. 500.000 kr. til undervisningsdokumentar om nigeriansk afrobeats som indgang til Europas præg på Afrika — til danske udskolingselever.",
+      "homeHit": "Ca. 1 sygeplejerske-årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=87aa2b33-0a17-485d-a522-5b39e3b1f50b",
+      "tag": "OpEn · musik"
+    },
+    {
+      "id": "musik-havet",
+      "title": "Musik for havet",
+      "amountDkk": 499821,
+      "org": "Gate To Nature",
+      "plain": "Ca. 500.000 kr. til at engagere «neutrale» danske unge om havmiljø via musiksamarbejde med indonesisk partner. Koncert/engagement, ikke kystsikring i DK.",
+      "homeHit": "Ca. 1 årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=580d9f5f-ad32-41fa-a6c2-1d8ae1679b3b",
+      "tag": "OpEn · musik"
+    },
+    {
+      "id": "kenya-jaegerspris",
+      "title": "Fra Kenya til Jægerspris — grøn gastronomi",
+      "amountDkk": 455032,
+      "org": "2030beyond",
+      "plain": "Ca. 455.000 kr. til at oplyse efterskoleelever og folkemødegæster via «køkkenfaglig bæredygtighed» og Kenya-kobling. Mad/gastronomi som bistandsoplysning i Danmark.",
+      "homeHit": "Ca. 0,8 sygeplejerske-årsværk til grøn mad-events.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=2c5d23e0-9f61-4f04-add4-2776b9889dd3",
+      "tag": "OpEn · mad"
+    },
+    {
+      "id": "omo-tiktok",
+      "title": "Børnene fra Omo-dalen på TikTok/Instagram",
+      "amountDkk": 199999,
+      "org": "MG Aventura",
+      "plain": "Ca. 200.000 kr. til pilot-dokumentarserie på TikTok og Instagram med børn i fokus. Sociale medier betalt som udviklingsbistand.",
+      "homeHit": "Ca. ⅓ årsværk til SoMe-pilot.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=d1cc2cd4-01e6-428b-b0b3-8f8a45094e13",
+      "tag": "OpEn · TikTok"
+    },
+    {
+      "id": "kirkekaffe",
+      "title": "Hen hvor kirkekaffen gror",
+      "amountDkk": 199305,
+      "org": "café directo ApS RSV",
+      "plain": "Ca. 200.000 kr. til at fortælle kirkekaffedrikkere om sammenhængen mellem kirkekaffe og kaffeproducenter.",
+      "homeHit": "Ca. ⅓ sygeplejerske-årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f933d4e8-c388-4911-b123-005a1cddefb5",
+      "tag": "OpEn · kaffe"
+    },
+    {
+      "id": "chokoladekrigen",
+      "title": "Chokoladekrigen — hvor kommer baren fra?",
+      "amountDkk": 198865,
+      "org": "made in copenhagen",
+      "plain": "Ca. 200.000 kr. til undervisningsmateriale om chokolade, børnearbejde og forsyningskæder for studerende. Vigtigt emne — stadig OpEn til dansk undervisning.",
+      "homeHit": "Ca. ⅓ årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=d06b298f-836d-4d9c-a474-eb7bd3af5ce6",
+      "tag": "OpEn · undervisning"
+    },
+    {
+      "id": "vegetar-inflation",
+      "title": "Verdensmålsmad i inflationstid",
+      "amountDkk": 179550,
+      "org": "Dansk Vegetarisk Forening",
+      "plain": "Ca. 180.000 kr. til formidling fra indiske landsbykøkkener om verdensmål og mad — til danskere i en inflationstid. Vegetarforening + bistandspulje.",
+      "homeHit": "Ca. ⅓ årsværk.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=22f11b83-130a-41df-9a7f-728cf40925fb",
+      "tag": "OpEn · mad"
+    },
+    {
       "id": "kaffestop",
       "title": "Kaffestop i Rwanda",
       "amountDkk": 149200,
@@ -104,6 +224,68 @@
       "url": "#/sag/kaffestop-rwanda",
       "tag": "OpEn · rejse",
       "caseSlug": "kaffestop-rwanda"
+    },
+    {
+      "id": "madkultur-indien",
+      "title": "Madkultur i Indien (5.–6. klasse)",
+      "amountDkk": 145963,
+      "org": "Helena Fuur Hansen",
+      "plain": "Ca. 146.000 kr. til at oplyse danske skoleelever om indisk madkultur, dabbawala-system og vegetarisk klima-vinkel. Borgerjournalisten har også peget på lignende sager.",
+      "homeHit": "Ca. ¼ årsværk til madkultur-forløb.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=dcac106b-ffbc-4610-8a77-8ddd11e33596",
+      "tag": "OpEn · skole"
+    },
+    {
+      "id": "podcast-fisk",
+      "title": "«Ikke flere fisk i havet»-podcast",
+      "amountDkk": 140680,
+      "org": "Videnskabsformidling v/Sofie Hjorth",
+      "plain": "Ca. 141.000 kr. til podcastserie om kollaps af fiskebestande, klima og forurening. Formidling til danskere.",
+      "homeHit": "Ca. 3 måneders sygeplejerskeløn til en podcastserie.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=7496016f-f4c9-4a5c-b7cd-527e34ae92c1",
+      "tag": "OpEn · podcast"
+    },
+    {
+      "id": "biophony-koncert",
+      "title": "BÆR BIOPHONY — koncertsal-nudging",
+      "amountDkk": 140000,
+      "org": "Remulus Entertainment ApS",
+      "plain": "140.000 kr. til forprojekt: kan en koncertoplevelse «nudge» neutrale danskere til at handle på klima/biodiversitet? Musik i salen, bistand på regningen.",
+      "homeHit": "Ca. 3 måneders sygeplejerskeløn til et forprojekt.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=21162d7b-e89d-440c-842a-7cf5e8e76960",
+      "tag": "OpEn · koncert"
+    },
+    {
+      "id": "lgbtiq-nepal-digital",
+      "title": "LGBTIQ+-rettigheder i Nepal (digitalt læringsmiddel)",
+      "amountDkk": 131150,
+      "org": "Helena Fuur Hansen",
+      "plain": "Ca. 131.000 kr. til digitalt læringsmiddel med ungemediet Seismo om LGBTIQ+ i Nepal — til unge i hele Danmark.",
+      "homeHit": "Ca. 2–3 måneders sygeplejerskeløn.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=70c2c521-2e73-489d-a0b9-e5971b9b53d7",
+      "tag": "OpEn · digitalt"
+    },
+    {
+      "id": "sangre-blanca",
+      "title": "Sangre Blanca — kokainens pris (foto)",
+      "amountDkk": 100000,
+      "org": "Mads Nissen",
+      "plain": "100.000 kr. til formidling om kokainforbrug i DK og prisen i Colombia. Relevant journalistik — stadig OpEn-midler til dansk formidling.",
+      "homeHit": "Ca. 2 måneders sygeplejerskeløn.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=4a951c4d-5fad-40af-85b1-ea64dfd0f78c",
+      "tag": "OpEn · foto"
+    },
+    {
+      "id": "amazonica-musik",
+      "title": "AMAZONICA — musik Nordjylland/Peru",
+      "amountDkk": 61050,
+      "org": "MMMusic",
+      "plain": "Ca. 61.000 kr. til musikprojekt på tværs af Danmark og Peru om kunst, bæredygtighed og unge i Nordjylland. Lille beløb, samme mønster: kultur som bistand.",
+      "homeHit": "Ca. 1 måneds sygeplejerskeløn.",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ed1b7cda-3d85-4efd-98e6-89217ae19cc7",
+      "tag": "OpEn · musik"
     }
-  ]
+  ],
+  "sumDkk": 20753858,
+  "count": 28
 }

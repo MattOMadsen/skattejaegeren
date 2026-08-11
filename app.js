@@ -368,9 +368,9 @@ const SHOCK = [
     tag: 'OpEn',
   },
   {
-    amt: '1,5 mio.',
-    title: 'Fodbold-satire til Mandsholdet',
-    text: 'Seriefodboldens Ballon d’Or — content til danske mænd, betalt som bistand.',
+    amt: '1,1 mio.',
+    title: 'Avatar-eksperiment for regnskov',
+    text: 'Verdens Skove: engagement inspireret af Avatar-film og -spil — OpEn.',
     href: '#/indsigt',
     tag: 'OpEn',
   },
@@ -528,7 +528,7 @@ function renderHome(d) {
     </div>
 
     ${renderHomeVsAway(d, { full: false })}
-    ${renderAbsurd(d, 4)}
+    ${renderAbsurd(d, 6)}
 
     <div class="home-links">
       <a class="btn btn-primary" href="#/indsigt">Fuld oversigt</a>
