@@ -1,9 +1,19 @@
 # Skattejægeren — plan (borgerlig vinkel)
 
-**Status:** Afventer godkendelse af plan før fuldt UI-design.  
-**Live (placeholder):** GitHub Pages efter deploy  
-**Inspirationskilde:** [@oresundsbaron](https://x.com/oresundsbaron) (ikke officiel side)  
+**Status:** Plan godkendt 2026-08-11 · v1 live med sager + manuel dybde  
+**Live:** https://mattomadsen.github.io/skattejaegeren/  
+**Inspirationskilde:** [@oresundsbaron](https://x.com/oresundsbaron) (+ [@Statsstyret](https://x.com/Statsstyret); flere kilder i kø)  
 **Repo:** `MattOMadsen/skattejaegeren`
+
+### Beslutninger (godkendt)
+
+| Spørgsmål | Svar |
+|-----------|------|
+| Navn | **Skattejægeren** |
+| Hosting nu | **GitHub Pages** (domæne senere) |
+| Kilder | Start **Baronen**; flere senere (X, FB …). Statsstyret allerede inde på MS. MikeHunt: handle skal bekræftes |
+| Publicering af dybde | **Manuel godkendelse** i starten |
+| Three.js | Diskret baggrund (penge-partikler) |
 
 ---
 

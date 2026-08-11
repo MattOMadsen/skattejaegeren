@@ -1,38 +1,20 @@
 # Skattejægeren
 
-Borgerlig tracker af **ulandsbistand og statens penge** — opslag, sagsmapper og automatisk dybde med primærkilder.
+Borgerlig tracker af **ulandsbistand, Danida, puljer og statsstøtte**.
 
-Inspireret af research fra [@oresundsbaron](https://x.com/oresundsbaron).  
-**Ikke** en officiel side for Baronen.
+- Live: **https://mattomadsen.github.io/skattejaegeren/**
+- Plan: [PLAN.md](./PLAN.md)
+- Data: `data/cases.json`, `data/posts.json`
 
-## Live
+Primær start: [@oresundsbaron](https://x.com/oresundsbaron).  
+Supplerende: [@Statsstyret](https://x.com/Statsstyret) (aktindsigt MS).  
+Flere kilder (MikeHunt-handle, Facebook …) i `data/sources-queue.json`.
 
-**GitHub Pages:** https://mattomadsen.github.io/skattejaegeren/
-
-*(Kan tage 1–2 minutter første gang Pages er tændt.)*
-
-## Plan
-
-Se **[PLAN.md](./PLAN.md)** — godkend før endeligt design.
-
-## Status
-
-| Trin | |
-|------|--|
-| Repo + Pages + placeholder | ✅ |
-| Plan | ✅ |
-| Design godkendt | ⏳ |
-| Sager + auto-pipeline | ⬜ |
+**Ikke** en officiel side for nogen af kilderne. Dybde er manuelt godkendt. Claims vs. officielle tal er mærket i UI.
 
 ## Lokalt
-
-Åbn `index.html` via en simpel server (ES modules):
 
 ```bash
 python3 -m http.server 8765
 # http://127.0.0.1:8765
 ```
-
-## Licens
-
-Indhold og kode under opbygning. Respektér X’s vilkår ved citat af opslag.

@@ -1,0 +1,28 @@
+{
+  "note": "Sekundære kilder — kø. Primær start: @oresundsbaron. Manuel godkendelse før dybde publiceres.",
+  "queue": [
+    {
+      "handle": "@Statsstyret",
+      "status": "partially_ingested",
+      "note": "Aktindsigt MS/ActionAid (feb 2025) er inde. Flere tråde kan scannes."
+    },
+    {
+      "handle": "MikeHunt",
+      "status": "needs_handle_confirm",
+      "note": "Bruger nævnte MikeHunt — præcis X-handle ikke entydigt fundet. Bekræft handle, så indlæses sager."
+    },
+    {
+      "platform": "Facebook",
+      "status": "queued",
+      "note": "Scan efter samme emner når X-basen er stabil."
+    },
+    {
+      "platform": "official",
+      "items": [
+        "Match NGO-mini-serie claims mod CISU bevillingslister",
+        "Mediestøtte-regnskab Information 2026",
+        "Statens Kunstfond årsrapport billedkunst 2025"
+      ]
+    }
+  ]
+}

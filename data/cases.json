@@ -1,0 +1,267 @@
+{
+  "updated": "2026-08-11",
+  "editorial": {
+    "stance": "borgerlig",
+    "approval": "manual",
+    "primarySource": "@oresundsbaron",
+    "secondaryQueued": ["@Statsstyret", "MikeHunt (handle afventer bekræftelse)", "Facebook m.fl."],
+    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
+  },
+  "totals": {
+    "strategicPartnershipsAnnualDkk": 1264000000,
+    "strategicPartnershipsNote": "Officielt: UM — 1,264 mia. kr./år til 18 strategiske partnerskaber 2022–2026",
+    "civilSocietyPuljeClaim2026Dkk": 200000000,
+    "openPuljeWithCivilClaim2026Dkk": 221000000,
+    "developmentAidClaimTotalDkk": 23000000000,
+    "perDaneApproxStrategicPartnerships": "Ca. 210 kr./dansker/år alene til strategiske partnerskaber (1,264 mia / ~6 mio indbyggere — groft regnestykke)"
+  },
+  "cases": [
+    {
+      "slug": "strategiske-partnerskaber",
+      "title": "Strategiske partnerskaber: 1,264 mia. kr. om året",
+      "status": "approved",
+      "priority": 1,
+      "tags": ["danida", "partnerskab", "officiel"],
+      "amountDkk": 1264000000,
+      "amountLabel": "1,264 mia. kr./år",
+      "amountKind": "official",
+      "summary": "Udenrigsministeriet sender over en milliard om året til 18 danske civilsamfundsorganisationer via strategiske partnerskaber 2022–2026. Det er rammen Baronen og Statsstyret graver i — ikke 'småprojekter'.",
+      "angle": "Når venstrefløjen siger 'det er kun 0,4 %', ignorerer de den store bøtte: over en milliard årligt til politisk og organisatorisk infrastruktur i NGO-sektoren — oven i Civilsamfundspuljen.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Hvad er de strategiske partnerskaber?",
+        "body": [
+          "Ifølge Udenrigsministeriet er der indgået 5-årige strategiske partnerskaber (2022–2026) med 18 danske organisationer. Der er afsat **1,264 milliarder kroner om året**.",
+          "Listen inkluderer bl.a. Folkekirkens Nødhjælp (200 mio.), Dansk Flygtningehjælp (179 mio.), Dansk Røde Kors (154 mio.), **MS ActionAid (129 mio.)**, Red Barnet (114 mio.), Oxfam IBIS (103 mio.), Sex & Samfund (22 mio.) og flere.",
+          "Det er offentlige tal. Diskussionen handler ikke om, om pengene findes — men om **hvad** de bruges til: klassisk nødhjælp vs. politisk mobilisering, kønsideologi, 'unge i valgkontekster' og græsrodsbevægelser i udlandet.",
+          "Baronens pointe om 'halv milliard i fjollede projekter' i civilsamfundssiden skal ses **oven i** denne milliard-ramme — ikke i stedet for den."
+        ],
+        "sources": [
+          {
+            "title": "UM: Strategiske Partnerskaber 2022–2026 (fordelingstabel)",
+            "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+            "kind": "official"
+          }
+        ]
+      },
+      "relatedPosts": ["2086920527436730876", "1888511754260394004", "1887596707518816601"]
+    },
+    {
+      "slug": "ms-actionaid",
+      "title": "MS ActionAid: 129 mio. kr./år + aktindsigt om valg-påvirkning",
+      "status": "approved",
+      "priority": 2,
+      "tags": ["danida", "ms", "actionaid", "statsstyret", "aktindsigt"],
+      "amountDkk": 129000000,
+      "amountLabel": "129 mio. kr./år",
+      "amountKind": "official",
+      "summary": "Mellemfolkeligt Samvirke / MS ActionAid får 129 mio. kr. årligt i strategisk partnerskab. Statsstyret har via aktindsigt peget på ansøgninger om arbejde med unge i valgkontekster og 'sociale bevægelser' i Afrika.",
+      "angle": "Skatteyderen betaler for en dansk NGO, der er del af et internationalt ActionAid-netværk med eksplicit politiske mål. Det er ikke madpakker — det er magt og mobilisering.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: 129 mio. er official — indholdet er politisk",
+        "body": [
+          "**Beløbet er officielt:** MS ActionAid står på UM’s fordelingstabel med **129.000.000 kr. årligt** (2022–2026).",
+          "**Statsstyret (@Statsstyret)** har i feb. 2025 publiceret en lang tråd baseret på **aktindsigt** i ansøgningsmateriale fra Mellemfolkeligt Samvirke. Ifølge tråden fremgår bl.a. arbejde med 'unge i valgkontekster', skabelse af 'sociale bevægelser' og udvidelse af 'det demokratiske rum' internationalt, i EU og i Danmark.",
+          "Tråden nævner også ActionAid’s fokus på klima/'klimaretfærdighed', køn og social justice, samt samarbejde/midler til medieaktører (fx Reporters Without Borders, Free Press Unlimited i materialet Statsstyret gengiver).",
+          "Statsstyret noterede selv usikkerhed om en specifik 49 mio.-ansøgning blev bevilget — men **129 mio. partnerskabsbevillingen er dokumenteret hos UM**.",
+          "Baronen bruger samme 129 mio.-tal i debatten om Danida-puljer (aug. 2026) som kontekst til 'det er kun 0,4 %'-argumentet."
+        ],
+        "sources": [
+          {
+            "title": "UM fordeling — MS ActionAid 129 mio.",
+            "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+            "kind": "official"
+          },
+          {
+            "title": "Statsstyret: aktindsigt / MS valg-påvirkning (X)",
+            "url": "https://x.com/Statsstyret/status/1888511754260394004",
+            "kind": "research"
+          },
+          {
+            "title": "Baronen: kontekst Civilsamfund + MS 129 mio. (X)",
+            "url": "https://x.com/oresundsbaron/status/2086920527436730876",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": ["1888511754260394004", "2086920527436730876", "2079270077728248030"]
+    },
+    {
+      "slug": "civilsamfundspuljen",
+      "title": "Civilsamfundspuljen & OpEn: 'små' 221 mio. der ikke er små",
+      "status": "approved",
+      "priority": 3,
+      "tags": ["danida", "cisu", "open", "baronen"],
+      "amountDkk": 221000000,
+      "amountLabel": "221 mio. kr. (claim 2026)",
+      "amountKind": "claim",
+      "summary": "Baronen: Civilsamfundspuljen 200 mio. + OpEn giver tilsammen ca. 221 mio. i 2026 (~1 % af 23 mia. bistand). Det er rammen for 'fjollede projekter' — og den rigtige diskussion er summen af alle civilsamfundsspor, ikke enkelt-projekter alene.",
+      "angle": "Klassisk spin: peg på ét lille projekt og sig '0,4 %'. Skattejægeren summerer rammen og spørger: hvorfor betaler vi for ideologisk eksport?",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: CISU forvalter — skattekroner finansierer",
+        "body": [
+          "Civilsamfundspuljen forvaltes af **CISU** (Civilsamfund i Udvikling) med midler fra Udenrigsministeriet/Danida. CISU beskriver sig som støttefacilitet for danske civilsamfundsorganisationer.",
+          "OpEn (Information and Engagement Fund) er en særskilt pulje under UM med fokus på oplysning og engagement i Danmark om globale spørgsmål — se openpuljen.dk.",
+          "Baronens tal for **200 mio. (Civilsamfund) + samlet 221 mio. med OpEn (2026)** er fremsat i offentlig debat (X / Borgerlig Tabloid). De er mærket **claim**, indtil vi har den præcise finanslovs-/bevillingstekst for 2026 i arkivet.",
+          "Selv hvis man accepterer 'kun 1 % af 23 mia.', er 221 mio. kr. stadig **mange skoler, sengepladser eller skattelettelser**. Og det er **før** de 1,264 mia. i strategiske partnerskaber.",
+          "Baronens NGO-mini-serie (dec. 2025 / opsummeret jul. 2026) peger på konkrete organisationer i puljen — se egen sag."
+        ],
+        "sources": [
+          {
+            "title": "CISU — Civil Society Fund",
+            "url": "https://cisu.dk/en/funding/civil-society-fund/",
+            "kind": "official"
+          },
+          {
+            "title": "OpEn-puljen",
+            "url": "https://openpuljen.dk/en/",
+            "kind": "official"
+          },
+          {
+            "title": "Baronen: 200 + 221 mio. kontekst (X)",
+            "url": "https://x.com/oresundsbaron/status/2086920527436730876",
+            "kind": "research"
+          },
+          {
+            "title": "Baronen: intro til Civilsamfundspuljen (X, dec 2025)",
+            "url": "https://x.com/oresundsbaron/status/2002304077615759548",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": ["2086920527436730876", "2002304077615759548", "2083221437041479686"]
+    },
+    {
+      "slug": "ngo-miniserie",
+      "title": "NGO-mini-serie: Ghana, DEI, trans-aktivisme m.m.",
+      "status": "approved",
+      "priority": 4,
+      "tags": ["danida", "ngo", "baronen", "claim"],
+      "amountDkk": 28700000,
+      "amountLabel": "≥28,7 mio. kr. (sum af claims)",
+      "amountKind": "claim",
+      "summary": "Baronens serie om konkrete NGO-bevillinger via Danida/CISU: Ghana Venskab, 100% for Børnene, Female Freedom, Crossing Borders, Colombia Solidaritet m.fl. Beløb er claims fra research-opslag — skal matchés med CISU/Danida-bevillingslister.",
+      "angle": "Når man åbner regnskaberne, er det ikke abstrakt 'bistand' — det er navngivne projekter med ideologisk indhold.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Hvad Baronen har peget på (under verifikation)",
+        "body": [
+          "Ifølge Baronens opsummering (jul. 2026, henvisning til dec. 2025-serie):",
+          "• **Ghana Venskab** — ca. 11 mio. kr. (DEI, klima, empowerment i Ghana)",
+          "• **100% for Børnene** — ca. 3,5 mio. kr. (politisk aktivisme i Ghana, Kenya, Ukraine)",
+          "• **Female Freedom** — ca. 1,2 mio. kr. (trans/pro-kommunistisk/anti-kapitalistisk aktivisme i Sydafrika)",
+          "• **Crossing Borders** — ca. 9 mio. kr. (DEI i DK, Indien, Afrika)",
+          "• **Colombia Solidaritet** — ca. 4 mio. kr. ('far left' propaganda i Colombia)",
+          "Summen af disse claims ≈ **28,7 mio. kr.** — kun et udsnit. Næste skridt for Skattejægeren: matche hvert tal med CISU-bevillingsarkiv / OpenAid / aktindsigt.",
+          "Status: **manuel godkendelse** af påstande; vi publicerer claims som claims, ikke som facit."
+        ],
+        "sources": [
+          {
+            "title": "Baronen: NGO-mini-serie opsummering (X)",
+            "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+            "kind": "research"
+          },
+          {
+            "title": "CISU funding (til verifikation)",
+            "url": "https://cisu.dk/en/funding/civil-society-fund/",
+            "kind": "official"
+          }
+        ]
+      },
+      "relatedPosts": ["2083221437041479686", "2002304077615759548"]
+    },
+    {
+      "slug": "orangutang-rap",
+      "title": "Orangutang-rap: 800.000 kr. til 'kultur'?",
+      "status": "approved",
+      "priority": 5,
+      "tags": ["danida", "symbol", "baronen"],
+      "amountDkk": 800000,
+      "amountLabel": "800.000 kr. (claim)",
+      "amountKind": "claim",
+      "summary": "Baronen og debatten om Danida/Red Orangutangen og 800.000 kr. til et rap-projekt. Symbolsk lille beløb — men illustrerer prioriteringen, når folk siger 'det er jo bare kultur'.",
+      "angle": "Ét absurdistisk projekt er ikke budgettet. Det er indgangen: hvis det her slipper igennem, hvad ellers?",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Symbolsag, ikke hovedsagen",
+        "body": [
+          "I aug. 2026 citerede Baronen en test af 'orangutang-rappen' i Indonesien med henvisning til **800.000 kr.** fra Danida og Red Orangutangen.",
+          "Beløbet er **claim** indtil primær bevilling er i arkivet. Sagen er værdifuld som **symbol**: den gør systemets smag håndgribelig for almindelige mennesker.",
+          "Skattejægerens fokus forbliver de **store** tal (partnerskaber, puljer) — men symbolsager driver trafik og politisk tryk."
+        ],
+        "sources": [
+          {
+            "title": "Baronen om orangutang-rap (X)",
+            "url": "https://x.com/oresundsbaron/status/2086460030191067593",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": ["2086460030191067593"]
+    },
+    {
+      "slug": "statens-kunstfond",
+      "title": "Statens Kunstfond: 27,8 mio. til billedkunstprojekter",
+      "status": "approved",
+      "priority": 6,
+      "tags": ["kultur", "kunstfond", "baronen", "spareplan"],
+      "amountDkk": 27800000,
+      "amountLabel": "27,8 mio. kr. (2025, claim)",
+      "amountKind": "claim",
+      "summary": "Baronens spor uden for Danida: Statens Kunstfond — residencies i NY, 'Hybrid Mutation', udstillinger hos Politiken. Spareplanen runder ifølge ham over en kvart mia. og sigter mod en halv.",
+      "angle": "Samme princip: højt skattetryk + luksusforbrug for eliten. Kultur er ikke hellig, når regningen er din.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Kultursporet i spareplanen",
+        "body": [
+          "Baronen (aug. 2026) gennemgik projektstøtte til billedkunst: bl.a. **14,5 mio.** til værkproduktion/udstillinger, **9,4 mio.** til etårige udstillingsprogrammer, residencies i udlandet (fx ~200.000 kr. til NY-ophold), og eksempler som 'Hybrid Mutation' (200.000 kr.) og Politiken-udstillinger (160.000 kr.).",
+          "Han angiver **27,8 mio. kr. (2025)** til billedkunstprojekter og nævner at Statens Kunstfond samlet bevilliger **500–600 mio. kr./år** på tværs af kunstarter — claim, der skal matches med fondens offentlige regnskaber.",
+          "Skattejægeren tracker dette som **beslægtet sag**: samme skatteyder, samme prioriteringskritik, anden kasse end Danida."
+        ],
+        "sources": [
+          {
+            "title": "Baronen: 27,8 mio. billedkunst (X)",
+            "url": "https://x.com/oresundsbaron/status/2086090346891534727",
+            "kind": "research"
+          },
+          {
+            "title": "Baronen: Hybrid Mutation 200.000 (X)",
+            "url": "https://x.com/oresundsbaron/status/2086044804387942797",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": ["2086090346891534727", "2086044804387942797", "2086060022824378407"]
+    },
+    {
+      "slug": "information-mediestoette",
+      "title": "Information: 22,5 mio. kr. i mediestøtte",
+      "status": "approved",
+      "priority": 7,
+      "tags": ["medier", "mediestøtte", "baronen"],
+      "amountDkk": 22500000,
+      "amountLabel": "22,5 mio. kr. (2026, claim)",
+      "amountKind": "claim",
+      "summary": "Baronen: Information har fået 22,5 mio. i 2026 — næsten dobbelt op ift. loft for andre landsdækkende medier (12,5 mio.) pga. særregler for mindre landsdækkende.",
+      "angle": "Særregler til venstreorienterede medier er også skattepolitik.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: Mediestøtte som politisk skævhed?",
+        "body": [
+          "Påstand fra Baronen (aug. 2026): **22,5 mio. kr.** til Information i 2026 vs. øvre grænse **12,5 mio.** for andre landsdækkende — via særregler for 'mindre landsdækkende'.",
+          "Beløbet er **claim** indtil vi har indsat det officielle mediestøtte-regnskab for 2026. Sagen er relevant for Skattejægeren, fordi den viser **hvordan regler skrues**, ikke kun om man får støtte."
+        ],
+        "sources": [
+          {
+            "title": "Baronen: Information 22,5 mio. (X)",
+            "url": "https://x.com/oresundsbaron/status/2086361841295667262",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": ["2086361841295667262"]
+    }
+  ]
+}
