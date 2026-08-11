@@ -604,6 +604,88 @@
         ]
       },
       "relatedPosts": []
+    },
+    {
+      "slug": "ghana-venskab",
+      "title": "Ghana Venskab: >11 mio. omsætning (Danida/CISU)",
+      "status": "approved",
+      "priority": 4,
+      "tags": [
+        "danida",
+        "cisu",
+        "ghana",
+        "baronen"
+      ],
+      "amountDkk": 11000000,
+      "amountLabel": ">11 mio. kr./år (org selv)",
+      "amountKind": "claim",
+      "summary": "Ghana Venskab skriver offentligt at projekter finansieres af Danida, CISU, fonde og private, med årlig omsætning over 11 mio. kr. Største program: Empowerment for Life (2024–2027). Matcher Baronens ~11 mio.-niveau. Konkrete CISU-ID mangler — aktindsigt A4 planlagt.",
+      "angle": "Når org selv siger 11+ mio. og Danida/CISU, er det ikke «småpenge». Vi vil have kvitteringerne via UM.",
+      "depth": {
+        "status": "approved",
+        "headline": "Hvad vi ved — og hvad aktindsigt skal lukke",
+        "body": [
+          "**Org-egen side (ghanavenskab.dk):** finansiering fra Danida, CISU, fonde og private; **årlig omsætning mere end 11 millioner kroner**.",
+          "**Program:** Empowerment for Life (E4L) 5. fase 2024–2027 med fire ghanesiske partnere (GDCA, School for Life, YEfL-Ghana, CLIP). Fokus: uddannelse, køn, klimatilpasning, entreprenørskab, demokratisk deltagelse.",
+          "**CISU-index:** ingen titel der hedder «Ghana Venskab» blandt 3.288 poster — bevillinger kan ligge under programnavne (E4L) eller via andre mekanismer.",
+          "**Næste:** Aktindsigt A4 til UM om alle bevillinger 2020–2026."
+        ],
+        "sources": [
+          {
+            "title": "Ghana Venskab — Vores arbejde",
+            "url": "https://www.ghanavenskab.dk/voresarbejde",
+            "kind": "org"
+          },
+          {
+            "title": "Aktindsigt A4 (planlagt)",
+            "url": "https://github.com/MattOMadsen/skattejaegeren/blob/main/data/aktindsigt/templates/A4-um-ghana-venskab.md",
+            "kind": "research"
+          }
+        ]
+      },
+      "relatedPosts": [
+        "2083221437041479686"
+      ]
+    },
+    {
+      "slug": "crossing-borders",
+      "title": "Crossing Borders — CISU/Danida som funding partner",
+      "status": "approved",
+      "priority": 5,
+      "tags": [
+        "cisu",
+        "danida",
+        "baronen"
+      ],
+      "amountDkk": 9000000,
+      "amountLabel": "~9 mio. (Baronen claim — under verifikation)",
+      "amountKind": "claim",
+      "summary": "Crossing Borders Annual Report 2023: main funding partners include Danida Civil Society Fund (CISU), New Democracy Fund, EU m.fl. Kun lille OpEn/oplysnings-post fundet i CISU-index (10k). Aktindsigt A5 skal samle alle bevillinger.",
+      "angle": "Org lever af offentlige midler til «dialog» og youth — vi vil se den fulde regning.",
+      "depth": {
+        "status": "approved",
+        "headline": "Dybde: funding partners bekræftet, total mangler",
+        "body": [
+          "**Årsrapport 2023:** «main funding partners, comprising the Danida Civil Society Fund (CISU), the New Democracy Fund, various EU …»",
+          "**CISU-scan:** kun små oplysningsposter under org-navn i vores index — større programmidler kan have andre projekttitler.",
+          "**Baronen:** ca. 9 mio. til DEI/woke-aktivisme — **claim** indtil A5-svar."
+        ],
+        "sources": [
+          {
+            "title": "Crossing Borders Annual Report 2023",
+            "url": "https://crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
+            "kind": "org"
+          },
+          {
+            "title": "Crossing Borders website",
+            "url": "https://crossingborders.dk/",
+            "kind": "org"
+          }
+        ]
+      },
+      "relatedPosts": [
+        "2083221437041479686"
+      ]
     }
   ]
 }

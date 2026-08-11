@@ -72,15 +72,21 @@
           "title": "Council of All Beings Folkemødet"
         }
       ],
-      "status": "not_matched_9m_only_small_oplysning",
-      "note": "9 mio. findes ikke som ét OpEn-projekt under det navn — kan være strategisk partnerskab/andet spor"
+      "status": "funding_partner_cisu_confirmed_annual_report",
+      "note": "Annual Report 2023: main funding partners include Danida Civil Society Fund (CISU). Exact 9m multi-year total not yet extracted. Aktindsigt A5."
     },
     {
       "org": "Ghana Venskab",
       "baronenClaim": 11000000,
-      "found": [],
-      "status": "not_found_as_title_in_cisu_index",
-      "note": "Ingen titel med \"Ghana Venskab\" i 3288 CISU-poster. Kan være anden org-navn eller ikke-CISU midler."
+      "found": [
+        {
+          "amount": 11000000,
+          "title": "Ghana Venskab egen side: omsætning mere end 11 mio. (Danida, CISU, fonde, private)"
+        }
+      ],
+      "status": "org_self_reports_11m_plus",
+      "note": "ghanavenskab.dk/voresarbejde bekræfter >11 mio. årlig omsætning og Danida/CISU-finansiering. Empowerment for Life 2024-2027. Aktindsigt A4 skal fremskaffe konkrete bevillings-IDs.",
+      "sumFound": 11000000
     },
     {
       "org": "Colombia Solidaritet",

@@ -338,6 +338,56 @@ function renderCase(d, slug) {
   `;
 }
 
+function renderAktindsigt() {
+  return `
+    <section class="hero">
+      <h1>Aktindsigt</h1>
+      <p>
+        Vi søger de dokumenter, der ikke allerede ligger offentligt.
+        <strong>Intet sendes uden din godkendelse.</strong>
+        Svar publiceres først, når du siger OK.
+      </p>
+    </section>
+
+    <div class="panel">
+      <h2>Sådan virker det</h2>
+      <p>1. Agent laver mail-udkast (A1–A6)</p>
+      <p>2. Du skriver: <strong>Godkend A1 og A3</strong> + dit navn og email</p>
+      <p>3. Agent sender (eller giver dig copy-paste) og gemmer i <code>data/aktindsigt/sent/</code></p>
+      <p>4. Du videresender svar hertil → agent foreslår indhold → du godkender publicering</p>
+      <p><a href="https://github.com/MattOMadsen/skattejaegeren/blob/main/docs/AKTINDIGT.md" target="_blank" rel="noopener">Fuld protokol ↗</a></p>
+    </div>
+
+    <div class="panel">
+      <h2>Kø (pending)</h2>
+      <p><span class="badge hot">draft</span> <strong>A1</strong> UM — MS SPA 129 mio. + C1975 Uganda</p>
+      <p><span class="badge hot">draft</span> <strong>A2</strong> UM — Oxfam SPA 103 mio.</p>
+      <p><span class="badge hot">draft</span> <strong>A3</strong> UM — Civilsamfund + OpEn budget 2024–26</p>
+      <p><span class="badge hot">draft</span> <strong>A4</strong> UM — Ghana Venskab / E4L</p>
+      <p><span class="badge hot">draft</span> <strong>A5</strong> UM — Crossing Borders</p>
+      <p><span class="badge warn">draft</span> <strong>A6</strong> CISU — vejledning (ikke myndighed)</p>
+    </div>
+
+    <div class="panel">
+      <h2>Godkend herfra (i chatten)</h2>
+      <p class="muted">Kopiér og udfyld:</p>
+      <pre style="white-space:pre-wrap;font-size:.85rem;color:var(--text-2);background:var(--bg);padding:1rem;border-radius:10px;border:1px solid var(--border)">Godkend aktindsigt A1 og A3.
+
+Navn: …
+email: …
+adresse: (valgfri)
+telefon: (valgfri)
+
+Send dem for mig: ja / nej</pre>
+    </div>
+
+    <div class="panel">
+      <h2>Skabeloner</h2>
+      <p><a href="https://github.com/MattOMadsen/skattejaegeren/tree/main/data/aktindsigt/templates" target="_blank" rel="noopener">Alle mails på GitHub ↗</a></p>
+    </div>
+  `;
+}
+
 function renderOpen(d) {
   const og = d.openGrants;
   if (!og?.grants?.length) {
@@ -615,6 +665,7 @@ async function paint() {
     else if (page === 'sag' && id) html = renderCase(d, id);
     else if (page === 'open' || page === 'katalog') html = renderOpen(d);
     else if (page === 'grav' || page === 'undersogelse') html = renderGrav(d);
+    else if (page === 'aktindsigt' || page === 'foi') html = renderAktindsigt(d);
     else if (page === 'om' || page === 'metode' || page === 'opslag') html = renderOm(d);
     else html = renderHome(d);
     app.innerHTML = html;
