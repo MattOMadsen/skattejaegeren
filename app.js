@@ -125,12 +125,16 @@ function bindTipForm() {
     const topic = (form.querySelector('[name=topic]')?.value || '').trim();
     const body = (form.querySelector('[name=body]')?.value || '').trim();
     const source = (form.querySelector('[name=source]')?.value || '').trim();
-    const subject = encodeURIComponent('Tip til Skattejægeren: ' + (topic || 'uden emne'));
-    const text = encodeURIComponent(
-      `Emne: ${topic}\n\n${body}\n\nKilde/link: ${source || '—'}\n\n— sendt via skattejaegeren tip-form`
+    // Gratis, ingen Gmail: åbner GitHub Issue (kan sendes uden mail-konto hos os)
+    const title = encodeURIComponent('Tip: ' + (topic || 'uden emne'));
+    const issueBody = encodeURIComponent(
+      `## Tip\n\n**Emne:** ${topic}\n\n${body}\n\n**Kilde/link:** ${source || '—'}\n\n---\n_Sendt via Skattejægeren tip-form_`
     );
-    // mailto — ingen backend; brugerens egen mailklient
-    window.location.href = `mailto:mattomadsen+skattejaegeren@gmail.com?subject=${subject}&body=${text}`;
+    window.open(
+      `https://github.com/MattOMadsen/skattejaegeren/issues/new?title=${title}&body=${issueBody}`,
+      '_blank',
+      'noopener'
+    );
   });
 }
 
@@ -1148,7 +1152,8 @@ function renderOm(d) {
     <div class="section-head" id="tip"><h2>Indsend tip</h2></div>
     <div class="panel">
       <p class="muted" style="margin:0 0 1rem">
-        Har du et CISU-link, regnskab eller en sag, vi bør tjekke? Åbner din mail — intet lagres her.
+        Har du et CISU-link, regnskab eller en sag, vi bør tjekke?
+        Tips lander som <strong>GitHub Issue</strong> (gratis, ingen Gmail) — du kan være anonym via throwaway GitHub-konto.
       </p>
       <form class="tip-form" id="tip-form">
         <label>Emne
@@ -1160,7 +1165,7 @@ function renderOm(d) {
         <label>Kilde / link (valgfri)
           <input name="source" type="url" placeholder="https://…" />
         </label>
-        <button type="submit">Åbn mail med tip</button>
+        <button type="submit">Send tip via GitHub</button>
       </form>
     </div>
 
