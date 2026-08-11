@@ -4,8 +4,8 @@
     "stance": "borgerlig",
     "approval": "manual",
     "primarySource": "@oresundsbaron",
-    "secondaryQueued": ["@Statsstyret", "MikeHunt (handle afventer bekræftelse)", "Facebook m.fl."],
-    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
+    "secondaryQueued": ["@Statsstyret", "@MikeHuntHurts89", "Facebook m.fl."],
+    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
   },
   "totals": {
     "strategicPartnershipsAnnualDkk": 1264000000,

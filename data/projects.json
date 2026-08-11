@@ -1,0 +1,260 @@
+{
+  "updated": "2026-08-11",
+  "projects": [
+    {
+      "id": "kaffestop-rwanda",
+      "title": "Kaffestop i Rwanda",
+      "amountDkk": 149200,
+      "amountKind": "official",
+      "org": "Lasse Schoeber",
+      "pool": "OpEn (UM via CISU)",
+      "country": "Rwanda",
+      "period": "21.10.2024 – 31.10.2025",
+      "whatFor": "Rejse til Rwanda ifm. cykel-VM. Instagram, video og podcast til Mandsholdets ~72.000 følgere. ‘Bygge et lille kaffestop’ og invitere lokale / cykelhold til at fortælle historier om grøn omstilling, ligestilling og sportsfællesskab.",
+      "angle": "100 % statsfinansieret content-tur. Ikke klassisk nødhjælp — oplysning med flybilletter og mælkeskum.",
+      "sources": [
+        { "title": "CISU bevillingsside (officiel)", "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=9640e38a-5768-4390-b624-11ffdd342ab9", "kind": "official" },
+        { "title": "MikeHuntHurts89: Kaffestop", "url": "https://x.com/MikeHuntHurts89/status/2084223617148108834", "kind": "research" },
+        { "title": "MikeHuntHurts89: habilitet / bevillingsudvalg", "url": "https://x.com/MikeHuntHurts89/status/2084339602899214485", "kind": "research" }
+      ],
+      "researchers": ["MikeHuntHurts89"],
+      "caseSlug": "kaffestop-rwanda"
+    },
+    {
+      "id": "barnevognsmarch-ss",
+      "title": "Barnevognsmarch — Sex & Samfund",
+      "amountDkk": 1500000,
+      "amountKind": "claim",
+      "org": "Sex & Samfund",
+      "pool": "OpEn / Danida-relateret (ifølge Baronen)",
+      "country": "Danmark",
+      "period": "ca. 2025–2026",
+      "whatFor": "Ifølge Baronen: 1,5 mio. kr. til barnevognsmarch for at ‘få flere, særligt forældre, til at kende til og tage stilling til global mødredødelighed’. Tidligere år: 200.000 kr. til lignende. I alt peget på ca. 2 mio. over flere marches.",
+      "angle": "Oplysning i Danmark med skattekroner — mens kommuner siger nej til 60.000 kr. livsnødvendig medicincreme.",
+      "sources": [
+        { "title": "Baronen: 1,5 mio. barnevognsmarch", "url": "https://x.com/oresundsbaron/status/2080533439967895599", "kind": "research" },
+        { "title": "Baronen: også 200.000 i 2024", "url": "https://x.com/oresundsbaron/status/2082341720243495390", "kind": "research" },
+        { "title": "Baronen: Magnus 60.000 vs marches", "url": "https://x.com/oresundsbaron/status/2082152856606384234", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron", "MikeHuntHurts89"],
+      "caseSlug": "barnevogn-og-prioritering"
+    },
+    {
+      "id": "sex-samfund-uganda-gender",
+      "title": "Sex & Samfund — Gender Policy Uganda",
+      "amountDkk": 80000000,
+      "amountKind": "claim",
+      "org": "Sex & Samfund + Reproductive Health Uganda",
+      "pool": "Danida strategisk partnerskab (del af bevilling)",
+      "country": "Uganda",
+      "period": "2018–2021 ramme nævnt; aktiviteter løbende",
+      "whatFor": "Baronen: S&S har via partner RHU været med til at forme ‘Gender Policy’ i Uganda — anbefalinger til lovgivning, women’s empowerment, gender responsive budgeting. S&S fik ifølge Baronen 80 mio. som strategisk partner 2018–2021; 22 mio./år i nuværende partnerskabstabel (UM).",
+      "angle": "Skattekroner til ideologisk policy-eksport — ikke medicin og rent vand alene.",
+      "sources": [
+        { "title": "Baronen: Gender Policy Uganda", "url": "https://x.com/oresundsbaron/status/1887818595767566465", "kind": "research" },
+        { "title": "UM: Sex & Samfund 22 mio./år partnerskab", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "sex-samfund-uganda"
+    },
+    {
+      "id": "ms-zambia-y4p",
+      "title": "MS ActionAid — Youth4Parliament Zambia",
+      "amountDkk": 129000000,
+      "amountKind": "official",
+      "amountNote": "129 mio. er hele årlige MS-partnerskab; Y4P er en del af aktiviteterne",
+      "org": "Mellemfolkeligt Samvirke / ActionAid DK",
+      "pool": "Strategisk partnerskab Danida",
+      "country": "Zambia m.fl.",
+      "period": "2022–2026 partnerskab",
+      "whatFor": "Baronen: mentoring, trainings, flexible funding til Youth4Parliament — politisk organisering af unge. Kobling til politikere/parti (Patriotic Front) beskrevet som revolutionært/anti-kapitalistisk i Baronens gennemgang. Statsstyret: aktindsigt om ‘unge i valgkontekster’ og sociale bevægelser.",
+      "angle": "Politisk mobilisering i udlandet betalt af dig — mens regeringen advarer mod udenlandsk indblanding hjemme.",
+      "sources": [
+        { "title": "UM: MS ActionAid 129 mio./år", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" },
+        { "title": "Baronen: MS Zambia / Y4P", "url": "https://x.com/oresundsbaron/status/1887792165772022003", "kind": "research" },
+        { "title": "Statsstyret: aktindsigt MS", "url": "https://x.com/Statsstyret/status/1888511754260394004", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron", "Statsstyret"],
+      "caseSlug": "ms-actionaid"
+    },
+    {
+      "id": "orangutang-rap",
+      "title": "Orangutang-rap / Red Orangutangen",
+      "amountDkk": 800000,
+      "amountKind": "claim",
+      "org": "Red Orangutangen (+ Danida-midler ifølge debatten)",
+      "pool": "Danida-relateret (claim)",
+      "country": "Indonesien / formidling",
+      "period": "2025–2026 debatteret",
+      "whatFor": "ca. 800.000 kr. peget på i debatten til rap/kulturformidling om orangutanger. MikeHunt fandt YouTube-version efter copyright-fjernelse på X.",
+      "angle": "Symbolsag: du betaler — og må ikke engang se varen uden omveje.",
+      "sources": [
+        { "title": "Baronen: orangutang-rap", "url": "https://x.com/oresundsbaron/status/2086460030191067593", "kind": "research" },
+        { "title": "MikeHuntHurts89: YouTube-fund", "url": "https://x.com/MikeHuntHurts89/status/2083975777322987558", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron", "MikeHuntHurts89"],
+      "caseSlug": "orangutang-rap"
+    },
+    {
+      "id": "ghana-venskab",
+      "title": "Ghana Venskab",
+      "amountDkk": 11000000,
+      "amountKind": "claim",
+      "org": "Ghana Venskab",
+      "pool": "Danida / CISU-spor (ifølge Baronen)",
+      "country": "Ghana",
+      "whatFor": "Baronen: ca. 11 mio. til DEI, klimaalarmisme og ‘kvinders empowerment’ i Ghana.",
+      "angle": "Navngiven NGO, navngivet beløb — kræver match mod CISU-liste.",
+      "sources": [
+        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "ngo-miniserie"
+    },
+    {
+      "id": "crossing-borders",
+      "title": "Crossing Borders",
+      "amountDkk": 9000000,
+      "amountKind": "claim",
+      "org": "Crossing Borders",
+      "pool": "Danida / CISU-spor (claim)",
+      "country": "DK, Indien, Afrika",
+      "whatFor": "Baronen: ca. 9 mio. til ‘wokeisme og DEI-aktivisme’.",
+      "angle": "Aktivisme betalt som bistand.",
+      "sources": [
+        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "ngo-miniserie"
+    },
+    {
+      "id": "female-freedom",
+      "title": "Female Freedom",
+      "amountDkk": 1200000,
+      "amountKind": "claim",
+      "org": "Female Freedom",
+      "pool": "Danida / CISU-spor (claim)",
+      "country": "Sydafrika",
+      "whatFor": "Baronen: ca. 1,2 mio. til pro-trans, pro-kommunistisk og anti-kapitalistisk aktivisme.",
+      "angle": "Ideologi-export i bistandskappe.",
+      "sources": [
+        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "ngo-miniserie"
+    },
+    {
+      "id": "100-for-boernene",
+      "title": "100% for Børnene",
+      "amountDkk": 3500000,
+      "amountKind": "claim",
+      "org": "100% for Børnene",
+      "pool": "Danida / CISU-spor (claim)",
+      "country": "Ghana, Kenya, Ukraine",
+      "whatFor": "Baronen: ca. 3,5 mio. til politisk aktivisme.",
+      "angle": "Børnebrand — politisk indhold.",
+      "sources": [
+        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "ngo-miniserie"
+    },
+    {
+      "id": "colombia-solidaritet",
+      "title": "Colombia Solidaritet",
+      "amountDkk": 4000000,
+      "amountKind": "claim",
+      "org": "Colombia Solidaritet",
+      "pool": "Danida / CISU-spor (claim)",
+      "country": "Colombia",
+      "whatFor": "Baronen: ca. 4 mio. til ‘far left’-propaganda og politisk aktivisme.",
+      "angle": "Politisk støtte i udlandet.",
+      "sources": [
+        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "ngo-miniserie"
+    },
+    {
+      "id": "ms-partnerskab-fuld",
+      "title": "MS ActionAid — fuld partnerskabsbevilling",
+      "amountDkk": 129000000,
+      "amountKind": "official",
+      "org": "MS ActionAid",
+      "pool": "Strategisk partnerskab 2022–2026",
+      "country": "Afrika, Asien, Europa (ifølge MS/debat)",
+      "whatFor": "Fast årlig ramme 129 mio. kr. til MS ActionAids samlede partnerskabsindsatser — humanitært, udviklings- og politisk arbejde ifølge organisationens egen profil og kritikernes gennemgang.",
+      "angle": "Én NGO. 129 millioner. Hvert år.",
+      "sources": [
+        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+      ],
+      "researchers": ["oresundsbaron", "Statsstyret"],
+      "caseSlug": "ms-actionaid"
+    },
+    {
+      "id": "oxfam-ibis",
+      "title": "Oxfam IBIS — strategisk partnerskab",
+      "amountDkk": 103000000,
+      "amountKind": "official",
+      "org": "Oxfam IBIS",
+      "pool": "Strategisk partnerskab 2022–2026",
+      "country": "Flere",
+      "whatFor": "103 mio. kr./år ifølge UM. Oxfam beskriver selv partnerskab om rettigheder, skrøbelige lande, klima m.m.",
+      "angle": "Stor rammebevilling — indhold skal åbnes sag for sag.",
+      "sources": [
+        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" },
+        { "title": "Oxfam om Danida-partnerskab", "url": "https://oxfam.dk/om-os/partnerskaber/danida/", "kind": "org" }
+      ],
+      "researchers": [],
+      "caseSlug": "strategiske-partnerskaber"
+    },
+    {
+      "id": "folkekirkens-noedhjaelp",
+      "title": "Folkekirkens Nødhjælp — største partnerskab",
+      "amountDkk": 200000000,
+      "amountKind": "official",
+      "org": "Folkekirkens Nødhjælp",
+      "pool": "Strategisk partnerskab 2022–2026",
+      "country": "Flere",
+      "whatFor": "200 mio. kr./år — den største enkeltbevilling blandt de 18 strategiske partnere.",
+      "angle": "Størrelse alene kræver offentlig kontrol med resultater.",
+      "sources": [
+        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+      ],
+      "researchers": [],
+      "caseSlug": "strategiske-partnerskaber"
+    },
+    {
+      "id": "hybrid-mutation",
+      "title": "Hybrid Mutation (Statens Kunstfond)",
+      "amountDkk": 200000,
+      "amountKind": "claim",
+      "org": "Ann Kristin Hettervik Lislegaard",
+      "pool": "Statens Kunstfond — billedkunst",
+      "country": "DK / international turné",
+      "whatFor": "Baronen: 200.000 kr. til 5 skulpturer; omtale af uddøde fuglelyde, tegning under hypnose, hybrid-animationer.",
+      "angle": "Samme skatteyder — anden kasse end Danida. Prioritering er pointen.",
+      "sources": [
+        { "title": "Baronen: Hybrid Mutation", "url": "https://x.com/oresundsbaron/status/2086044804387942797", "kind": "research" }
+      ],
+      "researchers": ["oresundsbaron"],
+      "caseSlug": "statens-kunstfond"
+    },
+    {
+      "id": "kirke-udland",
+      "title": "Danske Kirke i Udlandet",
+      "amountDkk": 35400000,
+      "amountKind": "claim",
+      "org": "Den Danske Kirke i Udlandet",
+      "pool": "Statsstøtte (ifølge MikeHunt / årsrapport 2024)",
+      "country": "Sydslesvig + resten af verden",
+      "whatFor": "MikeHunt: 16,9 mio. kirkelig virksomhed i Sydslesvig + 18,5 mio. kirkelig betjening af danskere i verden = 35,4 mio. (årsrapport 2024).",
+      "angle": "Ikke ulandsbistand — men samme prioriteringsdebat: Jesus-roaming vs. velfærd hjemme.",
+      "sources": [
+        { "title": "MikeHuntHurts89: 35,4 mio. kirke", "url": "https://x.com/MikeHuntHurts89/status/2083284810911695119", "kind": "research" }
+      ],
+      "researchers": ["MikeHuntHurts89"],
+      "caseSlug": "kirke-udland"
+    }
+  ]
+}
