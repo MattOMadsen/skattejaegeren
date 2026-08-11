@@ -343,47 +343,19 @@ function renderAktindsigt() {
     <section class="hero">
       <h1>Aktindsigt</h1>
       <p>
-        Vi søger de dokumenter, der ikke allerede ligger offentligt.
-        <strong>Intet sendes uden din godkendelse.</strong>
-        Svar publiceres først, når du siger OK.
+        Vi vil indhente flere originale dokumenter fra myndighederne —
+        bevillinger, regnskaber og kontrolsager — så tallene kan efterprøves.
       </p>
     </section>
-
-    <div class="panel">
-      <h2>Sådan virker det</h2>
-      <p>1. Agent laver mail-udkast (A1–A6)</p>
-      <p>2. Du skriver: <strong>Godkend A1 og A3</strong> + dit navn og email</p>
-      <p>3. Agent sender (eller giver dig copy-paste) og gemmer i <code>data/aktindsigt/sent/</code></p>
-      <p>4. Du videresender svar hertil → agent foreslår indhold → du godkender publicering</p>
-      <p><a href="https://github.com/MattOMadsen/skattejaegeren/blob/main/docs/AKTINDIGT.md" target="_blank" rel="noopener">Fuld protokol ↗</a></p>
-    </div>
-
-    <div class="panel">
-      <h2>Kø (pending)</h2>
-      <p><span class="badge hot">draft</span> <strong>A1</strong> UM — MS SPA 129 mio. + C1975 Uganda</p>
-      <p><span class="badge hot">draft</span> <strong>A2</strong> UM — Oxfam SPA 103 mio.</p>
-      <p><span class="badge hot">draft</span> <strong>A3</strong> UM — Civilsamfund + OpEn budget 2024–26</p>
-      <p><span class="badge hot">draft</span> <strong>A4</strong> UM — Ghana Venskab / E4L</p>
-      <p><span class="badge hot">draft</span> <strong>A5</strong> UM — Crossing Borders</p>
-      <p><span class="badge warn">draft</span> <strong>A6</strong> CISU — vejledning (ikke myndighed)</p>
-    </div>
-
-    <div class="panel">
-      <h2>Godkend herfra (i chatten)</h2>
-      <p class="muted">Kopiér og udfyld:</p>
-      <pre style="white-space:pre-wrap;font-size:.85rem;color:var(--text-2);background:var(--bg);padding:1rem;border-radius:10px;border:1px solid var(--border)">Godkend aktindsigt A1 og A3.
-
-Navn: …
-email: …
-adresse: (valgfri)
-telefon: (valgfri)
-
-Send dem for mig: ja / nej</pre>
-    </div>
-
-    <div class="panel">
-      <h2>Skabeloner</h2>
-      <p><a href="https://github.com/MattOMadsen/skattejaegeren/tree/main/data/aktindsigt/templates" target="_blank" rel="noopener">Alle mails på GitHub ↗</a></p>
+    <div class="panel" style="text-align:center;padding:2.5rem 1.5rem">
+      <p class="badge warn" style="margin-bottom:1rem">Kommer snart</p>
+      <h2 style="margin:0 0 .75rem;font-size:1.25rem;text-transform:none;letter-spacing:-.02em;color:var(--text)">
+        Første anmodninger er under forberedelse
+      </h2>
+      <p class="muted" style="margin:0;max-width:28rem;margin-inline:auto">
+        Når materialet er på plads, publicerer vi det her med kilder —
+        på samme måde som de øvrige sager.
+      </p>
     </div>
   `;
 }
