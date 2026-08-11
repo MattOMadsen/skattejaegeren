@@ -1,0 +1,65 @@
+{
+  "updated": "2026-08-11",
+  "sourceNote": "Offentlige stamdata + tilgængelige årsrapporter. Ikke fuld virk.dk API (kvote/CF).",
+  "orgs": [
+    {
+      "id": "ghana-venskab",
+      "name": "Ghana Venskab",
+      "legalName": "Ghana Venskab",
+      "cvr": "10021979",
+      "form": "Forening",
+      "founded": "1985-10-23",
+      "address": "Klosterport 4T, 3, 8000 Aarhus C",
+      "status": "Aktiv",
+      "employeesApprox": 3,
+      "virkSearch": "https://datacvr.virk.dk/enhed/virksomhed/10021979",
+      "proff": "https://www.proff.dk/firma/ghana-venskab/aarhus-c/medlemsorganisationer/05YT0BI10PU",
+      "website": "https://www.ghanavenskab.dk/",
+      "orgClaims": {
+        "annualTurnover": "Mere end 11 mio. kr. (egen hjemmeside)",
+        "funding": "Danida, CISU, fonde og private bidragsydere",
+        "mainProgram": "Empowerment for Life (E4L) 2024–2027"
+      },
+      "regnskab": [
+        {
+          "year": 2021,
+          "source": "Årsrapport 2021 (Civilstyrelsen/revideret)",
+          "sourceUrl": "https://www.civilstyrelsen.dk/Media/638039311281595922/20-72-00560%20%C3%85rsregnskab%202021%20-%20Ghana%20Venskab.pdf",
+          "indtægterIAltDkk": 10090342,
+          "udviklingsaktiviteterDkk": 10037706,
+          "cisuProgramBevillingNote": "E4L fra CISU ca. 9,8 mio. (ledelsesberetning); note programbevilling CISU 9.818.000 kr.",
+          "cisuProgramBevillingDkk": 9818000,
+          "aaretsResultatDkk": 64445,
+          "egenkapitalNote": "ca. 1,44 mio. kr. nævnt i beretning",
+          "angle": "Næsten hele indtægten er udviklingsaktiviteter/CISU — ikke privat fundraising."
+        }
+      ],
+      "caseSlug": "ghana-venskab",
+      "baronenClaimDkk": 11000000,
+      "matchNote": "Baronens ~11 mio. matcher org-egen påstand og 2021-regnskab (~10,1 mio. indtægter, heraf ~9,8 mio. CISU)."
+    },
+    {
+      "id": "crossing-borders",
+      "name": "Crossing Borders",
+      "legalName": "Crossing Borders",
+      "cvr": "32166121",
+      "form": "Forening",
+      "founded": "2009",
+      "address": "Søtorvet 5, 3, 1371 København K",
+      "status": "Aktiv",
+      "employeesApprox": 5,
+      "virkSearch": "https://datacvr.virk.dk/enhed/virksomhed/32166121",
+      "proff": "https://www.proff.dk/firma/crossing-borders/-/-/32166121",
+      "website": "https://crossingborders.dk/",
+      "orgClaims": {
+        "fundingPartners": "Danida Civil Society Fund (CISU), New Democracy Fund, EU, Anna Lindh Foundation m.fl. (Annual Report 2023)",
+        "annualReports": "https://crossingborders.dk/ (Annual Report 2019–2024)"
+      },
+      "regnskab": [],
+      "regnskabNote": "Detaljerede regnskabstal kræver download fra virk/proff. Årsrapporter bekræfter CISU/Danida som funding partner. Baronens 9 mio. er multi-år claim — ikke ét regnskabsår bekræftet her.",
+      "caseSlug": "crossing-borders",
+      "baronenClaimDkk": 9000000,
+      "matchNote": "CISU-funding bekræftet i årsrapport; fuld 9 mio. sum afventer flere regnskabsår eller aktindsigt."
+    }
+  ]
+}

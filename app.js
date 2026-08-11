@@ -106,20 +106,33 @@ let cache = null;
 async function loadAll() {
   if (cache) return cache;
   try {
-    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie, partners, media, deepDive] =
-      await Promise.all([
-        fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
-        fetchJson('data/projects.json'),
-        fetchJson('data/cases.json'),
-        fetchJson('data/posts.json'),
-        fetchJson('data/source-map.json').catch(() => null),
-        fetchJson('data/cisu-open-grants.json').catch(() => null),
-        fetchJson('data/cisu-org-rank.json').catch(() => null),
-        fetchJson('data/ngo-miniserie-status.json').catch(() => null),
-        fetchJson('data/strategic-partners.json').catch(() => null),
-        fetchJson('data/media-validation.json').catch(() => null),
-        fetchJson('data/partner-deep-dive.json').catch(() => null),
-      ]);
+    const [
+      aid,
+      projects,
+      cases,
+      posts,
+      sourceMap,
+      openGrants,
+      orgRank,
+      miniSerie,
+      partners,
+      media,
+      deepDive,
+      cvr,
+    ] = await Promise.all([
+      fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
+      fetchJson('data/projects.json'),
+      fetchJson('data/cases.json'),
+      fetchJson('data/posts.json'),
+      fetchJson('data/source-map.json').catch(() => null),
+      fetchJson('data/cisu-open-grants.json').catch(() => null),
+      fetchJson('data/cisu-org-rank.json').catch(() => null),
+      fetchJson('data/ngo-miniserie-status.json').catch(() => null),
+      fetchJson('data/strategic-partners.json').catch(() => null),
+      fetchJson('data/media-validation.json').catch(() => null),
+      fetchJson('data/partner-deep-dive.json').catch(() => null),
+      fetchJson('data/cvr-regnskab.json').catch(() => null),
+    ]);
     applyStats(aid);
     cache = {
       aid,
@@ -133,6 +146,7 @@ async function loadAll() {
       partners,
       media,
       deepDive,
+      cvr,
     };
     return cache;
   } catch (e) {
@@ -155,8 +169,47 @@ function projectCard(p) {
     </a>`;
 }
 
+const SHOCK = [
+  {
+    amt: '1,5 mio.',
+    title: 'Barnevognsmarch i Danmark',
+    text: 'Sex & Samfund · OpEn — verificeret CISU 1.498.642 kr.',
+    href: '#/sag/barnevogn-og-prioritering',
+    tag: 'Officiel',
+  },
+  {
+    amt: '798 tkr.',
+    title: 'BIO RAP / orangutang',
+    text: 'Orangutang Fonden · OpEn 797.786 kr. til klima-rap formidling.',
+    href: '#/projekt/biorap-orangutang',
+    tag: 'Officiel',
+  },
+  {
+    amt: '149 tkr.',
+    title: 'Kaffestop i Rwanda',
+    text: 'Hele budgettet dækket af OpEn — Instagram, podcast, cykel-VM.',
+    href: '#/sag/kaffestop-rwanda',
+    tag: 'Officiel',
+  },
+  {
+    amt: '58%',
+    title: 'MS: kun så meget til partnere',
+    text: 'ActionAid DK SPA 2025 — 16% HQ i Danmark, 2% IPE.',
+    href: '#/sag/ms-actionaid',
+    tag: 'Rapport',
+  },
+  {
+    amt: '10.000',
+    title: 'BT: skattelettelse ved gns. indkomst',
+    text: 'Hvis bistanden gik til lavere bundskat — ikke det samme som pr. indbygger (3.800).',
+    href: '#/om',
+    tag: 'BT',
+  },
+];
+
 function renderHome(d) {
   const projects = [...d.projects.projects]
+    .filter((p) => p.amountDkk > 0)
     .sort((a, b) => b.amountDkk - a.amountDkk)
     .slice(0, 6);
   const contrasts = d.aid.homeContrast || FALLBACK_AID.homeContrast;
@@ -170,7 +223,23 @@ function renderHome(d) {
       </p>
     </section>
 
-    <div class="chips">
+    <div class="section-head">
+      <h2>Største chok</h2>
+      <a href="#/open">OpEn-katalog →</a>
+    </div>
+    <div class="grid cols-3 shock-grid">
+      ${SHOCK.map(
+        (s) => `
+        <a class="card shock" href="${esc(s.href)}">
+          <span class="badge hot">${esc(s.tag)}</span>
+          <p class="shock-amt">${esc(s.amt)}</p>
+          <h3>${esc(s.title)}</h3>
+          <p class="blurb">${esc(s.text)}</p>
+        </a>`
+      ).join('')}
+    </div>
+
+    <div class="chips" style="margin-top:1.75rem">
       ${contrasts
         .slice(0, 3)
         .map(
@@ -185,21 +254,8 @@ function renderHome(d) {
     </div>
 
     <div class="section-head">
-      <h2>Verificerede hits</h2>
-      <a href="#/grav">Fuld undersøgelse →</a>
-    </div>
-    <div class="chips" style="margin-bottom:1.5rem">
-      <div class="chip" style="grid-template-columns:1fr">
-        <div class="chip-home"><strong>CISU bekræftet</strong> · Barnevogn 1.498.642 kr · BIO RAP 797.786 kr · Kaffestop 149.200 kr · Kunstfond-runde 29,3 mio.</div>
-      </div>
-      <div class="chip" style="grid-template-columns:1fr">
-        <div class="chip-home"><strong>BT Borgerlig Tabloid</strong> · Baronen interviewet 3. aug. 2026 — <a href="#/sag/bt-mediedækning" style="color:#fda4a4">læs om mediedækningen</a></div>
-      </div>
-    </div>
-
-    <div class="section-head">
       <h2>Projekter</h2>
-      <a href="#/projekter">Se alle →</a>
+      <a href="#/projekter">Søg alle →</a>
     </div>
     <div class="grid cols-3">
       ${projects.map(projectCard).join('')}
@@ -207,16 +263,110 @@ function renderHome(d) {
   `;
 }
 
+function filterBar(placeholder) {
+  return `
+    <div class="filter-bar" id="filter-bar">
+      <input type="search" id="q" class="filter-input" placeholder="${esc(placeholder)}" autocomplete="off" />
+      <select id="kind" class="filter-select" aria-label="Type">
+        <option value="">Alle typer</option>
+        <option value="official">Officiel</option>
+        <option value="claim">Claim</option>
+        <option value="estimate">Estimat</option>
+      </select>
+      <select id="sort" class="filter-select" aria-label="Sortering">
+        <option value="amount-desc">Størst beløb</option>
+        <option value="amount-asc">Mindst beløb</option>
+        <option value="name">Navn A–Å</option>
+      </select>
+      <span class="filter-count muted" id="filter-count"></span>
+    </div>
+    <div class="grid cols-2" id="filter-results"></div>
+  `;
+}
+
+function bindProjectFilter(list) {
+  const q = document.getElementById('q');
+  const kind = document.getElementById('kind');
+  const sort = document.getElementById('sort');
+  const out = document.getElementById('filter-results');
+  const count = document.getElementById('filter-count');
+  if (!q || !out) return;
+
+  const run = () => {
+    const term = (q.value || '').trim().toLowerCase();
+    const k = kind?.value || '';
+    let rows = list.filter((p) => {
+      if (k && p.amountKind !== k && !(k === 'official' && p.amountKind === 'reported')) return false;
+      if (!term) return true;
+      const hay = [p.title, p.org, p.whatFor, p.pool, p.country].join(' ').toLowerCase();
+      return hay.includes(term);
+    });
+    const s = sort?.value || 'amount-desc';
+    rows = [...rows].sort((a, b) => {
+      if (s === 'name') return (a.title || '').localeCompare(b.title || '', 'da');
+      if (s === 'amount-asc') return (a.amountDkk || 0) - (b.amountDkk || 0);
+      return (b.amountDkk || 0) - (a.amountDkk || 0);
+    });
+    if (count) count.textContent = `${rows.length} resultater`;
+    out.innerHTML = rows.length
+      ? rows.map(projectCard).join('')
+      : '<p class="muted">Ingen match — prøv et andet ord.</p>';
+  };
+  q.addEventListener('input', run);
+  kind?.addEventListener('change', run);
+  sort?.addEventListener('change', run);
+  run();
+}
+
+function bindOpenFilter(grants) {
+  const q = document.getElementById('q');
+  const sort = document.getElementById('sort');
+  const out = document.getElementById('filter-results');
+  const count = document.getElementById('filter-count');
+  if (!q || !out) return;
+
+  const card = (g) => `
+    <a class="card" href="${esc(g.url)}" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="badge ok">CISU</span>
+        <span class="amt">${esc(fmtShort(g.amountDkk || 0))}</span>
+      </div>
+      <h3>${esc(g.title)}</h3>
+      <p class="blurb">${esc(g.resume || g.pool || '')}</p>
+      <p class="meta">${esc(g.org || '?')} · CISU ↗</p>
+    </a>`;
+
+  const run = () => {
+    const term = (q.value || '').trim().toLowerCase();
+    let rows = grants.filter((g) => {
+      if (!term) return true;
+      const hay = [g.title, g.org, g.resume, g.pool].join(' ').toLowerCase();
+      return hay.includes(term);
+    });
+    const s = sort?.value || 'amount-desc';
+    rows = [...rows].sort((a, b) => {
+      if (s === 'name') return (a.title || '').localeCompare(b.title || '', 'da');
+      if (s === 'amount-asc') return (a.amountDkk || 0) - (b.amountDkk || 0);
+      return (b.amountDkk || 0) - (a.amountDkk || 0);
+    });
+    if (count) count.textContent = `${rows.length} resultater`;
+    out.innerHTML = rows.length
+      ? rows.slice(0, 100).map(card).join('')
+      : '<p class="muted">Ingen match.</p>';
+  };
+  q.addEventListener('input', run);
+  sort?.addEventListener('change', run);
+  run();
+}
+
 function renderProjects(d) {
-  const projects = [...d.projects.projects].sort((a, b) => b.amountDkk - a.amountDkk);
+  const projects = [...d.projects.projects];
   return `
     <section class="hero">
       <h1>Projekter</h1>
-      <p>${projects.length} poster. Hvad gik pengene til — og hvem fik dem?</p>
+      <p>${projects.length} poster. Søg på org, titel eller stikord — filtrer efter type.</p>
     </section>
-    <div class="grid cols-2">
-      ${projects.map(projectCard).join('')}
-    </div>
+    ${filterBar('Søg projekter, org, land…')}
   `;
 }
 
