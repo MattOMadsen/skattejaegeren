@@ -141,15 +141,49 @@ For fair billede (stadig under udbygning):
 
 ---
 
+## OpEn-katalog (gennemført 2026-08-11)
+
+- Scannet **3.288** CISU-bevillinger (`data/cisu-index.json`)
+- Hentet detaljer for **262** OpEn + keyword-matches med beløb (`data/cisu-open-grants.json`)
+- **Sum i kataloget: ca. 128,7 mio. kr.** (historiske + aktuelle i sample — ikke “kun 2026”)
+- UI: fanen **OpEn-katalog**
+- Script: `scripts/scrape-cisu-open.py`
+
+### Største modtagere i kataloget (eksempler)
+
+| Org | Ca. sum | Poster |
+|-----|---------|--------|
+| Global Aktion | ~11,6 mio. | 8 |
+| LGBT+Danmark | ~11,1 mio. | 10 |
+| 100% for Børnene | ~2,7 mio. | 1 stor |
+| Sex & Samfund | ~2,65 mio. | 3 barnevogn m.m. |
+| Female Freedom | ~1,20 mio. | 3 |
+
+### NGO-mini-serie match
+
+| Org / claim | Status |
+|-------------|--------|
+| Barnevogn ~1,5 mio. | **Bekræftet** — tre marches summerer til ~2,65 mio. |
+| BIO RAP ~800k | **Bekræftet** 797.786 |
+| Female Freedom ~1,2 mio. | **Bekræftet** sum ~1,199 mio. |
+| 100% for Børnene ~3,5 mio. | **Delvist** — 2,69 mio. ét projekt fundet |
+| Crossing Borders ~9 mio. | **Ikke matchet** som ét CISU-projekt (kun 10k Folkemøde) |
+| Ghana Venskab ~11 mio. | **Ikke fundet** som titel i CISU-index |
+| Colombia Solidaritet ~4 mio. | **Ikke fundet** under det navn |
+
+Se `data/ngo-miniserie-status.json`.
+
+---
+
 ## Næste grave-trin (prioriteret)
 
-1. **Scrap/katalogisér alle aktive OpEn-bevillinger** med beløb (202+ poster) → CSV i `data/`.  
-2. **Match Baronens NGO-mini-serie** (Ghana Venskab, Crossing Borders, …) 1:1 mod CISU.  
-3. **OpenAid.um.dk** — store bilaterale programmer (land-for-land).  
-4. **MS/ActionAid årsrapporter** — where did the 129 mio. go (lande/temaer %)?  
-5. **Aktindsigt-skabelon** (inspireret af Statsstyret) for ansøgninger + slutregnskaber.  
-6. **Bangladesh 182 mio. lufthavn** m.m. — primærkilde.  
-7. **Facebook** fra samme profiler.
+1. ~~Scrap/katalogisér OpEn~~ **done**  
+2. ~~Match mini-serie delvist~~ — Ghana Venskab / Crossing Borders / Colombia kræver **org-søgning / OpenAid / årsrapporter**  
+3. **OpenAid.um.dk** — store bilaterale programmer (land-for-land)  
+4. **MS/ActionAid årsrapporter** — where did the 129 mio. go?  
+5. **Aktindsigt** slutregnskaber  
+6. **Bangladesh 182 mio.** m.m.  
+7. **Facebook**
 
 ---
 

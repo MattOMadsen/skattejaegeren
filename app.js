@@ -106,15 +106,19 @@ let cache = null;
 async function loadAll() {
   if (cache) return cache;
   try {
-    const [aid, projects, cases, posts, sourceMap] = await Promise.all([
-      fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
-      fetchJson('data/projects.json'),
-      fetchJson('data/cases.json'),
-      fetchJson('data/posts.json'),
-      fetchJson('data/source-map.json').catch(() => null),
-    ]);
+    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie] =
+      await Promise.all([
+        fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
+        fetchJson('data/projects.json'),
+        fetchJson('data/cases.json'),
+        fetchJson('data/posts.json'),
+        fetchJson('data/source-map.json').catch(() => null),
+        fetchJson('data/cisu-open-grants.json').catch(() => null),
+        fetchJson('data/cisu-org-rank.json').catch(() => null),
+        fetchJson('data/ngo-miniserie-status.json').catch(() => null),
+      ]);
     applyStats(aid);
-    cache = { aid, projects, cases, posts, sourceMap };
+    cache = { aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie };
     return cache;
   } catch (e) {
     console.error(e);
@@ -316,22 +320,105 @@ function renderCase(d, slug) {
   `;
 }
 
+function renderOpen(d) {
+  const og = d.openGrants;
+  if (!og?.grants?.length) {
+    return `<section class="hero"><h1>OpEn-katalog</h1><p class="error">Kunne ikke loade data/cisu-open-grants.json</p></section>`;
+  }
+  const top = og.grants.slice(0, 60);
+  const orgs = (d.orgRank?.orgs || []).slice(0, 12);
+  return `
+    <section class="hero">
+      <h1>OpEn-katalog</h1>
+      <p>
+        <strong>${og.countWithAmount}</strong> CISU-bevillinger (OpEn + udvalgte matches) med beløb.
+        Sum i kataloget: <strong style="color:#fda4a4">${esc(fmtShort(og.sumAmountDkk))} kr.</strong>
+        — det er oplysning/engagement-sporet, ikke hele de 23 mia.
+      </p>
+    </section>
+    ${
+      orgs.length
+        ? `<div class="section-head"><h2>Største modtagere (i kataloget)</h2></div>
+           <div class="grid cols-3">
+           ${orgs
+             .map(
+               (o) => `
+             <div class="card">
+               <div class="card-top"><span class="badge ok">${o.count} poster</span>
+               <span class="amt">${esc(fmtShort(o.sumDkk))}</span></div>
+               <h3>${esc(o.org)}</h3>
+               <p class="blurb">${esc((o.examples || [])[0] || '')}</p>
+             </div>`
+             )
+             .join('')}
+           </div>`
+        : ''
+    }
+    <div class="section-head" style="margin-top:1.5rem"><h2>Bevillinger (sorteret efter beløb)</h2></div>
+    <div class="grid cols-2">
+      ${top
+        .map(
+          (g) => `
+        <a class="card" href="${esc(g.url)}" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="badge ok">CISU</span>
+            <span class="amt">${esc(fmtShort(g.amountDkk))}</span>
+          </div>
+          <h3>${esc(g.title)}</h3>
+          <p class="blurb">${esc(g.resume || g.pool || '')}</p>
+          <p class="meta">${esc(g.org || '?')} · CISU ↗</p>
+        </a>`
+        )
+        .join('')}
+    </div>
+    <p class="muted" style="margin-top:1rem">Viser top 60 af ${og.countWithAmount}. Fuld JSON i repo: data/cisu-open-grants.json</p>
+  `;
+}
+
 function renderGrav(d) {
   const v = d.sourceMap?.verifiedThisRound || [];
-  const inv = d.sourceMap?.investigators || {};
   const open = d.sourceMap?.openQuestions || [];
+  const mini = d.miniSerie?.items || [];
+  const og = d.openGrants;
   return `
     <section class="hero">
       <h1>Undersøgelse</h1>
       <p>
-        Hvad går pengene til — og holder kilderne? Vi sporer Baronen, Statsstyret og Mike Hunt
-        tilbage til CISU, UM og officielle PDF’er. Fuld note:
-        <a href="https://github.com/MattOMadsen/skattejaegeren/blob/main/docs/UNDERS%C3%98GELSE.md" target="_blank" rel="noopener">docs/UNDERSØGELSE.md ↗</a>
+        Hvad går pengene til — og holder kilderne? Vi har scannet CISU (3.288 poster) og hentet
+        beløb for <strong>${og?.countWithAmount || '200+'}</strong> OpEn/nøgle-bevillinger
+        (sum ca. <strong>${og ? fmtShort(og.sumAmountDkk) : '129 mio.'} kr.</strong>).
+        <a href="https://github.com/MattOMadsen/skattejaegeren/blob/main/docs/UNDERS%C3%98GELSE.md" target="_blank" rel="noopener">Fuld note ↗</a>
       </p>
     </section>
 
     <div class="panel">
-      <h2>Verificeret denne runde</h2>
+      <h2>OpEn-katalog (nyt)</h2>
+      <p>Se <a href="#/open">OpEn-katalog</a> — alle hentede bevillinger med beløb, org og link til CISU.</p>
+      <p class="muted">Største i kataloget: LGBT+Danmark, Global Aktion, Amnesty, 100% for Børnene, Sex &amp; Samfund, Female Freedom m.fl.</p>
+    </div>
+
+    <div class="panel">
+      <h2>Baronens NGO-mini-serie — status</h2>
+      ${
+        mini.length
+          ? mini
+              .map(
+                (x) => `
+        <p>
+          <span class="badge ${String(x.status).includes('confirm') ? 'ok' : String(x.status).includes('partial') ? 'warn' : 'hot'}">${esc(x.status)}</span>
+          <strong>${esc(x.org)}</strong>
+          ${x.sumFound != null ? ` · fundet sum ${esc(fmtShort(x.sumFound))} kr.` : ''}
+          ${x.baronenClaim != null ? ` · claim ${esc(String(x.baronenClaim))}` : ''}
+          ${x.note ? `<br><span class="muted">${esc(x.note)}</span>` : ''}
+        </p>`
+              )
+              .join('')
+          : '<p>Se data/ngo-miniserie-status.json</p>'
+      }
+    </div>
+
+    <div class="panel">
+      <h2>Verificeret tidligere</h2>
       ${
         v.length
           ? v
@@ -340,7 +427,7 @@ function renderGrav(d) {
                   `<p><span class="badge ok">${esc(x.status)}</span> <strong>${esc(x.claim)}</strong> → ${esc(x.result)}</p>`
               )
               .join('')
-          : `<p>Barnevogn 1.498.642 kr · BIO RAP 797.786 kr · Kaffestop 149.200 kr · Kunstfond-runde 29,3 mio. · MS 129 mio./år</p>`
+          : `<p>Barnevogn · BIO RAP · Kaffestop · Kunstfond · MS 129 mio.</p>`
       }
     </div>
 
@@ -440,6 +527,7 @@ async function paint() {
     else if (page === 'projekt' && id) html = renderProject(d, id);
     else if (page === 'sager') html = renderCases(d);
     else if (page === 'sag' && id) html = renderCase(d, id);
+    else if (page === 'open' || page === 'katalog') html = renderOpen(d);
     else if (page === 'grav' || page === 'undersogelse') html = renderGrav(d);
     else if (page === 'om' || page === 'metode' || page === 'opslag') html = renderOm(d);
     else html = renderHome(d);

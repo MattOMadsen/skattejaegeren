@@ -1,0 +1,104 @@
+{
+  "updated": "2026-08-11",
+  "items": [
+    {
+      "org": "Sex & Samfund / barnevogn",
+      "baronenClaim": "1,5 mio + 200k",
+      "found": [
+        {
+          "amount": 1498642,
+          "title": "Barnevognsmarch 2025/2026"
+        },
+        {
+          "amount": 199362,
+          "title": "Barnevognsmarch 2024"
+        },
+        {
+          "amount": 948366,
+          "title": "Barnevognsmarch - Gå for verdens mødre"
+        }
+      ],
+      "status": "confirmed_above_claim",
+      "sumFound": 2646370
+    },
+    {
+      "org": "Orangutang Fonden / BIO RAP",
+      "baronenClaim": 800000,
+      "found": [
+        {
+          "amount": 797786,
+          "title": "BIO RAP PROJEKTET"
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "org": "Female Freedom",
+      "baronenClaim": 1200000,
+      "found": [
+        {
+          "amount": 199280,
+          "title": "Female Freedom"
+        },
+        {
+          "amount": 499786,
+          "title": "In MaThoko's Footsteps 1"
+        },
+        {
+          "amount": 499940,
+          "title": "In MaThoko's Footsteps 2"
+        }
+      ],
+      "sumFound": 1199006,
+      "status": "confirmed_sum_approx_1.2m"
+    },
+    {
+      "org": "100% for Børnene",
+      "baronenClaim": 3500000,
+      "found": [
+        {
+          "amount": 2685876,
+          "title": "YOUTH ON BOARD Ghana education"
+        }
+      ],
+      "status": "partial_one_large_grant_found"
+    },
+    {
+      "org": "Crossing Borders",
+      "baronenClaim": 9000000,
+      "found": [
+        {
+          "amount": 10000,
+          "title": "Council of All Beings Folkemødet"
+        }
+      ],
+      "status": "not_matched_9m_only_small_oplysning",
+      "note": "9 mio. findes ikke som ét OpEn-projekt under det navn — kan være strategisk partnerskab/andet spor"
+    },
+    {
+      "org": "Ghana Venskab",
+      "baronenClaim": 11000000,
+      "found": [],
+      "status": "not_found_as_title_in_cisu_index",
+      "note": "Ingen titel med \"Ghana Venskab\" i 3288 CISU-poster. Kan være anden org-navn eller ikke-CISU midler."
+    },
+    {
+      "org": "Colombia Solidaritet",
+      "baronenClaim": 4000000,
+      "found": [],
+      "status": "not_found_as_title",
+      "note": "Colombia-projekter findes, men ikke under \"Colombia Solidaritet\""
+    },
+    {
+      "org": "Kaffestop Rwanda",
+      "baronenClaim": 149200,
+      "found": [
+        {
+          "amount": 149200,
+          "title": "Kaffestop i Rwanda"
+        }
+      ],
+      "status": "confirmed"
+    }
+  ]
+}
