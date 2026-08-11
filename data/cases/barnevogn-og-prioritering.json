@@ -1,66 +1,91 @@
 {
   "slug": "barnevogn-og-prioritering",
-  "title": "1,5 mio. til barnevognsmarch — mens Magnus nægtes creme",
+  "title": "Barnevognsmarch: over 2,6 mio. skattekroner til gåture i Danmark",
   "status": "approved",
   "priority": 0,
+  "flagship": true,
   "tags": [
     "open",
     "sexogsamfund",
     "prioritering",
-    "baronen",
-    "verificeret"
+    "verificeret",
+    "flagship"
   ],
-  "amountDkk": 1498642,
-  "amountLabel": "1.498.642 kr. (OpEn)",
+  "amountDkk": 2646370,
+  "amountLabel": "2.646.370 kr. (3 CISU-poster, sum)",
   "amountKind": "official",
-  "summary": "Sex & Samfund har fået 1.498.642 kr. fra OpEn til barnevognsmarch 2025/2026 (samlet budget ca. 2,2 mio.). Beløbet er verificeret på CISU. Kontrasten til danskere, der nægtes små beløb til medicin, er kernen i debatten.",
-  "angle": "Dine skattekroner går til marches og oplysning i danske byer — ikke til hospitaler i Afrika. Det er lovligt. Det er også et valg om prioritering.",
+  "summary": "Tre officielle CISU-bevillinger til Sex & Samfunds barnevognsmarcher: 1.498.642 + 948.366 + 199.362 kr. = 2.646.370 kr. Pengene går til marches og oplysning i Danmark — ikke til hospitaler i Afrika. Borgerjournalisten: ca. 1.000 kr. pr. deltager (2026).",
+  "angle": "Danskere først: mens kommuner skærer, betaler vi millioner for at forældre går med barnevogn på mors dag. Lovligt. Men det er et klart politisk valg om, hvad skattekroner er til.",
+  "plainLead": "Sex & Samfund har fået over 2,6 millioner kroner i tre CISU-bevillinger til barnevognsmarcher i danske byer. Formålet er «oplysning» om mødredødelighed — altså engagement herhjemme, betalt som udviklingsbistand.",
+  "whatMoneyFor": "Marches på mors dag, medier (fx Femina), mobilisering af forældre i Danmark (MaMaMesh/UNFPA-spor). **Ikke** medicin eller klinikker i feltet. Største post: OpEn 1.498.642 kr. (budget 2.198.642). Desuden civilsamfund 948.366 kr. og OpEn 2024: 199.362 kr.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / progressiv køn & oplysning",
+  "orientationNote": "Global mødredødelighed formidlet som mobilisering i DK — klassisk OpEn/progressiv profil.",
+  "homeCompare": {
+    "text": "**2,65 mio. kr.** ≈ **ca. 5 sygeplejerske-årsværk** (550.000 kr.) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 265 personer** (BT-model). Eller: mange gange Magnus’ årlige creme-udgift (ca. 60.000 kr.).",
+    "nursesApprox": 4.8,
+    "taxPeopleApprox": 265
+  },
+  "verifiedFacts": [
+    {
+      "label": "OpEn 2025/2026",
+      "amountDkk": 1498642,
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d"
+    },
+    {
+      "label": "Civilsamfund (engagement)",
+      "amountDkk": 948366,
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=debbb821-330f-46d1-9c51-8e66e014ae52"
+    },
+    {
+      "label": "OpEn 2024",
+      "amountDkk": 199362,
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ca2cf5bd-b95f-4c1c-9c19-27295644a285"
+    }
+  ],
   "depth": {
     "status": "approved",
-    "headline": "Forstået på almindeligt dansk",
+    "headline": "Flagskib — alt vi kan dokumentere",
     "body": [
-      "Staten har givet Sex & Samfund ca. 1,5 millioner kroner til at gå barnevognsmarches i Danmark. Samtidig fortæller historier om syge danskere, der ikke kan få billig, livsnødvendig creme.",
-      "**Hvad går pengene til?** Pengene går til arrangementer i Danmark: barnevognsmarches på mors dag, oplysning om mødredødelighed i verden, og samarbejde med MaMaMesh. Det er **oplysning og engagement herhjemme**, betalt over udviklingsbistanden (OpEn-puljen).",
-      "**Politisk farve (vores vurdering):** Venstreorienteret / progressiv. Projektet handler om global mødredødelighed og køn — formidlet som politisk oplysning og mobilisering i Danmark, ikke som klassisk nødhjælp i felten.",
-      "**Hvad kunne det være herhjemme?** **1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
-      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
-      "**CISU/OpEn bekræfter:** Projektet *Barnevognsmarch: Gå for verdens mødre på mors dag 2025/2026* — bevilget **1.498.642 kr.**, samlet budget 2.198.642 kr., organisation Sex & Samfund.",
-      "Martin Ågerup / Skattebetalerne: **Magnus** nægtes ca. **60.000 kr./år** til creme i Struer. Baronens kontrast står stadig — nu med hård CISU-kilde bag march-beløbet.",
-      "Kildesti: Baronen peget → vi matchede CISU-id `0edadb48-…` → beløb låst som **officiel**.",
-      "**Borgerjournalisten (2. aug. 2026):** I 2026 havde barnevognseventet **1.537 deltagere** fordelt på **15 marcher** — ca. **1.000 kr. pr. deltager** for en gåtur. RFSU donerede 100 kr. pr. deltager; deltagere/tilskuere rejste yderligere ca. 62.000 kr. til «sikrere graviditeter i Kenya». Altså: **ca. 1,5 mio. skattekroner** for at rejse **ca. 268.000 kr.** til Kenya.",
-      "**Læs mere:** Borgerjournalisten har regnestykket på deltagere og Kenya-indsamling — se kilder nedenfor (link til artiklen)."
+      "**Kort:** Over **2,6 mio. kr.** i tre CISU-bevillinger til barnevognsmarcher i Danmark under Sex & Samfund. Det er **officiel** kildedata — ikke bare X-claims.",
+      "**Hvad får du for pengene?** Et optog af barnevogne på mors dag, oplysning om mødredødelighed, mediepartnerskab (Femina nævnes i CISU-resume). Målgruppe: danske småbørnsforældre. Det er **OpEn/engagement** — skattekroner der bliver i Danmark som «bistand».",
+      "**De tre poster (alle CISU/officielle):**\n1) *Barnevognsmarch 2025/2026* — **1.498.642 kr.** OpEn (budget 2.198.642) · id `0edadb48-…`\n2) *Barnevognsmarch – Gå for verdens mødre* — **948.366 kr.** Civilsamfund / folkeligt engagement · id `debbb821-…`\n3) *Barnevognsmarch 2024* — **199.362 kr.** OpEn · id `ca2cf5bd-…`\n**Sum: 2.646.370 kr.**",
+      "**Borgerjournalisten (2. aug. 2026):** 2026-event: **1.537 deltagere**, **15 marcher** → ca. **1.000 kr. pr. deltager**. RFSU 100 kr./deltager + indsamling ca. 62.000 kr. til Kenya. Regnestykke: **ca. 1,5 mio. skat** for at rejse **ca. 268.000 kr.** til «sikrere graviditeter».",
+      "**Kontrast hjemme:** Martin Ågerup / Skattebetalerne (via Baronen): **Magnus** i Struer nægtes ca. **60.000 kr./år** til livsnødvendig creme. Én barnevognspost alene er **25×** det beløb.",
+      "**Kontrast hjemme (kommuner):** Lolland mangler hundredvis af millioner til skoler/pleje; Aarhus holder 90 mio. igen på sundhed/omsorg. Alligevel er der råd til marches som «udvikling».",
+      "**Politisk linje (Skattejægeren):** Vi er ikke imod, at folk går en tur. Vi er imod, at **udviklingsbistand** bruges til venstrefløjs-oplysning og mobilisering i DK, mens egne borgere skæres.",
+      "**Status:** Beløb = **låst officiel**. Deltager-regnestykke = **research (Borgerjournalisten)**. Magnus = **research/kontrast**."
     ],
     "sources": [
       {
-        "title": "CISU bevilling 1.498.642 kr.",
+        "title": "CISU: Barnevogn 2025/2026 (1.498.642 kr.)",
         "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d",
         "kind": "official"
       },
       {
-        "title": "Baronen: Magnus vs barnevogn",
-        "url": "https://x.com/oresundsbaron/status/2082152856606384234",
+        "title": "CISU: Barnevogn civilsamfund (948.366 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=debbb821-330f-46d1-9c51-8e66e014ae52",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Barnevogn 2024 (199.362 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ca2cf5bd-b95f-4c1c-9c19-27295644a285",
+        "kind": "official"
+      },
+      {
+        "title": "Borgerjournalisten: OpEn + barnevogn-regnestykke",
+        "url": "https://borgerjournalisten.dk/artikler/danida/open-puljen-fns-verdensmaal-i-danmark",
         "kind": "research"
       },
       {
-        "title": "Borgerjournalisten: OpEn puljen – barnevognsmarch",
-        "url": "https://borgerjournalisten.dk/artikler/danida/open-puljen-fns-verdensmaal-i-danmark",
+        "title": "Baronen: Magnus vs barnevogn",
+        "url": "https://x.com/oresundsbaron/status/2082152856606384234",
         "kind": "research"
       }
     ]
   },
   "relatedPosts": [
     "2082152856606384234",
-    "2080533439967895599",
-    "2082341720243495390"
-  ],
-  "plainLead": "Staten har givet Sex & Samfund ca. 1,5 millioner kroner til at gå barnevognsmarches i Danmark. Samtidig fortæller historier om syge danskere, der ikke kan få billig, livsnødvendig creme.",
-  "whatMoneyFor": "Pengene går til arrangementer i Danmark: barnevognsmarches på mors dag, oplysning om mødredødelighed i verden, og samarbejde med MaMaMesh. Det er **oplysning og engagement herhjemme**, betalt over udviklingsbistanden (OpEn-puljen).",
-  "orientation": "venstre",
-  "orientationLabel": "Venstreorienteret / progressiv",
-  "orientationNote": "Projektet handler om global mødredødelighed og køn — formidlet som politisk oplysning og mobilisering i Danmark, ikke som klassisk nødhjælp i felten.",
-  "homeCompare": {
-    "text": "**1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
-    "nursesApprox": 2.7,
-    "taxPeopleApprox": 150
-  }
+    "2080533439967895599"
+  ]
 }

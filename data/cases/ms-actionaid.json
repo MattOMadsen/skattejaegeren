@@ -1,8 +1,8 @@
 {
   "slug": "ms-actionaid",
-  "title": "MS ActionAid: 129 mio. om året — kun 58 % til partnere",
+  "title": "MS ActionAid: 129 mio./år — kun 58 % til partnere, 16 % HQ i DK",
   "status": "approved",
-  "priority": 2,
+  "priority": 0,
   "tags": [
     "danida",
     "ms",
@@ -13,38 +13,39 @@
   "amountDkk": 129000000,
   "amountLabel": "129 mio. kr./år",
   "amountKind": "official",
-  "summary": "129 mio./år fra UM. Rapport: 58% til partnere, 16% HQ DK. Uganda-sag 627k. Climate justice & youth-fokus.",
+  "summary": "UM: 129 mio. kr./år. Egen SPA-rapport 2025: total ca. 150 mio.; 58 % transfer til partnere (87,2 mio.); 16 % HQ Danmark (24,5 mio.); 2 % IPE. Uganda: 627.452 kr. uregelmæssigheder. Climate justice & youth — ikke kun nødhjælp.",
   "angle": "«Nødhjælp» er et brand. Maskinen er advocacy, hovedkontor og partnere — og du betaler regningen.",
   "depth": {
     "status": "approved",
-    "headline": "Forstået på almindeligt dansk",
+    "headline": "Flagskib — SPA-maskinen i tal",
     "body": [
-      "Mellemfolkeligt Samvirke / ActionAid er en af de store. Staten giver ca. 129 millioner kr. om året. Deres egen rapport viser, at kun 58 % går som transfer til partnere ude i verden.",
-      "**Hvad går pengene til?** Strategisk partnerskab med UM: aktiviteter i mange lande + HQ i Danmark. **2025-rapport:** ca. 150 mio. i alt (inkl. tillæg); **58 %** til partnere; **16 %** HQ i DK; **2 %** oplysning (IPE). UM har også en sag om ca. **627.000 kr.** uregelmæssigheder i Uganda.",
-      "**Politisk farve (vores vurdering):** Venstre / global justice NGO. Demokrati, climate justice, youth in crises — klassisk venstreorienteret international NGO-profil.",
-      "**Hvad kunne det være herhjemme?** **129.0 mio. kr.** kunne ca. dække **235 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **12.900 personer** med gennemsnitsindkomst (BT-model).",
-      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
-      "**UM:** MS ActionAid får **129 mio. kr. årligt** i strategisk partnerskab (2022–2026-tabel).",
-      "**UM C-sag C1975 (jul 2025):** AADK sendte **4,7 mio.** til ActionAid Uganda i 2024. Whistleblower + forensic audit: ineligible salary increases / per diem — **627.452 kr.** under mistanke, tilbagebetaling krævet. Country Director suspended."
+      "**Facit UM:** **129 mio. kr./år** til MS ActionAid (AADK) i strategisk partnerskab 2022–2026. Officiel partnerskabstabel.",
+      "**Facit egen rapport 2025:** Total indtægt/forbrug ca. **150–151 mio.** (inkl. top-ups). **Spend rate 99 %**.",
+      "**Hvor pengene bliver af (2025-split):**\n• **58 %** transfer til partnere — **87.190.000 kr.**\n• **16 %** HQ program & support i **Danmark** — **24.530.000 kr.**\n• **14 %** non-HQ program/support — **21.220.000 kr.**\n• **7 %** Global Entity — **9.680.000 kr.**\n• **3 %** ActionAid International — **4.660.000 kr.**\n• **2 %** IPE (oplysning/engagement) — **2.680.000 kr.**",
+      "**Hvad er «formålet»?** Ikke kun madpakker: **Democracy Delivers**, **Climate Justice**, **Youth in Crises** — advocacy, mobilisering, policy. 16 SPA-lande nævnt i rapporten.",
+      "**Uganda C1975 (UM, jul 2025):** AADK sendte **4,7 mio.** til ActionAid Uganda 2024. Forensic audit: **627.452 kr.** ineligible (løn/per diem) — tilbagebetaling. Country Director suspended. Småt ift. 129 mio. — men det viser kæderisikoen.",
+      "**Hjemme vs. ude:** 129 mio. er ca. **¼ af Lollands budgethul (531 mio.)**. HQ alene (24,5 mio.) er mange kommunale spareposter. Alligevel er der «ikke råd» til velfærd.",
+      "**Politisk farve:** Venstre / global justice. Vi er imod, at skattekroner i den størrelsesorden kører som ideologisk apparat med stort DK-HQ, mens danskere skæres.",
+      "**Status:** 129 mio. = **officiel UM**. Split % = **officiel org-rapport**. Uganda 627k = **officiel UM-PDF**."
     ],
     "sources": [
       {
-        "title": "UM partnerskabstabel — 129 mio.",
+        "title": "UM SPA-tabel — 129 mio.",
         "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
         "kind": "official"
       },
       {
-        "title": "MS: Danida SPA Results 2025 (PDF)",
+        "title": "MS SPA Results 2025 (PDF)",
         "url": "https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf",
         "kind": "official"
       },
       {
-        "title": "UM C1975 Uganda uregelmæssigheder",
+        "title": "UM C1975 Uganda (PDF)",
         "url": "https://um.dk/media/2bojzbzk/c1975-report-1.pdf",
         "kind": "official"
       },
       {
-        "title": "Statsstyret aktindsigt MS",
+        "title": "Statsstyret: aktindsigt MS",
         "url": "https://x.com/Statsstyret/status/1888511754260394004",
         "kind": "research"
       }
@@ -55,14 +56,15 @@
     "2086920527436730876",
     "2079270077728248030"
   ],
-  "plainLead": "Mellemfolkeligt Samvirke / ActionAid er en af de store. Staten giver ca. 129 millioner kr. om året. Deres egen rapport viser, at kun 58 % går som transfer til partnere ude i verden.",
-  "whatMoneyFor": "Strategisk partnerskab med UM: aktiviteter i mange lande + HQ i Danmark. **2025-rapport:** ca. 150 mio. i alt (inkl. tillæg); **58 %** til partnere; **16 %** HQ i DK; **2 %** oplysning (IPE). UM har også en sag om ca. **627.000 kr.** uregelmæssigheder i Uganda.",
+  "plainLead": "Mellemfolkeligt Samvirke / ActionAid får **129 millioner kr. om året** fra staten. Deres egen regning viser, at **kun 58 %** går som transfer til partnere — **16 %** bliver i HQ i Danmark (**24,5 mio.**).",
+  "whatMoneyFor": "Strategisk partnerskab. 2025-rapport (total forbrug ca. 150 mio. inkl. top-ups): Transfer partnere **87,2 mio. (58 %)** · HQ DK **24,5 mio. (16 %)** · Non-HQ program **21,2 mio. (14 %)** · Global Entity **9,7 mio. (7 %)** · AAI **4,7 mio. (3 %)** · IPE oplysning **2,7 mio. (2 %)**. Fokus: Democracy Delivers, Climate Justice, Youth in Crises.",
   "orientation": "venstre",
   "orientationLabel": "Venstre / global justice NGO",
   "orientationNote": "Demokrati, climate justice, youth in crises — klassisk venstreorienteret international NGO-profil.",
   "homeCompare": {
-    "text": "**129.0 mio. kr.** kunne ca. dække **235 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **12.900 personer** med gennemsnitsindkomst (BT-model).",
+    "text": "**129 mio. kr./år** ≈ **ca. 235 sygeplejerske-årsværk**. Alene **HQ i DK (24,5 mio.)** ≈ **ca. 45 årsværk**. **627.452 kr.** uregelmæssigheder i Uganda ≈ **10×** Magnus’ årlige creme.",
     "nursesApprox": 234.5,
     "taxPeopleApprox": 12900
-  }
+  },
+  "flagship": true
 }

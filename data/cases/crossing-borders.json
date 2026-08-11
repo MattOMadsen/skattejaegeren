@@ -1,8 +1,8 @@
 {
   "slug": "crossing-borders",
-  "title": "Crossing Borders: lever af offentlig støtte — 9 mio. stadig claim",
+  "title": "Crossing Borders: CISU-finansieret DEI/youth — 9 mio. stadig claim",
   "status": "approved",
-  "priority": 3,
+  "priority": 1,
   "tags": [
     "cisu",
     "danida",
@@ -27,57 +27,47 @@
   },
   "depth": {
     "status": "approved",
-    "headline": "Forstået på almindeligt dansk — det vi har gravet frem",
+    "headline": "Hvad er låst — og hvad er stadig claim",
     "body": [
-      "Crossing Borders er en dansk NGO, der arbejder med unge, «global citizenship» og dialog i Danmark og ude i verden. De skriver sort på hvidt, at deres globale program er finansieret af CISU (altså danske skattekroner via Udenrigsministeriet), New Democracy Fund og Nordisk Råd — plus EU og fonde.",
-      "**Hvad går pengene til?** Tre spor ifølge årsrapport 2024: (1) Danmark — skoleworkshops, Food for Thought, Migrantour, ukrainske youth hubs med kommuner. (2) EU-program — Erasmus+ m.m. (3) Global-program — projekter i Afrika, Kaukasus, Ukraine, Indien m.m. finansieret bl.a. af CISU.",
-      "**Politisk farve:** Venstre / progressiv youth & DEI. Ikke partimedlemskab — men formålet er tydeligt progressivt.",
-      "**Hvad kunne 9 mio. være herhjemme?** Ca. 16 sygeplejerske-årsværk — eller 10.000 kr. lavere bundskat til ca. 900 personer (BT-model). *Kun relevant hvis claim holder.*",
-      "**Årsrapport 2024 (officielt fra org):** Global programme er «Funded by grants from the Danish Ministry of Foreign Affairs Civil Society Fund (**CISU**), the New Democracy Fund and the Nordic Council».",
-      "**Finansiering nævnt for 2024:** CISU, New Democracy Fund, Nordic Council, Dansk Kulturinstitut, Tuborgfondet, BUPL’s solidaritetsfond, Egmont, Spar Nord, GLOBUS, Hermod Lannungs Fond, Copenhagen Film Company + Anna Lindh Foundation (netværk).",
-      "**Org om afhængighed (2024):** «continued heavy dependence on public funding now presents challenges» — de vil diversificere til mere privat støtte.",
-      "**Financial Administration Feb 2025:** Offentlige kilder = EU-programmer, Civil Society Fund (CISU), Globus, New Democracy Fund under UM/Kulturstyrelsen; plus private fonde og egen indtjening (workshops, medlemskab).",
-      "**CISU under org-navn i vores katalog:** kun **10.000 kr.** (Folkemøde / Council of All Beings). Større CISU-projekter kan have andre titler eller ligge uden for sample — derfor mangler vi stadig 1:1 på 9 mio.",
-      "**CVR 32166121**, forening. Adresser nævnt: Søtorvet 5 / Nørre Allé 7, København.",
-      "**Grave-status:** Årsrapporterne er **fortællinger uden resultatopgørelse** (ingen «indtægter i alt: X kr.»). Fuld facit kræver årsregnskab fra virk/revisor eller fuld bevillingsliste fra CISU/UM. Aktindsigt kan vente, til du har automatisk mail-løsning.",
-      "**Borgerjournalisten:** Over **9 mio. kr.** 2021–2025 via 6 bevillinger (woman empowerment Indien, youth Zimbabwe, verdensmål Uganda/Nigeria/Ghana/Zimbabwe, skoler i DK). Kerneværdi: DEI. BJ skriver desuden, at foreningen har været under konkurs siden nov. 2025 — **vi har ikke uafhængigt bekræftet konkursstatus**; årsrapporter 2023–24 ligger stadig offentligt, og org præsenterer sig som aktiv. Tag konkurs-påstanden som research, der skal tjekkes.",
-      "BJ understøtter Baronens 9 mio.-niveau med en bevillingsliste — vores CISU-sample viser stadig kun 10k under org-navn; resten kan være andre titler/kanaler."
+      "**LÅST (org siger det selv i årsrapport 2023 + 2024):** Global-programmet er finansieret af **CISU (Danida Civil Society Fund)**, **New Democracy Fund** og **Nordisk Råd**. Tung afhængighed af offentlig støtte indrømmes. EU, Egmont, Spar Nord, Tuborg, BUPL, GLOBUS m.fl. nævnes. CVR **32166121**.",
+      "**LÅST (CISU under org-navn i vores sample):** Kun **10.000 kr.** — *Council of All Beings* / Folkemøde (oplysningspulje). Det er **ikke** 9 mio.",
+      "**CLAIM (Baronen + Borgerjournalisten):** Ca. **9 mio. kr. 2021–2025** over flere bevillinger (woman empowerment Indien, youth Zimbabwe, verdensmål Uganda/Nigeria/Ghana/Zimbabwe, skoler i DK). BJ nævner **6 bevillinger** og DEI som kerneværdi. Vi har **ikke** matchet alle seks 1:1 i CISU-API/sample endnu — titler kan ligge under andre navne.",
+      "**CLAIM (BJ, uverificeret her):** «Under konkurs siden nov. 2025». Vi ser stadig offentlige årsrapporter 2023–24 og aktiv hjemmeside. **Behandl som research indtil virk/CVR-status er tjekket manuelt.**",
+      "**Hvad laver de (ifølge egne rapporter)?** Skoleworkshops, Migrantour, Food for Thought, ukrainske youth hubs, EU-programmer, «global citizenship». Progressiv youth/DEI-profil — ikke klassisk nødhjælp.",
+      "**Hjemme vs. ude:** Hvis 9 mio. holder ≈ **16 sygeplejerske-årsværk**. Selv uden præcis sum er det dokumenteret, at **danske skattekroner via CISU** er en hovedmotor.",
+      "**Grave-status uden aktindsigt:** (1) Org-PDF’er = narrative, **ingen** resultatopgørelse med «indtægter i alt». (2) Sample-CISU under navn = 10k. (3) Fuld 9 mio. kræver enten regnskab fra virk/revisor, manuel gennemgang af flere CISU-titler, eller senere aktindsigt.",
+      "**Konklusion nu:** Vi kan sige **«lever af offentlig støtte inkl. CISU»** med org-kilde. Vi kan **ikke** endnu sige **«præcis 9.000.000 kr.»** som officiel sum. Claim forbliver claim — men underbygget af BJ/Baronen."
     ],
     "sources": [
       {
-        "title": "Crossing Borders Annual Report 2024 (PDF)",
+        "title": "CB Annual Report 2024",
         "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/03/Crossing-Borders-Annual-Report-2024.pdf",
         "kind": "org"
       },
       {
-        "title": "Crossing Borders Annual Report 2023 (PDF)",
+        "title": "CB Annual Report 2023",
         "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
         "kind": "org"
       },
       {
-        "title": "CB Financial Administration Feb 2025 (PDF)",
+        "title": "CB Financial Administration 2025",
         "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/02/CB-Financial-Administration-Feb-2025.pdf",
         "kind": "org"
       },
       {
-        "title": "CISU: Council of All Beings (10.000 kr.)",
+        "title": "CISU: Council of All Beings 10.000 kr.",
         "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ac3ea5ff-597f-474f-9e08-6e9c04073f0f",
         "kind": "official"
       },
       {
-        "title": "Proff: Crossing Borders CVR 32166121",
-        "url": "https://www.proff.dk/firma/crossing-borders/k%C3%B8benhavn-k/pleje-og-omsorgstjenester/GSHS1UI10K7",
-        "kind": "official"
-      },
-      {
-        "title": "Crossing Borders hjemmeside",
-        "url": "https://crossingborders.dk/",
-        "kind": "org"
-      },
-      {
-        "title": "Borgerjournalisten: Crossing Borders",
+        "title": "Borgerjournalisten: NGO-aktivisme (CB 9 mio.)",
         "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
         "kind": "research"
+      },
+      {
+        "title": "Proff CVR 32166121",
+        "url": "https://www.proff.dk/firma/crossing-borders/k%C3%B8benhavn-k/pleje-og-omsorgstjenester/GSHS1UI10K7",
+        "kind": "official"
       }
     ]
   },
@@ -91,5 +81,14 @@
     "fullAccountsWithDkk": "not_in_annual_report_pdf",
     "baronen9m": "supported_by_borgerjournalisten_research_not_full_accounts",
     "konkursClaimBj": "unverified_by_us"
+  },
+  "flagship": true,
+  "verificationMatrix": {
+    "cisuAsFunder": "confirmed_org_annual_report",
+    "publicFundingDependence": "confirmed_org",
+    "10kCisuSample": "confirmed_our_data",
+    "9mTotal": "claim_baronen_bj",
+    "konkurs": "claim_bj_unverified",
+    "fullAccountsDkk": "missing"
   }
 }

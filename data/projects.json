@@ -977,25 +977,30 @@
     },
     {
       "id": "barnevognsmarch-ss",
-      "title": "Barnevognsmarch — Sex & Samfund",
-      "amountDkk": 1498642,
+      "title": "Barnevognsmarcher — Sex & Samfund (3 CISU-poster)",
+      "amountDkk": 2646370,
       "amountKind": "official",
       "org": "Sex & Samfund",
       "pool": "OpEn (UM via CISU)",
       "country": "Danmark",
       "period": "2025/2026 (Mors Dag-marches)",
-      "whatFor": "Sex & Samfund + MaMaMesh arrangerer barnevognsmarches på mors dag i hele landet. Formål: flere — særligt forældre — skal kende til global mødredødelighed. OFFICIEL CISU-bevilling 1.498.642 kr. (OpEn).",
-      "angle": "Oplysning i Danmark med skattekroner — mens kommuner siger nej til 60.000 kr. livsnødvendig medicincreme.",
+      "whatFor": "Sum: OpEn 1.498.642 + civilsamfund 948.366 + OpEn 2024 199.362 = 2.646.370 kr. Marches og oplysning i DK — ikke felt-nødhjælp. Se flagskibssag.",
+      "angle": "Danskere først: millioner til gåture mens velfærd skæres.",
       "sources": [
         {
-          "title": "CISU: Barnevognsmarch 2025/2026 (1.498.642 kr.)",
+          "title": "CISU 2025/26 1.498.642",
           "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d",
           "kind": "official"
         },
         {
-          "title": "Baronen: prioritering vs Magnus",
-          "url": "https://x.com/oresundsbaron/status/2082152856606384234",
-          "kind": "research"
+          "title": "CISU civilsamfund 948.366",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=debbb821-330f-46d1-9c51-8e66e014ae52",
+          "kind": "official"
+        },
+        {
+          "title": "CISU 2024 199.362",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ca2cf5bd-b95f-4c1c-9c19-27295644a285",
+          "kind": "official"
         }
       ],
       "researchers": [
@@ -1004,11 +1009,11 @@
       ],
       "caseSlug": "barnevogn-og-prioritering",
       "amountNote": "CISU/OpEn bevilget 1.498.642 kr. Samlet budget 2.198.642 kr. (egenfinansiering rest).",
-      "plainLead": "Sex & Samfund + MaMaMesh arrangerer barnevognsmarches på mors dag i hele landet. Formål: flere — særligt forældre — skal kende til global mødredødelighed. OFFICIEL CISU-bevilling 1.498.642 kr. (OpEn).",
+      "plainLead": "Over 2,6 mio. kr. i tre CISU-bevillinger til barnevognsmarcher i Danmark.",
       "homeCompare": {
-        "text": "**1,5 mio. kr./år** svarer groft til **ca. 3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 150 personer** med gennemsnitsindkomst (BT-model).",
-        "nursesApprox": 2.7,
-        "taxPeopleApprox": 150
+        "text": "**2,65 mio.** ≈ ca. 5 sygeplejerske-årsværk.",
+        "nursesApprox": 4.8,
+        "taxPeopleApprox": 265
       },
       "profile": ""
     },
@@ -1332,6 +1337,33 @@
       "caseSlug": "civilsamfundspuljen",
       "plainLead": "Den offentlige mine: tusindvis af navngivne projekter. Alene OpEn har 200+ poster (podcasts, film, marches, festivals). Det er her “kaffestop” og “barnevogn” findes side om side med reelle udviklingsp",
       "profile": ""
+    },
+    {
+      "id": "lgbt-kenya-empowering-voices",
+      "title": "Empowering Voices — LGBTIQ+ Kenya (3,48 mio.)",
+      "amountDkk": 3481892,
+      "amountKind": "official",
+      "org": "LGBT+Danmark",
+      "pool": "Civilsamfundspuljen - Programme Small",
+      "country": "Kenya",
+      "plainLead": "3.481.892 kr. til at styrke LGBTIQ+-bevægelsen i Kenya sammen med Pema Kenya.",
+      "whatFor": "CISU-program: community empowerment, stakeholder engagement, advocacy/ledelse for «LGBTIQ+ Inclusive Society». Hele budgettet er statsbevilget. Se flagskibssag.",
+      "angle": "Ideologisk eksport med skattekroner — danskere først.",
+      "profile": "LGBTQ+ / advocacy",
+      "homeCompare": {
+        "text": "**3,48 mio.** ≈ ca. 6 sygeplejerske-årsværk.",
+        "nursesApprox": 6.3,
+        "taxPeopleApprox": 348
+      },
+      "sources": [
+        {
+          "title": "CISU Empowering Voices Kenya",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0e8572bd-7687-4e1c-8228-f62e40f3c3e2",
+          "kind": "official"
+        }
+      ],
+      "caseSlug": "lgbt-kenya-empowering-voices",
+      "verification": "verified_cisu_flagship"
     }
   ]
 }

@@ -1,0 +1,84 @@
+{
+  "slug": "lgbt-kenya-empowering-voices",
+  "title": "3,5 mio. til «inkluderende LGBTIQ+-samfund» i Kenya",
+  "status": "approved",
+  "priority": 0,
+  "flagship": true,
+  "tags": [
+    "cisu",
+    "lgbt",
+    "kenya",
+    "official",
+    "flagship",
+    "mattie"
+  ],
+  "amountDkk": 3481892,
+  "amountLabel": "3.481.892 kr. (CISU, officiel)",
+  "amountKind": "official",
+  "summary": "LGBT+Danmark + Pema Kenya: 3.481.892 kr. til at styrke LGBTIQ+-bevægelsen i Kenya (ledelse, advocacy, resilience). 100 % af budgettet er CISU-bevilget. Det er ideologisk eksport med danske skattekroner — ikke rent vand.",
+  "angle": "Som @MattieDanmark har peget på: hvorfor betaler danske skatteydere millioner til LGBTIQ+-inkludering i Kenya, mens der skæres hjemme — og mens det er tvivlsomt, om landet «giver en skid» for dagsordenen?",
+  "plainLead": "Danmark har givet **3.481.892 kr.** til projektet *Empowering Voices – Towards an LGBTIQ+ Inclusive Society in Kenya*. Pengene går til at styrke en politisk/identitetsbevægelse — ikke til hospitalssenge i Danmark.",
+  "whatMoneyFor": "Partnerskab LGBT+Danmark og **Pema Kenya**. CISU-resume: styrke LGBTIQ+-bevægelsen via (1) community empowerment, (2) stakeholder engagement, (3) advocacy/ledelse. Pulje: **Civilsamfundspuljen – Programme Small**. Samlet budget = bevilget beløb (**3.481.892 kr.**).",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / LGBTQ+ identitetspolitik",
+  "orientationNote": "Eksplicit LGBTIQ+ movement building og «inclusive society» — ikke partineutral humanitær nødhjælp.",
+  "homeCompare": {
+    "text": "**3,48 mio. kr.** ≈ **ca. 6 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 348 personer**. Eller: over **50×** Magnus’ årlige creme (60.000 kr.).",
+    "nursesApprox": 6.3,
+    "taxPeopleApprox": 348
+  },
+  "verifiedFacts": [
+    {
+      "label": "CISU bevilget",
+      "amountDkk": 3481892,
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0e8572bd-7687-4e1c-8228-f62e40f3c3e2"
+    },
+    {
+      "label": "Org",
+      "text": "LGBT+Danmark"
+    },
+    {
+      "label": "Partner",
+      "text": "Pema Kenya"
+    }
+  ],
+  "depth": {
+    "status": "approved",
+    "headline": "Flagskib — Kenya LGBTIQ+ (officiel CISU)",
+    "body": [
+      "**Facit:** **3.481.892 kr.** fra CISU til LGBT+Danmark til programmet *Empowering Voices – Advancing Rights: Towards an LGBTIQ+ Inclusive Society in Kenya*. Beløb = budget. Kilde: CISU bevillingsoversigt (id `0e8572bd-…`).",
+      "**Hvad står der i den officielle tekst?** Partnerskab med **Pema Kenya**. Formål: styrke LGBTIQ+-**bevægelsen** i Kenya — ledelse, advocacy, resilience blandt personer og organisationer. Tre spor: community empowerment, stakeholder engagement, og det der følger af «advancing rights / inclusive society».",
+      "**Hvad er det *ikke*?** Det er ikke en drikkevandsboring. Det er ikke medicin. Det er **politisk/identitetsarbejde** finansieret af danske skattekroner via civilsamfundspuljen.",
+      "**Kontekst LGBT+ Danmark:** Samme forening har **25,2 mio.** i indtægter (regnskab 2025), **4,5 mio.** driftstilskud fra Ligestillingsministeriet, og CISU-sample ca. **11 mio.** inkl. Ukraine 4,5 mio. Se også sag *LGBT+ Danmark CISU*.",
+      "**Hjemme vs. ude:** 3,5 mio. er mere end mange kommunale «små» sparepunkter. Det er ca. **6 sygeplejerske-årsværk**. Samtidig: Lolland, Aarhus og ældre-hjælpemidler under pres (se Indsigt).",
+      "**Vores linje:** Vi er imod, at Danmark eksporterer venstrefløjens LGBTQ+-dagsorden for skatteydernes regning til lande, der hverken har bedt om det som «nødhjælp» eller deler prioriteterne — mens danske borgere skæres.",
+      "**X:** @MattieDanmark har fremhævet netop denne type Kenya-post. @NamelessCoder/Borgerjournalisten har dokumenteret mønsteret i NGO-aktivisme for Danida-midler.",
+      "**Status:** Beløb + org + titel + partner = **officiel CISU**. Politisk vurdering = **borgerlig redaktionel linje**."
+    ],
+    "sources": [
+      {
+        "title": "CISU: Empowering Voices Kenya (3.481.892 kr.)",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0e8572bd-7687-4e1c-8228-f62e40f3c3e2",
+        "kind": "official"
+      },
+      {
+        "title": "LGBT+ Danmark regnskab 2025",
+        "url": "https://lgbt.dk/wp-content/uploads/2026/06/Aarsrapport_LGBT_Danmark_2025_1305526.pdf",
+        "kind": "official"
+      },
+      {
+        "title": "Borgerjournalisten: Venstrefløjs-aktivisme for Danida-midler",
+        "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
+        "kind": "research"
+      },
+      {
+        "title": "@MattieDanmark på X",
+        "url": "https://x.com/MattieDanmark",
+        "kind": "research"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "2087127310377811984"
+  ]
+}

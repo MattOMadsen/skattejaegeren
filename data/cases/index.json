@@ -55,19 +55,20 @@
   },
   "slugs": [
     "barnevogn-og-prioritering",
+    "lgbt-kenya-empowering-voices",
+    "ms-actionaid",
+    "crossing-borders",
+    "lgbt-danmark-cisu",
     "bt-mediedækning",
     "kaffestop-rwanda",
     "strategiske-partnerskaber",
     "global-aktion",
-    "lgbt-danmark-cisu",
-    "ms-actionaid",
     "oxfam-spa",
     "sex-samfund-uganda",
     "100-for-boernene",
     "amnesty-open",
     "blackfish-mille",
     "civilsamfundspuljen",
-    "crossing-borders",
     "danwatch-klima",
     "female-freedom",
     "colombia-solidaritet",
@@ -79,5 +80,12 @@
     "information-mediestoette",
     "kirke-udland"
   ],
-  "note": "Én fil pr. sag: data/cases/<slug>.json. index.json = metadata + slug-liste. Udvid depth.body for mere gravning."
+  "note": "Én fil pr. sag: data/cases/<slug>.json. index.json = metadata + slug-liste. Udvid depth.body for mere gravning.",
+  "flagships": [
+    "barnevogn-og-prioritering",
+    "lgbt-kenya-empowering-voices",
+    "ms-actionaid",
+    "crossing-borders",
+    "lgbt-danmark-cisu"
+  ]
 }

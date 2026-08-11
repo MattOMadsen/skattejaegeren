@@ -364,32 +364,32 @@ function projectCard(p) {
 
 const SHOCK = [
   {
-    amt: '1,5 mio.',
-    title: 'Barnevognsmarch i Danmark',
-    text: 'Sex & Samfund · OpEn — verificeret. Ca. 1.000 kr. pr. deltager (BJ).',
+    amt: '2,6 mio.',
+    title: 'Barnevognsmarcher (3 poster)',
+    text: 'Sex & Samfund — sum af tre CISU-bevillinger. Ca. 1.000 kr. pr. deltager (BJ).',
     href: '#/sag/barnevogn-og-prioritering',
-    tag: 'OpEn',
+    tag: 'Flagskib',
   },
   {
-    amt: '1,1 mio.',
-    title: 'Avatar-eksperiment for regnskov',
-    text: 'Verdens Skove: engagement inspireret af Avatar-film og -spil — OpEn.',
-    href: '#/indsigt',
-    tag: 'OpEn',
+    amt: '3,5 mio.',
+    title: 'LGBTIQ+ «inclusive» Kenya',
+    text: 'LGBT+Danmark + Pema Kenya — officiel CISU 3.481.892 kr. Ideologisk eksport.',
+    href: '#/sag/lgbt-kenya-empowering-voices',
+    tag: 'Flagskib',
   },
   {
     amt: '58%',
     title: 'MS: kun så meget til partnere',
-    text: 'ActionAid 129 mio./år — 16% HQ i Danmark.',
+    text: '129 mio./år — 24,5 mio. HQ i Danmark. Uganda 627k uregelmæssigheder.',
     href: '#/sag/ms-actionaid',
-    tag: 'SPA',
+    tag: 'Flagskib',
   },
   {
-    amt: '531 mio.',
-    title: 'Lolland mangler — skoler truet',
-    text: 'Kommunalt hul. Samtidig 1,26 mia./år til 18 NGO-partnerskaber.',
-    href: '#/indsigt',
-    tag: 'Hjemme',
+    amt: '9 mio.?',
+    title: 'Crossing Borders (claim)',
+    text: 'CISU-finansieret DEI/youth — 9 mio. underbygget claim, 10k i sample.',
+    href: '#/sag/crossing-borders',
+    tag: 'Grave',
   },
 ];
 
@@ -768,25 +768,48 @@ function renderProject(d, id) {
 }
 
 function renderCases(d) {
-  const cases = [...d.cases.cases].sort((a, b) => a.priority - b.priority);
+  const cases = [...d.cases.cases].sort(
+    (a, b) => (b.flagship ? 1 : 0) - (a.flagship ? 1 : 0) || a.priority - b.priority
+  );
   const left = cases.filter((c) => c.orientation === 'venstre').length;
+  const flags = cases.filter((c) => c.flagship);
   return `
     ${subnavUdforsk('sager')}
     <section class="hero hero-tight">
       <h1>Sager</h1>
       <p>
-        Skrevet på almindeligt dansk: hvad pengene går til, om formålet er venstre- eller højreorienteret,
-        og hvad beløbet kunne være herhjemme.
-        ${left ? `<strong>${left}</strong> af sagerne vurderes som progressivt/venstre kodet.` : ''}
+        Start med <strong>flagskibene</strong> — dem vi har gravet dybest.
+        ${left ? `<strong>${left}</strong> sager vurderes som progressivt/venstre kodet.` : ''}
       </p>
     </section>
+    ${
+      flags.length
+        ? `<div class="section-head"><h2>Flagskibe</h2></div>
+           <div class="grid cols-2" style="margin-bottom:1.5rem">
+           ${flags
+             .map(
+               (c) => `
+             <a class="card shock" href="#/sag/${esc(c.slug)}">
+               <div class="card-top">
+                 <span class="badge hot">Flagskib</span>
+                 <span class="amt">${esc(c.amountLabel)}</span>
+               </div>
+               <h3>${esc(c.title)}</h3>
+               <p class="blurb">${esc(c.plainLead || c.summary)}</p>
+             </a>`
+             )
+             .join('')}
+           </div>
+           <div class="section-head"><h2>Alle sager</h2></div>`
+        : ''
+    }
     <div class="grid cols-2">
       ${cases
         .map(
           (c) => `
         <a class="card" href="#/sag/${esc(c.slug)}">
           <div class="card-top">
-            ${orientBadge(c)}
+            ${c.flagship ? '<span class="badge hot">Flagskib</span>' : orientBadge(c)}
             <span class="amt">${esc(c.amountLabel)}</span>
           </div>
           <h3>${esc(c.title)}</h3>
@@ -807,6 +830,7 @@ function renderCase(d, slug) {
   return `
     <a class="back" href="#/sager">← Sager</a>
     <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.35rem;align-items:center">
+      ${c.flagship ? '<span class="badge hot">Flagskib</span>' : ''}
       ${badge(c.amountKind)}
       ${orientBadge(c)}
     </div>
@@ -814,6 +838,27 @@ function renderCase(d, slug) {
     <p class="detail-amt">${esc(c.amountLabel)}</p>
     ${shareBlock(c.title, `#/sag/${c.slug}`, { print: true })}
     <p class="print-only-note">Skattejægeren — faktaark · ${esc(c.title)} · mattomadsen.github.io/skattejaegeren</p>
+
+    ${
+      c.verifiedFacts?.length
+        ? `<div class="panel">
+            <h2>Låste tal</h2>
+            <ul class="sources">
+              ${c.verifiedFacts
+                .map((f) => {
+                  const amt =
+                    f.amountDkk != null ? ` <strong>${esc(fmtKr(f.amountDkk))}</strong>` : '';
+                  const txt = f.text ? ` — ${esc(f.text)}` : '';
+                  const link = f.url
+                    ? ` <a href="${esc(f.url)}" target="_blank" rel="noopener">kilde ↗</a>`
+                    : '';
+                  return `<li><span class="badge ok">Låst</span> ${esc(f.label || '')}${amt}${txt}${link}</li>`;
+                })
+                .join('')}
+            </ul>
+          </div>`
+        : ''
+    }
 
     ${
       c.plainLead
@@ -1271,6 +1316,7 @@ function renderIndsigt(d) {
                ? `<p class="meta" style="margin-top:1rem">
                     Research også hos
                     <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten.dk ↗</a>
+                    / <a href="https://x.com/NamelessCoder" target="_blank" rel="noopener">@NamelessCoder</a>
                     · <a href="#/om">Om &amp; kilder</a>
                   </p>`
                : ''
