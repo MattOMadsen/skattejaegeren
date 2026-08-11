@@ -1,7 +1,9 @@
 {
   "updated": "2026-08-11",
   "editorial": {
-    "stance": "borgerlig",
+    "stance": "borgerlig-national",
+    "owner": "@MattieDanmark",
+    "ownerUrl": "https://x.com/MattieDanmark",
     "approval": "manual",
     "primarySource": "@oresundsbaron",
     "secondaryQueued": [
@@ -10,7 +12,17 @@
       "@MikeHuntHurts89",
       "Facebook m.fl."
     ],
-    "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'.",
+    "for": [
+      "Danske borgere først — skoler, ældre, sundhed og tryghed herhjemme",
+      "Gennemsigtighed: skattekroner skal kunne spores til konkrete formål",
+      "Prioritering: hårdt tjente penge skal ikke smides væk på ideologiske prestigeprojekter"
+    ],
+    "against": [
+      "Venstrefløjens identitets- og LGBTQ+-eksport betalt af danske skatteydere",
+      "OpEn/«oplysning» der er marches, hiphop, content og HQ i København — ikke nødhjælp",
+      "Milliarder til lande og dagsordener, der ikke deler danske interesser, mens kommunerne skærer"
+    ],
+    "disclaimer": "Privat, uafhængig side drevet i borgerlig ånd. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller myndigheder. Citater er korte uddrag med link. Beløb mærket claim vs official. Kilder: CISU, UM, regnskaber, Borgerjournalisten m.fl.",
     "mediaPartners": [
       {
         "name": "Borgerjournalisten.dk",

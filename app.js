@@ -519,7 +519,7 @@ function renderHome(d) {
   return `
     <section class="hero hero-home">
       <div class="hero-pills" aria-label="Om siden">
-        <span class="hero-pill">Uafhængig</span>
+        <span class="hero-pill">Danskere først</span>
         <span class="hero-pill">Borgerlig</span>
         <span class="hero-pill">Kilder på hver sag</span>
       </div>
@@ -528,8 +528,10 @@ function renderHome(d) {
         <span class="hero-line hero-line-accent">Ikke pressemeddelelsen.</span>
       </h1>
       <p class="hero-lead">
-        Hvad I <strong>ikke får</strong> til skoler, ældre og senge herhjemme —
-        og hvad der i stedet betales som «bistand» til marches, hiphop og HQ i København.
+        Vi er trætte af, at hårdt tjente <strong>skattekroner</strong> ryger til
+        venstrefløjens identitetsprojekter, LGBTQ+-eksport og «climate justice» —
+        mens skoler, ældre og sengepladser mangler penge i Danmark.
+        Her kan du se beløbene. Med kilder.
       </p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#/indsigt">Hjemme vs. ude</a>
@@ -1386,6 +1388,15 @@ function renderIndsigt(d) {
 function renderOm(d) {
   const posts = (d.posts?.posts || []).slice(0, 4);
   const bj = d.borgerjournalisten;
+  const ed = d.cases?.editorial || {};
+  const forList = ed.for || [
+    'Danske borgere først — skoler, ældre, sundhed og tryghed herhjemme',
+    'Gennemsigtighed: skattekroner skal kunne spores',
+  ];
+  const againstList = ed.against || [
+    'Venstrefløjens identitets- og LGBTQ+-eksport med skattekroner',
+    'Meningsløs «oplysning» og HQ i stedet for nødhjælp',
+  ];
   const glossary = [
     { t: 'Danida', d: 'Danmarks udviklingssamarbejde under Udenrigsministeriet.' },
     { t: 'SPA', d: 'Strategisk partnerskab — fast årlig bevilling til store NGO’er (fx MS 129 mio., Oxfam 103 mio.).' },
@@ -1395,17 +1406,48 @@ function renderOm(d) {
     { t: 'Claim', d: 'Påstand fra research (X, Borgerjournalisten m.m.) — under eller efter verifikation.' },
   ];
   return `
-    <section class="hero">
-      <h1>Om</h1>
-      <p>
-        Uafhængig, borgerlig research. Kilder:
-        <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten.dk</a>,
-        <a href="https://x.com/oresundsbaron" target="_blank" rel="noopener">@oresundsbaron</a>,
-        <a href="https://x.com/MikeHuntHurts89" target="_blank" rel="noopener">@MikeHuntHurts89</a>,
-        <a href="https://x.com/Statsstyret" target="_blank" rel="noopener">@Statsstyret</a>
-        + UM, CISU og regnskaber.
+    <section class="hero hero-tight">
+      <p class="eyebrow">Hvem står bag</p>
+      <h1>Om Skattejægeren</h1>
+      <p class="hero-lead">
+        Privat side drevet af
+        <a href="https://x.com/MattieDanmark" target="_blank" rel="noopener">@MattieDanmark</a>.
+        Linjen er enkel: <strong>danskerne først</strong>. Vi graver i, hvor milliarderne ender —
+        især når de går til venstrefløjens ideologiske projekter i stedet for velfærd herhjemme.
       </p>
     </section>
+
+    <div class="grid cols-2 stance-grid">
+      <div class="card stance-for">
+        <h3>Vi er for</h3>
+        <ul class="stance-list">
+          ${forList.map((t) => `<li>${esc(t)}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="card stance-against">
+        <h3>Vi er imod</h3>
+        <ul class="stance-list">
+          ${againstList.map((t) => `<li>${esc(t)}</li>`).join('')}
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:1.25rem">
+      <h2>Hvorfor den her side?</h2>
+      <p>
+        Når Kenya får millioner til «inkluderende LGBTIQ+-samfund», mens danske kommuner
+        skærer i skoler og ældre, er det ikke «solidaritet» — det er <strong>prioritering imod
+        egne borgere</strong>. Samme mønster ser vi i OpEn-marches, climate justice-kampagner
+        og NGO-HQ i København.
+      </p>
+      <p style="margin-top:.65rem">
+        Vi bygger videre på gravearbejdet fra bl.a.
+        <a href="https://x.com/oresundsbaron" target="_blank" rel="noopener">@oresundsbaron</a>
+        og <a href="https://borgerjournalisten.dk/" target="_blank" rel="noopener">Borgerjournalisten</a>
+        — og sætter CISU, UM og regnskaber på dansk, så almindelige mennesker kan se tallene.
+      </p>
+      <p class="muted" style="margin-top:.75rem">${esc(ed.disclaimer || '')}</p>
+    </div>
 
     ${
       bj

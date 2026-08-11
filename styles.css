@@ -980,6 +980,28 @@ html[data-theme="light"] .vs-away .vs-kicker { color: var(--hot-num, #b91c1c); }
   .grid.cols-2.shock-grid { grid-template-columns: 1fr 1fr; }
 }
 
+/* Stance (for / imod) */
+.stance-grid { margin-bottom: 0.5rem; }
+.stance-for {
+  border-color: rgba(52, 211, 153, 0.28);
+  background: linear-gradient(165deg, var(--mint-soft), var(--bg-card) 70%);
+}
+.stance-against {
+  border-color: rgba(240, 68, 56, 0.28);
+  background: linear-gradient(165deg, var(--accent-soft), var(--bg-card) 70%);
+}
+.stance-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--text-2);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.stance-list li { margin-bottom: 0.45rem; }
+.stance-for h3 { color: var(--mint); }
+.stance-against h3 { color: #fda4a4; }
+html[data-theme="light"] .stance-against h3 { color: var(--hot-num, #b91c1c); }
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
