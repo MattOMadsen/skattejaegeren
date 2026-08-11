@@ -39,7 +39,12 @@
   },
   "perDaneThisYear": {
     "amountDkk": 3800,
-    "note": "Grovt: 23,2 mia / ~6,1 mio indbyggere ≈ 3.800 kr. pr. dansker i 2026."
+    "note": "Grovt: 23,2 mia / ~6,1 mio indbyggere ≈ 3.800 kr. pr. indbygger i 2026."
+  },
+  "btTaxCut": {
+    "amountDkk": 10000,
+    "note": "BT/Joachim B. Olsen (leder 4. aug. 2026 + podcast): hvis ulandsbistand bruges til lavere bundskat, ca. 10.000 kr. mindre skat for person med gennemsnitsindkomst. Ikke pr. indbygger.",
+    "sourceUrl": "https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden"
   },
   "homeContrast": [
     {

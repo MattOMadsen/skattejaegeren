@@ -14,6 +14,7 @@ const FALLBACK_AID = {
   last10Years: { label: 'ca. 187 mia. kr.', amountDkk: 187150000000 },
   since2015: { label: 'ca. 228 mia. kr.', amountDkk: 227600000000 },
   perDaneThisYear: { amountDkk: 3800 },
+  btTaxCut: { amountDkk: 10000 },
   homeContrast: [
     {
       home: 'Lolland mangler mindst 300 mio. kr.',
@@ -189,6 +190,9 @@ function renderHome(d) {
     <div class="chips" style="margin-bottom:1.5rem">
       <div class="chip" style="grid-template-columns:1fr">
         <div class="chip-home"><strong>CISU bekræftet</strong> · Barnevogn 1.498.642 kr · BIO RAP 797.786 kr · Kaffestop 149.200 kr · Kunstfond-runde 29,3 mio.</div>
+      </div>
+      <div class="chip" style="grid-template-columns:1fr">
+        <div class="chip-home"><strong>BT Borgerlig Tabloid</strong> · Baronen interviewet 3. aug. 2026 — <a href="#/sag/bt-mediedækning" style="color:#fda4a4">læs om mediedækningen</a></div>
       </div>
     </div>
 
@@ -405,9 +409,47 @@ function renderGrav(d) {
     </section>
 
     <div class="panel">
-      <h2>OpEn-katalog (nyt)</h2>
-      <p>Se <a href="#/open">OpEn-katalog</a> — alle hentede bevillinger med beløb, org og link til CISU.</p>
-      <p class="muted">Største i kataloget: LGBT+Danmark, Global Aktion, Amnesty, 100% for Børnene, Sex &amp; Samfund, Female Freedom m.fl.</p>
+      <h2>BT-interview (3. aug. 2026)</h2>
+      <p>
+        Baronen var gæst i <strong>BT Borgerlig Tabloid</strong> med Joachim B. Olsen.
+        BT’s egen promo: <strong>næsten 23 mia. kr.</strong> i udviklingsbistand — mere end politi og videregående uddannelser.
+        <a href="https://x.com/oresundsbaron/status/2084253347566031129" target="_blank" rel="noopener">X-opslag ↗</a>
+        ·
+        <a href="https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur" target="_blank" rel="noopener">BT episode ↗</a>
+      </p>
+      <p class="muted">
+        Kritikere (Altinget/EL) angreb anonymitet — men skrev at eksemplerne «ligger offentligt tilgængeligt».
+        Det er den rigtige pointe: tallene er ikke hemmelige. Vi har selv låst flere via CISU/UM.
+        Se sag: <a href="#/sag/bt-mediedækning">BT-mediedækning</a>.
+      </p>
+    </div>
+
+    <div class="panel">
+      <h2>Strategiske partnerskaber (1,264 mia./år)</h2>
+      ${
+        d.partners?.partners
+          ? `<p class="muted">Alle 18 partnere fra UM — årlig bevilling:</p>
+             ${d.partners.partners
+               .map(
+                 (p) =>
+                   `<p><span class="badge ok">officiel</span> <strong>${esc(fmtShort(p.annualDkk))}</strong> · ${esc(p.org)}</p>`
+               )
+               .join('')}`
+          : '<p>Se data/strategic-partners.json</p>'
+      }
+    </div>
+
+    <div class="panel">
+      <h2>OpEn-katalog</h2>
+      <p>Se <a href="#/open">OpEn-katalog</a> — 262 bevillinger, sum ca. 129 mio. i sample.</p>
+    </div>
+
+    <div class="panel">
+      <h2>OpenAid / næste lag</h2>
+      <p class="muted">
+        openaid.um.dk var utilgængelig ved scrape (timeout). Næste: IATI-filer fra UM, finanslovsposter,
+        MS/Oxfam årsrapporter for de 129/103 mio. partnerskaber.
+      </p>
     </div>
 
     <div class="panel">

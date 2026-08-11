@@ -76,5 +76,20 @@
       "org": "SOS Børnebyerne",
       "annualDkk": 15000000
     }
+  ],
+  "orgSelfConfirm": [
+    {
+      "org": "Oxfam IBIS / Oxfam Danmark",
+      "umAnnualDkk": 103000000,
+      "orgSays": "Bevillingen til det strategiske partnerskab udgør i alt 103 mio. kr. årligt (2022–2026).",
+      "url": "https://oxfam.dk/om-os/partnerskaber/danida/",
+      "status": "matches_um_table"
+    },
+    {
+      "org": "MS ActionAid",
+      "umAnnualDkk": 129000000,
+      "orgSays": "UM-tabel 129 mio. — org-site ikke uddybet i denne scrape; årsrapport næste.",
+      "status": "um_only_for_now"
+    }
   ]
 }

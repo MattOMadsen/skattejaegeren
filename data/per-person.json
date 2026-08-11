@@ -1,0 +1,57 @@
+{
+  "updated": "2026-08-11",
+  "aidDkk2026": 23214400000,
+  "aidLabel": "ca. 23,2 mia. kr. (2026-ramme)",
+  "variants": [
+    {
+      "id": "per-inhabitant",
+      "label": "Pr. indbygger",
+      "amountDkk": 3800,
+      "display": "ca. 3.800 kr.",
+      "method": "23,2 mia. ÷ ca. 6,1 mio. indbyggere",
+      "denominator": 6100000,
+      "kind": "estimate",
+      "note": "Inkluderer børn og alle uden skattepligt. Det er den enkle 'pr. dansker'-figur.",
+      "usedOnSite": true
+    },
+    {
+      "id": "bt-tax-cut",
+      "label": "BT / Joachim B. Olsen: skattelettelse",
+      "amountDkk": 10000,
+      "display": "10.000 kr.",
+      "method": "Hvis ulandsbistanden afskaffes og bruges til nedsættelse af bundskatten, får en person med gennemsnitsindkomst ca. 10.000 kr. mindre i skat om året.",
+      "kind": "reported_media",
+      "source": {
+        "title": "B.T. mener: Afskaf ulandsbistanden! (4. aug. 2026)",
+        "url": "https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden",
+        "quote": "Hvis man fjernede ulandsbistanden og i stedet brugte pengene på at nedsætte bundskatten, ville en person med en gennemsnitsindkomst få en skattelettelse på 10.000 kroner om året!"
+      },
+      "alsoIn": "Borgerlig Tabloid-podcast (Joachim B. Olsen, ca. 01:25 ifølge lytter-citat på X)",
+      "note": "Det er IKKE det samme som 'hver dansker betaler 10.000'. Det er en model for skattelettelse ved gennemsnitsindkomst, hvis hele potten bruges til bundskat. Matematisk svarer 23 mia. ÷ ca. 2,3 mio. fuldtidsbeskæftigede til ~10.000 kr.",
+      "check": {
+        "aidDiv2_3mWorkers": 10093,
+        "aidDiv2_5mWorkers": 9286,
+        "conclusion": "10.000 kr. passer som afrundet beløb pr. fuldtidsbeskæftiget / som bundskat-lettelse for gennemsnitsløn — ikke pr. indbygger."
+      }
+    },
+    {
+      "id": "per-adult",
+      "label": "Pr. voksen (ca. 18+)",
+      "amountDkk": 4900,
+      "display": "ca. 4.900 kr.",
+      "method": "23,2 mia. ÷ ca. 4,7 mio. voksne",
+      "kind": "estimate",
+      "note": "Mellemting mellem pr. indbygger og pr. skatteyder."
+    }
+  ],
+  "familyOf4": {
+    "perInhabitant": 15200,
+    "note": "4 × 3.800 ≈ 15.200 kr./år for en husstand på 4, hvis man fordeler ligeligt pr. person."
+  },
+  "recommendation": {
+    "showBoth": true,
+    "primaryStat": "per-inhabitant",
+    "secondaryStat": "bt-tax-cut",
+    "uiText": "Vis begge: 3.800 pr. indbygger + 10.000 som BT's skattelettelses-tal — med tydelig forklaring."
+  }
+}

@@ -111,6 +111,14 @@ a:hover { color: #6ee7b7; }
 @media (min-width: 800px) {
   .stats-inner { grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 }
+.stats-footnote {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem 1rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--text-3);
+}
 .stat {
   background: var(--bg-card);
   border: 1px solid var(--border);
