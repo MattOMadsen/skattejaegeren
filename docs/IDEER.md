@@ -23,7 +23,7 @@
 | 8 | MS vs Oxfam budget-grafik | **done** (side om side på Indsigt) |
 | 9 | Ordliste | **done** (Om) |
 | 10 | RSS / seneste 10 | senere |
-| 11 | Flere org-regnskaber | **delvist** (Female Freedom CISU-sum; fuld regnskab senere) |
+| 11 | Flere org-regnskaber | **delvist+** (LGBT+ 2025 regnskab; FF CVR; GA CISU-sum; CB funding partners) |
 | 12 | OpenAid/IATI | senere |
 | 13 | Aktindsigt publiceret | venter (side: kommer snart) |
 
@@ -32,7 +32,7 @@
 | # | Idé | Status |
 |---|-----|--------|
 | 14 | Egen domain | senere |
-| 15 | Indsend tip | **done** (Om · mailto) |
+| 15 | Indsend tip | **done** (Om · GitHub Issues) |
 | 16 | PDF faktaark | **done** (print faktaark på sager) |
 | 17 | Engelsk short page | senere |
 
@@ -62,8 +62,9 @@ Gamle links (`#/grav`, `#/open` …) virker stadig. **Ingen nye hovedmenupunkter
 
 ## Næste prioritet (forslag)
 
-1. Idé 11 — rigtige årsregnskaber (FF, CB, flere SPA-orgs)  
-2. Idé 13 — aktindsigt når svar kommer  
-3. Idé 10 — RSS / seneste 10  
-4. Idé 17 — engelsk short page  
-5. Idé 18 — inline data / robustere Pages  
+1. Idé 11 — Global Aktion årsregnskab (tal fra PDF) + Crossing Borders regnskab  
+2. Idé 13 — aktindsigt (copy-paste mails; **ikke** Proton Bridge)  
+3. Flere Hall of Numbers-sager (Blackfish, Danwatch, Dreamtown…)  
+4. Idé 10 — RSS / seneste 10  
+5. Idé 17 — engelsk short page  
+

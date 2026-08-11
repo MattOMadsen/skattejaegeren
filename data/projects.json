@@ -193,9 +193,14 @@
       "org": "Crossing Borders",
       "pool": "Danida / CISU-spor (claim)",
       "country": "DK, Indien, Afrika",
-      "whatFor": "Baronen: ca. 9 mio. til ‘wokeisme og DEI-aktivisme’.",
-      "angle": "Aktivisme betalt som bistand.",
+      "whatFor": "Baronen claim ~9 mio. Årsrapport 2023: CISU/Danida Civil Society Fund er main funding partner. Kun 10k under org-navn i CISU-index.",
+      "angle": "Afhængig af offentlig funding ifølge egen årsrapport — fuld sum mangler.",
       "sources": [
+        {
+          "title": "Annual Report 2023",
+          "url": "https://crossingborders.dk/wp-content/uploads/2024/05/Crossing-Borders-Annual-Report-2023.pdf",
+          "kind": "org"
+        },
         {
           "title": "Baronen NGO-mini-serie",
           "url": "https://x.com/oresundsbaron/status/2083221437041479686",
@@ -205,29 +210,35 @@
       "researchers": [
         "oresundsbaron"
       ],
-      "caseSlug": "ngo-miniserie"
+      "caseSlug": "crossing-borders"
     },
     {
       "id": "female-freedom",
       "title": "Female Freedom",
-      "amountDkk": 1200000,
-      "amountKind": "claim",
+      "amountDkk": 1199006,
+      "amountKind": "official",
       "org": "Female Freedom",
-      "pool": "Danida / CISU-spor (claim)",
+      "pool": "CISU (3 poster i sample)",
       "country": "Sydafrika",
-      "whatFor": "Baronen: ca. 1,2 mio. til pro-trans, pro-kommunistisk og anti-kapitalistisk aktivisme.",
-      "angle": "Ideologi-export i bistandskappe.",
+      "whatFor": "Tre CISU-bevillinger sum 1.199.006 kr.: MaThoko's Footsteps (2×~500k) + OpEn 199k. LGBTQI+ youth activism.",
+      "angle": "Baronens 1,2 mio. matcher CISU-sum. Forening stiftet 2022 (CVR 43447203).",
       "sources": [
         {
-          "title": "Baronen NGO-mini-serie",
-          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
-          "kind": "research"
+          "title": "CISU sample / Female Freedom",
+          "url": "https://cisu.dk/en/cisu-in-the-world/member-organisations/member/?id=5edc6a16-3af5-467c-a8d1-8fd339c91fe0",
+          "kind": "official"
+        },
+        {
+          "title": "Proff CVR 43447203",
+          "url": "https://www.proff.dk/firma/female-freedom/k%C3%B8benhavn-v/pleje-og-omsorgstjenester/0PV82RI10K7",
+          "kind": "official"
         }
       ],
       "researchers": [
         "oresundsbaron"
       ],
-      "caseSlug": "ngo-miniserie"
+      "caseSlug": "female-freedom",
+      "verification": "verified_cisu_sum_2026-08-11"
     },
     {
       "id": "100-for-boernene",
@@ -508,10 +519,10 @@
       "amountKind": "official",
       "org": "LGBT+Danmark",
       "pool": "Civilsamfundspuljen - Naboskab - Resiliens og demokratiudvikling Ukraine",
-      "country": "Se resume",
-      "period": null,
+      "country": "Ukraine",
+      "period": "01.07.2025 – 30.06.2027",
       "whatFor": "The \"Together for Equality\" project aims to strengthen the resilience, protection, and democratic participation of LGBTQ+ people in Ukraine. Developed in partnership between Ukrainian LGBTQ+ organizations Insight, Gender Stream, and Resistance, alongside LGBT+ Denmark, the project addresses urgent community needs by providing safe spaces, shelter, legal assistance, and psychological support, while also empowering LGBTQ+ activists and organizations through capacity-building initiatives. At the same time, the project advances legal reform, advocating for the adoption of Draft Law 5488 to criminalize hate crimes against LGBTQ+ individuals. By combining service provision, organizational strength",
-      "angle": "Officiel CISU-bevilling fra OpEn/relaterede puljer. Tjek formål: oplysning, advocacy eller feltarbejde?",
+      "angle": "Største enkeltpost i vores CISU-sample — LGBTQ+ advocacy & services i Ukraine, 4,5 mio.",
       "sources": [
         {
           "title": "CISU bevilling",
@@ -520,7 +531,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "lgbt-danmark-cisu",
       "cisuId": "f5e12531-cd6e-40be-99ae-f57a20c6e118"
     },
     {
@@ -530,10 +541,10 @@
       "amountKind": "official",
       "org": "Global Aktion - Mennesker & miljø før profit",
       "pool": "Civilsamfundspuljen - Udviklingsindsats",
-      "country": "Se resume",
-      "period": null,
+      "country": "Øst- og Sydafrika (7 lande)",
+      "period": "01.07.2022 – 01.10.2025",
       "whatFor": "The main purpose of this intervention is that the rights of peasants, their agroecological practices and their demand for climate justice are formative to rural and agrarian policies in South and Eastern Africa on local, national and regional levels. The means to do this is to support the LVC SEAf network as champions of the human rights of peasants. The intervention will specifically support the member organisations in the LVC SEAf network in their efforts to organise the SSFPs in the region, educate them on their rights and push for the implementation of the UNDROP as a means to better their livelihoods and achieve climate justice. Pushing for peasants’ rights requires that peasants have a",
-      "angle": "Officiel CISU-bevilling fra OpEn/relaterede puljer. Tjek formål: oplysning, advocacy eller feltarbejde?",
+      "angle": "Climate justice + peasants' rights advocacy — ikke klassisk nødhjælp.",
       "sources": [
         {
           "title": "CISU bevilling",
@@ -542,7 +553,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "global-aktion",
       "cisuId": "d10654b9-f146-449f-a98a-95a840400c07"
     },
     {
@@ -564,7 +575,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "lgbt-danmark-cisu",
       "cisuId": "0e8572bd-7687-4e1c-8228-f62e40f3c3e2"
     },
     {
@@ -586,7 +597,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "global-aktion",
       "cisuId": "6c024dcf-99e2-429b-a652-5703f9b77b96"
     },
     {
@@ -618,10 +629,10 @@
       "amountKind": "official",
       "org": "Amnesty International",
       "pool": "OpEn - Udenrigsministeriets Oplysnings- og Engagementspulje - OpEn",
-      "country": "Se resume",
-      "period": null,
+      "country": "Danmark (+ Østeuropa-temaer)",
+      "period": "01.02.2023 – 31.01.2025",
       "whatFor": "'MIN VERDEN – VORES VERDEN – Menneskerettigheder under pres i Østeuropa' er målrettet unge mellem 13 og 18 år i fritiden og i skoletiden på erhvervsskoler og i 8.-10. klasse i hele Danmark. Målet er, at unge – med særligt fokus på segmentet ’de neutrale’ – får forhøjet vidensniveau om global udvikling og menneskerettigheder og lyst og evne til at deltage i handlinger, der forhindrer brud på menneskerettigheder. Grebene i projektet er scenario-baseret læring samt gamification af menneskerettighederne. Målgruppen engageres gennem mødet med unge østeuropæiske menneskerettighedsforkæmpere fra lande som Ukraine, Moldova og Belarus. De fortæller deres personlige historier knyttet til menneskeretti",
-      "angle": "Officiel CISU-bevilling fra OpEn/relaterede puljer. Tjek formål: oplysning, advocacy eller feltarbejde?",
+      "angle": "2,5 mio. OpEn til gamification/oplysning for danske teenagere.",
       "sources": [
         {
           "title": "CISU bevilling",
@@ -630,7 +641,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "amnesty-open",
       "cisuId": "fffcc3a8-1928-4aaf-94c3-7ad1992066d0"
     },
     {
@@ -652,7 +663,7 @@
         }
       ],
       "researchers": [],
-      "caseSlug": "civilsamfundspuljen",
+      "caseSlug": "global-aktion",
       "cisuId": "29f7baf1-d298-487e-b1c3-59d6337dff57"
     },
     {

@@ -315,6 +315,20 @@ function projectCard(p) {
 
 const SHOCK = [
   {
+    amt: '25 mio.',
+    title: 'LGBT+Danmark i regnskab 2025',
+    text: 'Indtægter 25,2 mio. · projektindtægter 14,8 mio. · CISU Ukraine-projekt 4,5 mio.',
+    href: '#/sag/lgbt-danmark-cisu',
+    tag: 'Regnskab',
+  },
+  {
+    amt: '11,6 mio.',
+    title: 'Global Aktion i CISU-sample',
+    text: '8 poster — climate justice & peasants’ rights. Største org i kataloget.',
+    href: '#/sag/global-aktion',
+    tag: 'Officiel',
+  },
+  {
     amt: '1,5 mio.',
     title: 'Barnevognsmarch i Danmark',
     text: 'Sex & Samfund · OpEn — verificeret CISU 1.498.642 kr.',
@@ -322,18 +336,11 @@ const SHOCK = [
     tag: 'Officiel',
   },
   {
-    amt: '798 tkr.',
-    title: 'BIO RAP / orangutang',
-    text: 'Orangutang Fonden · OpEn 797.786 kr. til klima-rap formidling.',
-    href: '#/projekt/biorap-orangutang',
-    tag: 'Officiel',
-  },
-  {
-    amt: '149 tkr.',
-    title: 'Kaffestop i Rwanda',
-    text: 'Hele budgettet dækket af OpEn — Instagram, podcast, cykel-VM.',
-    href: '#/sag/kaffestop-rwanda',
-    tag: 'Officiel',
+    amt: '2,5 mio.',
+    title: 'Amnesty gamification i DK',
+    text: 'OpEn: menneskerettigheder til 13–18-årige — Astralis, Gyldendal, Serious Games.',
+    href: '#/sag/amnesty-open',
+    tag: 'OpEn',
   },
   {
     amt: '58%',
@@ -343,11 +350,11 @@ const SHOCK = [
     tag: 'Rapport',
   },
   {
-    amt: '10.000',
-    title: 'BT: skattelettelse ved gns. indkomst',
-    text: 'Hvis bistanden gik til lavere bundskat — ikke det samme som pr. indbygger (3.800).',
-    href: '#/om',
-    tag: 'BT',
+    amt: '1,2 mio.',
+    title: 'Female Freedom ≈ CISU-sum',
+    text: 'Tre poster 1.199.006 kr. · CVR 43447203 (stiftet 2022).',
+    href: '#/sag/female-freedom',
+    tag: 'Match',
   },
 ];
 
@@ -773,8 +780,10 @@ function renderCvr(d) {
             ${
               r
                 ? `<p class="blurb"><strong>${r.year}:</strong> indtægter ${esc(fmtKr(r.indtægterIAltDkk))}
-                   · CISU-program ca. ${esc(fmtShort(r.cisuProgramBevillingDkk))}
-                   · resultat ${esc(fmtKr(r.aaretsResultatDkk))}</p>`
+                   ${r.projektindtægterDkk != null ? ` · projekter ${esc(fmtShort(r.projektindtægterDkk))}` : ''}
+                   ${r.cisuProgramBevillingDkk != null ? ` · CISU-sample ca. ${esc(fmtShort(r.cisuProgramBevillingDkk))}` : ''}
+                   · resultat ${esc(fmtKr(r.aaretsResultatDkk))}</p>
+                   ${r.angle ? `<p class="blurb muted">${esc(r.angle)}</p>` : ''}`
                 : o.cisuSumDkk
                   ? `<p class="blurb"><strong>CISU-sum:</strong> ${esc(fmtShort(o.cisuSumDkk))} kr.
                      (${o.cisuCount || '?'} poster)
