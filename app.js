@@ -106,7 +106,7 @@ let cache = null;
 async function loadAll() {
   if (cache) return cache;
   try {
-    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie] =
+    const [aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie, partners, media] =
       await Promise.all([
         fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
         fetchJson('data/projects.json'),
@@ -116,9 +116,22 @@ async function loadAll() {
         fetchJson('data/cisu-open-grants.json').catch(() => null),
         fetchJson('data/cisu-org-rank.json').catch(() => null),
         fetchJson('data/ngo-miniserie-status.json').catch(() => null),
+        fetchJson('data/strategic-partners.json').catch(() => null),
+        fetchJson('data/media-validation.json').catch(() => null),
       ]);
     applyStats(aid);
-    cache = { aid, projects, cases, posts, sourceMap, openGrants, orgRank, miniSerie };
+    cache = {
+      aid,
+      projects,
+      cases,
+      posts,
+      sourceMap,
+      openGrants,
+      orgRank,
+      miniSerie,
+      partners,
+      media,
+    };
     return cache;
   } catch (e) {
     console.error(e);

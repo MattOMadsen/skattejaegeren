@@ -196,3 +196,32 @@ Se `data/ngo-miniserie-status.json`.
 - X: @oresundsbaron, @Statsstyret, @MikeHuntHurts89  
 
 *Manuel godkendelse: research-notat godkendt til publicering som “undersøgelse i gang”, ikke endelig dom over alle 23 mia.*
+
+---
+
+## BT Borgerlig Tabloid (tilføjet 2026-08-11)
+
+**Kilde:** https://x.com/oresundsbaron/status/2084253347566031129  
+**Episode:** *Baronen af Øresund: Hvor mange mennesker redder de ved at gå en tur!?*  
+**Outlet:** B.T. / Borgerlig Tabloid · Vært Joachim B. Olsen · 3. aug. 2026  
+
+### Hvad BT selv skriver i promo
+- «Næsten 23 milliarder kroner» i udviklingsbistand om året  
+- Mere end videregående uddannelser og mere end politiet  
+- Gæsten har kigget på konkrete bistandsprojekter  
+
+### Hvad vi kan konkludere
+| Påstand | Holdbar? |
+|---------|----------|
+| BT har platformet Baronens research | **Ja** |
+| BT bruger 23 mia.-rammen i egen tekst | **Ja** |
+| Chefredaktør har forsvaret publiceringen | **Ja** (ifølge Baronens opslag 11. aug.) |
+| Kritikere siger eksemplerne er offentlige | **Ja** (Altinget/EL) |
+| BT har formelt attesteret hvert tal | **Ikke dokumenteret** uden fuld transcript |
+| Vores CISU/UM-tal står alene | **Ja** — uafhængig verifikation |
+
+### Links
+- BT: https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur  
+- YouTube: https://www.youtube.com/watch?v=VL70ZqwKxBI  
+- Altinget kritik: https://www.altinget.dk/artikel/strategichef-bt-naar-eklatant-lavpunkt-naar-de-promoverer-anonym-hoejreekstrem-og-antidemokratisk-kilde  
+

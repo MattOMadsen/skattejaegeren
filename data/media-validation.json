@@ -1,0 +1,26 @@
+{
+  "updated": "2026-08-11",
+  "items": [
+    {
+      "outlet": "B.T. — Borgerlig Tabloid",
+      "date": "2026-08-03",
+      "type": "podcast",
+      "title": "Baronen af Øresund: Hvor mange mennesker redder de ved at gå en tur!?",
+      "host": "Joachim B. Olsen",
+      "claimInPromo": "Næsten 23 mia. kr. udviklingsbistand; mere end videregående uddannelser og politi",
+      "xPost": "https://x.com/oresundsbaron/status/2084253347566031129",
+      "btUrl": "https://www.bt.dk/podcast/borgerlig-tabloid/baronen-af-resund-hvor-mange-mennesker-redder-de-ved-at-g-en-tur",
+      "youtube": "https://www.youtube.com/watch?v=VL70ZqwKxBI",
+      "whatWeCanSay": [
+        "BT gav Baronen platform og brugte 23 mia.-rammen i egen promotekst",
+        "BT chefredaktør forsvarede publiceringen",
+        "Kritikere indrømmede eksemplerne er offentligt tilgængelige",
+        "Vi har uafhængigt verificeret flere konkrete beløb via CISU/UM"
+      ],
+      "whatWeCannotSay": [
+        "At BT har formelt fact-checket hvert enkelt tal i studiet (kræver fuld aflytning/transcript)",
+        "At BT «godkender» Baronens politiske konklusioner"
+      ]
+    }
+  ]
+}

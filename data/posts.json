@@ -2,13 +2,40 @@
   "updated": "2026-08-11",
   "posts": [
     {
+      "id": "2084253347566031129",
+      "author": "oresundsbaron",
+      "authorName": "Baronen af Øresund",
+      "date": "2026-08-03",
+      "url": "https://x.com/oresundsbaron/status/2084253347566031129",
+      "excerpt": "Dagens gæst i Borgerlig Tabloid (BT) — interview med Joachim B. Olsen om ulandsbistand.",
+      "cases": [
+        "bt-mediedækning"
+      ],
+      "likes": 785
+    },
+    {
+      "id": "2087071522234007835",
+      "author": "oresundsbaron",
+      "authorName": "Baronen af Øresund",
+      "date": "2026-08-11",
+      "url": "https://x.com/oresundsbaron/status/2087071522234007835",
+      "excerpt": "Respekt til BT og chefredaktør for at holde stand — inden for etiske retningslinjer.",
+      "cases": [
+        "bt-mediedækning"
+      ],
+      "likes": 142
+    },
+    {
       "id": "2086486242548428847",
       "author": "MikeHuntHurts89",
       "authorName": "Mike Hunt",
       "date": "2026-08-09",
       "url": "https://x.com/MikeHuntHurts89/status/2086486242548428847",
       "excerpt": "Lolland mangler 300 mio. Ring til Danida — kald det Inclusive Climate Resilience Potato Hub. Samme skatteyder, længere sugerør.",
-      "cases": ["kaffestop-rwanda", "strategiske-partnerskaber"],
+      "cases": [
+        "kaffestop-rwanda",
+        "strategiske-partnerskaber"
+      ],
       "likes": 390
     },
     {
@@ -18,7 +45,9 @@
       "date": "2026-08-03",
       "url": "https://x.com/MikeHuntHurts89/status/2084339602899214485",
       "excerpt": "Kaffestop i Rwanda 149.200 kr. — og modtageren i OpEn-bevillingsudvalg? Habilitetsspørgsmål + CISU-links.",
-      "cases": ["kaffestop-rwanda"],
+      "cases": [
+        "kaffestop-rwanda"
+      ],
       "likes": 224
     },
     {
@@ -28,7 +57,9 @@
       "date": "2026-08-03",
       "url": "https://x.com/MikeHuntHurts89/status/2084223617148108834",
       "excerpt": "OpEn: 149.200 kr. til Kaffestop i Rwanda — cykel-VM, Instagram, podcast, kaffestop. Staten betalte hele budgettet.",
-      "cases": ["kaffestop-rwanda"],
+      "cases": [
+        "kaffestop-rwanda"
+      ],
       "likes": 176
     },
     {
@@ -38,7 +69,9 @@
       "date": "2026-08-02",
       "url": "https://x.com/MikeHuntHurts89/status/2083975777322987558",
       "excerpt": "Orangutang-rap på YouTube efter copyright-fjernelse på X. Kommentarer slået fra. ~800.000 kr.-sagen.",
-      "cases": ["orangutang-rap"],
+      "cases": [
+        "orangutang-rap"
+      ],
       "likes": 299
     },
     {
@@ -48,7 +81,9 @@
       "date": "2026-07-31",
       "url": "https://x.com/MikeHuntHurts89/status/2083284810911695119",
       "excerpt": "35,4 mio. til Danske Kirke i Udlandet (Sydslesvig + verden) — årsrapport 2024.",
-      "cases": ["kirke-udland"],
+      "cases": [
+        "kirke-udland"
+      ],
       "likes": 33
     },
     {
@@ -58,7 +93,9 @@
       "date": "2026-07-28",
       "url": "https://x.com/oresundsbaron/status/2082152856606384234",
       "excerpt": "Magnus kan ikke få 60.000 kr./år til livsnødvendig creme. Sex & Samfund kan få 2 mio. til barnevognsmarches.",
-      "cases": ["barnevogn-og-prioritering"],
+      "cases": [
+        "barnevogn-og-prioritering"
+      ],
       "likes": 729
     },
     {
@@ -68,7 +105,11 @@
       "date": "2026-08-10",
       "url": "https://x.com/oresundsbaron/status/2086920527436730876",
       "excerpt": "Civilsamfundspuljen 200 mio. + OpEn = 221 mio. (~1% af 23 mia.). MS 129 mio. Roder man dybere: hundredvis af mio. — potentielt over en halv mia. Resten af de 21,5 mia. er urørt.",
-      "cases": ["civilsamfundspuljen", "ms-actionaid", "strategiske-partnerskaber"],
+      "cases": [
+        "civilsamfundspuljen",
+        "ms-actionaid",
+        "strategiske-partnerskaber"
+      ],
       "likes": 266
     },
     {
@@ -78,7 +119,9 @@
       "date": "2026-08-09",
       "url": "https://x.com/oresundsbaron/status/2086460030191067593",
       "excerpt": "Orangutang-rap testet i Indonesien — 800.000 kr. Danida / Red Orangutangen.",
-      "cases": ["orangutang-rap"],
+      "cases": [
+        "orangutang-rap"
+      ],
       "likes": 104
     },
     {
@@ -88,7 +131,9 @@
       "date": "2026-08-09",
       "url": "https://x.com/oresundsbaron/status/2086361841295667262",
       "excerpt": "Information: 22,5 mio. kr. mediestøtte 2026 — særregler vs. 12,5 mio.-loft.",
-      "cases": ["information-mediestoette"],
+      "cases": [
+        "information-mediestoette"
+      ],
       "likes": 553
     },
     {
@@ -98,7 +143,9 @@
       "date": "2026-08-08",
       "url": "https://x.com/oresundsbaron/status/2086090346891534727",
       "excerpt": "Statens Kunstfond: 27,8 mio. til billedkunstprojekter 2025. Spareplan over en kvart mia.",
-      "cases": ["statens-kunstfond"],
+      "cases": [
+        "statens-kunstfond"
+      ],
       "likes": 129
     },
     {
@@ -108,7 +155,9 @@
       "date": "2026-08-08",
       "url": "https://x.com/oresundsbaron/status/2086044804387942797",
       "excerpt": "Hybrid Mutation: 200.000 kr. til norsk kunstner med dansk CVR — uddøde fugle under hypnose.",
-      "cases": ["statens-kunstfond"],
+      "cases": [
+        "statens-kunstfond"
+      ],
       "likes": 164
     },
     {
@@ -118,7 +167,10 @@
       "date": "2026-07-31",
       "url": "https://x.com/oresundsbaron/status/2083221437041479686",
       "excerpt": "NGO-mini-serie: Ghana Venskab 11 mio., Crossing Borders 9 mio., Colombia Solidaritet 4 mio. m.fl.",
-      "cases": ["ngo-miniserie", "civilsamfundspuljen"],
+      "cases": [
+        "ngo-miniserie",
+        "civilsamfundspuljen"
+      ],
       "likes": 251
     },
     {
@@ -128,7 +180,9 @@
       "date": "2025-12-20",
       "url": "https://x.com/oresundsbaron/status/2002304077615759548",
       "excerpt": "Intro: Civilsamfundspuljen via CISU — hundredvis af mio. til NGO-netværk. Stay tuned.",
-      "cases": ["civilsamfundspuljen"],
+      "cases": [
+        "civilsamfundspuljen"
+      ],
       "likes": 257
     },
     {
@@ -138,7 +192,9 @@
       "date": "2025-02-06",
       "url": "https://x.com/oresundsbaron/status/1887596707518816601",
       "excerpt": "1,246 mia./år til DANIDA-partnerskaber 2022–25 til bl.a. Oxfam, MS, Sex & Samfund.",
-      "cases": ["strategiske-partnerskaber"],
+      "cases": [
+        "strategiske-partnerskaber"
+      ],
       "likes": 323
     },
     {
@@ -148,7 +204,10 @@
       "date": "2025-02-09",
       "url": "https://x.com/Statsstyret/status/1888511754260394004",
       "excerpt": "AFSLØRING aktindsigt: MS ansøgninger om unge i valgkontekster; ActionAid DK 129 mio. til politisk aktivisme i udlandet.",
-      "cases": ["ms-actionaid", "strategiske-partnerskaber"],
+      "cases": [
+        "ms-actionaid",
+        "strategiske-partnerskaber"
+      ],
       "likes": 672
     },
     {
@@ -158,7 +217,9 @@
       "date": "2026-07-20",
       "url": "https://x.com/Statsstyret/status/2079270077728248030",
       "excerpt": "Genpost: eksempel fra NGO-gravning om Mellemfolkeligt Samvirke.",
-      "cases": ["ms-actionaid"],
+      "cases": [
+        "ms-actionaid"
+      ],
       "likes": 12
     }
   ]
