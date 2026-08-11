@@ -1,0 +1,70 @@
+{
+  "updated": "2026-08-11",
+  "disclaimer": "Grovte regnestykker til at gøre 23 mia. håndgribelige — ikke budgetforslag. Kilder er afrundede offentlige estimater.",
+  "aidDkk": 23214400000,
+  "aidLabel": "ca. 23,2 mia. kr. (2026)",
+  "items": [
+    {
+      "id": "sygeplejersker",
+      "label": "Sygeplejersker",
+      "unitCostDkk": 550000,
+      "unitNote": "ca. årsomkostning pr. stilling (løn + omkostninger, afrundet)",
+      "count": 42000,
+      "display": "ca. 42.000 årsværk",
+      "blurb": "Hvis hele potten gik til stillinger i sundhedsvæsenet."
+    },
+    {
+      "id": "laerere",
+      "label": "Lærere",
+      "unitCostDkk": 500000,
+      "unitNote": "ca. årsomkostning pr. stilling, afrundet",
+      "count": 46000,
+      "display": "ca. 46.000 årsværk",
+      "blurb": "Flere voksne i klasselokalerne — i stedet for OpEn-content."
+    },
+    {
+      "id": "plejehjem",
+      "label": "Plejehjemspladser",
+      "unitCostDkk": 700000,
+      "unitNote": "meget groft pr. plads/år",
+      "count": 33000,
+      "display": "ca. 33.000 pladser/år",
+      "blurb": "Ordent af ældrepleje i stedet for NGO-HQ i København."
+    },
+    {
+      "id": "bundskat",
+      "label": "Skattelettelse (BT-model)",
+      "unitCostDkk": 10000,
+      "unitNote": "Joachim B. Olsen / BT: gennemsnitsindkomst",
+      "count": 2320000,
+      "display": "ca. 10.000 kr. pr. gns. indkomst",
+      "blurb": "Hele bistanden som lavere bundskat — BT’s eget tal."
+    },
+    {
+      "id": "indbygger",
+      "label": "Pr. indbygger",
+      "unitCostDkk": 3800,
+      "unitNote": "23,2 mia. / ca. 6,1 mio.",
+      "count": 6100000,
+      "display": "ca. 3.800 kr. pr. dansker",
+      "blurb": "Det enkle pr. person-tal — inkl. børn."
+    }
+  ],
+  "smallExamples": [
+    {
+      "amountDkk": 1498642,
+      "label": "Én barnevognsmarch",
+      "equiv": "ca. 2–3 sygeplejerske-årsværk"
+    },
+    {
+      "amountDkk": 797786,
+      "label": "BIO RAP",
+      "equiv": "ca. 1,5 årsværk"
+    },
+    {
+      "amountDkk": 24530000,
+      "label": "MS HQ i DK (16%)",
+      "equiv": "ca. 45 sygeplejerske-årsværk"
+    }
+  ]
+}

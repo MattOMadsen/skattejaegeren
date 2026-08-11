@@ -67,11 +67,65 @@ function route() {
   return { page: page || 'home', id };
 }
 
+function navKey(page) {
+  if (page === 'home' || page === '') return 'home';
+  if (['projekter', 'projekt', 'open', 'katalog', 'sager', 'sag', 'cvr', 'regnskab', 'udforsk'].includes(page))
+    return 'udforsk';
+  if (['indsigt', 'grav', 'undersogelse', 'tal'].includes(page)) return 'indsigt';
+  if (['om', 'metode', 'opslag', 'aktindsigt', 'foi'].includes(page)) return 'om';
+  return page;
+}
+
 function setNav(page) {
+  const key = navKey(page);
   document.querySelectorAll('.nav a').forEach((a) => {
-    const key = a.getAttribute('data-nav');
-    a.classList.toggle('active', key === page || (page === 'projekt' && key === 'projekter') || (page === 'sag' && key === 'sager'));
+    a.classList.toggle('active', a.getAttribute('data-nav') === key);
   });
+}
+
+function shareBlock(title, path) {
+  const url = `https://mattomadsen.github.io/skattejaegeren/${path || ''}`;
+  const text = encodeURIComponent(title + ' — Skattejægeren');
+  const u = encodeURIComponent(url);
+  return `
+    <div class="share" role="group" aria-label="Del">
+      <span class="share-label">Del</span>
+      <button type="button" class="share-btn" data-copy="${esc(url)}">Kopiér link</button>
+      <a class="share-btn" href="https://x.com/intent/tweet?text=${text}&url=${u}" target="_blank" rel="noopener">X</a>
+    </div>`;
+}
+
+function bindShare() {
+  document.querySelectorAll('.share-btn[data-copy]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const v = btn.getAttribute('data-copy');
+      try {
+        await navigator.clipboard.writeText(v);
+        btn.textContent = 'Kopieret';
+        setTimeout(() => (btn.textContent = 'Kopiér link'), 1500);
+      } catch {
+        prompt('Kopiér link:', v);
+      }
+    });
+  });
+}
+
+function subnavUdforsk(active) {
+  const items = [
+    { id: 'projekter', href: '#/projekter', label: 'Projekter' },
+    { id: 'open', href: '#/open', label: 'OpEn' },
+    { id: 'sager', href: '#/sager', label: 'Sager' },
+    { id: 'cvr', href: '#/cvr', label: 'CVR' },
+  ];
+  return `
+    <nav class="subnav" aria-label="Udforsk">
+      ${items
+        .map(
+          (i) =>
+            `<a href="${i.href}" class="${active === i.id ? 'is-on' : ''}">${esc(i.label)}</a>`
+        )
+        .join('')}
+    </nav>`;
 }
 
 async function fetchJson(path) {
@@ -119,6 +173,8 @@ async function loadAll() {
       media,
       deepDive,
       cvr,
+      alternatives,
+      timeline,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -132,6 +188,8 @@ async function loadAll() {
       fetchJson('data/media-validation.json').catch(() => null),
       fetchJson('data/partner-deep-dive.json').catch(() => null),
       fetchJson('data/cvr-regnskab.json').catch(() => null),
+      fetchJson('data/alternatives.json').catch(() => null),
+      fetchJson('data/timeline.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -147,6 +205,8 @@ async function loadAll() {
       media,
       deepDive,
       cvr,
+      alternatives,
+      timeline,
     };
     return cache;
   } catch (e) {
@@ -255,10 +315,14 @@ function renderHome(d) {
 
     <div class="section-head">
       <h2>Projekter</h2>
-      <a href="#/projekter">Søg alle →</a>
+      <a href="#/projekter">Udforsk →</a>
     </div>
     <div class="grid cols-3">
       ${projects.map(projectCard).join('')}
+    </div>
+    <div class="home-links">
+      <a class="btn" href="#/indsigt">Indsigt: 23 mia. i perspektiv</a>
+      <a class="btn" href="#/open">OpEn-katalog</a>
     </div>
   `;
 }
@@ -362,9 +426,10 @@ function bindOpenFilter(grants) {
 function renderProjects(d) {
   const projects = [...d.projects.projects];
   return `
-    <section class="hero">
+    ${subnavUdforsk('projekter')}
+    <section class="hero hero-tight">
       <h1>Projekter</h1>
-      <p>${projects.length} poster. Søg på org, titel eller stikord — filtrer efter type.</p>
+      <p>${projects.length} poster. Søg og filtrer.</p>
     </section>
     ${filterBar('Søg projekter, org, land…')}
   `;
@@ -377,11 +442,12 @@ function renderProject(d, id) {
   }
   return `
     <a class="back" href="#/projekter">← Projekter</a>
-    <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.35rem">
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.35rem;align-items:center">
       ${badge(p.amountKind)}
     </div>
     <h1 style="margin:0;font-size:clamp(1.5rem,3.5vw,2rem);letter-spacing:-.03em">${esc(p.title)}</h1>
-    <p class="detail-amt">${esc(fmtKr(p.amountDkk))}</p>
+    <p class="detail-amt">${esc(p.amountDkk ? fmtKr(p.amountDkk) : p.amountNote || '—')}</p>
+    ${shareBlock(p.title, `#/projekt/${p.id}`)}
 
     <div class="panel">
       <h2>Fakta</h2>
@@ -427,9 +493,10 @@ function renderProject(d, id) {
 function renderCases(d) {
   const cases = [...d.cases.cases].sort((a, b) => a.priority - b.priority);
   return `
-    <section class="hero">
+    ${subnavUdforsk('sager')}
+    <section class="hero hero-tight">
       <h1>Sager</h1>
-      <p>Samlede forløb — flere projekter og opslag i samme tråd.</p>
+      <p>Samlede forløb — flere projekter i samme tråd.</p>
     </section>
     <div class="grid cols-2">
       ${cases
@@ -459,6 +526,7 @@ function renderCase(d, slug) {
     <div style="display:flex;gap:.5rem;margin-bottom:.35rem">${badge(c.amountKind)}</div>
     <h1 style="margin:0;font-size:clamp(1.5rem,3.5vw,2rem);letter-spacing:-.03em">${esc(c.title)}</h1>
     <p class="detail-amt">${esc(c.amountLabel)}</p>
+    ${shareBlock(c.title, `#/sag/${c.slug}`)}
     <div class="panel"><h2>Kort</h2><p>${esc(c.summary)}</p></div>
     <div class="panel"><h2>Vinkel</h2><p>${esc(c.angle)}</p></div>
     <div class="panel">
@@ -513,55 +581,84 @@ function renderAktindsigt() {
 function renderOpen(d) {
   const og = d.openGrants;
   if (!og?.grants?.length) {
-    return `<section class="hero"><h1>OpEn-katalog</h1><p class="error">Kunne ikke loade data/cisu-open-grants.json</p></section>`;
+    return `${subnavUdforsk('open')}<section class="hero"><h1>OpEn-katalog</h1><p class="error">Kunne ikke loade data</p></section>`;
   }
-  const top = og.grants.slice(0, 60);
-  const orgs = (d.orgRank?.orgs || []).slice(0, 12);
+  const orgs = (d.orgRank?.orgs || []).slice(0, 6);
   return `
-    <section class="hero">
+    ${subnavUdforsk('open')}
+    <section class="hero hero-tight">
       <h1>OpEn-katalog</h1>
       <p>
-        <strong>${og.countWithAmount}</strong> CISU-bevillinger (OpEn + udvalgte matches) med beløb.
-        Sum i kataloget: <strong style="color:#fda4a4">${esc(fmtShort(og.sumAmountDkk))} kr.</strong>
-        — det er oplysning/engagement-sporet, ikke hele de 23 mia.
+        <strong>${og.countWithAmount}</strong> CISU-bevillinger ·
+        sum <strong style="color:#fda4a4">${esc(fmtShort(og.sumAmountDkk))} kr.</strong>
       </p>
     </section>
     ${
       orgs.length
-        ? `<div class="section-head"><h2>Største modtagere (i kataloget)</h2></div>
-           <div class="grid cols-3">
+        ? `<div class="section-head"><h2>Største modtagere</h2></div>
+           <div class="grid cols-3" style="margin-bottom:1.25rem">
            ${orgs
              .map(
                (o) => `
              <div class="card">
-               <div class="card-top"><span class="badge ok">${o.count} poster</span>
+               <div class="card-top"><span class="badge ok">${o.count}</span>
                <span class="amt">${esc(fmtShort(o.sumDkk))}</span></div>
                <h3>${esc(o.org)}</h3>
-               <p class="blurb">${esc((o.examples || [])[0] || '')}</p>
              </div>`
              )
              .join('')}
            </div>`
         : ''
     }
-    <div class="section-head" style="margin-top:1.5rem"><h2>Bevillinger (sorteret efter beløb)</h2></div>
+    ${filterBar('Søg titel, org, resume…').replace(
+      `<select id="kind" class="filter-select" aria-label="Type">
+        <option value="">Alle typer</option>
+        <option value="official">Officiel</option>
+        <option value="claim">Claim</option>
+        <option value="estimate">Estimat</option>
+      </select>`,
+      ''
+    )}
+  `;
+}
+
+function renderCvr(d) {
+  const orgs = d.cvr?.orgs || [];
+  return `
+    ${subnavUdforsk('cvr')}
+    <section class="hero hero-tight">
+      <h1>CVR &amp; regnskab</h1>
+      <p>Offentlige foreningsdata.</p>
+    </section>
     <div class="grid cols-2">
-      ${top
-        .map(
-          (g) => `
-        <a class="card" href="${esc(g.url)}" target="_blank" rel="noopener">
-          <div class="card-top">
-            <span class="badge ok">CISU</span>
-            <span class="amt">${esc(fmtShort(g.amountDkk))}</span>
-          </div>
-          <h3>${esc(g.title)}</h3>
-          <p class="blurb">${esc(g.resume || g.pool || '')}</p>
-          <p class="meta">${esc(g.org || '?')} · CISU ↗</p>
-        </a>`
-        )
+      ${orgs
+        .map((o) => {
+          const r = (o.regnskab && o.regnskab[0]) || null;
+          return `
+          <div class="card">
+            <div class="card-top">
+              <span class="badge ok">CVR ${esc(o.cvr)}</span>
+              <span class="amt">${esc(o.status)}</span>
+            </div>
+            <h3>${esc(o.name)}</h3>
+            <p class="meta">${esc(o.form)} · ${esc(o.address)}</p>
+            <p class="blurb" style="margin-top:.65rem">${esc(o.orgClaims?.annualTurnover || o.orgClaims?.fundingPartners || '')}</p>
+            ${
+              r
+                ? `<p class="blurb"><strong>${r.year}:</strong> indtægter ${esc(fmtKr(r.indtægterIAltDkk))}
+                   · CISU-program ca. ${esc(fmtShort(r.cisuProgramBevillingDkk))}
+                   · resultat ${esc(fmtKr(r.aaretsResultatDkk))}</p>`
+                : `<p class="blurb muted">${esc(o.regnskabNote || 'Regnskabstal under udbygning.')}</p>`
+            }
+            <p class="meta" style="margin-top:.75rem">
+              ${o.caseSlug ? `<a href="#/sag/${esc(o.caseSlug)}">Sag</a> · ` : ''}
+              <a href="${esc(o.website)}" target="_blank" rel="noopener">Hjemmeside</a>
+              ${r?.sourceUrl ? ` · <a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">Årsrapport</a>` : ''}
+            </p>
+          </div>`;
+        })
         .join('')}
     </div>
-    <p class="muted" style="margin-top:1rem">Viser top 60 af ${og.countWithAmount}. Fuld JSON i repo: data/cisu-open-grants.json</p>
   `;
 }
 
@@ -729,33 +826,147 @@ function renderGrav(d) {
   `;
 }
 
-function renderOm(d) {
-  const posts = (d.posts?.posts || []).slice(0, 5);
+function barRow(label, pct, tone) {
+  const w = Math.max(2, Math.min(100, pct));
+  return `
+    <div class="bar-row">
+      <div class="bar-meta"><span>${esc(label)}</span><span>${pct}%</span></div>
+      <div class="bar-track"><div class="bar-fill ${tone || ''}" style="width:${w}%"></div></div>
+    </div>`;
+}
+
+function renderIndsigt(d) {
+  const alt = d.alternatives;
+  const tl = d.timeline?.events || [];
+  const ms = d.deepDive?.partners?.find((p) => p.id === 'ms-actionaid');
+  const split = ms?.report2025?.budgetSplit2025 || [];
+
   return `
     <section class="hero">
-      <h1>Om Skattejægeren</h1>
+      <h1>Indsigt</h1>
+      <p>Prioritering i tal — hvad 23 mia. også kunne være, og hvordan de store NGO’er fordeler pengene.</p>
+    </section>
+
+    <div class="section-head"><h2>Hvad kunne det have været?</h2></div>
+    <p class="muted" style="margin:-.35rem 0 1rem">${esc(alt?.disclaimer || 'Grovte regnestykker til illustration.')}</p>
+    <div class="grid cols-3">
+      ${(alt?.items || [])
+        .map(
+          (i) => `
+        <div class="card">
+          <p class="shock-amt" style="font-size:1.25rem">${esc(i.display)}</p>
+          <h3>${esc(i.label)}</h3>
+          <p class="blurb">${esc(i.blurb)}</p>
+          <p class="meta">${esc(i.unitNote || '')}</p>
+        </div>`
+        )
+        .join('')}
+    </div>
+    ${
+      alt?.smallExamples?.length
+        ? `<div class="panel" style="margin-top:1rem">
+            <h2>Små beløb, store stillinger</h2>
+            ${alt.smallExamples
+              .map(
+                (s) =>
+                  `<p><strong>${esc(s.label)}</strong> (${esc(fmtShort(s.amountDkk))}) ≈ ${esc(s.equiv)}</p>`
+              )
+              .join('')}
+          </div>`
+        : ''
+    }
+
+    <div class="section-head" style="margin-top:2rem"><h2>MS ActionAid — budget 2025</h2>
+      <a href="#/sag/ms-actionaid">Sag →</a>
+    </div>
+    <div class="panel">
+      <p class="muted" style="margin-bottom:1rem">Egen SPA-rapport: total ca. 150 mio. (inkl. top-ups). Kun 58% går som transfer til partnere.</p>
+      ${
+        split.length
+          ? split.map((r) => barRow(r.line, r.pct, r.pct >= 50 ? 'ok' : r.pct >= 15 ? 'hot' : '')).join('')
+          : barRow('Transfer til partnere', 58, 'ok') +
+            barRow('HQ Danmark', 16, 'hot') +
+            barRow('Øvrigt program / global', 24, '') +
+            barRow('IPE (oplysning)', 2, '')
+      }
+      <p class="meta" style="margin-top:1rem">
+        <a href="https://ms.dk/api/media/file/AADK%20SPAII%20REPORT%20_2025.pdf" target="_blank" rel="noopener">MS rapport PDF ↗</a>
+        · <a href="#/sag/oxfam-spa">Oxfam SPA</a>
+      </p>
+    </div>
+
+    <div class="section-head" style="margin-top:2rem"><h2>Tidslinje</h2></div>
+    <div class="timeline">
+      ${tl
+        .map(
+          (e) => `
+        <div class="tl-item">
+          <time>${esc(e.date)}</time>
+          <div>
+            <strong>${esc(e.title)}</strong>
+            <p>${esc(e.text)}</p>
+          </div>
+        </div>`
+        )
+        .join('')}
+    </div>
+    <p class="meta" style="margin-top:1rem"><a href="#/grav">Udvidet undersøgelse →</a></p>
+  `;
+}
+
+function renderOm(d) {
+  const posts = (d.posts?.posts || []).slice(0, 4);
+  const glossary = [
+    { t: 'Danida', d: 'Danmarks udviklingssamarbejde under Udenrigsministeriet.' },
+    { t: 'SPA', d: 'Strategisk partnerskab — fast årlig bevilling til store NGO’er (fx MS 129 mio., Oxfam 103 mio.).' },
+    { t: 'CISU', d: 'Civilsamfund i Udvikling — forvalter bl.a. Civilsamfundspuljen og OpEn for UM.' },
+    { t: 'OpEn', d: 'Oplysnings- og Engagementspuljen — ofte projekter i Danmark (podcasts, marches, content).' },
+    { t: 'Officiel', d: 'Tal fra UM, CISU, regnskab eller lign. primær kilde.' },
+    { t: 'Claim', d: 'Påstand fra research (X m.m.) — under eller efter verifikation.' },
+  ];
+  return `
+    <section class="hero">
+      <h1>Om</h1>
       <p>
-        Uafhængig, borgerlig research-side. Vi starter med
+        Uafhængig, borgerlig research. Kilder:
         <a href="https://x.com/oresundsbaron" target="_blank" rel="noopener">@oresundsbaron</a>,
-        <a href="https://x.com/MikeHuntHurts89" target="_blank" rel="noopener">@MikeHuntHurts89</a>
-        og <a href="https://x.com/Statsstyret" target="_blank" rel="noopener">@Statsstyret</a>
-        — plus officielle kilder (UM, CISU).
+        <a href="https://x.com/MikeHuntHurts89" target="_blank" rel="noopener">@MikeHuntHurts89</a>,
+        <a href="https://x.com/Statsstyret" target="_blank" rel="noopener">@Statsstyret</a>
+        + UM, CISU og regnskaber.
       </p>
     </section>
-    <div class="panel">
-      <h2>Sådan læser du tallene</h2>
-      <p><span class="badge ok">Officiel</span> = primær kilde (UM, CISU osv.)</p>
-      <p style="margin-top:.5rem"><span class="badge hot">Claim</span> = fra research — under verifikation</p>
-      <p style="margin-top:.5rem"><span class="badge warn">Estimat</span> = summeret/afrundet serie</p>
+
+    <div class="section-head"><h2>Ordliste</h2></div>
+    <div class="grid cols-2">
+      ${glossary
+        .map(
+          (g) => `
+        <div class="card">
+          <h3>${esc(g.t)}</h3>
+          <p class="blurb">${esc(g.d)}</p>
+        </div>`
+        )
+        .join('')}
     </div>
+
+    <div class="panel" style="margin-top:1.25rem">
+      <h2>Sådan læser du mærker</h2>
+      <p><span class="badge ok">Officiel</span> primær kilde ·
+         <span class="badge hot">Claim</span> research ·
+         <span class="badge warn">Estimat</span> afrundet serie</p>
+    </div>
+
     <div class="panel">
-      <h2>Tællerne</h2>
-      <p><strong>2026:</strong> ca. 23,2 mia. kr. samlet udviklingsbistand (rapporteret).</p>
-      <p><strong>10 år:</strong> ca. 187 mia. (2016–2025, afrundet).</p>
-      <p><strong>Pr. indbygger:</strong> ca. <strong>3.800 kr.</strong> (23,2 mia. ÷ ca. 6,1 mio. danskere).</p>
-      <p><strong>BT 10.000 kr.:</strong> Joachim B. Olsen / <em>B.T. mener</em> (4. aug. 2026): hvis bistanden afskaffes og bruges til <strong>lavere bundskat</strong>, får en person med <strong>gennemsnitsindkomst</strong> ca. 10.000 kr. i skattelettelse om året — <em>ikke</em> det samme som pr. indbygger. 23 mia. ÷ ca. 2,3 mio. fuldtidsbeskæftigede ≈ 10.000 kr.</p>
+      <h2>3.800 vs 10.000 kr.</h2>
+      <p><strong>3.800</strong> = pr. indbygger. <strong>10.000</strong> = BT: skattelettelse ved gennemsnitsindkomst hvis bistand → bundskat.</p>
       <p><a href="https://www.bt.dk/debat/bt-mener-afskaf-ulandsbistanden" target="_blank" rel="noopener">BT-leder ↗</a></p>
     </div>
+
+    <div class="panel" style="text-align:center">
+      <p class="badge warn">Aktindsigt · kommer snart</p>
+      <p class="muted" style="margin:.5rem 0 0">Flere originale dokumenter fra myndighederne.</p>
+    </div>
+
     ${
       posts.length
         ? `<div class="section-head"><h2>Fra X</h2></div>
@@ -775,8 +986,13 @@ function renderOm(d) {
 }
 
 async function paint() {
-  const { page, id } = route();
-  setNav(page === 'home' ? 'home' : page);
+  let { page, id } = route();
+  // Aliases → clean structure
+  if (page === 'udforsk') page = 'projekter';
+  if (page === 'tal') page = 'indsigt';
+  if (page === 'foi') page = 'aktindsigt';
+
+  setNav(page);
 
   try {
     const d = await loadAll();
@@ -786,19 +1002,23 @@ async function paint() {
     else if (page === 'sager') html = renderCases(d);
     else if (page === 'sag' && id) html = renderCase(d, id);
     else if (page === 'open' || page === 'katalog') html = renderOpen(d);
+    else if (page === 'cvr' || page === 'regnskab') html = renderCvr(d);
+    else if (page === 'indsigt') html = renderIndsigt(d);
     else if (page === 'grav' || page === 'undersogelse') html = renderGrav(d);
-    else if (page === 'aktindsigt' || page === 'foi') html = renderAktindsigt(d);
+    else if (page === 'aktindsigt') html = renderAktindsigt();
     else if (page === 'om' || page === 'metode' || page === 'opslag') html = renderOm(d);
     else html = renderHome(d);
     app.innerHTML = html;
     window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+    bindShare();
+    if (page === 'projekter') bindProjectFilter(d.projects.projects);
+    if (page === 'open' || page === 'katalog') bindOpenFilter(d.openGrants?.grants || []);
   } catch (e) {
     app.innerHTML = `
       <p class="error">
         Kunne ikke hente projektdata (${esc(e.message)}).
         Tællerne ovenfor viser stadig standardtal.
-        Prøv hard refresh — eller åbn via
-        <a href="https://mattomadsen.github.io/skattejaegeren/">GitHub Pages</a>.
+        Prøv hard refresh.
       </p>`;
   }
 }

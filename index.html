@@ -17,19 +17,15 @@
         <span class="brand-mark"></span>
         Skattejægeren
       </a>
-      <nav class="nav">
+      <nav class="nav" aria-label="Hovedmenu">
         <a href="#/" data-nav="home">Overblik</a>
-        <a href="#/projekter" data-nav="projekter">Projekter</a>
-        <a href="#/open" data-nav="open">OpEn-katalog</a>
-        <a href="#/cvr" data-nav="cvr">CVR</a>
-        <a href="#/grav" data-nav="grav">Undersøgelse</a>
-        <a href="#/aktindsigt" data-nav="aktindsigt">Aktindsigt</a>
+        <a href="#/projekter" data-nav="udforsk">Udforsk</a>
+        <a href="#/indsigt" data-nav="indsigt">Indsigt</a>
         <a href="#/om" data-nav="om">Om</a>
       </nav>
     </div>
   </header>
 
-  <!-- Stats always in DOM with real defaults (not "—") so they show even if JS/fetch fails -->
   <section class="stats" id="stats" aria-label="Ulandsbistand i tal">
     <div class="stats-inner">
       <div class="stat">
@@ -53,10 +49,9 @@
         <p class="stat-unit">kr. · gns. indkomst</p>
       </div>
     </div>
-    <p class="stats-footnote" id="stats-footnote">
+    <p class="stats-footnote">
       3.800 kr. = 23,2 mia. ÷ ca. 6,1 mio. indbyggere.
-      10.000 kr. = BT/Joachim B. Olsen: hvis bistanden bruges til lavere bundskat for en person med gennemsnitsindkomst
-      (ikke det samme som pr. indbygger).
+      10.000 kr. = BT: hvis bistanden bruges til lavere bundskat for gennemsnitsindkomst.
     </p>
   </section>
 
@@ -65,7 +60,12 @@
   <footer class="footer">
     <div class="footer-inner">
       <p>Uafhængig · borgerlig research · ikke tilknyttet kilderne</p>
-      <p><a href="https://github.com/MattOMadsen/skattejaegeren">GitHub</a></p>
+      <div class="footer-links">
+        <a href="#/projekter">Udforsk</a>
+        <a href="#/indsigt">Indsigt</a>
+        <a href="#/om">Om</a>
+        <a href="https://github.com/MattOMadsen/skattejaegeren">GitHub</a>
+      </div>
     </div>
   </footer>
 

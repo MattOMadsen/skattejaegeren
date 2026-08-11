@@ -1,7 +1,6 @@
-# Skattejægeren — idébank (gemt til senere)
+# Skattejægeren — idébank
 
 **Opdateret:** 2026-08-11  
-**Status:** Levende liste. Markér når noget er bygget.
 
 ---
 
@@ -9,51 +8,55 @@
 
 | # | Idé | Status |
 |---|-----|--------|
-| 1 | Forside med “største chok” (3–5 kort) | **done** 2026-08-11 |
-| 2 | Søgning + filtre i OpEn-katalog og projekter | **done** 2026-08-11 |
-| 3 | CVR/regnskab Ghana Venskab, Crossing Borders (virk.dk) | **done** 2026-08-11 (CVR + 2021-regnskab GV; CB stamdata) |
-| 4 | “Hvad kunne det have været?” (sygeplejersker, skole, skattelettelse) | senere |
-| 5 | Del-knapper pr. sag (X + link) | senere |
-| 6 | “Nyeste verificeret” tidslinje | senere |
+| 1 | Forside “største chok” | **done** |
+| 2 | Søgning + filtre | **done** |
+| 3 | CVR/regnskab GV + CB | **done** |
+| 4 | “Hvad kunne det have været?” | **done** (Indsigt) |
+| 5 | Del-knapper pr. sag/projekt | **done** |
+| 6 | “Nyeste verificeret” tidslinje | **done** (Indsigt) |
 
 ## Indhold
 
 | # | Idé | Status |
 |---|-----|--------|
-| 7 | Top-20 OpEn “Hall of Numbers” | delvist via katalog |
-| 8 | Sammenligningsgrafik MS vs Oxfam budget-split | senere |
-| 9 | Ordliste: SPA, OpEn, CISU, claim vs officiel | senere |
-| 10 | RSS/atom eller “seneste 10 projekter” | senere |
-| 11 | Female Freedom + flere org-regnskaber fra virk | senere |
-| 12 | OpenAid/IATI når API virker | senere |
-| 13 | Aktindsigt-svar publiceres (efter mails) | venter |
+| 7 | Top-20 OpEn Hall of Numbers | delvist (katalog + søg) |
+| 8 | MS vs Oxfam budget-grafik | **done** (MS bars på Indsigt; Oxfam-link) |
+| 9 | Ordliste | **done** (Om) |
+| 10 | RSS / seneste 10 | senere |
+| 11 | Flere org-regnskaber | senere |
+| 12 | OpenAid/IATI | senere |
+| 13 | Aktindsigt publiceret | venter (side: kommer snart) |
 
-## Produkt / brand
+## Produkt
 
 | # | Idé | Status |
 |---|-----|--------|
-| 14 | Egen domain (skattejaegeren.dk) | senere |
-| 15 | Indsend tip (form / issue) | senere |
-| 16 | Print/PDF én-siders faktaark | senere |
+| 14 | Egen domain | senere |
+| 15 | Indsend tip | senere |
+| 16 | PDF faktaark | senere |
 | 17 | Engelsk short page | senere |
 
 ## Teknik
 
 | # | Idé | Status |
 |---|-----|--------|
-| 18 | Statisk build / inline top-data | senere |
-| 19 | Tæller-animationer (diskret) | senere |
+| 18 | Statisk build / inline data | senere |
+| 19 | Tæller-animationer | senere |
 | 20 | Dark/light toggle | senere |
+| 21 | **Ren navigation (4 punkter)** | **done** 2026-08-11 |
 
-## Aktindsigt (internt — ikke på forsiden)
+## Navigation (nu)
 
-- Skabeloner A1–A6 klar under `data/aktindsigt/`
-- Offentlig side: kun “Kommer snart”
-- Proton/mail: afventer
+```
+Overblik · Udforsk · Indsigt · Om
+```
 
-## Prioritet næste gang (forslag)
+Udforsk har underfaner: Projekter | OpEn | Sager | CVR  
+Gamle links (`#/grav`, `#/open` …) virker stadig.
 
-1. Idé 4 — “Hvad kunne det have været?”  
-2. Idé 8 — MS vs Oxfam grafik  
-3. Idé 5 — del-knapper  
-4. Idé 9 — ordliste  
+## Næste prioritet (forslag)
+
+1. Idé 16 — PDF faktaark  
+2. Idé 11 — Female Freedom regnskab  
+3. Idé 15 — tip-form  
+4. Oxfam bars side om side med MS  
