@@ -4,7 +4,11 @@
     "stance": "borgerlig",
     "approval": "manual",
     "primarySource": "@oresundsbaron",
-    "secondaryQueued": ["@Statsstyret", "@MikeHuntHurts89", "Facebook m.fl."],
+    "secondaryQueued": [
+      "@Statsstyret",
+      "@MikeHuntHurts89",
+      "Facebook m.fl."
+    ],
     "disclaimer": "Uafhængig side. Ikke tilknyttet Baronen, Mike Hunt, Statsstyret eller andre kilder. Citater er korte uddrag med link til original. Beløb mærket 'claim' vs 'official'."
   },
   "totals": {
@@ -21,7 +25,12 @@
       "title": "Kaffestop i Rwanda: 149.200 kr. fra OpEn",
       "status": "approved",
       "priority": 0,
-      "tags": ["open", "mikehunt", "officiel", "symbol"],
+      "tags": [
+        "open",
+        "mikehunt",
+        "officiel",
+        "symbol"
+      ],
       "amountDkk": 149200,
       "amountLabel": "149.200 kr.",
       "amountKind": "official",
@@ -54,49 +63,68 @@
           }
         ]
       },
-      "relatedPosts": ["2084223617148108834", "2084339602899214485", "2086486242548428847"]
+      "relatedPosts": [
+        "2084223617148108834",
+        "2084339602899214485",
+        "2086486242548428847"
+      ]
     },
     {
       "slug": "barnevogn-og-prioritering",
       "title": "Barnevognsmarch vs. livsnødvendig creme",
       "status": "approved",
       "priority": 0,
-      "tags": ["open", "sexogsamfund", "prioritering", "baronen"],
-      "amountDkk": 1500000,
-      "amountLabel": "1,5 mio. (+ 200.000)",
-      "amountKind": "claim",
-      "summary": "Baronen: Sex & Samfund får 1,5 mio. til barnevognsmarch om global mødredødelighed; tidligere 200.000. Samme uge: Magnus i Struer nægtes ca. 60.000 kr./år til lægeordineret creme.",
-      "angle": "Hvis velfærdsstaten ‘ikke har råd’ til 60.000 hjemme, men har råd til millioner til marches og branding, er det et politisk valg — ikke naturlov.",
+      "tags": [
+        "open",
+        "sexogsamfund",
+        "prioritering",
+        "baronen",
+        "verificeret"
+      ],
+      "amountDkk": 1498642,
+      "amountLabel": "1.498.642 kr. (OpEn)",
+      "amountKind": "official",
+      "summary": "VERIFICERET CISU: Sex & Samfund fik 1.498.642 kr. fra OpEn til barnevognsmarch 2025/2026 (samlet budget 2,2 mio.). Baronens ~1,5 mio. holder. Samme debattråd: Magnus i Struer nægtes ca. 60.000 kr./år til lægeordineret creme.",
+      "angle": "Hvis velfærdsstaten ‘ikke har råd’ til 60.000 hjemme, men har råd til 1,5 mio. til marches, er det et politisk valg — ikke naturlov.",
       "depth": {
         "status": "approved",
-        "headline": "Dybde: Prioritering er pointen",
+        "headline": "Dybde: Fra claim til officiel bevilling",
         "body": [
-          "Baronen har dokumenteret OpEn/Danida-relaterede tilskud til **barnevognsmarches** i Danmark i Sex & Samfunds regi (1,5 mio. peget for en runde; 200.000 for en tidligere).",
-          "Martin Ågerup / Skattebetalerne beskrev sagen om **Magnus** (hudlidelse), hvor Struer Kommune ikke vil betale ca. **60.000 kr./år** til creme, som lægen kalder livsnødvendig — i en kommune med milliardbudget.",
-          "Baronens kontrast: **2 mio. til marches over tid** vs. **60.000 til medicinsk nødvendighed**. Mike Hunt har bakket op om kravet om kvitteringer.",
-          "Beløbene til marches er **claims** indtil OpEn-bevillingsarkivet er matchet 1:1 i vores data. Kontrasten holder som princip uanset."
+          "**CISU/OpEn bekræfter:** Projektet *Barnevognsmarch: Gå for verdens mødre på mors dag 2025/2026* — bevilget **1.498.642 kr.**, samlet budget 2.198.642 kr., organisation Sex & Samfund.",
+          "Formål i den officielle tekst: marches i hele landet, så flere (især forældre) kender til global mødredødelighed. Det er **oplysning i Danmark**, ikke medicin i feltet.",
+          "Martin Ågerup / Skattebetalerne: **Magnus** nægtes ca. **60.000 kr./år** til creme i Struer. Baronens kontrast står stadig — nu med hård CISU-kilde bag march-beløbet.",
+          "Kildesti: Baronen peget → vi matchede CISU-id `0edadb48-…` → beløb låst som **officiel**."
         ],
         "sources": [
+          {
+            "title": "CISU bevilling 1.498.642 kr.",
+            "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d",
+            "kind": "official"
+          },
           {
             "title": "Baronen: Magnus vs barnevogn",
             "url": "https://x.com/oresundsbaron/status/2082152856606384234",
             "kind": "research"
-          },
-          {
-            "title": "Baronen: 1,5 mio. march",
-            "url": "https://x.com/oresundsbaron/status/2080533439967895599",
-            "kind": "research"
           }
         ]
       },
-      "relatedPosts": ["2082152856606384234", "2080533439967895599", "2082341720243495390"]
+      "relatedPosts": [
+        "2082152856606384234",
+        "2080533439967895599",
+        "2082341720243495390"
+      ]
     },
     {
       "slug": "sex-samfund-uganda",
       "title": "Sex & Samfund: Gender Policy i Uganda",
       "status": "approved",
       "priority": 2,
-      "tags": ["danida", "sexogsamfund", "uganda", "baronen"],
+      "tags": [
+        "danida",
+        "sexogsamfund",
+        "uganda",
+        "baronen"
+      ],
       "amountDkk": 22000000,
       "amountLabel": "22 mio. kr./år partnerskab (UM)",
       "amountKind": "official",
@@ -123,14 +151,21 @@
           }
         ]
       },
-      "relatedPosts": ["1887818595767566465", "2083086868241920038"]
+      "relatedPosts": [
+        "1887818595767566465",
+        "2083086868241920038"
+      ]
     },
     {
       "slug": "kirke-udland",
       "title": "Danske Kirke i Udlandet: 35,4 mio.",
       "status": "approved",
       "priority": 8,
-      "tags": ["kirke", "mikehunt", "statsstøtte"],
+      "tags": [
+        "kirke",
+        "mikehunt",
+        "statsstøtte"
+      ],
       "amountDkk": 35400000,
       "amountLabel": "35,4 mio. kr. (claim 2024)",
       "amountKind": "claim",
@@ -151,14 +186,20 @@
           }
         ]
       },
-      "relatedPosts": ["2083284810911695119"]
+      "relatedPosts": [
+        "2083284810911695119"
+      ]
     },
     {
       "slug": "strategiske-partnerskaber",
       "title": "Strategiske partnerskaber: 1,264 mia. kr. om året",
       "status": "approved",
       "priority": 1,
-      "tags": ["danida", "partnerskab", "officiel"],
+      "tags": [
+        "danida",
+        "partnerskab",
+        "officiel"
+      ],
       "amountDkk": 1264000000,
       "amountLabel": "1,264 mia. kr./år",
       "amountKind": "official",
@@ -181,14 +222,24 @@
           }
         ]
       },
-      "relatedPosts": ["2086920527436730876", "1888511754260394004", "1887596707518816601"]
+      "relatedPosts": [
+        "2086920527436730876",
+        "1888511754260394004",
+        "1887596707518816601"
+      ]
     },
     {
       "slug": "ms-actionaid",
       "title": "MS ActionAid: 129 mio. kr./år + aktindsigt om valg-påvirkning",
       "status": "approved",
       "priority": 2,
-      "tags": ["danida", "ms", "actionaid", "statsstyret", "aktindsigt"],
+      "tags": [
+        "danida",
+        "ms",
+        "actionaid",
+        "statsstyret",
+        "aktindsigt"
+      ],
       "amountDkk": 129000000,
       "amountLabel": "129 mio. kr./år",
       "amountKind": "official",
@@ -222,14 +273,23 @@
           }
         ]
       },
-      "relatedPosts": ["1888511754260394004", "2086920527436730876", "2079270077728248030"]
+      "relatedPosts": [
+        "1888511754260394004",
+        "2086920527436730876",
+        "2079270077728248030"
+      ]
     },
     {
       "slug": "civilsamfundspuljen",
       "title": "Civilsamfundspuljen & OpEn: 'små' 221 mio. der ikke er små",
       "status": "approved",
       "priority": 3,
-      "tags": ["danida", "cisu", "open", "baronen"],
+      "tags": [
+        "danida",
+        "cisu",
+        "open",
+        "baronen"
+      ],
       "amountDkk": 221000000,
       "amountLabel": "221 mio. kr. (claim 2026)",
       "amountKind": "claim",
@@ -268,14 +328,23 @@
           }
         ]
       },
-      "relatedPosts": ["2086920527436730876", "2002304077615759548", "2083221437041479686"]
+      "relatedPosts": [
+        "2086920527436730876",
+        "2002304077615759548",
+        "2083221437041479686"
+      ]
     },
     {
       "slug": "ngo-miniserie",
       "title": "NGO-mini-serie: Ghana, DEI, trans-aktivisme m.m.",
       "status": "approved",
       "priority": 4,
-      "tags": ["danida", "ngo", "baronen", "claim"],
+      "tags": [
+        "danida",
+        "ngo",
+        "baronen",
+        "claim"
+      ],
       "amountDkk": 28700000,
       "amountLabel": "≥28,7 mio. kr. (sum af claims)",
       "amountKind": "claim",
@@ -307,43 +376,62 @@
           }
         ]
       },
-      "relatedPosts": ["2083221437041479686", "2002304077615759548"]
+      "relatedPosts": [
+        "2083221437041479686",
+        "2002304077615759548"
+      ]
     },
     {
       "slug": "orangutang-rap",
       "title": "Orangutang-rap: 800.000 kr. til 'kultur'?",
       "status": "approved",
       "priority": 5,
-      "tags": ["danida", "symbol", "baronen"],
-      "amountDkk": 800000,
-      "amountLabel": "800.000 kr. (claim)",
-      "amountKind": "claim",
-      "summary": "Baronen og debatten om Danida/Red Orangutangen og 800.000 kr. til et rap-projekt. Symbolsk lille beløb — men illustrerer prioriteringen, når folk siger 'det er jo bare kultur'.",
+      "tags": [
+        "danida",
+        "symbol",
+        "baronen"
+      ],
+      "amountDkk": 797786,
+      "amountLabel": "797.786 kr. (OpEn)",
+      "amountKind": "official",
+      "summary": "VERIFICERET CISU: BIO RAP PROJEKTET — Orangutang Fonden fik 797.786 kr. fra OpEn (15.08.2024–01.07.2025). Matcher Baronens ~800.000. Formidling/klima-rap med afsæt i Borneo — ikke klassisk felt-nødhjælp.",
       "angle": "Ét absurdistisk projekt er ikke budgettet. Det er indgangen: hvis det her slipper igennem, hvad ellers?",
       "depth": {
         "status": "approved",
         "headline": "Dybde: Symbolsag, ikke hovedsagen",
         "body": [
-          "I aug. 2026 citerede Baronen en test af 'orangutang-rappen' i Indonesien med henvisning til **800.000 kr.** fra Danida og Red Orangutangen.",
-          "Beløbet er **claim** indtil primær bevilling er i arkivet. Sagen er værdifuld som **symbol**: den gør systemets smag håndgribelig for almindelige mennesker.",
-          "Skattejægerens fokus forbliver de **store** tal (partnerskaber, puljer) — men symbolsager driver trafik og politisk tryk."
+          "**CISU/OpEn bekræfter:** *BIO RAP PROJEKTET*, org. Orangutang Fonden/Save the Orangutan, bevilget **797.786 kr.** (100 % af budget), periode 15.08.2024–01.07.2025.",
+          "Resume: danske børn/unges klimabekymring; afsæt i udviklingsprojekt på indonesisk Borneo. Den omdiskuterede rap er del af formidlingen.",
+          "Baronens ~800.000 og Mikes YouTube-spor pegede rigtigt. Pengene er **bevilget** — effekt for orangutanger er et separat spørgsmål."
         ],
         "sources": [
           {
-            "title": "Baronen om orangutang-rap (X)",
+            "title": "CISU BIO RAP 797.786 kr.",
+            "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f3fd5102-4ea1-44c5-8c45-77b89bcf554e",
+            "kind": "official"
+          },
+          {
+            "title": "Baronen",
             "url": "https://x.com/oresundsbaron/status/2086460030191067593",
             "kind": "research"
           }
         ]
       },
-      "relatedPosts": ["2086460030191067593"]
+      "relatedPosts": [
+        "2086460030191067593"
+      ]
     },
     {
       "slug": "statens-kunstfond",
       "title": "Statens Kunstfond: 27,8 mio. til billedkunstprojekter",
       "status": "approved",
       "priority": 6,
-      "tags": ["kultur", "kunstfond", "baronen", "spareplan"],
+      "tags": [
+        "kultur",
+        "kunstfond",
+        "baronen",
+        "spareplan"
+      ],
       "amountDkk": 27800000,
       "amountLabel": "27,8 mio. kr. (2025, claim)",
       "amountKind": "claim",
@@ -370,14 +458,22 @@
           }
         ]
       },
-      "relatedPosts": ["2086090346891534727", "2086044804387942797", "2086060022824378407"]
+      "relatedPosts": [
+        "2086090346891534727",
+        "2086044804387942797",
+        "2086060022824378407"
+      ]
     },
     {
       "slug": "information-mediestoette",
       "title": "Information: 22,5 mio. kr. i mediestøtte",
       "status": "approved",
       "priority": 7,
-      "tags": ["medier", "mediestøtte", "baronen"],
+      "tags": [
+        "medier",
+        "mediestøtte",
+        "baronen"
+      ],
       "amountDkk": 22500000,
       "amountLabel": "22,5 mio. kr. (2026, claim)",
       "amountKind": "claim",
@@ -398,7 +494,9 @@
           }
         ]
       },
-      "relatedPosts": ["2086361841295667262"]
+      "relatedPosts": [
+        "2086361841295667262"
+      ]
     }
   ]
 }

@@ -106,14 +106,15 @@ let cache = null;
 async function loadAll() {
   if (cache) return cache;
   try {
-    const [aid, projects, cases, posts] = await Promise.all([
+    const [aid, projects, cases, posts, sourceMap] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
       fetchJson('data/cases.json'),
       fetchJson('data/posts.json'),
+      fetchJson('data/source-map.json').catch(() => null),
     ]);
     applyStats(aid);
-    cache = { aid, projects, cases, posts };
+    cache = { aid, projects, cases, posts, sourceMap };
     return cache;
   } catch (e) {
     console.error(e);
@@ -165,7 +166,17 @@ function renderHome(d) {
     </div>
 
     <div class="section-head">
-      <h2>Seneste projekter</h2>
+      <h2>Verificerede hits</h2>
+      <a href="#/grav">Fuld undersøgelse →</a>
+    </div>
+    <div class="chips" style="margin-bottom:1.5rem">
+      <div class="chip" style="grid-template-columns:1fr">
+        <div class="chip-home"><strong>CISU bekræftet</strong> · Barnevogn 1.498.642 kr · BIO RAP 797.786 kr · Kaffestop 149.200 kr · Kunstfond-runde 29,3 mio.</div>
+      </div>
+    </div>
+
+    <div class="section-head">
+      <h2>Projekter</h2>
       <a href="#/projekter">Se alle →</a>
     </div>
     <div class="grid cols-3">
@@ -305,6 +316,76 @@ function renderCase(d, slug) {
   `;
 }
 
+function renderGrav(d) {
+  const v = d.sourceMap?.verifiedThisRound || [];
+  const inv = d.sourceMap?.investigators || {};
+  const open = d.sourceMap?.openQuestions || [];
+  return `
+    <section class="hero">
+      <h1>Undersøgelse</h1>
+      <p>
+        Hvad går pengene til — og holder kilderne? Vi sporer Baronen, Statsstyret og Mike Hunt
+        tilbage til CISU, UM og officielle PDF’er. Fuld note:
+        <a href="https://github.com/MattOMadsen/skattejaegeren/blob/main/docs/UNDERS%C3%98GELSE.md" target="_blank" rel="noopener">docs/UNDERSØGELSE.md ↗</a>
+      </p>
+    </section>
+
+    <div class="panel">
+      <h2>Verificeret denne runde</h2>
+      ${
+        v.length
+          ? v
+              .map(
+                (x) =>
+                  `<p><span class="badge ok">${esc(x.status)}</span> <strong>${esc(x.claim)}</strong> → ${esc(x.result)}</p>`
+              )
+              .join('')
+          : `<p>Barnevogn 1.498.642 kr · BIO RAP 797.786 kr · Kaffestop 149.200 kr · Kunstfond-runde 29,3 mio. · MS 129 mio./år</p>`
+      }
+    </div>
+
+    <div class="panel">
+      <h2>Hvor får de oplysningerne fra?</h2>
+      <p><strong>@oresundsbaron</strong> — UM-tabeller, Kunstfond-PDF’er, CISU, mediestøtte-lister, links i kommentarspor. Ofte primærkilder.</p>
+      <p><strong>@Statsstyret</strong> — aktindsigt i ansøgninger (MS/valgkontekst), plus officielle beløb. Ser hvad der <em>ansøges</em> om.</p>
+      <p><strong>@MikeHuntHurts89</strong> — direkte CISU-bevillings-URL’er, OpEn-lister, habilitet, kontrast til DK (Lolland m.m.).</p>
+    </div>
+
+    <div class="panel">
+      <h2>Går pengene derhen de siger?</h2>
+      <p><strong>Bevilling:</strong> Ofte ja — beløb og org matcher CISU/UM.</p>
+      <p><strong>Formål:</strong> Mange OpEn-projekter er <strong>oplysning i Danmark</strong> (marches, rap, podcast, Instagram) — ikke felt-nødhjælp.</p>
+      <p><strong>Effekt:</strong> Offentligt svagt sporbart. Her graver vi videre (slutregnskaber, aktindsigt).</p>
+    </div>
+
+    <div class="panel">
+      <h2>Skala</h2>
+      <p>CISU lister <strong>3.288 bevillinger</strong>. OpEn alene har <strong>200+</strong> poster. Strategiske partnerskaber: <strong>1,264 mia. kr./år</strong>.</p>
+      <p class="muted">De 23 mia. indeholder også humanitært, multilateralt og andet — vi lyver ikke om det. Vi starter der, hvor der er navn + beløb + offentlig tekst.</p>
+    </div>
+
+    <div class="panel">
+      <h2>Åbne spørgsmål</h2>
+      ${(open.length ? open : [
+          'Andel OpEn+civilsamfund vs resten af de 23 mia.',
+          'MS 129 mio. — landefordeling og advocacy-andel',
+          'Slutregnskaber: brugt som bevilget?',
+          'Ghana Venskab m.fl. — 1:1 CISU-match',
+        ])
+          .map((q) => `<p>· ${esc(typeof q === 'string' ? q : q)}</p>`)
+          .join('')}
+    </div>
+
+    <div class="section-head"><h2>Næste grave-trin</h2></div>
+    <div class="grid cols-2">
+      <div class="card"><h3>OpEn-katalog</h3><p class="blurb">Alle 200+ OpEn-bevillinger med beløb i data/</p></div>
+      <div class="card"><h3>OpenAid bilateralt</h3><p class="blurb">Land-for-land: hvad siger um.dk-databasen?</p></div>
+      <div class="card"><h3>NGO-mini-serie match</h3><p class="blurb">Ghana Venskab, Crossing Borders … → CISU-id</p></div>
+      <div class="card"><h3>Aktindsigt</h3><p class="blurb">Slutregnskaber + MS-ansøgninger (Statsstyret-metode)</p></div>
+    </div>
+  `;
+}
+
 function renderOm(d) {
   const posts = (d.posts?.posts || []).slice(0, 5);
   return `
@@ -359,6 +440,7 @@ async function paint() {
     else if (page === 'projekt' && id) html = renderProject(d, id);
     else if (page === 'sager') html = renderCases(d);
     else if (page === 'sag' && id) html = renderCase(d, id);
+    else if (page === 'grav' || page === 'undersogelse') html = renderGrav(d);
     else if (page === 'om' || page === 'metode' || page === 'opslag') html = renderOm(d);
     else html = renderHome(d);
     app.innerHTML = html;

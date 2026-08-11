@@ -13,31 +13,57 @@
       "whatFor": "Rejse til Rwanda ifm. cykel-VM. Instagram, video og podcast til Mandsholdets ~72.000 følgere. ‘Bygge et lille kaffestop’ og invitere lokale / cykelhold til at fortælle historier om grøn omstilling, ligestilling og sportsfællesskab.",
       "angle": "100 % statsfinansieret content-tur. Ikke klassisk nødhjælp — oplysning med flybilletter og mælkeskum.",
       "sources": [
-        { "title": "CISU bevillingsside (officiel)", "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=9640e38a-5768-4390-b624-11ffdd342ab9", "kind": "official" },
-        { "title": "MikeHuntHurts89: Kaffestop", "url": "https://x.com/MikeHuntHurts89/status/2084223617148108834", "kind": "research" },
-        { "title": "MikeHuntHurts89: habilitet / bevillingsudvalg", "url": "https://x.com/MikeHuntHurts89/status/2084339602899214485", "kind": "research" }
+        {
+          "title": "CISU bevillingsside (officiel)",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=9640e38a-5768-4390-b624-11ffdd342ab9",
+          "kind": "official"
+        },
+        {
+          "title": "MikeHuntHurts89: Kaffestop",
+          "url": "https://x.com/MikeHuntHurts89/status/2084223617148108834",
+          "kind": "research"
+        },
+        {
+          "title": "MikeHuntHurts89: habilitet / bevillingsudvalg",
+          "url": "https://x.com/MikeHuntHurts89/status/2084339602899214485",
+          "kind": "research"
+        }
       ],
-      "researchers": ["MikeHuntHurts89"],
-      "caseSlug": "kaffestop-rwanda"
+      "researchers": [
+        "MikeHuntHurts89"
+      ],
+      "caseSlug": "kaffestop-rwanda",
+      "verification": "verified_cisu_2026-08-11"
     },
     {
       "id": "barnevognsmarch-ss",
       "title": "Barnevognsmarch — Sex & Samfund",
-      "amountDkk": 1500000,
-      "amountKind": "claim",
+      "amountDkk": 1498642,
+      "amountKind": "official",
       "org": "Sex & Samfund",
-      "pool": "OpEn / Danida-relateret (ifølge Baronen)",
+      "pool": "OpEn (UM via CISU)",
       "country": "Danmark",
-      "period": "ca. 2025–2026",
-      "whatFor": "Ifølge Baronen: 1,5 mio. kr. til barnevognsmarch for at ‘få flere, særligt forældre, til at kende til og tage stilling til global mødredødelighed’. Tidligere år: 200.000 kr. til lignende. I alt peget på ca. 2 mio. over flere marches.",
+      "period": "2025/2026 (Mors Dag-marches)",
+      "whatFor": "Sex & Samfund + MaMaMesh arrangerer barnevognsmarches på mors dag i hele landet. Formål: flere — særligt forældre — skal kende til global mødredødelighed. OFFICIEL CISU-bevilling 1.498.642 kr. (OpEn).",
       "angle": "Oplysning i Danmark med skattekroner — mens kommuner siger nej til 60.000 kr. livsnødvendig medicincreme.",
       "sources": [
-        { "title": "Baronen: 1,5 mio. barnevognsmarch", "url": "https://x.com/oresundsbaron/status/2080533439967895599", "kind": "research" },
-        { "title": "Baronen: også 200.000 i 2024", "url": "https://x.com/oresundsbaron/status/2082341720243495390", "kind": "research" },
-        { "title": "Baronen: Magnus 60.000 vs marches", "url": "https://x.com/oresundsbaron/status/2082152856606384234", "kind": "research" }
+        {
+          "title": "CISU: Barnevognsmarch 2025/2026 (1.498.642 kr.)",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=0edadb48-12c6-4679-8385-791836ec315d",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen: prioritering vs Magnus",
+          "url": "https://x.com/oresundsbaron/status/2082152856606384234",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron", "MikeHuntHurts89"],
-      "caseSlug": "barnevogn-og-prioritering"
+      "researchers": [
+        "oresundsbaron",
+        "MikeHuntHurts89"
+      ],
+      "caseSlug": "barnevogn-og-prioritering",
+      "amountNote": "CISU/OpEn bevilget 1.498.642 kr. Samlet budget 2.198.642 kr. (egenfinansiering rest)."
     },
     {
       "id": "sex-samfund-uganda-gender",
@@ -51,10 +77,20 @@
       "whatFor": "Baronen: S&S har via partner RHU været med til at forme ‘Gender Policy’ i Uganda — anbefalinger til lovgivning, women’s empowerment, gender responsive budgeting. S&S fik ifølge Baronen 80 mio. som strategisk partner 2018–2021; 22 mio./år i nuværende partnerskabstabel (UM).",
       "angle": "Skattekroner til ideologisk policy-eksport — ikke medicin og rent vand alene.",
       "sources": [
-        { "title": "Baronen: Gender Policy Uganda", "url": "https://x.com/oresundsbaron/status/1887818595767566465", "kind": "research" },
-        { "title": "UM: Sex & Samfund 22 mio./år partnerskab", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+        {
+          "title": "Baronen: Gender Policy Uganda",
+          "url": "https://x.com/oresundsbaron/status/1887818595767566465",
+          "kind": "research"
+        },
+        {
+          "title": "UM: Sex & Samfund 22 mio./år partnerskab",
+          "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "sex-samfund-uganda"
     },
     {
@@ -70,30 +106,62 @@
       "whatFor": "Baronen: mentoring, trainings, flexible funding til Youth4Parliament — politisk organisering af unge. Kobling til politikere/parti (Patriotic Front) beskrevet som revolutionært/anti-kapitalistisk i Baronens gennemgang. Statsstyret: aktindsigt om ‘unge i valgkontekster’ og sociale bevægelser.",
       "angle": "Politisk mobilisering i udlandet betalt af dig — mens regeringen advarer mod udenlandsk indblanding hjemme.",
       "sources": [
-        { "title": "UM: MS ActionAid 129 mio./år", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" },
-        { "title": "Baronen: MS Zambia / Y4P", "url": "https://x.com/oresundsbaron/status/1887792165772022003", "kind": "research" },
-        { "title": "Statsstyret: aktindsigt MS", "url": "https://x.com/Statsstyret/status/1888511754260394004", "kind": "research" }
+        {
+          "title": "UM: MS ActionAid 129 mio./år",
+          "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen: MS Zambia / Y4P",
+          "url": "https://x.com/oresundsbaron/status/1887792165772022003",
+          "kind": "research"
+        },
+        {
+          "title": "Statsstyret: aktindsigt MS",
+          "url": "https://x.com/Statsstyret/status/1888511754260394004",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron", "Statsstyret"],
+      "researchers": [
+        "oresundsbaron",
+        "Statsstyret"
+      ],
       "caseSlug": "ms-actionaid"
     },
     {
-      "id": "orangutang-rap",
-      "title": "Orangutang-rap / Red Orangutangen",
-      "amountDkk": 800000,
-      "amountKind": "claim",
-      "org": "Red Orangutangen (+ Danida-midler ifølge debatten)",
-      "pool": "Danida-relateret (claim)",
-      "country": "Indonesien / formidling",
-      "period": "2025–2026 debatteret",
-      "whatFor": "ca. 800.000 kr. peget på i debatten til rap/kulturformidling om orangutanger. MikeHunt fandt YouTube-version efter copyright-fjernelse på X.",
-      "angle": "Symbolsag: du betaler — og må ikke engang se varen uden omveje.",
+      "id": "biorap-orangutang",
+      "title": "BIO RAP PROJEKTET (Orangutang Fonden)",
+      "amountDkk": 797786,
+      "amountKind": "official",
+      "org": "Orangutang Fonden / Save the Orangutan",
+      "pool": "OpEn (UM via CISU)",
+      "country": "Danmark (formidling) / Borneo-afsæt",
+      "period": "15.08.2024 – 01.07.2025",
+      "whatFor": "OFFICIEL: Op imod 85 % af danske børn/unge har klimabekymringer. Projektet tager afsæt i udviklingsprojekt på indonesisk Borneo og formidler klima/biodiversitet — bl.a. via rap/kultur (den omdiskuterede orangutang-rap). Bevilget 797.786 kr., 100 % af budget. Dette er OpEn-oplysning, ikke klassisk felt-nødhjælp.",
+      "angle": "Du betalte næsten 800.000 kr. for klima-rap og formidling. Om orangutangerne fik mere skov ud af det, er ikke dokumenteret i bevillingsteksten.",
       "sources": [
-        { "title": "Baronen: orangutang-rap", "url": "https://x.com/oresundsbaron/status/2086460030191067593", "kind": "research" },
-        { "title": "MikeHuntHurts89: YouTube-fund", "url": "https://x.com/MikeHuntHurts89/status/2083975777322987558", "kind": "research" }
+        {
+          "title": "CISU: BIO RAP PROJEKTET (797.786 kr.)",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=f3fd5102-4ea1-44c5-8c45-77b89bcf554e",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen om orangutang-rap",
+          "url": "https://x.com/oresundsbaron/status/2086460030191067593",
+          "kind": "research"
+        },
+        {
+          "title": "MikeHunt: YouTube efter copyright",
+          "url": "https://x.com/MikeHuntHurts89/status/2083975777322987558",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron", "MikeHuntHurts89"],
-      "caseSlug": "orangutang-rap"
+      "researchers": [
+        "oresundsbaron",
+        "MikeHuntHurts89"
+      ],
+      "caseSlug": "orangutang-rap",
+      "amountNote": "CISU/OpEn 797.786 kr. — matcher Baronens ~800.000 kr."
     },
     {
       "id": "ghana-venskab",
@@ -106,9 +174,15 @@
       "whatFor": "Baronen: ca. 11 mio. til DEI, klimaalarmisme og ‘kvinders empowerment’ i Ghana.",
       "angle": "Navngiven NGO, navngivet beløb — kræver match mod CISU-liste.",
       "sources": [
-        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+        {
+          "title": "Baronen NGO-mini-serie",
+          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "ngo-miniserie"
     },
     {
@@ -122,9 +196,15 @@
       "whatFor": "Baronen: ca. 9 mio. til ‘wokeisme og DEI-aktivisme’.",
       "angle": "Aktivisme betalt som bistand.",
       "sources": [
-        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+        {
+          "title": "Baronen NGO-mini-serie",
+          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "ngo-miniserie"
     },
     {
@@ -138,9 +218,15 @@
       "whatFor": "Baronen: ca. 1,2 mio. til pro-trans, pro-kommunistisk og anti-kapitalistisk aktivisme.",
       "angle": "Ideologi-export i bistandskappe.",
       "sources": [
-        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+        {
+          "title": "Baronen NGO-mini-serie",
+          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "ngo-miniserie"
     },
     {
@@ -154,9 +240,15 @@
       "whatFor": "Baronen: ca. 3,5 mio. til politisk aktivisme.",
       "angle": "Børnebrand — politisk indhold.",
       "sources": [
-        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+        {
+          "title": "Baronen NGO-mini-serie",
+          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "ngo-miniserie"
     },
     {
@@ -170,9 +262,15 @@
       "whatFor": "Baronen: ca. 4 mio. til ‘far left’-propaganda og politisk aktivisme.",
       "angle": "Politisk støtte i udlandet.",
       "sources": [
-        { "title": "Baronen NGO-mini-serie", "url": "https://x.com/oresundsbaron/status/2083221437041479686", "kind": "research" }
+        {
+          "title": "Baronen NGO-mini-serie",
+          "url": "https://x.com/oresundsbaron/status/2083221437041479686",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
+      "researchers": [
+        "oresundsbaron"
+      ],
       "caseSlug": "ngo-miniserie"
     },
     {
@@ -186,9 +284,16 @@
       "whatFor": "Fast årlig ramme 129 mio. kr. til MS ActionAids samlede partnerskabsindsatser — humanitært, udviklings- og politisk arbejde ifølge organisationens egen profil og kritikernes gennemgang.",
       "angle": "Én NGO. 129 millioner. Hvert år.",
       "sources": [
-        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+        {
+          "title": "UM fordelingstabel",
+          "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        }
       ],
-      "researchers": ["oresundsbaron", "Statsstyret"],
+      "researchers": [
+        "oresundsbaron",
+        "Statsstyret"
+      ],
       "caseSlug": "ms-actionaid"
     },
     {
@@ -202,8 +307,16 @@
       "whatFor": "103 mio. kr./år ifølge UM. Oxfam beskriver selv partnerskab om rettigheder, skrøbelige lande, klima m.m.",
       "angle": "Stor rammebevilling — indhold skal åbnes sag for sag.",
       "sources": [
-        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" },
-        { "title": "Oxfam om Danida-partnerskab", "url": "https://oxfam.dk/om-os/partnerskaber/danida/", "kind": "org" }
+        {
+          "title": "UM fordelingstabel",
+          "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        },
+        {
+          "title": "Oxfam om Danida-partnerskab",
+          "url": "https://oxfam.dk/om-os/partnerskaber/danida/",
+          "kind": "org"
+        }
       ],
       "researchers": [],
       "caseSlug": "strategiske-partnerskaber"
@@ -219,7 +332,11 @@
       "whatFor": "200 mio. kr./år — den største enkeltbevilling blandt de 18 strategiske partnere.",
       "angle": "Størrelse alene kræver offentlig kontrol med resultater.",
       "sources": [
-        { "title": "UM fordelingstabel", "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/", "kind": "official" }
+        {
+          "title": "UM fordelingstabel",
+          "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+          "kind": "official"
+        }
       ],
       "researchers": [],
       "caseSlug": "strategiske-partnerskaber"
@@ -228,17 +345,29 @@
       "id": "hybrid-mutation",
       "title": "Hybrid Mutation (Statens Kunstfond)",
       "amountDkk": 200000,
-      "amountKind": "claim",
+      "amountKind": "official",
       "org": "Ann Kristin Hettervik Lislegaard",
       "pool": "Statens Kunstfond — billedkunst",
       "country": "DK / international turné",
       "whatFor": "Baronen: 200.000 kr. til 5 skulpturer; omtale af uddøde fuglelyde, tegning under hypnose, hybrid-animationer.",
       "angle": "Samme skatteyder — anden kasse end Danida. Prioritering er pointen.",
       "sources": [
-        { "title": "Baronen: Hybrid Mutation", "url": "https://x.com/oresundsbaron/status/2086044804387942797", "kind": "research" }
+        {
+          "title": "Kunstfond referat maj 2025 (PDF)",
+          "url": "https://www.kunst.dk/fileadmin/user_upload/Kunst_dk/Dokumenter/Referater/Billedkunst/Projektstoetteudvalg_2022-2025/Referat__m%C3%B8de_nr._27__6._-_9._maj_2025__Projektst%C3%B8tteudvalget_for_Billedkunst.pdf",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen: Hybrid Mutation",
+          "url": "https://x.com/oresundsbaron/status/2086044804387942797",
+          "kind": "research"
+        }
       ],
-      "researchers": ["oresundsbaron"],
-      "caseSlug": "statens-kunstfond"
+      "researchers": [
+        "oresundsbaron"
+      ],
+      "caseSlug": "statens-kunstfond",
+      "amountNote": "Bekræftet i Statens Kunstfond referat møde 27 (6.–9. maj 2025): 200.000 kr. til AKHL / Hybrid-skulpturer."
     },
     {
       "id": "kirke-udland",
@@ -251,10 +380,117 @@
       "whatFor": "MikeHunt: 16,9 mio. kirkelig virksomhed i Sydslesvig + 18,5 mio. kirkelig betjening af danskere i verden = 35,4 mio. (årsrapport 2024).",
       "angle": "Ikke ulandsbistand — men samme prioriteringsdebat: Jesus-roaming vs. velfærd hjemme.",
       "sources": [
-        { "title": "MikeHuntHurts89: 35,4 mio. kirke", "url": "https://x.com/MikeHuntHurts89/status/2083284810911695119", "kind": "research" }
+        {
+          "title": "MikeHuntHurts89: 35,4 mio. kirke",
+          "url": "https://x.com/MikeHuntHurts89/status/2083284810911695119",
+          "kind": "research"
+        }
       ],
-      "researchers": ["MikeHuntHurts89"],
+      "researchers": [
+        "MikeHuntHurts89"
+      ],
       "caseSlug": "kirke-udland"
+    },
+    {
+      "id": "kunstfond-runde-maj-2025",
+      "title": "Statens Kunstfond — én uddelingsrunde maj 2025",
+      "amountDkk": 29264298,
+      "amountKind": "official",
+      "org": "Statens Kunstfond / Projektstøtteudvalget for Billedkunst",
+      "pool": "Flere billedkunst-puljer",
+      "country": "Danmark / internationalt",
+      "period": "Møde 6.–9. maj 2025",
+      "whatFor": "OFFICIEL: 1.091 ansøgninger, 552 imødekommet, tilsagn for 29.264.298 kr. (ansøgt i alt 104 mio.). Inkl. residencies, værkproduktion, udstillingsprogrammer. Samme skatteyder som Danida-debatten — anden kasse.",
+      "angle": "Én komité. Én weekend. 29 millioner. Prioritering er et politisk valg.",
+      "sources": [
+        {
+          "title": "Kunstfond referat møde 27 (PDF)",
+          "url": "https://www.kunst.dk/fileadmin/user_upload/Kunst_dk/Dokumenter/Referater/Billedkunst/Projektstoetteudvalg_2022-2025/Referat__m%C3%B8de_nr._27__6._-_9._maj_2025__Projektst%C3%B8tteudvalget_for_Billedkunst.pdf",
+          "kind": "official"
+        }
+      ],
+      "researchers": [
+        "oresundsbaron"
+      ],
+      "caseSlug": "statens-kunstfond"
+    },
+    {
+      "id": "tore-hallas-residency",
+      "title": "Tore Hallas Larsen — udenlandsk residency",
+      "amountDkk": 200000,
+      "amountKind": "official",
+      "org": "Tore Hallas Larsen",
+      "pool": "Statens Kunstfond — ophold på udenlandske residencies",
+      "country": "USA (ISCP New York omtalt)",
+      "period": "Bevilget maj 2025-runde",
+      "whatFor": "OFFICIEL i maj-2025-referat: 200.000 kr. til Tore Hallas Larsen. Baronen knytter det til ISCP New York / kunstnerisk ophold.",
+      "angle": "Skatteyder betaler netværk og ophold i NY. Det er lovligt — men er det velfærd?",
+      "sources": [
+        {
+          "title": "Kunstfond referat maj 2025",
+          "url": "https://www.kunst.dk/fileadmin/user_upload/Kunst_dk/Dokumenter/Referater/Billedkunst/Projektstoetteudvalg_2022-2025/Referat__m%C3%B8de_nr._27__6._-_9._maj_2025__Projektst%C3%B8tteudvalget_for_Billedkunst.pdf",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen: kilder til residency",
+          "url": "https://x.com/oresundsbaron/status/2086075194167226587",
+          "kind": "research"
+        }
+      ],
+      "researchers": [
+        "oresundsbaron"
+      ],
+      "caseSlug": "statens-kunstfond"
+    },
+    {
+      "id": "politiken-forhal",
+      "title": "JP/Politikens Hus — udstillinger i forhal",
+      "amountDkk": 200000,
+      "amountKind": "official",
+      "org": "JP/POLITIKENS HUS A/S",
+      "pool": "Statens Kunstfond — etårigt udstillingsprogram",
+      "country": "Danmark",
+      "period": "Maj 2025-runde",
+      "whatFor": "OFFICIEL: 200.000 kr. til årsprogram i Politikens Forhal. Mediehus med egen mediestøtte får også kunststøtte til udstillinger i eget hus.",
+      "angle": "Dobbelt statsstøtte-logik: mediestøtte + kunstfond.",
+      "sources": [
+        {
+          "title": "Kunstfond referat maj 2025",
+          "url": "https://www.kunst.dk/fileadmin/user_upload/Kunst_dk/Dokumenter/Referater/Billedkunst/Projektstoetteudvalg_2022-2025/Referat__m%C3%B8de_nr._27__6._-_9._maj_2025__Projektst%C3%B8tteudvalget_for_Billedkunst.pdf",
+          "kind": "official"
+        },
+        {
+          "title": "Baronen om Politiken-udstillinger",
+          "url": "https://x.com/oresundsbaron/status/2086060022824378407",
+          "kind": "research"
+        }
+      ],
+      "researchers": [
+        "oresundsbaron"
+      ],
+      "caseSlug": "statens-kunstfond"
+    },
+    {
+      "id": "cisu-skala",
+      "title": "CISU bevillingsoversigt — 3.288 poster",
+      "amountDkk": 0,
+      "amountKind": "estimate",
+      "amountNote": "Ikke ét beløb — skala-indikator. CISU lister 3.288 bevillinger på tværs af puljer (historik).",
+      "org": "CISU (forvalter UM-midler)",
+      "pool": "Civilsamfund, OpEn, DERF, Klima m.fl.",
+      "country": "Global + Danmark (oplysning)",
+      "whatFor": "Den offentlige mine: tusindvis af navngivne projekter. Alene OpEn har 200+ poster (podcasts, film, marches, festivals). Det er her “kaffestop” og “barnevogn” findes side om side med reelle udviklingsprojekter.",
+      "angle": "Problemet er ikke at data mangler — det er at næsten ingen graver i den.",
+      "sources": [
+        {
+          "title": "CISU bevillingsoversigt",
+          "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/",
+          "kind": "official"
+        }
+      ],
+      "researchers": [],
+      "caseSlug": "civilsamfundspuljen"
     }
-  ]
+  ],
+  "investigationNote": "Se docs/UNDERSØGELSE.md — CISU-verificerede beløb for barnevogn, BIO RAP, kaffestop; Kunstfond PDF."
 }

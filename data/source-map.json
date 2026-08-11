@@ -1,0 +1,93 @@
+{
+  "updated": "2026-08-11",
+  "primaryDatabases": [
+    {
+      "name": "CISU bevillingsoversigt",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/",
+      "grantsListed": 3288,
+      "note": "Civilsamfund, OpEn, DERF, klima m.m."
+    },
+    {
+      "name": "UM Strategiske partnerskaber",
+      "url": "https://um.dk/danida/samarbejspartnere/civ-org/stoetteform/ny-runde-strategiske-partnerskaber-2022-2026/",
+      "note": "1,264 mia./år"
+    },
+    {
+      "name": "OpenAid.um.dk",
+      "url": "https://openaid.um.dk/",
+      "note": "Danida projektdata — kræver dybere scraping"
+    },
+    {
+      "name": "Statens Kunstfond referater",
+      "url": "https://www.kunst.dk/",
+      "note": "PDF-beslutningslister"
+    },
+    {
+      "name": "SLKS mediestøtte",
+      "url": "https://slks.dk/",
+      "note": "Brugt af Baronen"
+    }
+  ],
+  "investigators": {
+    "oresundsbaron": {
+      "methods": [
+        "officielle PDF/referater",
+        "UM-tabeller",
+        "CISU",
+        "NGO-sites",
+        "links i kommentarspor"
+      ],
+      "strength": "Systematisk, ofte primærkilder"
+    },
+    "Statsstyret": {
+      "methods": [
+        "aktindsigt",
+        "ansøgningsmateriale",
+        "UM"
+      ],
+      "strength": "FOI — ser hvad der ansøges om, ikke kun hvad der markedsføres"
+    },
+    "MikeHuntHurts89": {
+      "methods": [
+        "CISU direkte links",
+        "OpEn-lister",
+        "habilitet",
+        "kontrast til DK-velfærd"
+      ],
+      "strength": "Kvitteringsjagt + formidling"
+    }
+  },
+  "verifiedThisRound": [
+    {
+      "claim": "Barnevogn ~1,5 mio",
+      "result": "CISU 1.498.642 kr OpEn",
+      "status": "confirmed"
+    },
+    {
+      "claim": "Orangutang-rap ~800k",
+      "result": "CISU BIO RAP 797.786 kr OpEn",
+      "status": "confirmed"
+    },
+    {
+      "claim": "Kaffestop 149.200",
+      "result": "CISU OpEn",
+      "status": "confirmed"
+    },
+    {
+      "claim": "Hybrid Mutation 200k",
+      "result": "Kunstfond PDF maj 2025",
+      "status": "confirmed"
+    },
+    {
+      "claim": "MS 129 mio/år",
+      "result": "UM partnerskabstabel",
+      "status": "confirmed"
+    }
+  ],
+  "openQuestions": [
+    "Hvor stor andel af 23 mia. er OpEn+civilsamfund vs multilateral/humanitær?",
+    "MS 129 mio. — landefordeling og % advocacy vs service?",
+    "Slutregnskaber: blev pengene brugt som bevilget?",
+    "Ghana Venskab m.fl. — 1:1 CISU-match mangler"
+  ]
+}
