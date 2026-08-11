@@ -1,6 +1,6 @@
 {
   "slug": "lgbt-danmark-cisu",
-  "title": "LGBT+Danmark: 25 mio. i regnskab — CISU-projekter i millionklassen",
+  "title": "LGBT+ Danmark: 25 millioner om året — heraf store CISU-projekter",
   "status": "approved",
   "priority": 2,
   "tags": [
@@ -13,19 +13,20 @@
   "amountDkk": 25181092,
   "amountLabel": "25,2 mio. kr. indtægter 2025 (regnskab)",
   "amountKind": "official",
-  "summary": "Revideret årsregnskab 2025: indtægter i alt 25,2 mio. kr., heraf 14,8 mio. i projektindtægter. Driftstilskud fra staten (Ligestillingsministeriet) 4,5 mio. CISU-kataloget i vores sample: 10 poster, sum ca. 11,1 mio. — største enkeltbevilling 4,5 mio. til LGBTQ+ i Ukraine.",
-  "angle": "Ikke en lille forening med lommerusk: offentlig drift + store projektbevillinger. CISU er en af motorerne — dokumenteret i både regnskab (note 18 mellemregnskaber) og CISU-sider.",
+  "summary": "Regnskab 2025: 25,2 mio. i indtægter, 14,8 mio. i projekter, overskud 1,4 mio. CISU-sample: ca. 11 mio. over 10 poster. Offentlige midler er rygraden.",
+  "angle": "Uanset om man bakker op om formålet: det er **massive offentlige midler** til en politisk forening. Det bør frem i lyset — ikke gemmes i engelsk projektjargon.",
   "depth": {
     "status": "approved",
-    "headline": "Regnskab 2025 + CISU-toppen",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "LGBT+ Danmark er ikke en lille forening med kaffeindsamling. I 2025 havde de over 25 millioner kr. i indtægter. En stor del er projekter i udlandet og offentlig støtte i Danmark.",
+      "**Hvad går pengene til?** Drift i Danmark (rådgivning, politik, sekretariat) + internationale CISU-projekter (fx Ukraine, Kenya, Ghana, Moldova). Største CISU-enkeltpost i vores oversigt: **4,5 mio.** til LGBTQ+ i Ukraine. Staten giver også **4,5 mio.** i driftstilskud fra Ligestillingsministeriet.",
+      "**Politisk farve (vores vurdering):** Venstreorienteret / identitetspolitisk. Foreningens formål er LGBT+-rettigheder, politisk arbejde og internationale projekter for seksuelle minoriteter. Det er tydeligt progressivt — ikke partineutralt «rent vand».",
+      "**Hvad kunne det være herhjemme?** **25.2 mio. kr.** kunne ca. dække **46 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.518 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**Årsregnskab 2025 (revideret, godkendt 30. maj 2026):** Indtægter i alt **25.181.092 kr.** (2024: 26,99 mio.). Heraf **projektindtægter 14.795.772 kr.** og driftsindtægter ca. 10,4 mio.",
-      "**Offentlig drift:** Ligestillingsministeriet **4.500.000 kr.** driftstilskud; kommunale driftstilskud ca. 1,86 mio.; Social- og Boligstyrelsen 0,4 mio.",
-      "**Resultat:** overskud **1.386.634 kr.**; egenkapital 4,1 mio. pr. 31.12.2025. 27 igangværende projekter; 22,5 årsværk.",
       "**CISU i regnskabet:** Projektoversigt lister bl.a. Together for Equality Ukraine, Empowering Voices Kenya, Abusua Fie Ghana, Regional LGBT+ Armenien, Moldova m.fl. Note 18 er «Mellemregnskaber til CISU».",
-      "**CISU-katalog (vores sample, 10 poster):** sum **11.064.029 kr.** Størst: *Together for Equality* Ukraine **4.498.945 kr.** (01.07.2025–30.06.2027) — safe spaces, legal advocacy (Draft Law 5488), partnere Insight, Gender Stream, Resistance.",
-      "Næststørst i sample: *Empowering Voices* **3.481.892 kr.** (LGBTIQ+ inclusion).",
-      "**Vinkel:** Pengene er officielle. Spørgsmålet er prioritering — hvorfor millioner til advocacy/engagement-spor, når andre velfærdsområder skærer."
+      "**CISU-katalog (vores sample, 10 poster):** sum **11.064.029 kr.** Størst: *Together for Equality* Ukraine **4.498.945 kr.** (01.07.2025–30.06.2027) — safe spaces, legal advocacy (Draft Law 5488), partnere Insight, Gender Stream, Resistance."
     ],
     "sources": [
       {
@@ -50,5 +51,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "LGBT+ Danmark er ikke en lille forening med kaffeindsamling. I 2025 havde de over 25 millioner kr. i indtægter. En stor del er projekter i udlandet og offentlig støtte i Danmark.",
+  "whatMoneyFor": "Drift i Danmark (rådgivning, politik, sekretariat) + internationale CISU-projekter (fx Ukraine, Kenya, Ghana, Moldova). Største CISU-enkeltpost i vores oversigt: **4,5 mio.** til LGBTQ+ i Ukraine. Staten giver også **4,5 mio.** i driftstilskud fra Ligestillingsministeriet.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstreorienteret / identitetspolitisk",
+  "orientationNote": "Foreningens formål er LGBT+-rettigheder, politisk arbejde og internationale projekter for seksuelle minoriteter. Det er tydeligt progressivt — ikke partineutralt «rent vand».",
+  "homeCompare": {
+    "text": "**25.2 mio. kr.** kunne ca. dække **46 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.518 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 45.8,
+    "taxPeopleApprox": 2518
+  }
 }

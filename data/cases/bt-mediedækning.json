@@ -1,6 +1,6 @@
 {
   "slug": "bt-mediedækning",
-  "title": "BT & Borgerlig Tabloid: tallene i mainstream",
+  "title": "Når tallene rammer BT og hele Danmark",
   "status": "approved",
   "priority": 0,
   "tags": [
@@ -12,17 +12,18 @@
   "amountDkk": 23200000000,
   "amountLabel": "ca. 23 mia. (ramme i podcast)",
   "amountKind": "reported",
-  "summary": "3. aug. 2026: Baronen gæster BT’s podcast Borgerlig Tabloid med Joachim B. Olsen. Promotekst bruger «næsten 23 mia.» og sammenligner med uddannelse og politi. BT-chefredaktør har forsvaret interviewet. Kritikere angreb anonymitet men noterede at eksemplerne er offentligt tilgængelige — hvilket matcher vores CISU/UM-verifikation.",
-  "angle": "Mediedækning er ikke facit — men det er et gennembrud: debatten er ude af X-boblen. Vi holder stadig krav om officielle kilder på hvert beløb.",
+  "summary": "BT Borgerlig Tabloid 3. aug. 2026. 23 mia. i promo. Kritik og forsvar. Vi bruger BT som platform, ikke som facit.",
+  "angle": "Medier kan ikke erstatte CISU-links — men de kan tvinge politikerne til at forholde sig.",
   "depth": {
     "status": "approved",
-    "headline": "Hvad kan vi sige præcist?",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Fakta:** BT publicerede podcast-afsnittet *Baronen af Øresund: Hvor mange mennesker redder de ved at gå en tur!?* (3. aug. 2026). Vært: Joachim B. Olsen. Journalister: Maria Asmine Dam og Emilie Maja Jeppesen.",
-      "**Promotekst (BT):** «Næsten 23 milliarder kroner» i udviklingsbistand om året — «langt mere end vi bruger på videregående uddannelser» og «mere end vi bruger på politiet». Gæsten har kigget på konkrete bistandsprojekter.",
+      "I august 2026 kom debatten ud af X-boblen: Baronen var i BT’s podcast, og chefredaktøren forsvarede det. Kritikere angreb anonymitet — men indrømmede, at eksemplerne ligger offentligt.",
+      "**Hvad går pengene til?** Ikke en bevilling, men rammen: **ca. 23 mia.** i udviklingsbistand om året, som BT sammenlignede med politi og uddannelser.",
+      "**Politisk farve (vores vurdering):** Neutral (mediedækning). Sagen handler om pressen og debatten — ikke om ét projekts ideologi.",
+      "**Hvad kunne det være herhjemme?** Ca. 23.2 mia. kr. svarer groft til **42.000 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til ca. 2.3 mio. personer med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**X-opslag:** https://x.com/oresundsbaron/status/2084253347566031129 — video/podcast-promo (~32 min / længere video-upload).",
-      "**BT’s forsvar:** Baronen skriver 11. aug. at chefredaktør Simon Richard og BT har holdt stand imod pres; interview inden for etiske retningslinjer.",
-      "**Kritik:** Enhedslistens strategichef i Altinget kalder det lavpunkt pga. anonymitet — men skriver eksplicit at Baronen havde «eksempler med i studiet, som alle sammen ligger offentligt tilgængeligt». Det understøtter at kilderne er verificerbare.",
       "**Vores linje:** Vi behandler BT som **medieplatform og social validering**, ikke som erstatning for CISU/UM. De konkrete tal vi har låst (barnevogn, BIO RAP, kaffestop, partnerskaber) står på officielle sider uafhængigt af podcasten."
     ],
     "sources": [
@@ -47,5 +48,15 @@
     "2084253347566031129",
     "2087071522234007835",
     "2086920527436730876"
-  ]
+  ],
+  "plainLead": "I august 2026 kom debatten ud af X-boblen: Baronen var i BT’s podcast, og chefredaktøren forsvarede det. Kritikere angreb anonymitet — men indrømmede, at eksemplerne ligger offentligt.",
+  "whatMoneyFor": "Ikke en bevilling, men rammen: **ca. 23 mia.** i udviklingsbistand om året, som BT sammenlignede med politi og uddannelser.",
+  "orientation": "neutral",
+  "orientationLabel": "Neutral (mediedækning)",
+  "orientationNote": "Sagen handler om pressen og debatten — ikke om ét projekts ideologi.",
+  "homeCompare": {
+    "text": "Ca. 23.2 mia. kr. svarer groft til **42.000 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til ca. 2.3 mio. personer med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 42181.8,
+    "taxPeopleApprox": 2320000
+  }
 }

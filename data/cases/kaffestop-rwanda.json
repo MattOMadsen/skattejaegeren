@@ -1,6 +1,6 @@
 {
   "slug": "kaffestop-rwanda",
-  "title": "Kaffestop i Rwanda: 149.200 kr. fra OpEn",
+  "title": "149.200 kr. til kaffestop og Instagram i Rwanda",
   "status": "approved",
   "priority": 0,
   "tags": [
@@ -12,16 +12,18 @@
   "amountDkk": 149200,
   "amountLabel": "149.200 kr.",
   "amountKind": "official",
-  "summary": "Officiel CISU/OpEn-bevilling til Lasse Schoeber: rejse til Rwanda ifm. cykel-VM, Instagram/podcast til Mandsholdet, og ‘et lille kaffestop’. Hele budgettet dækket af staten. Mike Hunt har også peget på habilitetsspørgsmål ift. OpEn-bevillingsudvalg.",
-  "angle": "Mens Lolland mangler 300 mio., betaler du fly og kaffe-content i Rwanda. Det er ikke ‘bistand’ i klassisk forstand — det er statsfinansieret influencer-rejse.",
+  "summary": "Officiel CISU-bevilling på 149.200 kr. til Lasse Schoeber: Rwanda-rejse ifm. cykel-VM, content og kaffestop. Hele budgettet dækket af staten.",
+  "angle": "Det er ikke «hjælp til de fattigste». Det er skatteyderbetalt content-tur med en god historie. Småt beløb — stort princip.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Hvad står der i den officielle bevilling?",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "CISU’s bevillingsside bekræfter **149.200 kr.** fra **OpEn** (Udenrigsministeriets oplysnings- og engagementspulje) til organisationen Lasse Schoeber, projekt **‘Kaffestop i Rwanda’**, periode 21.10.2024–31.10.2025. Samlet budget = bevilget beløb (100 % dækket).",
-      "Resumeet: Med afsæt i cykel-VM i Afrika vil projektet oplyse Mandsholdets Instagram-følgere om udviklingsproblematikker via cyklen; rejse til Rwanda; bruge Instagram, video og podcast; **bygge et lille kaffestop** og invitere lokale personer og cykelhold.",
-      "Mike Hunt (@MikeHuntHurts89) har publiceret sagen og efterfølgende spurgt til **habilitet**, fordi samme person angiveligt figurerer i OpEn-bevillingsudvalgets medlemsoversigt — uden at påstå at han behandlede egen ansøgning. Det er et legitimt transparens-spørgsmål.",
-      "Sagen er lille i kroner — og stor som **prioriteringssymbol**: samme stat der skærer lokalt finder fuld finansiering til content-tur."
+      "En dansker har fået hele budgettet dækket af staten til at rejse til Rwanda under cykel-VM, lave indhold til Instagram og podcast — og «bygge et lille kaffestop».",
+      "**Hvad går pengene til?** Fly, ophold og formidling: video, podcast og Instagram til Mandsholdets følgere, plus et lille kaffestop hvor lokale og cykelhold kan fortælle historier. **100 % statsfinansieret** via OpEn.",
+      "**Politisk farve (vores vurdering):** Progressiv oplysning. Formålet er grøn omstilling, ligestilling og sportsfællesskab — klassiske progressive temaer, pakket som content-rejse.",
+      "**Hvad kunne det være herhjemme?** **149.200 kr.** svarer groft til **0.3 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere skat** til **15 personer** (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "CISU’s bevillingsside bekræfter **149.200 kr.** fra **OpEn** (Udenrigsministeriets oplysnings- og engagementspulje) til organisationen Lasse Schoeber, projekt **‘Kaffestop i Rwanda’**, periode 21.10.2024–31.10.2025. Samlet budget = bevilget beløb (100 % dækket)."
     ],
     "sources": [
       {
@@ -45,5 +47,15 @@
     "2084223617148108834",
     "2084339602899214485",
     "2086486242548428847"
-  ]
+  ],
+  "plainLead": "En dansker har fået hele budgettet dækket af staten til at rejse til Rwanda under cykel-VM, lave indhold til Instagram og podcast — og «bygge et lille kaffestop».",
+  "whatMoneyFor": "Fly, ophold og formidling: video, podcast og Instagram til Mandsholdets følgere, plus et lille kaffestop hvor lokale og cykelhold kan fortælle historier. **100 % statsfinansieret** via OpEn.",
+  "orientation": "venstre",
+  "orientationLabel": "Progressiv oplysning",
+  "orientationNote": "Formålet er grøn omstilling, ligestilling og sportsfællesskab — klassiske progressive temaer, pakket som content-rejse.",
+  "homeCompare": {
+    "text": "**149.200 kr.** svarer groft til **0.3 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere skat** til **15 personer** (BT-model).",
+    "nursesApprox": 0.3,
+    "taxPeopleApprox": 15
+  }
 }

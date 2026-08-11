@@ -1,6 +1,6 @@
 {
   "slug": "barnevogn-og-prioritering",
-  "title": "Barnevognsmarch vs. livsnødvendig creme",
+  "title": "1,5 mio. til barnevognsmarch — mens Magnus nægtes creme",
   "status": "approved",
   "priority": 0,
   "tags": [
@@ -13,14 +13,18 @@
   "amountDkk": 1498642,
   "amountLabel": "1.498.642 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "VERIFICERET CISU: Sex & Samfund fik 1.498.642 kr. fra OpEn til barnevognsmarch 2025/2026 (samlet budget 2,2 mio.). Baronens ~1,5 mio. holder. Samme debattråd: Magnus i Struer nægtes ca. 60.000 kr./år til lægeordineret creme.",
-  "angle": "Hvis velfærdsstaten ‘ikke har råd’ til 60.000 hjemme, men har råd til 1,5 mio. til marches, er det et politisk valg — ikke naturlov.",
+  "summary": "Sex & Samfund har fået 1.498.642 kr. fra OpEn til barnevognsmarch 2025/2026 (samlet budget ca. 2,2 mio.). Beløbet er verificeret på CISU. Kontrasten til danskere, der nægtes små beløb til medicin, er kernen i debatten.",
+  "angle": "Dine skattekroner går til marches og oplysning i danske byer — ikke til hospitaler i Afrika. Det er lovligt. Det er også et valg om prioritering.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Fra claim til officiel bevilling",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "Staten har givet Sex & Samfund ca. 1,5 millioner kroner til at gå barnevognsmarches i Danmark. Samtidig fortæller historier om syge danskere, der ikke kan få billig, livsnødvendig creme.",
+      "**Hvad går pengene til?** Pengene går til arrangementer i Danmark: barnevognsmarches på mors dag, oplysning om mødredødelighed i verden, og samarbejde med MaMaMesh. Det er **oplysning og engagement herhjemme**, betalt over udviklingsbistanden (OpEn-puljen).",
+      "**Politisk farve (vores vurdering):** Venstreorienteret / progressiv. Projektet handler om global mødredødelighed og køn — formidlet som politisk oplysning og mobilisering i Danmark, ikke som klassisk nødhjælp i felten.",
+      "**Hvad kunne det være herhjemme?** **1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**CISU/OpEn bekræfter:** Projektet *Barnevognsmarch: Gå for verdens mødre på mors dag 2025/2026* — bevilget **1.498.642 kr.**, samlet budget 2.198.642 kr., organisation Sex & Samfund.",
-      "Formål i den officielle tekst: marches i hele landet, så flere (især forældre) kender til global mødredødelighed. Det er **oplysning i Danmark**, ikke medicin i feltet.",
       "Martin Ågerup / Skattebetalerne: **Magnus** nægtes ca. **60.000 kr./år** til creme i Struer. Baronens kontrast står stadig — nu med hård CISU-kilde bag march-beløbet.",
       "Kildesti: Baronen peget → vi matchede CISU-id `0edadb48-…` → beløb låst som **officiel**."
     ],
@@ -41,5 +45,15 @@
     "2082152856606384234",
     "2080533439967895599",
     "2082341720243495390"
-  ]
+  ],
+  "plainLead": "Staten har givet Sex & Samfund ca. 1,5 millioner kroner til at gå barnevognsmarches i Danmark. Samtidig fortæller historier om syge danskere, der ikke kan få billig, livsnødvendig creme.",
+  "whatMoneyFor": "Pengene går til arrangementer i Danmark: barnevognsmarches på mors dag, oplysning om mødredødelighed i verden, og samarbejde med MaMaMesh. Det er **oplysning og engagement herhjemme**, betalt over udviklingsbistanden (OpEn-puljen).",
+  "orientation": "venstre",
+  "orientationLabel": "Venstreorienteret / progressiv",
+  "orientationNote": "Projektet handler om global mødredødelighed og køn — formidlet som politisk oplysning og mobilisering i Danmark, ikke som klassisk nødhjælp i felten.",
+  "homeCompare": {
+    "text": "**1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 2.7,
+    "taxPeopleApprox": 150
+  }
 }

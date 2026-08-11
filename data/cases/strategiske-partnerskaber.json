@@ -1,6 +1,6 @@
 {
   "slug": "strategiske-partnerskaber",
-  "title": "Strategiske partnerskaber: 1,264 mia. kr. om året",
+  "title": "1,264 milliarder om året til 18 store NGO’er",
   "status": "approved",
   "priority": 1,
   "tags": [
@@ -11,16 +11,19 @@
   "amountDkk": 1264000000,
   "amountLabel": "1,264 mia. kr./år",
   "amountKind": "official",
-  "summary": "Udenrigsministeriet sender over en milliard om året til 18 danske civilsamfundsorganisationer via strategiske partnerskaber 2022–2026. Det er rammen Baronen og Statsstyret graver i — ikke 'småprojekter'.",
-  "angle": "Når venstrefløjen siger 'det er kun 0,4 %', ignorerer de den store bøtte: over en milliard årligt til politisk og organisatorisk infrastruktur i NGO-sektoren — oven i Civilsamfundspuljen.",
+  "summary": "Officielt UM: 1,264 mia. kr./år til 18 strategiske partnerskaber. Det er rammen for de største beløb.",
+  "angle": "Hvis du kun diskuterer 149.000 kr. til kaffestop, misser du elefanten: milliarden til de store.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Hvad er de strategiske partnerskaber?",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "Udenrigsministeriet har en fast ordning: 18 danske organisationer får tilsammen **over en milliard kroner om året**. Det er ikke «små sjove projekter» — det er hovedmotorvejen.",
+      "**Hvad går pengene til?** Årlige rammebevillinger til store civilsamfundsorganisationer 2022–2026. MS ca. 129 mio., Oxfam ca. 103 mio., flere andre i titusindvis af millioner tilsammen.",
+      "**Politisk farve (vores vurdering):** Blandet — men domineret af progressive NGO’er. Rammen rummer både humanitære og politiske profiler. I praksis er de store SPA-partnere (MS, Oxfam, S&S m.fl.) overvejende progressive.",
+      "**Hvad kunne det være herhjemme?** Ca. 1.3 mia. kr. svarer groft til **2.000 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til ca. 0.1 mio. personer med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "Ifølge Udenrigsministeriet er der indgået 5-årige strategiske partnerskaber (2022–2026) med 18 danske organisationer. Der er afsat **1,264 milliarder kroner om året**.",
-      "Listen inkluderer bl.a. Folkekirkens Nødhjælp (200 mio.), Dansk Flygtningehjælp (179 mio.), Dansk Røde Kors (154 mio.), **MS ActionAid (129 mio.)**, Red Barnet (114 mio.), Oxfam IBIS (103 mio.), Sex & Samfund (22 mio.) og flere.",
-      "Det er offentlige tal. Diskussionen handler ikke om, om pengene findes — men om **hvad** de bruges til: klassisk nødhjælp vs. politisk mobilisering, kønsideologi, 'unge i valgkontekster' og græsrodsbevægelser i udlandet.",
-      "Baronens pointe om 'halv milliard i fjollede projekter' i civilsamfundssiden skal ses **oven i** denne milliard-ramme — ikke i stedet for den."
+      "Listen inkluderer bl.a. Folkekirkens Nødhjælp (200 mio.), Dansk Flygtningehjælp (179 mio.), Dansk Røde Kors (154 mio.), **MS ActionAid (129 mio.)**, Red Barnet (114 mio.), Oxfam IBIS (103 mio.), Sex & Samfund (22 mio.) og flere."
     ],
     "sources": [
       {
@@ -34,5 +37,15 @@
     "2086920527436730876",
     "1888511754260394004",
     "1887596707518816601"
-  ]
+  ],
+  "plainLead": "Udenrigsministeriet har en fast ordning: 18 danske organisationer får tilsammen **over en milliard kroner om året**. Det er ikke «små sjove projekter» — det er hovedmotorvejen.",
+  "whatMoneyFor": "Årlige rammebevillinger til store civilsamfundsorganisationer 2022–2026. MS ca. 129 mio., Oxfam ca. 103 mio., flere andre i titusindvis af millioner tilsammen.",
+  "orientation": "blandet",
+  "orientationLabel": "Blandet — men domineret af progressive NGO’er",
+  "orientationNote": "Rammen rummer både humanitære og politiske profiler. I praksis er de store SPA-partnere (MS, Oxfam, S&S m.fl.) overvejende progressive.",
+  "homeCompare": {
+    "text": "Ca. 1.3 mia. kr. svarer groft til **2.000 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til ca. 0.1 mio. personer med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 2298.2,
+    "taxPeopleApprox": 126400
+  }
 }

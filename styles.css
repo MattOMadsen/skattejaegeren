@@ -486,6 +486,43 @@ a.card:hover {
   color: #fda4a4;
   background: var(--accent-soft);
 }
+.badge.orient-left {
+  color: #f9a8d4;
+  background: rgba(236, 72, 153, 0.14);
+}
+.badge.orient-right {
+  color: #93c5fd;
+  background: rgba(59, 130, 246, 0.14);
+}
+.badge.orient-mix {
+  color: var(--amber);
+  background: var(--amber-soft);
+}
+.badge.orient-neu {
+  color: var(--text-2);
+  background: rgba(148, 163, 184, 0.15);
+}
+html[data-theme="light"] .badge.orient-left {
+  color: #9d174d;
+  background: rgba(236, 72, 153, 0.12);
+}
+html[data-theme="light"] .badge.orient-right {
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.12);
+}
+.lead-panel .lead-text {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: var(--text);
+  margin: 0;
+}
+.home-compare {
+  border-color: rgba(52, 211, 153, 0.25);
+  background: linear-gradient(160deg, var(--mint-soft), var(--bg-card) 70%);
+}
+html[data-theme="light"] .home-compare {
+  border-color: rgba(4, 120, 87, 0.22);
+}
 
 /* Detail page */
 .back {

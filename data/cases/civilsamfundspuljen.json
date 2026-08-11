@@ -1,6 +1,6 @@
 {
   "slug": "civilsamfundspuljen",
-  "title": "Civilsamfundspuljen & OpEn: 'små' 221 mio. der ikke er små",
+  "title": "Civilsamfund + OpEn: ca. 221 mio. til «de små» projekter",
   "status": "approved",
   "priority": 3,
   "tags": [
@@ -12,17 +12,20 @@
   "amountDkk": 221000000,
   "amountLabel": "221 mio. kr. (claim 2026)",
   "amountKind": "claim",
-  "summary": "Baronen: Civilsamfundspuljen 200 mio. + OpEn giver tilsammen ca. 221 mio. i 2026 (~1 % af 23 mia. bistand). Det er rammen for 'fjollede projekter' — og den rigtige diskussion er summen af alle civilsamfundsspor, ikke enkelt-projekter alene.",
-  "angle": "Klassisk spin: peg på ét lille projekt og sig '0,4 %'. Skattejægeren summerer rammen og spørger: hvorfor betaler vi for ideologisk eksport?",
+  "summary": "Claim ca. 221 mio. (200 + OpEn) i 2026. «Kun» 1 % af bistanden — men fuld af politisk indhold.",
+  "angle": "Småt i forhold til 23 mia. Stort i forhold til hvad kommuner nægter dig.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: CISU forvalter — skattekroner finansierer",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "Ved siden af milliarden til de store findes puljer til mindre projekter — bl.a. OpEn (oplysning i Danmark) og civilsamfundspuljen. Baronen regner med ca. 221 mio. i 2026.",
+      "**Hvad går pengene til?** Hundreder af projekter: marches, podcasts, dokumentarer, advocacy, mindre udviklingsindsatser. **Ca. 1 % af de 23 mia.** — men det er her de mest graverende eksempler sidder.",
+      "**Politisk farve (vores vurdering):** Overvejende venstre / progressiv i praksis. OpEn og mange CISU-bevillinger går til klima, køn, rettigheder og engagement. Højreorienterede projekter er sjældne i stikprøven.",
+      "**Hvad kunne det være herhjemme?** **221.0 mio. kr.** kunne ca. dække **402 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **22.100 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "Civilsamfundspuljen forvaltes af **CISU** (Civilsamfund i Udvikling) med midler fra Udenrigsministeriet/Danida. CISU beskriver sig som støttefacilitet for danske civilsamfundsorganisationer.",
       "OpEn (Information and Engagement Fund) er en særskilt pulje under UM med fokus på oplysning og engagement i Danmark om globale spørgsmål — se openpuljen.dk.",
-      "Baronens tal for **200 mio. (Civilsamfund) + samlet 221 mio. med OpEn (2026)** er fremsat i offentlig debat (X / Borgerlig Tabloid). De er mærket **claim**, indtil vi har den præcise finanslovs-/bevillingstekst for 2026 i arkivet.",
-      "Selv hvis man accepterer 'kun 1 % af 23 mia.', er 221 mio. kr. stadig **mange skoler, sengepladser eller skattelettelser**. Og det er **før** de 1,264 mia. i strategiske partnerskaber.",
-      "Baronens NGO-mini-serie (dec. 2025 / opsummeret jul. 2026) peger på konkrete organisationer i puljen — se egen sag."
+      "Selv hvis man accepterer 'kun 1 % af 23 mia.', er 221 mio. kr. stadig **mange skoler, sengepladser eller skattelettelser**. Og det er **før** de 1,264 mia. i strategiske partnerskaber."
     ],
     "sources": [
       {
@@ -51,5 +54,15 @@
     "2086920527436730876",
     "2002304077615759548",
     "2083221437041479686"
-  ]
+  ],
+  "plainLead": "Ved siden af milliarden til de store findes puljer til mindre projekter — bl.a. OpEn (oplysning i Danmark) og civilsamfundspuljen. Baronen regner med ca. 221 mio. i 2026.",
+  "whatMoneyFor": "Hundreder af projekter: marches, podcasts, dokumentarer, advocacy, mindre udviklingsindsatser. **Ca. 1 % af de 23 mia.** — men det er her de mest graverende eksempler sidder.",
+  "orientation": "venstre",
+  "orientationLabel": "Overvejende venstre / progressiv i praksis",
+  "orientationNote": "OpEn og mange CISU-bevillinger går til klima, køn, rettigheder og engagement. Højreorienterede projekter er sjældne i stikprøven.",
+  "homeCompare": {
+    "text": "**221.0 mio. kr.** kunne ca. dække **402 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **22.100 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 401.8,
+    "taxPeopleApprox": 22100
+  }
 }

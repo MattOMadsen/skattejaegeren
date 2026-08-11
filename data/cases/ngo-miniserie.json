@@ -1,6 +1,6 @@
 {
   "slug": "ngo-miniserie",
-  "title": "NGO-mini-serie: Ghana, DEI, trans-aktivisme m.m.",
+  "title": "Baronens NGO-liste: over 28 mio. i navngivne eksempler",
   "status": "approved",
   "priority": 4,
   "tags": [
@@ -12,20 +12,18 @@
   "amountDkk": 28700000,
   "amountLabel": "≥28,7 mio. kr. (sum af claims)",
   "amountKind": "claim",
-  "summary": "Baronens serie om konkrete NGO-bevillinger via Danida/CISU: Ghana Venskab, 100% for Børnene, Female Freedom, Crossing Borders, Colombia Solidaritet m.fl. Beløb er claims fra research-opslag — skal matchés med CISU/Danida-bevillingslister.",
-  "angle": "Når man åbner regnskaberne, er det ikke abstrakt 'bistand' — det er navngivne projekter med ideologisk indhold.",
+  "summary": "Samlet claim-liste fra Baronens serie. Status: blandet verificeret / delvist / åbent.",
+  "angle": "Serien er indgangen. Vores job er at gøre hvert tal efterprøveligt på dansk.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Hvad Baronen har peget på (under verifikation)",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "Ifølge Baronens opsummering (jul. 2026, henvisning til dec. 2025-serie):",
-      "• **Ghana Venskab** — ca. 11 mio. kr. (DEI, klima, empowerment i Ghana)",
-      "• **100% for Børnene** — ca. 3,5 mio. kr. (politisk aktivisme i Ghana, Kenya, Ukraine)",
-      "• **Female Freedom** — ca. 1,2 mio. kr. (trans/pro-kommunistisk/anti-kapitalistisk aktivisme i Sydafrika)",
-      "• **Crossing Borders** — ca. 9 mio. kr. (DEI i DK, Indien, Afrika)",
-      "• **Colombia Solidaritet** — ca. 4 mio. kr. ('far left' propaganda i Colombia)",
-      "Summen af disse claims ≈ **28,7 mio. kr.** — kun et udsnit. Næste skridt for Skattejægeren: matche hvert tal med CISU-bevillingsarkiv / OpenAid / aktindsigt.",
-      "Status: **manuel godkendelse** af påstande; vi publicerer claims som claims, ikke som facit."
+      "På X har Baronen gennemgået en række NGO’er med konkrete beløb: Ghana Venskab, Female Freedom, Crossing Borders m.fl. Vi matcher dem ét for ét med officielle kilder.",
+      "**Hvad går pengene til?** Forskellige CISU/Danida-spor. Sum af claims ca. **28,7 mio.** — flere er delvist bekræftet (Ghana, Female Freedom), andre under verifikation.",
+      "**Politisk farve (vores vurdering):** Samling af overvejende venstreprojekter. De nævnte org har typisk DEI, køn, klima eller queer-aktivisme som omdrejningspunkt.",
+      "**Hvad kunne det være herhjemme?** **28.7 mio. kr.** kunne ca. dække **52 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.870 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "Summen af disse claims ≈ **28,7 mio. kr.** — kun et udsnit. Næste skridt for Skattejægeren: matche hvert tal med CISU-bevillingsarkiv / OpenAid / aktindsigt."
     ],
     "sources": [
       {
@@ -43,5 +41,15 @@
   "relatedPosts": [
     "2083221437041479686",
     "2002304077615759548"
-  ]
+  ],
+  "plainLead": "På X har Baronen gennemgået en række NGO’er med konkrete beløb: Ghana Venskab, Female Freedom, Crossing Borders m.fl. Vi matcher dem ét for ét med officielle kilder.",
+  "whatMoneyFor": "Forskellige CISU/Danida-spor. Sum af claims ca. **28,7 mio.** — flere er delvist bekræftet (Ghana, Female Freedom), andre under verifikation.",
+  "orientation": "venstre",
+  "orientationLabel": "Samling af overvejende venstreprojekter",
+  "orientationNote": "De nævnte org har typisk DEI, køn, klima eller queer-aktivisme som omdrejningspunkt.",
+  "homeCompare": {
+    "text": "**28.7 mio. kr.** kunne ca. dække **52 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.870 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 52.2,
+    "taxPeopleApprox": 2870
+  }
 }

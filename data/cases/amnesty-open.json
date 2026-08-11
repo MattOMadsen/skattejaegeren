@@ -1,6 +1,6 @@
 {
   "slug": "amnesty-open",
-  "title": "Amnesty OpEn: 2,5 mio. til gamification af menneskerettigheder i DK",
+  "title": "Amnesty: 2,5 mio. til spil og undervisning om rettigheder i DK",
   "status": "approved",
   "priority": 3,
   "tags": [
@@ -12,17 +12,18 @@
   "amountDkk": 2499952,
   "amountLabel": "2.499.952 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "Amnesty International fik 2.499.952 kr. fra OpEn til 'Min Verden – Vores Verden' (feb 2023–jan 2025): unge 13–18 år i Danmark, scenario-læring og gamification om menneskerettigheder, LGBTI+ og Ukraine-krigen. Partnere: Astralis, Gyldendal, Serious Games Interactive.",
-  "angle": "Endnu et OpEn-projekt hvor hovedscenen er danske klasseværelser og fritid — ikke feltarbejde i det globale syd.",
+  "summary": "OpEn: 2.499.952 kr. til rettighedsundervisning for danske teenagere. Ikke feltarbejde i det globale syd.",
+  "angle": "Vigtigt emne — men det er stadig **udviklingsbistand** brugt på danske klasseværelser.",
   "depth": {
     "status": "approved",
-    "headline": "2,5 mio. til oplysning i Danmark",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Bevilling:** 2.499.952 kr. (samlet budget 2.639.732 kr.) via **OpEn**.",
-      "**Målgruppe:** Unge 13–18 år, særligt «de neutrale», på erhvervsskoler og i 8.–10. klasse i hele Danmark.",
-      "**Metode:** Scenario-baseret læring + gamification; møder med østeuropæiske rettighedsforkæmpere (Ukraine, Moldova, Belarus) om ytringsfrihed, diskrimination, fake news, hadtale, LGBTI+ og krigen.",
-      "**Aktører:** Astralis, Gyldendal, Serious Games Interactive.",
-      "**Samlet Amnesty i sample:** 2 poster, ca. 3,0 mio. (plus mindre civilsamfundspost)."
+      "Amnesty har fået 2,5 millioner kr. til at undervise danske unge i menneskerettigheder med spil, scenarier og gæster fra Østeuropa — i skolen og fritiden.",
+      "**Hvad går pengene til?** Projektet «Min Verden – Vores Verden»: gamification og undervisning for 13–18-årige i Danmark. Partnere bl.a. Astralis, Gyldendal og Serious Games. **Pengene bliver i Danmark.**",
+      "**Politisk farve (vores vurdering):** Venstre / menneskerettigheder & LGBTI+. Menneskerettigheder, LGBTI+ og krigen i Ukraine er omdrejningspunkter. Amnesty opfattes bredt som progressiv.",
+      "**Hvad kunne det være herhjemme?** **2.5 mio. kr.** kunne ca. dække **5 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **250 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Bevilling:** 2.499.952 kr. (samlet budget 2.639.732 kr.) via **OpEn**."
     ],
     "sources": [
       {
@@ -32,5 +33,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Amnesty har fået 2,5 millioner kr. til at undervise danske unge i menneskerettigheder med spil, scenarier og gæster fra Østeuropa — i skolen og fritiden.",
+  "whatMoneyFor": "Projektet «Min Verden – Vores Verden»: gamification og undervisning for 13–18-årige i Danmark. Partnere bl.a. Astralis, Gyldendal og Serious Games. **Pengene bliver i Danmark.**",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / menneskerettigheder & LGBTI+",
+  "orientationNote": "Menneskerettigheder, LGBTI+ og krigen i Ukraine er omdrejningspunkter. Amnesty opfattes bredt som progressiv.",
+  "homeCompare": {
+    "text": "**2.5 mio. kr.** kunne ca. dække **5 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **250 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 4.5,
+    "taxPeopleApprox": 250
+  }
 }

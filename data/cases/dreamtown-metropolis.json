@@ -1,6 +1,6 @@
 {
   "slug": "dreamtown-metropolis",
-  "title": "Dreamtown: 1,5 mio. OpEn til Metropolis i København",
+  "title": "Dreamtown: 1,5 mio. til verdensmål i Københavns gader",
   "status": "approved",
   "priority": 4,
   "tags": [
@@ -12,16 +12,18 @@
   "amountDkk": 1499867,
   "amountLabel": "1.499.867 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "Dreamtown fik 1.499.867 kr. til Metropolis — interaktivt engagementsunivers om bæredygtig byudvikling og verdensmål i Københavns gader. 196 elever + 14 lærere co-designer stationer; udbredelse til 7 gymnasier.",
-  "angle": "Endnu et OpEn-projekt hvor 'udvikling' primært er unges oplevelser i København.",
+  "summary": "OpEn 1.499.867 kr. til Metropolis i København. Engagement herhjemme, betalt som bistand.",
+  "angle": "Verdensmålene starter i Indre By — bogstaveligt talt. Er det «ulandsbistand»?",
   "depth": {
     "status": "approved",
-    "headline": "Verdensmål i Københavns gader",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Bevilling:** 1.499.867 kr. · **OpEn**.",
-      "**Produkt:** Metropolis — interaktivt engagementsunivers; 5 nye + i alt 12 verdensmålsstationer; website; 7 gymnasier i København.",
-      "**Dreamtown i sample:** også Gatekeepers (~1,5 mio.) og Roskilde Festival-post (~196k) — org er stor OpEn-spiller.",
-      "**Vinkel:** Engagement i DK kan være fint — men det er værd at tælle hvor stor en andel af 'bistand' der aldrig forlader København."
+      "Dreamtown har fået ca. 1,5 millioner kr. til «Metropolis»: et interaktivt univers om FN’s verdensmål og bæredygtige byer — midt i København.",
+      "**Hvad går pengene til?** Stationer i byen, undervisning, gymnasiesamarbejde i København. Målgruppen er danske unge.",
+      "**Politisk farve (vores vurdering):** Venstre / verdensmål & ungdom. FN’s verdensmål, grøn byudvikling og unges engagement — progressiv dagsorden.",
+      "**Hvad kunne det være herhjemme?** **1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Bevilling:** 1.499.867 kr. · **OpEn**."
     ],
     "sources": [
       {
@@ -31,5 +33,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Dreamtown har fået ca. 1,5 millioner kr. til «Metropolis»: et interaktivt univers om FN’s verdensmål og bæredygtige byer — midt i København.",
+  "whatMoneyFor": "Stationer i byen, undervisning, gymnasiesamarbejde i København. Målgruppen er danske unge.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / verdensmål & ungdom",
+  "orientationNote": "FN’s verdensmål, grøn byudvikling og unges engagement — progressiv dagsorden.",
+  "homeCompare": {
+    "text": "**1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 2.7,
+    "taxPeopleApprox": 150
+  }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "crossing-borders",
-  "title": "Crossing Borders — CISU/Danida som funding partner",
+  "title": "Crossing Borders: lever af offentlig støtte til «global dialog»",
   "status": "approved",
   "priority": 5,
   "tags": [
@@ -11,15 +11,18 @@
   "amountDkk": 9000000,
   "amountLabel": "~9 mio. (Baronen claim — under verifikation)",
   "amountKind": "claim",
-  "summary": "Annual Report 2023 bekræfter Danida Civil Society Fund (CISU) som main funding partner (sammen med New Democracy Fund, EU, Anna Lindh m.fl.). Org skriver selv, at de kæmper med at diversificere væk fra public funding. Kun 10.000 kr. under org-navn i vores CISU-index — større midler ligger under projekttitler/andre kanaler. Baronens ~9 mio. forbliver claim indtil fuld sum.",
-  "angle": "Org lever af offentlige midler til «dialog» og youth — vi vil se den fulde regning.",
+  "summary": "Årsrapport 2023: CISU er main funding partner. Org vil diversificere væk fra offentlig støtte. 9 mio. claim under verifikation.",
+  "angle": "Når en NGO lever af dine skattekroner til «dialog», bør du kunne se regningen i klare tal — det kan du endnu ikke helt.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: funding partners bekræftet, total mangler",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Årsrapport 2023 (PDF, 20 sider):** narrativ/impact-rapport — **ingen fuld resultatopgørelse** med indtægter i alt. Bekræfter dog funding partners eksplicit.",
+      "Crossing Borders er en NGO, der arbejder med unge, dialog og «global citizenship». De skriver selv, at CISU/Danida er en hovedfinansier. Det præcise beløb (Baronen siger ca. 9 mio.) er ikke fuldt låst endnu.",
+      "**Hvad går pengene til?** Projekter for unge i Danmark og ude i verden: workshops, dialog, «demokratisk deltagelse». Finansiering fra CISU, EU, fonde m.m. **Præcis 9 mio. er stadig claim** — vi har kun små CISU-poster under org-navn i index.",
+      "**Politisk farve (vores vurdering):** Venstre / progressiv youth & DEI. Sprogbrug om global citizenship, mangfoldighed og empowerment peger progressivt. Ikke en konservativ missionsorganisation.",
+      "**Hvad kunne det være herhjemme?** **9.0 mio. kr.** kunne ca. dække **16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**Citat funding:** main funding partners = **Danida Civil Society Fund (CISU)**, New Democracy Fund, various EU, Anna Lindh Foundation. Plus membership, donations, Culture Council, BUPL solidarity fund.",
-      "**Afhængighed:** org skriver, at de kæmper for «sufficient and stable funding» og vil diversificere væk fra ensidig public funding.",
       "**CISU-index:** kun **10.000 kr.** under org-navn (Council of All Beings / Folkemøde). Større midler har andre projekttitler eller kanaler (EU, NDF).",
       "**CVR 32166121**, forening. Adresse: Søtorvet 5 / Nørre Allé 7, Kbh.",
       "**Baronen ~9 mio.:** forbliver **claim** indtil vi har årsregnskab med beløb eller fuld CISU/UM-liste (aktindsigt A5).",
@@ -45,5 +48,15 @@
   },
   "relatedPosts": [
     "2083221437041479686"
-  ]
+  ],
+  "plainLead": "Crossing Borders er en NGO, der arbejder med unge, dialog og «global citizenship». De skriver selv, at CISU/Danida er en hovedfinansier. Det præcise beløb (Baronen siger ca. 9 mio.) er ikke fuldt låst endnu.",
+  "whatMoneyFor": "Projekter for unge i Danmark og ude i verden: workshops, dialog, «demokratisk deltagelse». Finansiering fra CISU, EU, fonde m.m. **Præcis 9 mio. er stadig claim** — vi har kun små CISU-poster under org-navn i index.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / progressiv youth & DEI",
+  "orientationNote": "Sprogbrug om global citizenship, mangfoldighed og empowerment peger progressivt. Ikke en konservativ missionsorganisation.",
+  "homeCompare": {
+    "text": "**9.0 mio. kr.** kunne ca. dække **16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 16.4,
+    "taxPeopleApprox": 900
+  }
 }

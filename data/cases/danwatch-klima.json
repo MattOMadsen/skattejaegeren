@@ -1,6 +1,6 @@
 {
   "slug": "danwatch-klima",
-  "title": "Danwatch: 1,5 mio. OpEn til klima-journalistik for unge",
+  "title": "Danwatch: 1,5 mio. til klimajournalistik for unge",
   "status": "approved",
   "priority": 3,
   "tags": [
@@ -12,16 +12,18 @@
   "amountDkk": 1499321,
   "amountLabel": "1.499.321 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "Danwatch fik 1.499.321 kr. fra OpEn til 'Dit (klima-) aftryk i verden': afslørende journalistik + video/podcast for unge danskere, koblet til udviklingslande. Det Udenrigspolitiske Selskab holder debatter i hele landet.",
-  "angle": "Uafhængig journalistik finansieret af udviklingsbistandspulje — legitimt engagement, men det er stadig skattekroner til dansk medieproduktion.",
+  "summary": "OpEn 1.499.321 kr. til klimajournalistik og engagement for unge. 100 % af budgettet dækket.",
+  "angle": "Fri presse er godt. At bistandspuljen betaler redaktionen er et andet spørgsmål.",
   "depth": {
     "status": "approved",
-    "headline": "1,5 mio. til klimajournalistik i DK",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Bevilling:** 1.499.321 kr. (100 % af budget) · **OpEn**.",
-      "**Mål:** koble klimahandling i hverdagen med udviklingsproblematikker — især unge danskere.",
-      "**Metode:** afslørende journalistiske undersøgelser, interviews, videoexplainers, podcasts; debatter med Det Udenrigspolitiske Selskab i hele landet.",
-      "**Vinkel:** Pressefrihed og gravejournalistik er værdifuldt — men OpEn er stadig en **bistandspulje**. Prioriteringen er politisk."
+      "Danwatch har fået knap 1,5 millioner kr. til gravejournalistik og podcasts om klima og udviklingslande — rettet mod unge danskere.",
+      "**Hvad går pengene til?** Undersøgende journalistik, video, podcasts og debatter (bl.a. med Det Udenrigspolitiske Selskab) i Danmark.",
+      "**Politisk farve (vores vurdering):** Venstre / kritisk klimajournalistik. Afslørende klima- og udviklingsjournalistik har typisk progressiv vinkel. Journalistik kan være legitim — finansieringen er stadig politisk.",
+      "**Hvad kunne det være herhjemme?** **1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Bevilling:** 1.499.321 kr. (100 % af budget) · **OpEn**."
     ],
     "sources": [
       {
@@ -31,5 +33,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Danwatch har fået knap 1,5 millioner kr. til gravejournalistik og podcasts om klima og udviklingslande — rettet mod unge danskere.",
+  "whatMoneyFor": "Undersøgende journalistik, video, podcasts og debatter (bl.a. med Det Udenrigspolitiske Selskab) i Danmark.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / kritisk klimajournalistik",
+  "orientationNote": "Afslørende klima- og udviklingsjournalistik har typisk progressiv vinkel. Journalistik kan være legitim — finansieringen er stadig politisk.",
+  "homeCompare": {
+    "text": "**1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 2.7,
+    "taxPeopleApprox": 150
+  }
 }

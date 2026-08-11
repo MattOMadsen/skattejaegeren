@@ -1,6 +1,6 @@
 {
   "slug": "kirke-udland",
-  "title": "Danske Kirke i Udlandet: 35,4 mio.",
+  "title": "Danske Kirke i Udlandet: over 35 mio. til dansk kirkeligt arbejde",
   "status": "approved",
   "priority": 8,
   "tags": [
@@ -11,14 +11,17 @@
   "amountDkk": 35400000,
   "amountLabel": "35,4 mio. kr. (claim 2024)",
   "amountKind": "claim",
-  "summary": "Mike Hunt: 16,9 mio. til kirkelig virksomhed i Sydslesvig + 18,5 mio. til kirkelig betjening af danskere i verden — ifølge Den Danske Kirke i Udlandets årsrapport 2024.",
-  "angle": "Ikke Danida — men samme prioriteringslogik: staten har råd til præst i Bangkok, mens velfærd knirker.",
+  "summary": "Claim ca. 35,4 mio. (2024) til Danske Kirke i Udlandet. Anden kasse end Danida — men relevant for «hvor går pengene».",
+  "angle": "Ikke alt «offentligt til formål i udlandet» er venstre-NGO. Kirkepenge er et spejl: prioritering findes i flere farver.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Beslægtet spor",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "Mike Hunt har gravet i **årsrapport 2024** for Den Danske Kirke i Udlandet og peget på **35,4 mio. kr.** fordelt på Sydslesvig og resten af verden.",
-      "Beløbet er **claim** indtil rapporten er linket 1:1 i arkivet. Sagen er med, fordi Skattejægeren tracker **statslig prioritering**, ikke kun Danida-etiketten."
+      "En anden type offentlig støtte: penge til kirkelig betjening af danskere i udlandet og i Sydslesvig — ikke klassisk ulandsbistand, men stadig skattekroner.",
+      "**Hvad går pengene til?** Ifølge research-claim: ca. 16,9 mio. til kirkelig virksomhed i Sydslesvig + 18,5 mio. til danskere i verden (årsrapport 2024-spor).",
+      "**Politisk farve (vores vurdering):** Mere traditionel / kirkelig (højre-center). Kristen folkekirkelig betjening er kulturelt mere konservativ end klima-justice-NGO’er. Ikke «højrepolitik» i partiforstand, men en anden værdiprofil end OpEn-aktivismen.",
+      "**Hvad kunne det være herhjemme?** **35.4 mio. kr.** kunne ca. dække **64 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **3.540 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt."
     ],
     "sources": [
       {
@@ -30,5 +33,15 @@
   },
   "relatedPosts": [
     "2083284810911695119"
-  ]
+  ],
+  "plainLead": "En anden type offentlig støtte: penge til kirkelig betjening af danskere i udlandet og i Sydslesvig — ikke klassisk ulandsbistand, men stadig skattekroner.",
+  "whatMoneyFor": "Ifølge research-claim: ca. 16,9 mio. til kirkelig virksomhed i Sydslesvig + 18,5 mio. til danskere i verden (årsrapport 2024-spor).",
+  "orientation": "højre",
+  "orientationLabel": "Mere traditionel / kirkelig (højre-center)",
+  "orientationNote": "Kristen folkekirkelig betjening er kulturelt mere konservativ end klima-justice-NGO’er. Ikke «højrepolitik» i partiforstand, men en anden værdiprofil end OpEn-aktivismen.",
+  "homeCompare": {
+    "text": "**35.4 mio. kr.** kunne ca. dække **64 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **3.540 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 64.4,
+    "taxPeopleApprox": 3540
+  }
 }

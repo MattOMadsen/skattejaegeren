@@ -1,6 +1,6 @@
 {
   "slug": "information-mediestoette",
-  "title": "Information: 22,5 mio. kr. i mediestøtte",
+  "title": "Information: 22,5 mio. i mediestøtte (særregler)",
   "status": "approved",
   "priority": 7,
   "tags": [
@@ -11,14 +11,17 @@
   "amountDkk": 22500000,
   "amountLabel": "22,5 mio. kr. (2026, claim)",
   "amountKind": "claim",
-  "summary": "Baronen: Information har fået 22,5 mio. i 2026 — næsten dobbelt op ift. loft for andre landsdækkende medier (12,5 mio.) pga. særregler for mindre landsdækkende.",
-  "angle": "Særregler til venstreorienterede medier er også skattepolitik.",
+  "summary": "Claim: 22,5 mio. mediestøtte 2026 via særregler. Ikke Danida — men offentlig prioritering.",
+  "angle": "Hvem får lov til at få ekstra? Mediastøtte er også ideologi i kroner og øre.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Mediestøtte som politisk skævhed?",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "Påstand fra Baronen (aug. 2026): **22,5 mio. kr.** til Information i 2026 vs. øvre grænse **12,5 mio.** for andre landsdækkende — via særregler for 'mindre landsdækkende'.",
-      "Beløbet er **claim** indtil vi har indsat det officielle mediestøtte-regnskab for 2026. Sagen er relevant for Skattejægeren, fordi den viser **hvordan regler skrues**, ikke kun om man får støtte."
+      "Avisen Information får ifølge research markant mere mediestøtte end loftet for andre landsdækkende medier — fordi reglerne er skruet sådan sammen.",
+      "**Hvad går pengene til?** Driftsstøtte til journalistik/avis. Claim **22,5 mio. i 2026** (mod typisk loft 12,5 mio. for andre).",
+      "**Politisk farve (vores vurdering):** Venstreorienteret medie. Information er Danmarks klassiske venstreavis. Offentlig mediestøtte til netop det medie er politisk relevant.",
+      "**Hvad kunne det være herhjemme?** **22.5 mio. kr.** kunne ca. dække **41 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.250 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt."
     ],
     "sources": [
       {
@@ -30,5 +33,15 @@
   },
   "relatedPosts": [
     "2086361841295667262"
-  ]
+  ],
+  "plainLead": "Avisen Information får ifølge research markant mere mediestøtte end loftet for andre landsdækkende medier — fordi reglerne er skruet sådan sammen.",
+  "whatMoneyFor": "Driftsstøtte til journalistik/avis. Claim **22,5 mio. i 2026** (mod typisk loft 12,5 mio. for andre).",
+  "orientation": "venstre",
+  "orientationLabel": "Venstreorienteret medie",
+  "orientationNote": "Information er Danmarks klassiske venstreavis. Offentlig mediestøtte til netop det medie er politisk relevant.",
+  "homeCompare": {
+    "text": "**22.5 mio. kr.** kunne ca. dække **41 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.250 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 40.9,
+    "taxPeopleApprox": 2250
+  }
 }

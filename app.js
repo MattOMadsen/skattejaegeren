@@ -61,6 +61,18 @@ function badge(kind) {
   return '<span class="badge hot">Claim</span>';
 }
 
+function orientBadge(c) {
+  const o = c?.orientation || 'neutral';
+  const label = c?.orientationLabel || o;
+  const cls =
+    o === 'venstre' ? 'orient-left' : o === 'højre' ? 'orient-right' : o === 'blandet' ? 'orient-mix' : 'orient-neu';
+  return `<span class="badge ${cls}" title="${esc(c?.orientationNote || '')}">${esc(label)}</span>`;
+}
+
+function rich(text) {
+  return esc(text).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
+
 function route() {
   const raw = (location.hash || '#/').replace(/^#\/?/, '');
   const [page, id] = raw.split('/');
@@ -281,6 +293,7 @@ async function loadAll() {
       cvr,
       alternatives,
       timeline,
+      orientation,
     ] = await Promise.all([
       fetchJson('data/aid-totals.json').catch(() => FALLBACK_AID),
       fetchJson('data/projects.json'),
@@ -296,6 +309,7 @@ async function loadAll() {
       fetchJson('data/cvr-regnskab.json').catch(() => null),
       fetchJson('data/alternatives.json').catch(() => null),
       fetchJson('data/timeline.json').catch(() => null),
+      fetchJson('data/orientation-overview.json').catch(() => null),
     ]);
     applyStats(aid);
     cache = {
@@ -313,6 +327,7 @@ async function loadAll() {
       cvr,
       alternatives,
       timeline,
+      orientation,
     };
     return cache;
   } catch (e) {
@@ -605,11 +620,16 @@ function renderProject(d, id) {
 
 function renderCases(d) {
   const cases = [...d.cases.cases].sort((a, b) => a.priority - b.priority);
+  const left = cases.filter((c) => c.orientation === 'venstre').length;
   return `
     ${subnavUdforsk('sager')}
     <section class="hero hero-tight">
       <h1>Sager</h1>
-      <p>Samlede forløb — flere projekter i samme tråd.</p>
+      <p>
+        Skrevet på almindeligt dansk: hvad pengene går til, om formålet er venstre- eller højreorienteret,
+        og hvad beløbet kunne være herhjemme.
+        ${left ? `<strong>${left}</strong> af sagerne vurderes som progressivt/venstre kodet.` : ''}
+      </p>
     </section>
     <div class="grid cols-2">
       ${cases
@@ -617,11 +637,11 @@ function renderCases(d) {
           (c) => `
         <a class="card" href="#/sag/${esc(c.slug)}">
           <div class="card-top">
-            ${badge(c.amountKind)}
+            ${orientBadge(c)}
             <span class="amt">${esc(c.amountLabel)}</span>
           </div>
           <h3>${esc(c.title)}</h3>
-          <p class="blurb">${esc(c.summary)}</p>
+          <p class="blurb">${esc(c.plainLead || c.summary)}</p>
         </a>`
         )
         .join('')}
@@ -634,28 +654,65 @@ function renderCase(d, slug) {
   if (!c) return `<a class="back" href="#/sager">← Sager</a><p class="error">Sag ikke fundet.</p>`;
   const depth = c.depth || {};
   const related = d.projects.projects.filter((p) => p.caseSlug === slug);
+  const home = c.homeCompare?.text;
   return `
     <a class="back" href="#/sager">← Sager</a>
-    <div style="display:flex;gap:.5rem;margin-bottom:.35rem">${badge(c.amountKind)}</div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.35rem;align-items:center">
+      ${badge(c.amountKind)}
+      ${orientBadge(c)}
+    </div>
     <h1 style="margin:0;font-size:clamp(1.5rem,3.5vw,2rem);letter-spacing:-.03em">${esc(c.title)}</h1>
     <p class="detail-amt">${esc(c.amountLabel)}</p>
     ${shareBlock(c.title, `#/sag/${c.slug}`, { print: true })}
     <p class="print-only-note">Skattejægeren — faktaark · ${esc(c.title)} · mattomadsen.github.io/skattejaegeren</p>
-    <div class="panel"><h2>Kort</h2><p>${esc(c.summary)}</p></div>
-    <div class="panel"><h2>Vinkel</h2><p>${esc(c.angle)}</p></div>
+
+    ${
+      c.plainLead
+        ? `<div class="panel lead-panel"><h2>Kort fortalt</h2><p class="lead-text">${rich(c.plainLead)}</p></div>`
+        : ''
+    }
+
     <div class="panel">
-      <h2>${esc(depth.headline || 'Dybde')}</h2>
-      ${(depth.body || [])
-        .map((p) => `<p>${esc(p).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`)
-        .join('')}
+      <h2>Hvad går dine penge til?</h2>
+      <p>${rich(c.whatMoneyFor || c.summary)}</p>
     </div>
+
+    <div class="panel">
+      <h2>Venstre eller højre?</h2>
+      <p>${orientBadge(c)}</p>
+      <p style="margin-top:.65rem">${rich(c.orientationNote || 'Ikke vurderet endnu.')}</p>
+      <p class="muted" style="margin-top:.5rem">
+        Det er vores vurdering af <em>formålet</em> — ikke et partimedlemskab. Officielle kilder nedenfor.
+      </p>
+    </div>
+
+    ${
+      home
+        ? `<div class="panel home-compare">
+            <h2>Hvad kunne det være herhjemme?</h2>
+            <p>${rich(home)}</p>
+            <p class="muted" style="margin-top:.5rem">Grovte regnestykker (ca. 550.000 kr. pr. sygeplejerske-årsværk; 10.000 kr. = BT’s skattelettelse ved gns. indkomst).</p>
+          </div>`
+        : ''
+    }
+
+    <div class="panel">
+      <h2>Vores vinkel</h2>
+      <p>${rich(c.angle)}</p>
+    </div>
+
+    <div class="panel">
+      <h2>${esc(depth.headline || 'Mere om sagen')}</h2>
+      ${(depth.body || []).map((p) => `<p>${rich(p)}</p>`).join('')}
+    </div>
+
     <div class="panel">
       <h2>Kilder</h2>
       <ul class="sources">
         ${(depth.sources || [])
           .map(
             (s) =>
-              `<li>${badge(s.kind === 'official' ? 'official' : 'claim')}
+              `<li>${badge(s.kind === 'official' || s.kind === 'org' ? 'official' : 'claim')}
               <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></li>`
           )
           .join('')}
@@ -663,7 +720,7 @@ function renderCase(d, slug) {
     </div>
     ${
       related.length
-        ? `<div class="section-head" style="margin-top:1.5rem"><h2>Projekter</h2></div>
+        ? `<div class="section-head" style="margin-top:1.5rem"><h2>Tilknyttede projekter</h2></div>
            <div class="grid cols-2">${related.map(projectCard).join('')}</div>`
         : ''
     }

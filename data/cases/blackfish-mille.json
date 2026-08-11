@@ -1,6 +1,6 @@
 {
   "slug": "blackfish-mille",
-  "title": "Blackfish: 1,5 mio. OpEn til DR1-naturdokumentar",
+  "title": "1,5 mio. til natur-TV på DR1",
   "status": "approved",
   "priority": 3,
   "tags": [
@@ -12,16 +12,18 @@
   "amountDkk": 1500000,
   "amountLabel": "1.500.000 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "Blackfish fik 1,5 mio. kr. fra OpEn til 'Mille og Verdens skove' — afsnit 2 i en naturdokumentarserie til DR1. Samlet budget 2,35 mio. Formål: klima, truede arter og 'bæredygtig handling' hos nye generationer, med tråde til danske projekter.",
-  "angle": "Skattekroner til TV-produktion i DR-regi via OpEn — oplysning/engagement, ikke felt-nødhjælp.",
+  "summary": "OpEn 1,5 mio. til DR1-serieafsnit. Formidling til danske seere — ikke felt-nødhjælp.",
+  "angle": "Må udviklingsbistand betale DR-dokumentarer? Det sker — og du betaler.",
   "depth": {
     "status": "approved",
-    "headline": "1,5 mio. til dokumentar på DR1",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Bevilling:** 1.500.000 kr. · **budget:** 2.350.000 kr. · pulje: **OpEn**.",
-      "**Indhold:** Afsnit 2 i serie; første afsnit *Mille og Verdenshavene* fondsstøttet 2023, vist på DR1 2024. Fokus: klimaforandringer, truede arter, opvarmede oceaner, løsningsorienterede projekter med tråde til Danmark.",
-      "**Mål:** inspirere 'nye generationer og deres familier' til bæredygtig handling.",
-      "**Vinkel:** Samme mønster som BIO RAP / barnevogn: OpEn finansierer **dansk formidling** i stor skala. Spørgsmål: er DR1-dokumentar det bedste brug af udviklingsbistandspenge?"
+      "Blackfish har fået 1,5 millioner kr. fra OpEn til et afsnit af en naturdokumentar («Mille og Verdens skove»), der skal på DR1.",
+      "**Hvad går pengene til?** TV-produktion: dokumentar om skove, dyr og klima med kobling til danske projekter. Samlet budget 2,35 mio.; staten dækker 1,5 mio.",
+      "**Politisk farve (vores vurdering):** Grøn / progressiv formidling. Klima, truede arter og «bæredygtig handling» — grøn progressiv dagsorden i underholdningsformat.",
+      "**Hvad kunne det være herhjemme?** **1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Bevilling:** 1.500.000 kr. · **budget:** 2.350.000 kr. · pulje: **OpEn**."
     ],
     "sources": [
       {
@@ -31,5 +33,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Blackfish har fået 1,5 millioner kr. fra OpEn til et afsnit af en naturdokumentar («Mille og Verdens skove»), der skal på DR1.",
+  "whatMoneyFor": "TV-produktion: dokumentar om skove, dyr og klima med kobling til danske projekter. Samlet budget 2,35 mio.; staten dækker 1,5 mio.",
+  "orientation": "venstre",
+  "orientationLabel": "Grøn / progressiv formidling",
+  "orientationNote": "Klima, truede arter og «bæredygtig handling» — grøn progressiv dagsorden i underholdningsformat.",
+  "homeCompare": {
+    "text": "**1.5 mio. kr.** kunne ca. dække **3 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **150 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 2.7,
+    "taxPeopleApprox": 150
+  }
 }

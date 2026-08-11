@@ -1,6 +1,6 @@
 {
   "slug": "global-aktion",
-  "title": "Global Aktion: 11,6 mio. i CISU-sample — climate justice-aktivisme",
+  "title": "Global Aktion: millioner til «climate justice» og aktivisme",
   "status": "approved",
   "priority": 2,
   "tags": [
@@ -12,20 +12,21 @@
   "amountDkk": 11625898,
   "amountLabel": "11,6 mio. CISU-sample · regnskab 2,5 mio. (2024)",
   "amountKind": "official",
-  "summary": "CISU-katalog: 8 poster, sum 11,6 mio. (største org i sample). Eget årsregnskab 2024: revenue 2,51 mio. kr. — fordi CISU-projektmidler primært kører som interim/projektregnskaber (note 11), ikke som fuld omsætning. Overskud 247k i 2024. EU-krav om tilbagebetaling T.EUR 124 (ca. 0,9 mio.) anerkendes ikke af org.",
-  "angle": "To lag: (1) millioner i CISU-bevillinger til climate justice-advocacy, (2) et lille sekretariats-regnskab der lever af projektadmin, projektløn og aktivisme — ikke «nødhjælpsfabrik».",
+  "summary": "Største org i CISU-sample (8 poster, 11,6 mio.). Årsregnskab 2024: 2,51 mio. revenue, overskud 247k. Climate justice-aktivisme er kernen.",
+  "angle": "Her er der ikke tvivl om retningen: skattekroner til venstreorienteret klimapolitik i udlandet og aktivisme herhjemme.",
   "depth": {
     "status": "approved",
-    "headline": "Regnskab vs. CISU-portefølje",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "Global Aktion (tidligere Afrika Kontakt) er blandt dem, der får flest CISU-penge i vores oversigt. De kæmper for småbønders rettigheder og klimaretfærdighed — altså politik og mobilisering, ikke kun madpakker.",
+      "**Hvad går pengene til?** CISU-bevillinger til netværk af småbønder, klimapolitik og advocacy i flere afrikanske lande — plus oplysning i Danmark. **Ca. 11,6 mio.** i vores CISU-stikprøve (flere år). Selve foreningens årsregnskab viser kun ca. **2,5 mio.** i «egen» omsætning, fordi projektmidler ofte bogføres særskilt.",
+      "**Politisk farve (vores vurdering):** Venstre / anti-kapitalistisk grøn. Org kalder sig «mennesker og miljø før profit». Projekterne handler om climate justice, agroøkologi og politisk indflydelse i Afrika. Tydelig venstreprofil.",
+      "**Hvad kunne det være herhjemme?** **11.6 mio. kr.** kunne ca. dække **21 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **1.163 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**CVR 13729107** · Global Aktion (tidl. Afrika Kontakt). Offentlige årsregnskaber på globalaktion.dk.",
       "**Årsregnskab 2024 (revideret):** Revenue **2.508.607 kr.** (2023: 2.169.786). Resultat **+247.268 kr.** (2023: −78.792). Egenkapital 770.488 kr.",
-      "**Hvad indtægterne er (note 1, 2024):** medlemskab 123k · private donationer 247k · Tips/Lotto 61k · **project administration fees 466k** · **project salaries 436k** · projects operating costs 317k · wage refunds 512k · husleje-indtægt 108k. Sekretariatet finansieres i høj grad af projekt-overhead og lønoverførsel.",
       "**CISU-sample (8 poster, multi-år):** sum **11.625.898 kr.** Top: Peasants' rights **3.556.657** · Pathway to Climate Justice **3.368.765** · Building Climate Justice Advocacy **1.999.146** · OpEn «2-0 til de små» **1.487.006**.",
-      "**Note 11 i regnskabet:** lange rækker interim reports med CISU j.nr. — bevillinger bogføres ikke som fuld «omsætning» i driftregnskabet, men som projektregnskaber.",
-      "**Kontingent:** EU-kommissionen har ifølge regnskab 2023 krævet tilbagebetaling **T.EUR 124 (~0,9 mio. kr.)** for et Swaziland-projekt; Global Aktion anerkender ikke gælden (dokumenter forsvundet under COVID).",
-      "**Org-side om løn (2023-tal):** sekretariatsleder ca. 38.395 kr./md; øvrige ca. 26.260 kr./md inkl. pension/ferie; studentermedhjælp 143 kr./time. Formål: støtte 200+ aktivister.",
-      "**Vinkel:** 11,6 mio. er portefølje over flere år — 2,5 mio. er års-drift. Begge er rigtige; de svarer på forskellige spørgsmål. Advocacy/climate justice er kerneproduktet."
+      "**Note 11 i regnskabet:** lange rækker interim reports med CISU j.nr. — bevillinger bogføres ikke som fuld «omsætning» i driftregnskabet, men som projektregnskaber."
     ],
     "sources": [
       {
@@ -55,5 +56,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Global Aktion (tidligere Afrika Kontakt) er blandt dem, der får flest CISU-penge i vores oversigt. De kæmper for småbønders rettigheder og klimaretfærdighed — altså politik og mobilisering, ikke kun madpakker.",
+  "whatMoneyFor": "CISU-bevillinger til netværk af småbønder, klimapolitik og advocacy i flere afrikanske lande — plus oplysning i Danmark. **Ca. 11,6 mio.** i vores CISU-stikprøve (flere år). Selve foreningens årsregnskab viser kun ca. **2,5 mio.** i «egen» omsætning, fordi projektmidler ofte bogføres særskilt.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / anti-kapitalistisk grøn",
+  "orientationNote": "Org kalder sig «mennesker og miljø før profit». Projekterne handler om climate justice, agroøkologi og politisk indflydelse i Afrika. Tydelig venstreprofil.",
+  "homeCompare": {
+    "text": "**11.6 mio. kr.** kunne ca. dække **21 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **1.163 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 21.1,
+    "taxPeopleApprox": 1163
+  }
 }

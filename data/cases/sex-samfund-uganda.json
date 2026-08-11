@@ -1,6 +1,6 @@
 {
   "slug": "sex-samfund-uganda",
-  "title": "Sex & Samfund: Gender Policy i Uganda",
+  "title": "Sex & Samfund: 22 mio./år — og gender-politik i Uganda",
   "status": "approved",
   "priority": 2,
   "tags": [
@@ -12,15 +12,18 @@
   "amountDkk": 22000000,
   "amountLabel": "22 mio. kr./år partnerskab (UM)",
   "amountKind": "official",
-  "summary": "UM: Sex & Samfund får 22 mio. kr. årligt i strategisk partnerskab. Baronen har dokumenteret arbejde med Gender Policy i Uganda via Reproductive Health Uganda.",
-  "angle": "Policy-eksport og kønsideologi betalt af danske skatteydere — i et land der selv har demokratiske processer.",
+  "summary": "UM: 22 mio./år til S&S. Baronen: gender policy-arbejde i Uganda. Delvist claim på detaljer, partnerskabsbeløb er officielt.",
+  "angle": "Skattekroner til at forme love og normer om køn i andre lande — det er mere end kondomer og klinikker.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Partnerskabsramme + indholdskritik",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Officielt:** Sex & Samfund står på UM’s liste med **22 mio. kr./år** (2022–2026).",
-      "**Baronen (feb. 2025):** Via partner Reproductive Health Uganda har S&S været involveret i anbefalinger til lovgivning, women’s empowerment og gender responsive budgeting i Uganda. Han henviser til programmateriale og spørger, om det er bedste brug af bistand til de fattigste.",
-      "Samlet strategisk partnerskabsramme 2018–2021 nævnes af Baronen som **80 mio.** (claim for perioden) — delvist brugt på policy-arbejde."
+      "Sex & Samfund får omkring 22 millioner kr. om året som strategisk partner. Baronen har peget på arbejde med «Gender Policy» i Uganda via lokale partnere.",
+      "**Hvad går pengene til?** Partnerskab med UM: programmer i udlandet (bl.a. Uganda via Reproductive Health Uganda) og oplysning i Danmark (fx barnevognsmarch — se særskilt sag).",
+      "**Politisk farve (vores vurdering):** Venstre / køn & SRSR. Seksuel og reproduktiv sundhed, gender policy og LGBT-relaterede temaer er kerne. Tydelig progressiv dagsorden.",
+      "**Hvad kunne det være herhjemme?** **22.0 mio. kr.** kunne ca. dække **40 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.200 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Officielt:** Sex & Samfund står på UM’s liste med **22 mio. kr./år** (2022–2026)."
     ],
     "sources": [
       {
@@ -38,5 +41,15 @@
   "relatedPosts": [
     "1887818595767566465",
     "2083086868241920038"
-  ]
+  ],
+  "plainLead": "Sex & Samfund får omkring 22 millioner kr. om året som strategisk partner. Baronen har peget på arbejde med «Gender Policy» i Uganda via lokale partnere.",
+  "whatMoneyFor": "Partnerskab med UM: programmer i udlandet (bl.a. Uganda via Reproductive Health Uganda) og oplysning i Danmark (fx barnevognsmarch — se særskilt sag).",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / køn & SRSR",
+  "orientationNote": "Seksuel og reproduktiv sundhed, gender policy og LGBT-relaterede temaer er kerne. Tydelig progressiv dagsorden.",
+  "homeCompare": {
+    "text": "**22.0 mio. kr.** kunne ca. dække **40 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **2.200 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 40.0,
+    "taxPeopleApprox": 2200
+  }
 }

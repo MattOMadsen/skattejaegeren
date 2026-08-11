@@ -1,6 +1,6 @@
 {
   "slug": "ghana-venskab",
-  "title": "Ghana Venskab: >11 mio. omsætning (Danida/CISU)",
+  "title": "Ghana Venskab: over 10 mio. kr. — næsten kun offentlige projekter",
   "status": "approved",
   "priority": 4,
   "tags": [
@@ -12,14 +12,18 @@
   "amountDkk": 11000000,
   "amountLabel": "~10–11 mio. (regnskab 2021 + org)",
   "amountKind": "reported",
-  "summary": "CVR 10021979. Årsrapport 2021: indtægter ca. 10,1 mio., heraf CISU-program ca. 9,8 mio. Org selv: >11 mio. årlig omsætning. Matcher Baronens ~11 mio.-niveau. Empowerment for Life 2024–2027.",
-  "angle": "Når org selv siger 11+ mio. og Danida/CISU, er det ikke «småpenge». Vi vil have kvitteringerne via UM.",
+  "summary": "CVR 10021979. Regnskab 2021 ca. 10 mio. indtægter (næsten alt CISU). Matcher Baronens ~11 mio.",
+  "angle": "Næsten hele butikken er skattefinansieret. Det er «bistand» med dansk forening som mellemmand.",
   "depth": {
     "status": "approved",
-    "headline": "Hvad vi ved — og hvad aktindsigt skal lukke",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
+      "Ghana Venskab er en dansk forening med projekter i Ghana. Regnskabet viser, at indtægterne i høj grad er CISU/Danida — ikke private indsamlinger alene.",
+      "**Hvad går pengene til?** Programmet Empowerment for Life m.m.: uddannelse, køn, klimatilpasning, entreprenørskab. **2021-regnskab:** ca. 10,1 mio. i indtægter, heraf ca. 9,8 mio. CISU-program. Org selv: over 11 mio. årligt.",
+      "**Politisk farve (vores vurdering):** Progressiv udvikling / empowerment. Fokus på køn, klima, empowerment og demokrati i Ghana. Typisk moderne Danida-profil — mere venstre end «klassisk mission».",
+      "**Hvad kunne det være herhjemme?** **11.0 mio. kr.** kunne ca. dække **20 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **1.100 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
       "**Org-egen side (ghanavenskab.dk):** finansiering fra Danida, CISU, fonde og private; **årlig omsætning mere end 11 millioner kroner**.",
-      "**Program:** Empowerment for Life (E4L) 5. fase 2024–2027 med fire ghanesiske partnere (GDCA, School for Life, YEfL-Ghana, CLIP). Fokus: uddannelse, køn, klimatilpasning, entreprenørskab, demokratisk deltagelse.",
       "**CISU-index:** ingen titel der hedder «Ghana Venskab» blandt 3.288 poster — bevillinger kan ligge under programnavne (E4L) eller via andre mekanismer.",
       "**Næste:** Aktindsigt A4 til UM om alle bevillinger 2020–2026."
     ],
@@ -38,5 +42,15 @@
   },
   "relatedPosts": [
     "2083221437041479686"
-  ]
+  ],
+  "plainLead": "Ghana Venskab er en dansk forening med projekter i Ghana. Regnskabet viser, at indtægterne i høj grad er CISU/Danida — ikke private indsamlinger alene.",
+  "whatMoneyFor": "Programmet Empowerment for Life m.m.: uddannelse, køn, klimatilpasning, entreprenørskab. **2021-regnskab:** ca. 10,1 mio. i indtægter, heraf ca. 9,8 mio. CISU-program. Org selv: over 11 mio. årligt.",
+  "orientation": "venstre",
+  "orientationLabel": "Progressiv udvikling / empowerment",
+  "orientationNote": "Fokus på køn, klima, empowerment og demokrati i Ghana. Typisk moderne Danida-profil — mere venstre end «klassisk mission».",
+  "homeCompare": {
+    "text": "**11.0 mio. kr.** kunne ca. dække **20 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **1.100 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 20.0,
+    "taxPeopleApprox": 1100
+  }
 }

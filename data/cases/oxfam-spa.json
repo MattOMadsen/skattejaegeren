@@ -1,6 +1,6 @@
 {
   "slug": "oxfam-spa",
-  "title": "Oxfam Danmark: 103 mio./år + resultatrapport",
+  "title": "Oxfam: 103 mio. om året til «just societies» og klima",
   "status": "approved",
   "priority": 2,
   "tags": [
@@ -12,17 +12,18 @@
   "amountDkk": 103000000,
   "amountLabel": "103 mio. kr./år",
   "amountKind": "official",
-  "summary": "UM + Oxfam selv: 103 mio. kr. årligt i SPA 2022–2026. Results Report 2025: 12 lande, 81,6% af lande-forbrug til lokale partnere, 47% Leaving No-One Behind, 36% Just Societies, 17% Climate Justice. Også engagement i Danmark.",
-  "angle": "Store, statsfinansierede apparater med både humanitær hjælp og politisk/klima-advocacy. Offentlige resultatrapporter findes — brug dem.",
+  "summary": "103 mio./år (UM + Oxfam). Resultatrapport 2025: 12 lande, 47% humanitært spor, 17% climate justice.",
+  "angle": "Stor pengetank med venstreorienteret profil. Humanitært indslag findes — men også masser af politik.",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Oxfam SPA 2025 i tal",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**Officielt:** 103 mio. kr./år (UM-tabel). Oxfam.dk bekræfter samme tal.",
-      "**Results Report 2025 (Danida SPA):** 12 lande (bl.a. Ghana, Uganda, Yemen, Palestine, Guatemala). Ca. **395.864** mennesker arbejdet med direkte (304k humanitært, 92k udvikling). **105** lokale partnere.",
-      "**Budget-andele (SPA-aktivitet):** Leaving No-One Behind **47%**, Just Societies **36%**, Climate Justice **17%**. **81,6%** af midler brugt i lande overført til lokale partnere.",
-      "**Danmark:** public engagement — World in School, kampagner (klima, fair tax, gender); titusinder i kampagne-deltagelse ifølge rapporten.",
-      "Spend rate ca. **99%** af revideret budget inkl. top-ups."
+      "Oxfam Danmark får ca. 103 millioner kr. om året fra Udenrigsministeriet. De arbejder i 12 lande med humanitært arbejde, «retfærdige samfund» og klimaretfærdighed.",
+      "**Hvad går pengene til?** SPA-partnerskab: humanitært (Leaving No-One Behind ca. 47 %), Just Societies ca. 36 %, Climate Justice ca. 17 %. De siger, at 81,6 % af lande-forbrug går til lokale partnere. Der er også oplysning i Danmark.",
+      "**Politisk farve (vores vurdering):** Venstre / global justice. Oxfam er internationalt kendt for progressiv politik (skat, ulighed, klima, gender). Ikke en højreorienteret hjælpeorganisation.",
+      "**Hvad kunne det være herhjemme?** **103.0 mio. kr.** kunne ca. dække **187 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **10.300 personer** med gennemsnitsindkomst (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**Officielt:** 103 mio. kr./år (UM-tabel). Oxfam.dk bekræfter samme tal."
     ],
     "sources": [
       {
@@ -47,5 +48,15 @@
       }
     ]
   },
-  "relatedPosts": []
+  "relatedPosts": [],
+  "plainLead": "Oxfam Danmark får ca. 103 millioner kr. om året fra Udenrigsministeriet. De arbejder i 12 lande med humanitært arbejde, «retfærdige samfund» og klimaretfærdighed.",
+  "whatMoneyFor": "SPA-partnerskab: humanitært (Leaving No-One Behind ca. 47 %), Just Societies ca. 36 %, Climate Justice ca. 17 %. De siger, at 81,6 % af lande-forbrug går til lokale partnere. Der er også oplysning i Danmark.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / global justice",
+  "orientationNote": "Oxfam er internationalt kendt for progressiv politik (skat, ulighed, klima, gender). Ikke en højreorienteret hjælpeorganisation.",
+  "homeCompare": {
+    "text": "**103.0 mio. kr.** kunne ca. dække **187 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller give **ca. 10.000 kr. i lavere bundskat** til **10.300 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 187.3,
+    "taxPeopleApprox": 10300
+  }
 }

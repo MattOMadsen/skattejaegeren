@@ -1,6 +1,6 @@
 {
   "slug": "orangutang-rap",
-  "title": "Orangutang-rap: 800.000 kr. til 'kultur'?",
+  "title": "800.000 kr. til orangutang-rap og klimaformiding",
   "status": "approved",
   "priority": 5,
   "tags": [
@@ -11,15 +11,18 @@
   "amountDkk": 797786,
   "amountLabel": "797.786 kr. (OpEn)",
   "amountKind": "official",
-  "summary": "VERIFICERET CISU: BIO RAP PROJEKTET — Orangutang Fonden fik 797.786 kr. fra OpEn (15.08.2024–01.07.2025). Matcher Baronens ~800.000. Formidling/klima-rap med afsæt i Borneo — ikke klassisk felt-nødhjælp.",
-  "angle": "Ét absurdistisk projekt er ikke budgettet. Det er indgangen: hvis det her slipper igennem, hvad ellers?",
+  "summary": "CISU: 797.786 kr. til BIO RAP (Orangutang Fonden). Matcher Baronens ca. 800.000. Oplysning/kultur, ikke klassisk nødhjælp.",
+  "angle": "Når bistand bliver til koncert og klima-rap, er det værd at spørge: redder det aber — eller stemninger i Danmark?",
   "depth": {
     "status": "approved",
-    "headline": "Dybde: Symbolsag, ikke hovedsagen",
+    "headline": "Forstået på almindeligt dansk",
     "body": [
-      "**CISU/OpEn bekræfter:** *BIO RAP PROJEKTET*, org. Orangutang Fonden/Save the Orangutan, bevilget **797.786 kr.** (100 % af budget), periode 15.08.2024–01.07.2025.",
-      "Resume: danske børn/unges klimabekymring; afsæt i udviklingsprojekt på indonesisk Borneo. Den omdiskuterede rap er del af formidlingen.",
-      "Baronens ~800.000 og Mikes YouTube-spor pegede rigtigt. Pengene er **bevilget** — effekt for orangutanger er et separat spørgsmål."
+      "Orangutang Fonden har fået knap 800.000 kr. til et rap- og kulturprojekt, der handler om klima og regnskov — rettet mod danskere, ikke primært mod feltarbejde på Borneo.",
+      "**Hvad går pengene til?** BIO RAP-projektet: formidling via rap/kultur om orangutanger, regnskov og klima. Pengene er OpEn — altså **oplysning i Danmark** med afsæt i Borneo.",
+      "**Politisk farve (vores vurdering):** Venstre / grøn oplysning. Klima- og naturformiding med kulturelt greb; typisk progressiv OpEn-profil.",
+      "**Hvad kunne det være herhjemme?** **797.786 kr.** svarer groft til **1.5 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere skat** til **80 personer** (BT-model).",
+      "**Derfor er det vigtigt:** Når du hører «ulandsbistand», tænker mange på mad, medicin og rent vand. En stor del af det, vi dokumenterer her, er **politik, oplysning og aktivisme** — ofte med en progressiv (venstreorienteret) dagsorden. Det er lovligt. Det er dit valg, om det er klogt.",
+      "**CISU/OpEn bekræfter:** *BIO RAP PROJEKTET*, org. Orangutang Fonden/Save the Orangutan, bevilget **797.786 kr.** (100 % af budget), periode 15.08.2024–01.07.2025."
     ],
     "sources": [
       {
@@ -36,5 +39,15 @@
   },
   "relatedPosts": [
     "2086460030191067593"
-  ]
+  ],
+  "plainLead": "Orangutang Fonden har fået knap 800.000 kr. til et rap- og kulturprojekt, der handler om klima og regnskov — rettet mod danskere, ikke primært mod feltarbejde på Borneo.",
+  "whatMoneyFor": "BIO RAP-projektet: formidling via rap/kultur om orangutanger, regnskov og klima. Pengene er OpEn — altså **oplysning i Danmark** med afsæt i Borneo.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / grøn oplysning",
+  "orientationNote": "Klima- og naturformiding med kulturelt greb; typisk progressiv OpEn-profil.",
+  "homeCompare": {
+    "text": "**797.786 kr.** svarer groft til **1.5 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere skat** til **80 personer** (BT-model).",
+    "nursesApprox": 1.5,
+    "taxPeopleApprox": 80
+  }
 }
