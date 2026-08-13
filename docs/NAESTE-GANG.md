@@ -1,7 +1,7 @@
 # Næste gang (Skattejægeren)
 
 **Gemt:** 2026-08-13  
-**Status:** Egen gravning i gang (Rapolitics). Baronen/BJ er spor — ikke facit. Ikke delt offentligt. Aktindsigt/mails venter.
+**Status:** Pause. Ikke grav videre nu. Fire egne sager er live. Resten ligger under «Gemt til senere». Baronen/BJ er spor — ikke facit. Ikke delt offentligt. Aktindsigt/mails venter.
 
 ### Metode (13. aug 2026)
 
@@ -21,6 +21,7 @@
   2. Kenya LGBTIQ+ — **3.481.892 kr.** (`#/sag/lgbt-kenya-empowering-voices`)
   3. MS ActionAid — 129 mio./år, 58 % / 16 % HQ, Uganda 627k
   4. Crossing Borders — **9.072.790 kr. CISU 2021+ låst** (ni bevillinger)
+- **Egne sager (CISU først, 13. aug):** Rapolitics · FANT · DGI Midt · AXIS
 - OpEn «svært at forklare»: 28 poster · Civilsamfund-katalog: 25 poster
 - Projekter: kun uddybede (38) — ikke tynde CISU-dumps
 - Mail/aktindsigt: **pause** til automatisk afsendelse
@@ -60,6 +61,19 @@
    - Screenshots/CISU-citater i brødtekst hvis ønsket  
    - Tjek print-faktaark på de 4 flagskibe  
 
+### Gemt til senere (ikke nu)
+
+Matt: **ikke grav videre før han beder om det.**
+
+| # | Spor | Hvorfor | Start |
+|---|------|---------|--------|
+| G1 | **DGI — resterende 6 titler** | Vi har 8/14 beløb (gulv 4,80 mio.) | Medlemssiden, slå de manglende grant-ID’er |
+| G2 | **AXIS — ældre SRHR / CSE / skolehaver** | 50+ titler; summer **ikke** blindt (overlap med 16,64 mio.-program) | Kun poster *uden for* program-perioden, ét ID ad gangen |
+| G3 | **FANT — Sierra Leone / amputee / Ukraine** | Mange CISU-projekter ud over OpEn-satiren | Medlemssiden; hold DK-OpEn og ude-projekter adskilt |
+| G4 | **100% for Børnene** | Kun eget regnskab + flere CISU-ID’er — ikke kun BJ 3,5 vs 2,69 | virk/org-PDF + CISU-medlem |
+| G5 | **Næste friske katalog-hits** | Stadig egne, ikke BJ | Verdens Skove «Avatar» 1,10 mio. · CPH:DOX 1,02 mio. · Koncern TV «Putin på anklagebænken» 1,22 mio. · CARE «Act now! Climate Justice» 1,49 mio. |
+| G6 | Crossing Borders / Colombia **regnskab** | CISU-sum låst; løn/indtægter i alt mangler | virk / org-PDF |  
+
 ### B — Når du vil dele (senere)
 
 - 3 posts: barnevogn 2,6 mio. · Kenya 3,5 mio. · MS 58 %  
@@ -90,7 +104,7 @@
 
 ## Hurtig genstart til agenten
 
-> Fortsæt Skattejægeren: læs `docs/NAESTE-GANG.md`. Ingen deling, ingen mails. Tag A1 Crossing Borders eller Colombia.  
+> Fortsæt Skattejægeren: læs `docs/NAESTE-GANG.md`. Ingen deling, ingen mails. Grav **ikke** videre før Matt siger til. «Gemt til senere» = G1–G6. Metode: CISU først.  
 
 ---
 

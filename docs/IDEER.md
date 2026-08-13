@@ -71,9 +71,10 @@ Appen loader alle sager via `loadCases()`. `data/cases.json` er kun en pegepind.
 
 ## Næste prioritet
 
-**Se `docs/NAESTE-GANG.md`** (opdateret ved pause 2026-08-11).
+**Se `docs/NAESTE-GANG.md`** (pause 13. aug 2026).
 
-Kort: Crossing Borders 9 mio. · Colombia CISU · 100% regnskab · spareplaner · flagskibe klar til deling senere. Mail/deling på pause.  
+Egne sager live: Rapolitics · FANT · DGI Midt · AXIS.  
+Resten ligger under **Gemt til senere** (G1–G6). Grav ikke videre før Matt siger til.  
 
 
 
