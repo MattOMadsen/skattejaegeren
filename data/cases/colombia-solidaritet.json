@@ -1,53 +1,218 @@
 {
   "slug": "colombia-solidaritet",
-  "title": "Colombia Solidaritet: knap 4 mio. til venstre-aktivisme (BJ)",
+  "title": "Colombia Solidaritet: 4,10 mio. kr. i CISU-bevillinger",
   "status": "approved",
   "priority": 4,
   "tags": [
     "cisu",
     "baronen",
-    "claim",
     "colombia"
   ],
-  "amountDkk": 4000000,
-  "amountLabel": "knap 4 mio. 2020–26 (Borgerjournalisten)",
-  "amountKind": "claim",
-  "summary": "Borgerjournalisten: knap 4 mio. kr. via Danida/CISU 2020–2026 til politisk aktivisme i Colombia (Popular Brigades, Protesta Digna m.m.). Kerneværdier: social justice, klima, DEI, queer/trans, anti-«hvidt vestligt patriarkat».",
-  "angle": "Hvis bistand skal være livreddende hjælp, er «far left»-mobilisering i Colombia en anden diskussion — den bør føres åbent.",
-  "plainLead": "Colombia Solidaritet har ifølge Borgerjournalisten fået knap 4 millioner kr. over en årrække til politisk aktivisme i Colombia — ikke til klassisk nødhjælp.",
-  "whatMoneyFor": "Ifølge BJ: bl.a. politiske grupper («Popular Brigades»), aktivistnetværk og styrkelse af partner Dignidad y Participación. Værdier: social justice, klima, DEI, queer/trans, anti-kolonial/imperialistisk sprog.",
+  "amountDkk": 4098441,
+  "amountLabel": "4.098.441 kr. (12 CISU-bevillinger på org-siden)",
+  "amountKind": "official",
+  "summary": "Tolv CISU-bevillinger med Colombia Solidaritet (COLSOL) som organisation summer til **4.098.441 kr.** Baronens/BJ’s «knap 4 mio. 2020–2026, 11 bevillinger» holder. De tre store poster (ca. 2,5 mio.) går til partneren Fundación Lazos de Dignidad: Popular Brigades, netværk af aktivister og juridisk/psykosocial bistand til politisk aktive — inkl. LGBT+ og tidl. FARC. Dertil agroøkologi, LGBT+ i fængsel, film om «En revolutionær familie» og oplysning om venstrekoalitionen El Pacto Histórico.",
+  "angle": "Det er ikke mad og medicin. Det er dansk skat til protestret, venstreorganisering og transrettigheder i Colombia — org siger det selv på CISU-medlemssiden.",
+  "plainLead": "Colombia Solidaritet i København NV har fået **4.098.441 kr.** via CISU. Borgerjournalisten sagde knap 4 mio. over 11 poster — CISU’s medlemsliste viser 12. Pengene går til juridisk hjælp til politiske aktivister, «Popular Brigades», madsuverænitet og LGBT+ i colombianske fængsler. Org skriver, at de arbejder «i fælles kamp for social forandring» og med transrettigheder.",
+  "whatMoneyFor": "Størst: Lazos por la Justicia 999.998 kr. (Popular Brigades, protestret, politiske fanger). Protesta Digna 999.988 kr. (netværk + juridisk hjælp til aktivister). Dignidad y Participación 500.000 kr. (kapacitet hos FLD; målgruppe bl.a. LGBT+, tidl. FARC, demonstranter). Dertil 700k + 500k til agroøkologi/madsuverænitet, 150k til LGBT+ i fængsel i Cali (2026), 150k til erindringsdialog (2026), plus små oplysningsposter i DK (film, teater, Pacto Histórico).",
   "orientation": "venstre",
   "orientationLabel": "Venstre / far-left aktivisme",
-  "orientationNote": "Org og BJ beskriver eksplicit venstreorienterede kerneværdier.",
+  "orientationNote": "Org: social forandring, protestret, transrettigheder, agroøkologi. Én bevilling formidler opbakning til El Pacto Histórico (colombiansk venstrekoalition).",
   "homeCompare": {
-    "text": "**4 mio. kr.** kunne ca. dække **ca. 7 sygeplejerske-årsværk** — eller **10.000 kr. skattelettelse** til **400 personer** (BT-model).",
-    "nursesApprox": 7.3,
-    "taxPeopleApprox": 400
+    "text": "**4.098.441 kr.** kunne ca. dække **ca. 7 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 410 personer** (BT-model).",
+    "nursesApprox": 7.5,
+    "taxPeopleApprox": 410
   },
+  "officialCisuGrants": [
+    {
+      "id": "760e49dd-df1d-4464-8c5a-04995a81327b",
+      "title": "Lazos por la Justicia (Popular Brigades)",
+      "amountDkk": 999998,
+      "period": "01.07.2023–31.12.2024",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=760e49dd-df1d-4464-8c5a-04995a81327b"
+    },
+    {
+      "id": "b4c9ba28-206e-4d30-84c4-d469333deacb",
+      "title": "Protesta Digna",
+      "amountDkk": 999988,
+      "period": "01.01.2022–31.07.2023",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=b4c9ba28-206e-4d30-84c4-d469333deacb"
+    },
+    {
+      "id": "af5f43ff-9b1a-4638-bb3b-6aecb5182a94",
+      "title": "Movimiento por la Comida",
+      "amountDkk": 699996,
+      "period": "01.04.2025–31.05.2026",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=af5f43ff-9b1a-4638-bb3b-6aecb5182a94"
+    },
+    {
+      "id": "0d619016-8554-4059-84e1-113070cc2c13",
+      "title": "Dignidad y Participación",
+      "amountDkk": 500000,
+      "period": "01.01.2021–31.12.2021",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0d619016-8554-4059-84e1-113070cc2c13"
+    },
+    {
+      "id": "dd5ad985-2353-4bfe-a7d3-d3333ac660db",
+      "title": "Agroecological Network for Food Sovereignty",
+      "amountDkk": 499999,
+      "period": "01.06.2023–31.05.2024",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=dd5ad985-2353-4bfe-a7d3-d3333ac660db"
+    },
+    {
+      "id": "83f4e8e6-3076-432e-9035-19e955daf09c",
+      "title": "Safeguarding Peace — memory & non-repetition",
+      "amountDkk": 150000,
+      "period": "01.03.2026–30.11.2026",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=83f4e8e6-3076-432e-9035-19e955daf09c"
+    },
+    {
+      "id": "0d2cfb3c-fe10-4259-a2b4-851b29cdaa0d",
+      "title": "Identidad, Ciudadanía & Libertad (LGBT+ i fængsel)",
+      "amountDkk": 150000,
+      "period": "01.04.2026–30.09.2026",
+      "country": "Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0d2cfb3c-fe10-4259-a2b4-851b29cdaa0d"
+    },
+    {
+      "id": "74fa9af8-572c-4b44-9430-022fd119de5e",
+      "title": "Befri Jorden (oplysning i DK)",
+      "amountDkk": 25000,
+      "period": "04.05.2020–28.02.2021",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=74fa9af8-572c-4b44-9430-022fd119de5e"
+    },
+    {
+      "id": "cd338a76-4f25-4b31-ab0d-7393fc426e77",
+      "title": "Ret til fred (oplysning i DK)",
+      "amountDkk": 25000,
+      "period": "10.11.2019–01.05.2020",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=cd338a76-4f25-4b31-ab0d-7393fc426e77"
+    },
+    {
+      "id": "e5280a50-bd4b-4b23-bfbd-4385121a5add",
+      "title": "Film/debat «En revolutionær familie»",
+      "amountDkk": 24020,
+      "period": "14.10.2021–18.10.2021",
+      "country": "Danmark / Colombia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=e5280a50-bd4b-4b23-bfbd-4385121a5add"
+    },
+    {
+      "id": "33877e57-268f-4c86-93da-ebec3f34bece",
+      "title": "En forandrende pagt (El Pacto Histórico)",
+      "amountDkk": 15000,
+      "period": "20.05.2022–19.05.2023",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=33877e57-268f-4c86-93da-ebec3f34bece"
+    },
+    {
+      "id": "1280ef00-9dc1-4f0d-a4f8-4f454e542989",
+      "title": "Krigen fra Hjertet (køn/LGBT+ og erindring)",
+      "amountDkk": 9440,
+      "period": "10.09.2022–30.11.2022",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=1280ef00-9dc1-4f0d-a4f8-4f454e542989"
+    }
+  ],
   "depth": {
     "status": "approved",
-    "headline": "Forstået på almindeligt dansk",
+    "headline": "Knap 4 mio. er nu CISU-tal — 12 poster på org-siden",
     "body": [
-      "Colombia Solidaritet er med i Baronens NGO-serie. **Borgerjournalisten** har samlet ca. **4 mio. kr.** over 2020–2026 og 11 bevillinger.",
-      "**Hvad går pengene til (ifølge BJ)?** Politisk organisering og aktivisme i Colombia — ikke «mad og medicin»-bistand.",
-      "**Politisk farve:** Tydelig venstre / far-left.",
-      "**Status hos os:** Research-kilde er Borgerjournalisten. Vi har endnu ikke matchet alle 11 CISU-ID’er 1:1 i vores sample. Se kilder.",
-      "Læs artiklen hos Borgerjournalisten (link under kilder) — vi vil ikke stjæle deres gravearbejde uden at pege tilbage."
+      "**LÅST (CISU-medlemsside + grant-sider):** Alle 12 bevillinger listet under Colombia Solidaritet summer til **4.098.441 kr.** BJ skrev «knap 4 mio., 11 bevillinger, 2020–2026». Vi finder **12** poster (én starter nov. 2019). Afvigelsen er lille — claim er bekræftet.",
+      "**De tre BJ nævnte ved navn er officielle:** Lazos por la Justicia **999.998 kr.** (Popular Brigades, protestret, politiske fanger). Protesta Digna **999.988 kr.** (nationalt netværk + juridisk/psykosocial hjælp til aktivister). Dignidad y Participación **500.000 kr.** (styrkelse af Fundación Lazos de Dignidad).",
+      "**Hvem hjælpes (CISU-tekst, Dignidad y Participación):** «politisk aktive i bredere forstand» — ungdoms- og studentorganisationer, bønder, ofre for konflikten, miljøaktivister, **kvinde- og LGBT+-organisationer**, tidl. **FARC-EP**-guerillaer i reintegration, og folk der «ikke identificerer sig med den traditionelle venstrefløj» men går på gaden.",
+      "**Org om sig selv (CISU-medlem):** «fælles kamp for social forandring» i Colombia og Danmark. Samarbejde om **agroøkologi, retten til protest og transrettigheder**. Fortalerarbejde for fredsaftalen. Startet 2007 (IPO), fortsat som COLSOL efter 2013.",
+      "**Også på listen (ikke kun «aktivisme» i snæver forstand):** 499.999 + 699.996 kr. til Tierra Libre / madsuverænitet og agroøkologi. 150.000 kr. (2026) til LGBT+ i Villahermosa-fængslet i Cali. 150.000 kr. (2026) til erindring og «non-repetition». Små DK-poster: film om en «revolutionær familie», teater om kvinder/LGBT+ i konflikten, kampagne for **El Pacto Histórico** (venstrekoalition ved valget 2022).",
+      "**«En forandrende pagt» 15.000 kr.:** CISU-resume: udbrede kendskab og **opbakning til El Pacto Histórico**, som samler «organisationer, bevægelser, politiske partier og venstrefløjsgrupperinger». Det er oplysning i Danmark om et colombiansk venstreprojekt — betalt af skattekroner.",
+      "**CVR 31572134**, forening, c/o Nina Lendal, Rønnebærvej 20 2. th., 2400 København NV. Proff + cvrapi.",
+      "**Hjemme vs. ude:** 4,10 mio. ≈ **7 sygeplejerske-årsværk**, eller 10.000 kr. lavere bundskat til ca. **410** personer.",
+      "**Hvad vi ikke har:** Årsregnskab med løn/indtægter i alt. Det ændrer ikke CISU-summen.",
+      "**Konklusion:** BJ’s 4 mio. er **officielt**. Profilen er venstre/solidaritet/aktivisme — org og CISU-teksterne siger det højt."
     ],
     "sources": [
+      {
+        "title": "CISU: Colombia Solidaritet (medlem + 12 bevillinger)",
+        "url": "https://cisu.dk/en/cisu-in-the-world/member-organisations/member/?id=d3a973e8-197f-4adf-9686-abc26732693e",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Lazos por la Justicia — 999.998 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=760e49dd-df1d-4464-8c5a-04995a81327b",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Protesta Digna — 999.988 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=b4c9ba28-206e-4d30-84c4-d469333deacb",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Dignidad y Participación — 500.000 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0d619016-8554-4059-84e1-113070cc2c13",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Movimiento por la Comida — 699.996 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=af5f43ff-9b1a-4638-bb3b-6aecb5182a94",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Agroecological Network — 499.999 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=dd5ad985-2353-4bfe-a7d3-d3333ac660db",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Identidad, Ciudadanía & Libertad (LGBT+ fængsel) — 150.000 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0d2cfb3c-fe10-4259-a2b4-851b29cdaa0d",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: En forandrende pagt (Pacto Histórico) — 15.000 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=33877e57-268f-4c86-93da-ebec3f34bece",
+        "kind": "official"
+      },
       {
         "title": "Borgerjournalisten: Venstrefløjs-aktivisme for Danida-midler",
         "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
         "kind": "research"
       },
       {
-        "title": "Borgerjournalisten.dk (forside)",
-        "url": "https://borgerjournalisten.dk/",
-        "kind": "research"
+        "title": "COLSOL — colombiasolidaritet.dk",
+        "url": "https://colombiasolidaritet.dk/",
+        "kind": "org"
+      },
+      {
+        "title": "CVR 31572134 (cvrapi)",
+        "url": "https://cvrapi.dk/virksomhed/dk/colombia-solidaritet/31572134",
+        "kind": "official"
+      },
+      {
+        "title": "Proff CVR 31572134",
+        "url": "https://www.proff.dk/firma/colombia-solidaritet/k%C3%B8benhavn-nv/medlemsorganisationer/0ISP7QI10PU",
+        "kind": "official"
       }
     ]
   },
   "relatedPosts": [
     "2083221437041479686"
-  ]
+  ],
+  "digStatus": {
+    "claim4m": "confirmed_cisu_twelve_grants_4098441",
+    "popularBrigades": "confirmed_lazos_por_la_justicia",
+    "protestaDigna": "confirmed",
+    "dignidadYParticipacion": "confirmed",
+    "fullAccountsWithDkk": "missing"
+  },
+  "verificationMatrix": {
+    "4mTotal": "confirmed_cisu_12_grants_4098441",
+    "bj11grants": "cisu_lists_12_close_match",
+    "orgSelfDescription": "confirmed_cisu_member_page",
+    "fullAccountsDkk": "missing"
+  }
 }

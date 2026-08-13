@@ -920,13 +920,13 @@
     {
       "id": "colombia-solidaritet",
       "title": "Colombia Solidaritet",
-      "amountDkk": 4000000,
-      "amountKind": "claim",
+      "amountDkk": 4098441,
+      "amountKind": "official",
       "org": "Colombia Solidaritet",
-      "pool": "Danida / CISU-spor (claim)",
-      "country": "Colombia",
-      "whatFor": "Ifølge BJ: politiske grupper, aktivistnetværk og partnere med værdier om social justice, DEI, queer/trans m.m. Research-kilde BJ — ikke fuld CISU-ID-liste her endnu.",
-      "angle": "Far-left profil ifølge BJ. Se sag og link til Borgerjournalisten.",
+      "pool": "CISU (12 bevillinger på org-siden)",
+      "country": "Colombia / Danmark",
+      "whatFor": "Officiel CISU-sum 4.098.441 kr.: Popular Brigades, Protesta Digna, FLD, agroøkologi, LGBT+ i fængsel, DK-oplysning inkl. Pacto Histórico.",
+      "angle": "BJ’s knap 4 mio. er CISU-tal. Se sag.",
       "sources": [
         {
           "title": "Baronen NGO-mini-serie",
@@ -937,12 +937,12 @@
       "researchers": [
         "oresundsbaron"
       ],
-      "caseSlug": "ngo-miniserie",
-      "plainLead": "Colombia Solidaritet: knap 4 mio. kr. 2020–26 ifølge Borgerjournalisten til venstre-aktivisme i Colombia.",
+      "caseSlug": "colombia-solidaritet",
+      "plainLead": "Colombia Solidaritet: 4.098.441 kr. i 12 CISU-bevillinger til protestret, FLD, agroøkologi og LGBT+ — ikke klassisk nødhjælp.",
       "homeCompare": {
-        "text": "**4,0 mio. kr./år** svarer groft til **ca. 7 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 400 personer** med gennemsnitsindkomst (BT-model).",
-        "nursesApprox": 7.3,
-        "taxPeopleApprox": 400
+        "text": "**4.098.441 kr.** svarer groft til **ca. 7 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 410 personer** (BT-model).",
+        "nursesApprox": 7.5,
+        "taxPeopleApprox": 410
       },
       "profile": ""
     },

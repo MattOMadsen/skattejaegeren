@@ -1,7 +1,7 @@
 # Næste gang (Skattejægeren)
 
 **Gemt:** 2026-08-13  
-**Status:** Crossing Borders CISU-sum låst. Ikke delt offentligt endnu. Aktindsigt/mails venter.
+**Status:** Crossing Borders + Colombia Solidaritet CISU-summer låst. Ikke delt offentligt endnu. Aktindsigt/mails venter.
 
 ---
 
@@ -31,8 +31,10 @@
    - Konkursdekret listet 12.11.2025 på auktioner.dk (ikke Statstidende-PDF)  
    - Mangler stadig: fuld resultatopgørelse / virk-regnskab  
 
-2. **Colombia Solidaritet**  
-   - Lige nu mest BJ-claim (~4 mio.) — find CISU-ID’er i sample/index  
+2. **Colombia Solidaritet** — **færdig 13. aug 2026**  
+   - 12 CISU-bevillinger på org-siden = **4.098.441 kr.**  
+   - Lazos / Protesta Digna / Dignidad låst 1:1 med BJ  
+   - Mangler: årsregnskab/løn  
 
 3. **100% for Børnene**  
    - BJ 3,5 mio. vs CISU 2,69 mio. — find resten eller regnskab  

@@ -97,10 +97,15 @@
     {
       "org": "Colombia Solidaritet",
       "baronenClaim": 4000000,
-      "found": [],
-      "status": "bj_claim_4m",
-      "note": "Borgerjournalisten: knap 4 mio 2020-26 far-left Colombia. Link artiklen.",
-      "sumFound": 4000000
+      "found": [
+        {
+          "amount": 4098441,
+          "title": "Tolv CISU-bevillinger på org-siden (officielle grant-sider)"
+        }
+      ],
+      "status": "cisu_4m_locked",
+      "note": "2026-08-13: 4.098.441 kr. (12 poster). BJ sagde 11 / knap 4 mio.",
+      "sumFound": 4098441
     },
     {
       "org": "Kaffestop Rwanda",
