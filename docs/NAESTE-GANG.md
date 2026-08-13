@@ -48,7 +48,10 @@
 
 4. **100% for Børnene** — kun hvis vi slår **regnskab + flere CISU-ID’er** selv, ikke kun BJ 3,5 vs 2,69  
 
-5. **Næste egen gravning:** FANT «Ballon d’Or» 1,50 mio. OpEn · eller DGI G-STEP 1,69 mio. · eller Axis 1,86 mio.  
+5. **FANT / DGI / AXIS** — **egne gravninger 13. aug 2026**  
+   - FANT OpEn: **3.021.823 kr.** (Ballon d’Or + r8Dio + Coldplay)  
+   - DGI Midt: **4.799.512 kr.** (8 slåede; 14 på siden) · G-STEP 1,69 mio.  
+   - AXIS: **16.640.000 kr.** program + **1.858.921 kr.** køn/miljø 2026–29  
 
 6. **Én ekstra spareplan-kommune**  
    - Samme format: «I får ikke herhjemme» vs «I betaler ude» + medi-link  

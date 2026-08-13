@@ -1,0 +1,90 @@
+{
+  "slug": "axis-uddannelse",
+  "title": "AXIS: 16,64 mio. til «equity & inclusion»-program — plus 1,86 mio. køn/miljø",
+  "status": "approved",
+  "priority": 2,
+  "tags": [
+    "cisu",
+    "vores-gravning",
+    "gender"
+  ],
+  "amountDkk": 16640000,
+  "amountLabel": "16.640.000 kr. (CISU-program 2022–26) · +1.858.921 kr. ny post 2026–29",
+  "amountKind": "official",
+  "summary": "Egen gravning startede med en 1,86 mio.-post om køn og affald i Bolivia. På AXIS’ CISU-side ligger et **PROGRAM på 16.640.000 kr.** (2022–26): «A more equal and just world through quality education» i Ghana, Peru og Bolivia — mål er politikker om **equity, inclusion and quality** i uddannelse. Den nye post (2026–29) tester en «gender-responsive» deltagelsesmodel via skrald i Sacaba. 50+ titler på medlemssiden; vi summerer **ikke** dem alle (risiko for overlap med programmet).",
+  "angle": "Vi gik efter 1,9 mio. og fandt et 16,6 mio. program. Det er vores CISU-klik — ikke deres artikel.",
+  "plainLead": "AXIS på Frederiksberg har et CISU-**program** på **16,64 millioner kr.** til at få equity- og inklusionspolitikker igennem i skoler og læreruddannelser i Ghana, Peru og Bolivia. Oveni ligger **1,86 mio.** til et køns- og miljøprojekt i Bolivia 2026–29. Vi fandt det ved at slå grant-sider op.",
+  "whatMoneyFor": "Program 2022–26: seks partnere, tre lande. Mål: lokale/nationale politikker om lighed, inklusion og kvalitet i uddannelse er godkendt, implementeret eller finansieret. Metoder skal ind i curricula og læreruddannelse. Målgruppe: marginaliserede, især børn, unge og kvinder. Ny post 2026–29: «proof of concept» — organiserede kvinder i dialog med kommunen om **affald** i Sacaba; primært formål er at validere en kønssensitiv deltagelsesmodel, ikke skraldet i sig selv. Org: uddannelse som middel til rettigheder for kvinder, unge og oprindelige folk.",
+  "orientation": "venstre",
+  "orientationLabel": "Venstre / equity, inclusion, køn",
+  "orientationNote": "AXIS skriver selv om hierarki: mænd over kvinder, rige over fattige. Fokus equity/inclusion og SRHR i ældre poster.",
+  "homeCompare": {
+    "text": "**16.640.000 kr.** kunne ca. dække **ca. 30 sygeplejerske-årsværk** — eller **10.000 kr. skattelettelse** til **ca. 1.664 personer** (BT-model). Plus 1,86 mio. oveni til 2026–29.",
+    "nursesApprox": 30.3,
+    "taxPeopleApprox": 1664
+  },
+  "officialCisuGrants": [
+    {
+      "id": "0cfcd2a2-2ecd-484d-bad7-0855f6765b69",
+      "title": "A more equal and just world through quality education (PROGRAM)",
+      "amountDkk": 16640000,
+      "period": "01.01.2022–31.03.2026",
+      "country": "Bolivia, Ghana, Peru",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0cfcd2a2-2ecd-484d-bad7-0855f6765b69"
+    },
+    {
+      "id": "27ecc7c0-361a-450c-8105-050a87827132",
+      "title": "Gender responsive participation … environmental administration",
+      "amountDkk": 1858921,
+      "period": "01.07.2026–30.06.2029",
+      "country": "Bolivia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=27ecc7c0-361a-450c-8105-050a87827132"
+    }
+  ],
+  "depth": {
+    "status": "approved",
+    "headline": "Vi gik efter 1,9 mio. og fandt 16,6 mio.",
+    "body": [
+      "**Sådan fandt vi den:** Katalogets 1.858.921 kr.-post om køn og miljøforvaltning i Bolivia. Medlemssiden viste et **PROGRAM** på **16.640.000 kr.** Vi havde ikke BJ som start.",
+      "**LÅST (program):** 1. jan. 2022 – 31. mar. 2026. Type: PROGRAM (endelig ansøgning). Mål: politikker for **equity, inclusion and quality in education** er godkendt/implementeret/finansieret i Ghana, Peru og Bolivia. Seks partnere. Metoder skal ind i skolepolitik, curricula og læreruddannelser. Totalbudget på siden 15,88 mio.; bevilget **16,64 mio.**",
+      "**LÅST (2026–29):** 1.858.921 kr. til Sacaba, Cochabamba. Affaldshåndtering er testbanen; CISU skriver at det **primære** mål er at validere en **gender-responsive** deltagelsesmodel med kvinder over for kommunen.",
+      "**Org (CISU-medlem + axisngo.dk):** Danasvej 29 kld., 1910 Frederiksberg. CVR **18889595**. «Kvalitetsuddannelse som middel til at styrke marginaliserede gruppers rettigheder.» De beskriver hierarkier: mænd/kvinder, ældre/unge, rige/fattige.",
+      "**50+ titler** på medlemssiden (SRHR, skolehaver, elevdemokrati, CSE). Vi **summerer dem ikke** — mange kan være faser inde i eller ved siden af programmet. De to poster ovenfor er slået op 1:1.",
+      "**Hjemme vs. ude:** 16,64 mio. ≈ **30 sygeplejerske-år**, eller 10.000 kr. til ca. **1.664** personer.",
+      "**Konklusion:** Officielt program-beløb. Det er policy- og equity-arbejde i uddannelsessystemer — ikke «byg en skole»-bistand."
+    ],
+    "sources": [
+      {
+        "title": "CISU: AXIS-program — 16.640.000 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=0cfcd2a2-2ecd-484d-bad7-0855f6765b69",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Gender responsive environmental participation — 1.858.921 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=27ecc7c0-361a-450c-8105-050a87827132",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: AXIS (medlem)",
+        "url": "https://cisu.dk/en/cisu-in-the-world/member-organisations/member/?id=dda4bc68-a66a-453b-bb16-785ebe823c25",
+        "kind": "official"
+      },
+      {
+        "title": "axisngo.dk (CVR 18889595)",
+        "url": "https://www.axisngo.dk/",
+        "kind": "org"
+      }
+    ]
+  },
+  "relatedPosts": [],
+  "digStatus": {
+    "origin": "own_cisu_open_sort",
+    "programme1664m": "confirmed",
+    "genderEnv1859k": "confirmed",
+    "otherTitles": "not_summed_overlap_risk"
+  },
+  "verificationMatrix": {
+    "foundBy": "skattejaegeren_cisu_katalog",
+    "notFromBaronen": true
+  }
+}

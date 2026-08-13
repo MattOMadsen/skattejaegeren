@@ -1,0 +1,143 @@
+{
+  "slug": "dgi-gstep",
+  "title": "DGI Midtjylland: 4,80 mio. slået op — sport, køn og SRHR i Ghana",
+  "status": "approved",
+  "priority": 3,
+  "tags": [
+    "cisu",
+    "vores-gravning",
+    "ghana"
+  ],
+  "amountDkk": 4799512,
+  "amountLabel": "4.799.512 kr. (8 slåede CISU-poster; 14 står på org-siden)",
+  "amountKind": "official",
+  "summary": "Egen gravning: DGI Midtjylland (Silkeborg) har mindst **4,80 mio. kr.** i otte CISU-bevillinger vi har beløb på. Størst er **G-STEP 1.688.378 kr.** (2019–22): sport som redskab til køn, seksualundervisning (SRHR) og «democratic consciousness» i Nordghana. Senere **ACTS 999.199 kr.** (2024–26) til ungdomsforeninger der skal holde «duty bearers» ansvarlige — plus et spor kun for piger. 14 poster på medlemssiden; vi har ikke slået alle op.",
+  "angle": "DGI er folkelig idræt i Jylland. CISU-sporet er gender, SRHR og aktivt medborgerskab i Ghana — ikke bare en fodboldbane.",
+  "plainLead": "DGI Midtjylland i Silkeborg har fået millioner via CISU til sport-projekter i Nordghana, hvor køn, seksualundervisning og pres på lokale myndigheder er en del af pakken. Vi slår otte poster til **4.799.512 kr.** — startet fra G-STEP i kataloget, ikke fra en tweet.",
+  "whatMoneyFor": "G-STEP: sport som værktøj til SRHR, køn og lokal governance; 4 distrikter; mål ca. 5.000. GHSD 466.665 kr. (pilot 2018–19). ACTS 999.199 kr.: revitalisere ungdomsforeninger + indkomstspor kun for piger. Green Communities 499.101 kr. ALEA/nødhjælp-agtige poster ca. 0,6 mio. Ældre «sport as tool»-faser. Partner: YOPP og NORSAAC.",
+  "orientation": "venstre",
+  "orientationLabel": "Progressiv / gender & SRHR via sport",
+  "orientationNote": "DGI-værdier + udviklingspakke med køn og seksualrettigheder. Ikke far-left; det er mainstream CISU-gender.",
+  "homeCompare": {
+    "text": "**4.799.512 kr.** (de 8 slåede) kunne ca. dække **ca. 9 sygeplejerske-årsværk** — eller **10.000 kr. skattelettelse** til **ca. 480 personer** (BT-model).",
+    "nursesApprox": 8.7,
+    "taxPeopleApprox": 480
+  },
+  "officialCisuGrants": [
+    {
+      "id": "cc8c185d-336c-4a1d-a612-1c8814d13f11",
+      "title": "G-STEP — Gender and Sports for Transformation and Empowerment",
+      "amountDkk": 1688378,
+      "period": "01.12.2019–30.11.2022",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=cc8c185d-336c-4a1d-a612-1c8814d13f11"
+    },
+    {
+      "id": "18cf0b48-0ea0-48b8-9c56-1032df44daf4",
+      "title": "ACTS — Active Citizenship for Transformation and Sports",
+      "amountDkk": 999199,
+      "period": "01.06.2024–30.06.2026",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=18cf0b48-0ea0-48b8-9c56-1032df44daf4"
+    },
+    {
+      "id": "f37782e5-0feb-4eb9-b3ad-13b762befaa5",
+      "title": "Green Communities",
+      "amountDkk": 499101,
+      "period": "01.10.2023–31.12.2024",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=f37782e5-0feb-4eb9-b3ad-13b762befaa5"
+    },
+    {
+      "id": "7e0ef402-6244-4ff0-888e-a5cb15fd6da2",
+      "title": "ALEA II",
+      "amountDkk": 499760,
+      "period": "15.08.2022–14.08.2024",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=7e0ef402-6244-4ff0-888e-a5cb15fd6da2"
+    },
+    {
+      "id": "d628e8f9-92d5-4a4b-b753-84d0096ac10d",
+      "title": "Gender, Health and Sports for Development",
+      "amountDkk": 466665,
+      "period": "01.12.2018–30.11.2019",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=d628e8f9-92d5-4a4b-b753-84d0096ac10d"
+    },
+    {
+      "id": "7406c0ba-53a6-474e-8b22-fc5b93f11982",
+      "title": "Sports as a Tool for Development — Consolidation",
+      "amountDkk": 396691,
+      "period": "CISU grant-side",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=7406c0ba-53a6-474e-8b22-fc5b93f11982"
+    },
+    {
+      "id": "39544b57-bcea-4fa9-bf3e-13723abafc22",
+      "title": "Capacity Accelerated Project",
+      "amountDkk": 149771,
+      "period": "01.01.2026–30.11.2026",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=39544b57-bcea-4fa9-bf3e-13723abafc22"
+    },
+    {
+      "id": "ec36c539-8aa1-4cdc-926c-eb5ce073405b",
+      "title": "ALEA I",
+      "amountDkk": 99947,
+      "period": "01.01.2021–31.12.2021",
+      "country": "Ghana",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=ec36c539-8aa1-4cdc-926c-eb5ce073405b"
+    }
+  ],
+  "depth": {
+    "status": "approved",
+    "headline": "Folkelig DGI — CISU-sporet er køn og myndighedspres",
+    "body": [
+      "**Sådan fandt vi den:** Kataloget, store beløb, «gender and sports». G-STEP **1.688.378 kr.** var ikke en BJ-flagskibssag.",
+      "**LÅST (G-STEP):** Sport som hovedværktøj til unges viden om **seksuel og reproduktiv sundhed, køn og governance**. Fire distrikter i Nordghana. Mål: adgang til sport, sociale virksomheder, mere viden og handling om gender/SRHR, kapacitet hos YOPP og NORSAAC.",
+      "**LÅST (ACTS 2024–26):** 999.199 kr. til at holde ungdomsforeninger i live, så unge «holder duty bearers ansvarlige». Ekstra soft skills og indkomst **kun for piger**.",
+      "**8 slåede poster = 4.799.512 kr.** 14 titler på CISU-medlemssiden — de øvrige (ældre faser, film) er **ikke** med i summen. Totalen er derfor et **gulv**.",
+      "**Hvem:** DGI Midtjylland, Glarmestervej 18A, 8600 Silkeborg. dgi.dk/midtjylland. Folkelig idræt i Danmark; dette er deres internationale CISU-linje.",
+      "**Hjemme vs. ude:** 4,80 mio. ≈ **9 sygeplejerske-år**.",
+      "**Konklusion:** Officielle beløb. Spørgsmålet er, om DGI-skattekroner via Danida skal drive gender/SRHR-mobilisering i Ghana."
+    ],
+    "sources": [
+      {
+        "title": "CISU: G-STEP — 1.688.378 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=cc8c185d-336c-4a1d-a612-1c8814d13f11",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: ACTS — 999.199 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=18cf0b48-0ea0-48b8-9c56-1032df44daf4",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Gender, Health and Sports — 466.665 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=d628e8f9-92d5-4a4b-b753-84d0096ac10d",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: DGI Midtjylland (medlem, 14 poster)",
+        "url": "https://cisu.dk/en/cisu-in-the-world/member-organisations/member/?id=8ba33575-1543-443e-b9d4-34ab3411c712",
+        "kind": "official"
+      },
+      {
+        "title": "DGI Midtjylland",
+        "url": "https://www.dgi.dk/midtjylland",
+        "kind": "org"
+      }
+    ]
+  },
+  "relatedPosts": [],
+  "digStatus": {
+    "origin": "own_cisu_open_sort",
+    "eightGrantsSum": "confirmed_4799512",
+    "memberPageTitles": 14,
+    "fullSum": "floor_not_complete"
+  },
+  "verificationMatrix": {
+    "foundBy": "skattejaegeren_cisu_katalog",
+    "notFromBaronen": true
+  }
+}

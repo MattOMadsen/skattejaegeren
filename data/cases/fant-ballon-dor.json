@@ -1,0 +1,103 @@
+{
+  "slug": "fant-ballon-dor",
+  "title": "FANT: 3,02 mio. OpEn til satire, seriefodbold og Coldplay",
+  "status": "approved",
+  "priority": 3,
+  "tags": [
+    "cisu",
+    "open",
+    "vores-gravning"
+  ],
+  "amountDkk": 3021823,
+  "amountLabel": "3.021.823 kr. (to OpEn-poster + Coldplay-oplysning)",
+  "amountKind": "official",
+  "summary": "Egen sortering af OpEn: FANT fik **1.499.650 kr.** til «Seriefodboldens Ballon d’Or» — satiriske opslag og et kårings-event for at ramme 100.000 danske fodboldmænd via «Mandsholdet». Dertil **1.497.173 kr.** til satirisk radio hos r8Dio og **25.000 kr.** til straffespark-på-krykker ved Coldplay i Parken. Det er udviklingsbistand som content i Danmark. Org har mange andre CISU-projekter i Sierra Leone; dem har vi ikke summeret alle.",
+  "angle": "Næsten 3 mio. kr. til at «fodre» danske mænd med satire om bistand. Det er ikke en bane i Freetown — det er marketing.",
+  "plainLead": "For a New Tomorrow (FANT) fik næsten 1,5 millioner kr. fra OpEn til en satirisk fodboldkåring i Danmark — og næsten det samme igen til satirisk radio. Plus 25.000 kr. til at lave oplysning ved Coldplay i Parken. Vi fandt posterne i CISU, ikke hos Baronen.",
+  "whatMoneyFor": "Ballon d’Or (2023–24, 100 % CISU): Mandsholdet-platform, satiriske opslag, stort kårings-event for seriefodboldhelte — «de mærker flere ligheder end forskelle med partnerne i syd». Radio (2025–26): satire til r8Dios ca. 200.000 lyttere om «det globale syd» og dansk udviklingsbistand. Coldplay (2023): 10×10 m område i Parken, amputerede Flying Stars tager straffespark på krykker, gæster prøver selv. Org laver også amputee football i Sierra Leone/Ukraine — det er et andet spor.",
+  "orientation": "venstre",
+  "orientationLabel": "Progressiv / engagement-NGO",
+  "orientationNote": "Sport-for-development + tung OpEn-kommunikation i DK. Ikke far-left; det er content og branding af bistand.",
+  "homeCompare": {
+    "text": "**3.021.823 kr.** kunne ca. dække **ca. 5–6 sygeplejerske-årsværk** — eller **10.000 kr. lavere bundskat** til **ca. 302 personer** (BT-model).",
+    "nursesApprox": 5.5,
+    "taxPeopleApprox": 302
+  },
+  "officialCisuGrants": [
+    {
+      "id": "bc109116-59ac-41b3-9dd8-e526ce7256c3",
+      "title": "Seriefodboldens Ballon d'Or",
+      "amountDkk": 1499650,
+      "period": "01.01.2023–31.12.2024",
+      "country": "Danmark (Sierra Leone som partnerfelt)",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=bc109116-59ac-41b3-9dd8-e526ce7256c3"
+    },
+    {
+      "id": "1f11a757-7dcc-4c2c-8d79-1c780113a554",
+      "title": "Satiriske radioreportager (r8Dio)",
+      "amountDkk": 1497173,
+      "period": "01.09.2025–31.12.2026",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=1f11a757-7dcc-4c2c-8d79-1c780113a554"
+    },
+    {
+      "id": "7f623613-dfc8-4e50-bd63-0cc51d78b3b3",
+      "title": "Formidling om FANT til Coldplay-koncerter",
+      "amountDkk": 25000,
+      "period": "15.06.2023–31.07.2023",
+      "country": "Danmark",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=7f623613-dfc8-4e50-bd63-0cc51d78b3b3"
+    }
+  ],
+  "depth": {
+    "status": "approved",
+    "headline": "To gange 1,5 mio. til satire i Danmark",
+    "body": [
+      "**Sådan fandt vi den:** OpEn-kataloget, sorteret efter beløb. Ballon d’Or lå på **1.499.650 kr.** — samme liga som Rapolitics’ hiphop-post. Ikke en BJ-sag.",
+      "**LÅST (CISU):** Formål er at oplyse om FANTs strategiske arbejde og engagere «unge fodboldinteresserede mænd» via **Mandsholdet**. 100.000 mænd skal «fodres med information» via satiriske opslag og events, plus et stort kårings-event. Hele budgettet er CISU.",
+      "**LÅST (CISU radio):** 1.497.173 kr. til satiriske programmer hos **r8Dio** (org siger ca. 200.000 lyttere). Skal «udfordre stereotype opfattelser af det globale syd» og oplyse om dansk udviklingsbistand. 2025–26.",
+      "**LÅST (CISU Coldplay):** 25.000 kr. til oplysning i Parken ved Coldplay juli 2023: straffespark på krykker med Flying Stars Amputees. Oplysningspuljen.",
+      "**Hvad FANT også er:** Forening (CVR **34666237**), c/o Match Padel Studio, Lemberggade 15, 2300 Kbh S. Mange CISU-projekter om amputee football og ungdom i Sierra Leone, Ghana, Gambia, Ukraine — **ikke summeret her**. Denne sag handler om **OpEn-delen i Danmark**.",
+      "**Hjemme vs. ude:** 3,02 mio. ≈ **5–6 sygeplejerske-år**. Alene de to satire-poster er tre sygeplejerske-år til content.",
+      "**Konklusion:** Officielt. Satire og seriefodbold-kåringer er en legitim OpEn-kategori — og et åbent prioriteringsspørgsmål."
+    ],
+    "sources": [
+      {
+        "title": "CISU: Seriefodboldens Ballon d'Or — 1.499.650 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=bc109116-59ac-41b3-9dd8-e526ce7256c3",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Satiriske radioreportager — 1.497.173 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=1f11a757-7dcc-4c2c-8d79-1c780113a554",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Formidling til Coldplay — 25.000 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=7f623613-dfc8-4e50-bd63-0cc51d78b3b3",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: FANT (medlem)",
+        "url": "https://cisu.dk/en/cisu-in-the-world/member-organisations/member/?id=55fdc9fb-eb83-466b-a721-1ebc88d9282c",
+        "kind": "official"
+      },
+      {
+        "title": "fant.dk (CVR 34666237)",
+        "url": "https://fant.dk/",
+        "kind": "org"
+      }
+    ]
+  },
+  "relatedPosts": [],
+  "digStatus": {
+    "origin": "own_cisu_open_sort",
+    "openTwoPlusColdplay": "confirmed_3021823",
+    "fullOrgCisuSum": "not_all_grants_fetched"
+  },
+  "verificationMatrix": {
+    "foundBy": "skattejaegeren_cisu_katalog",
+    "notFromBaronen": true,
+    "fullAccountsDkk": "missing"
+  }
+}
