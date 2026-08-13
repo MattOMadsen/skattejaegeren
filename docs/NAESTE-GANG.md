@@ -1,7 +1,13 @@
 # Næste gang (Skattejægeren)
 
 **Gemt:** 2026-08-13  
-**Status:** Crossing Borders + Colombia Solidaritet CISU-summer låst. Ikke delt offentligt endnu. Aktindsigt/mails venter.
+**Status:** Egen gravning i gang (Rapolitics). Baronen/BJ er spor — ikke facit. Ikke delt offentligt. Aktindsigt/mails venter.
+
+### Metode (13. aug 2026)
+
+- **Start i CISU/UM/regnskab.** Sorter beløb, læs resume, slå grant-sider op.
+- Baronen / Borgerjournalisten: brug til *tips* og kredit, ikke som eneste kilde.
+- Ny sag skal kunne stå, selv hvis deres artikel forsvandt.
 
 ---
 
@@ -36,13 +42,18 @@
    - Lazos / Protesta Digna / Dignidad låst 1:1 med BJ  
    - Mangler: årsregnskab/løn  
 
-3. **100% for Børnene**  
-   - BJ 3,5 mio. vs CISU 2,69 mio. — find resten eller regnskab  
+3. **Rapolitics / Re:Act** — **egen gravning 13. aug 2026**  
+   - 7 CISU-poster = **3.757.351 kr.** · OpEn vol. 2 **1.499.682 kr.** (Roskilde, køn/seksualitet)  
+   - Ikke fra BJ-listen  
 
-4. **Én ekstra spareplan-kommune**  
+4. **100% for Børnene** — kun hvis vi slår **regnskab + flere CISU-ID’er** selv, ikke kun BJ 3,5 vs 2,69  
+
+5. **Næste egen gravning:** FANT «Ballon d’Or» 1,50 mio. OpEn · eller DGI G-STEP 1,69 mio. · eller Axis 1,86 mio.  
+
+6. **Én ekstra spareplan-kommune**  
    - Samme format: «I får ikke herhjemme» vs «I betaler ude» + medi-link  
 
-5. **Polér flagskibe før deling**  
+7. **Polér flagskibe før deling**  
    - Screenshots/CISU-citater i brødtekst hvis ønsket  
    - Tjek print-faktaark på de 4 flagskibe  
 

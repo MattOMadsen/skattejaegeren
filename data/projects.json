@@ -3,6 +3,33 @@
   "note": "Kun projekter med ordentlig dansk tekst. Rå CISU-lister ligger i OpEn-katalog + absurd-lister. SPA-partnere er uddybet.",
   "projects": [
     {
+      "id": "rapolitics-react",
+      "title": "Rapolitics — Re:Act (vores gravning)",
+      "amountDkk": 3757351,
+      "amountKind": "official",
+      "org": "Rapolitics",
+      "pool": "CISU / OpEn (7 bevillinger)",
+      "country": "Danmark, Palæstina, Bolivia",
+      "whatFor": "Hiphop-rettigheder i DK (Roskilde, køn/seksualitet), Palæstina-debat via rap, ældre hiphop-center i Bolivia. Sum 3.757.351 kr.",
+      "angle": "Fandt vi i CISU-kataloget — ikke hos Baronen.",
+      "sources": [
+        {
+          "title": "CISU: Re:Act vol.2",
+          "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=6249a7be-876f-47f2-82e0-afc15040b8c6",
+          "kind": "official"
+        }
+      ],
+      "researchers": [],
+      "caseSlug": "rapolitics-react",
+      "plainLead": "Rapolitics: 3,76 mio. CISU, heraf 1,5 mio. OpEn til hiphop og Roskilde — vores egen sortering af kataloget.",
+      "homeCompare": {
+        "text": "**3.757.351 kr.** svarer groft til **ca. 7 sygeplejerske-årsværk** — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 376 personer** (BT-model).",
+        "nursesApprox": 6.8,
+        "taxPeopleApprox": 376
+      },
+      "profile": ""
+    },
+    {
       "id": "folkekirkens-noedhjaelp",
       "title": "Folkekirkens Nødhjælp — 200 mio. kr./år (SPA)",
       "amountDkk": 200000000,
