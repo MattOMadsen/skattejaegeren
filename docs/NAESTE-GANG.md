@@ -1,7 +1,7 @@
 # Næste gang (Skattejægeren)
 
-**Gemt:** 2026-08-11  
-**Status:** Byggepause. Ikke delt offentligt endnu. Aktindsigt/mails venter.
+**Gemt:** 2026-08-13  
+**Status:** Crossing Borders CISU-sum låst. Ikke delt offentligt endnu. Aktindsigt/mails venter.
 
 ---
 
@@ -14,7 +14,7 @@
   1. Barnevogn — **2.646.370 kr.** (3 CISU-poster, sum)
   2. Kenya LGBTIQ+ — **3.481.892 kr.** (`#/sag/lgbt-kenya-empowering-voices`)
   3. MS ActionAid — 129 mio./år, 58 % / 16 % HQ, Uganda 627k
-  4. Crossing Borders — CISU-funder **låst**; **9 mio. stadig claim**
+  4. Crossing Borders — **9.072.790 kr. CISU 2021+ låst** (ni bevillinger)
 - OpEn «svært at forklare»: 28 poster · Civilsamfund-katalog: 25 poster
 - Projekter: kun uddybede (38) — ikke tynde CISU-dumps
 - Mail/aktindsigt: **pause** til automatisk afsendelse
@@ -26,10 +26,10 @@
 
 ### A — Indhold (bedst uden mail/deling)
 
-1. **Crossing Borders 9 mio.**  
-   - Manuel tjek: CVR/virk (konkurs-claim fra BJ?)  
-   - Match BJ’s 6 bevillinger til CISU-titler (søg andre org-navne/projekttitler)  
-   - Evt. årsregnskab hvis tilgængeligt uden betaling  
+1. **Crossing Borders 9 mio.** — **færdig 13. aug 2026**  
+   - Ni CISU-bevillinger start 2021+ = **9.072.790 kr.** (officielle sider)  
+   - Konkursdekret listet 12.11.2025 på auktioner.dk (ikke Statstidende-PDF)  
+   - Mangler stadig: fuld resultatopgørelse / virk-regnskab  
 
 2. **Colombia Solidaritet**  
    - Lige nu mest BJ-claim (~4 mio.) — find CISU-ID’er i sample/index  

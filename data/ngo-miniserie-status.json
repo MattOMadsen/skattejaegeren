@@ -70,16 +70,16 @@
       "baronenClaim": 9000000,
       "found": [
         {
-          "amount": 10000,
-          "title": "Council of All Beings Folkemødet"
+          "amount": 9072790,
+          "title": "Ni CISU-bevillinger start 2021+ (officielle grant-sider)"
         },
         {
-          "amount": null,
-          "title": "Global programme — CISU funded (org AR 2024, no DKK total in report)"
+          "amount": 10000,
+          "title": "Council of All Beings Folkemødet (del af summen)"
         }
       ],
-      "status": "flagship_dug_cisu_funder_9m_claim",
-      "note": "Flagskib 2026-08: AR confirms CISU funder; sample 10k; 9m claim BJ/Baronen; konkurs unverified."
+      "status": "flagship_cisu_9m_locked",
+      "note": "2026-08-13: 9.072.790 kr. CISU 2021+. Konkursdekret listet 12.11.2025 auktioner.dk."
     },
     {
       "org": "Ghana Venskab",

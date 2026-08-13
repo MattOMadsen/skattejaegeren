@@ -1,6 +1,6 @@
 {
   "slug": "crossing-borders",
-  "title": "Crossing Borders: CISU-finansieret DEI/youth — 9 mio. stadig claim",
+  "title": "Crossing Borders: 9,07 mio. kr. i CISU-bevillinger (2021–)",
   "status": "approved",
   "priority": 1,
   "tags": [
@@ -10,35 +10,156 @@
     "eu",
     "youth"
   ],
-  "amountDkk": 9000000,
-  "amountLabel": "~9 mio. (Baronen claim) · CISU bekræftet som finansier",
-  "amountKind": "claim",
-  "summary": "Årsrapport 2024: Global-programmet er finansieret af CISU (Danidas civilsamfundsfond), New Democracy Fund og Nordisk Råd. Org indrømmer tung afhængighed af offentlig støtte. I vores CISU-katalog står kun 10.000 kr. under org-navn — 9 mio. er stadig ikke 1:1 bekræftet.",
-  "angle": "Vi kan bevise, at skattekroner og EU-midler er rygraden. Vi kan endnu ikke sætte et præcist facit på «9 mio.» — det kræver regnskabstal eller fuld bevillingsliste.",
-  "plainLead": "Crossing Borders er en dansk NGO, der arbejder med unge, «global citizenship» og dialog i Danmark og ude i verden. De skriver sort på hvidt, at deres globale program er finansieret af CISU (altså danske skattekroner via Udenrigsministeriet), New Democracy Fund og Nordisk Råd — plus EU og fonde. Baronen har peget på ca. 9 millioner kr. Det tal er endnu ikke slået op i et offentligt årsregnskab med indtægter i alt.",
-  "whatMoneyFor": "Tre spor ifølge årsrapport 2024: (1) **Danmark** — skoleworkshops, Food for Thought, Migrantour (byvandringer med migranter), Empowering Ukrainian Youth med kommuner. (2) **EU-program** — Erasmus+ m.m. i flere lande. (3) **Global-program** — Afrika, Kaukasus, Ukraine, Indien m.m., finansieret bl.a. af **CISU**. Formålet er unges engagement, dialog og «bæredygtig udvikling» — ikke klassisk nødhjælp.",
+  "amountDkk": 9072790,
+  "amountLabel": "9.072.790 kr. (CISU, start 2021+) · officielle bevillingssider",
+  "amountKind": "official",
+  "summary": "Ni CISU-bevillinger med Crossing Borders som organisation og startdato fra 2021 summer til **9.072.790 kr.** Baronens/BJ’s «over 9 mio. 2021–2025» er dermed bekræftet på CISU’s egne sider — ikke kun 10.000 kr. i vores gamle sample. Årsrapporten siger stadig CISU/NDF/Nordisk Råd som finansierer; fuld resultatopgørelse mangler. Konkursdekret er listet 12.11.2025 (sekundær kilde).",
+  "angle": "Vi kan nu sætte et **officielt CISU-facit** på «ca. 9 mio.» — det er verdensmål, woman empowerment og youth-aktivisme, ikke nødhjælp.",
+  "plainLead": "Crossing Borders er en dansk NGO for unge, «global citizenship» og dialog. Baronen og Borgerjournalisten pegede på over 9 millioner kr. 2021–2025. Vi har slået det op på CISU: ni bevillinger med start i 2021 eller senere giver **9.072.790 kr.** Pengene går til woman empowerment i Indien, verdensmål i Ghana/Uganda/Zambia/Nigeria, youth og community radio i Zimbabwe, piger i Marokko — plus 10.000 kr. til Folkemødet.",
+  "whatMoneyFor": "Officielle CISU-formål (uddrag): Women Leadership Schools i Bihar (Indien), «localising the SDGs» blandt unge i Ghana/Uganda/Zambia, SDG-amplify i Uganda, community radio og youth citizenship i Zimbabwe, læringsrum om SDG 4 i Nigeria, piger i Marokko, flashmob/verdensmål på Folkemødet. Org-årsrapport: også EU, New Democracy Fund, Nordisk Råd, Egmont m.fl. — det er **oven i** CISU-summen.",
   "orientation": "venstre",
   "orientationLabel": "Venstre / progressiv youth & DEI",
   "orientationNote": "Sprog om global citizenship, mangfoldighed, empowerment og verdensmål er progressivt. Det er ikke en konservativ hjælpeorganisation.",
   "homeCompare": {
-    "text": "Hvis Baronens **ca. 9 mio. kr.** holder, svarer det groft til **ca. 16 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **900 personer** med gennemsnitsindkomst (BT-model).",
-    "nursesApprox": 16.4,
-    "taxPeopleApprox": 900
+    "text": "**9.072.790 kr.** svarer groft til **ca. 16–17 sygeplejerske-årsværk** (ca. 550.000 kr. pr. stilling) — eller **ca. 10.000 kr. i lavere bundskat** til **ca. 907 personer** med gennemsnitsindkomst (BT-model).",
+    "nursesApprox": 16.5,
+    "taxPeopleApprox": 907
   },
+  "officialCisuGrants": [
+    {
+      "id": "03a26e2b-a533-4309-87a8-64c205d48874",
+      "title": "Anchoring a Civil Society model toward localising the SDGs in Ghana, Uganda and Zambia",
+      "amountDkk": 3999530,
+      "period": "01.01.2021–30.06.2024",
+      "country": "Ghana, Uganda, Zambia",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=03a26e2b-a533-4309-87a8-64c205d48874"
+    },
+    {
+      "id": "ac094381-32e1-4217-b04f-555f9446a42b",
+      "title": "Women Empowerment in Local Development – Phase 2",
+      "amountDkk": 1999999,
+      "period": "01.01.2023–31.03.2025",
+      "country": "Indien",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=ac094381-32e1-4217-b04f-555f9446a42b"
+    },
+    {
+      "id": "f2e5e2bb-b4e1-484d-be62-24f9ea02535b",
+      "title": "Amplifying Localisation of the SDGS",
+      "amountDkk": 964396,
+      "period": "01.01.2024–28.02.2025",
+      "country": "Uganda",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=f2e5e2bb-b4e1-484d-be62-24f9ea02535b"
+    },
+    {
+      "id": "045b0891-db97-44d8-a003-9f83495b63fd",
+      "title": "Enhanced citizen participation through sustainable Community Radio Stations",
+      "amountDkk": 499999,
+      "period": "01.04.2022–15.08.2023",
+      "country": "Zimbabwe",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=045b0891-db97-44d8-a003-9f83495b63fd"
+    },
+    {
+      "id": "57a8cb0a-76fc-4024-924c-6556fd241f3f",
+      "title": "Empowered Girls Dialogue (EGD) II",
+      "amountDkk": 499999,
+      "period": "04.10.2021–20.12.2022",
+      "country": "Marokko",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=57a8cb0a-76fc-4024-924c-6556fd241f3f"
+    },
+    {
+      "id": "95c7500c-828d-40b5-8d49-91da7b033889",
+      "title": "Women Empowerment in Local Development (fase 1)",
+      "amountDkk": 499998,
+      "period": "01.05.2021–31.10.2022",
+      "country": "Indien",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=95c7500c-828d-40b5-8d49-91da7b033889"
+    },
+    {
+      "id": "e6670eed-b1ad-48fa-9f0d-59af8f5af19c",
+      "title": "Learning Spaces for SDG 4",
+      "amountDkk": 499660,
+      "period": "01.11.2023–31.01.2025",
+      "country": "Nigeria",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=e6670eed-b1ad-48fa-9f0d-59af8f5af19c"
+    },
+    {
+      "id": "a6fb087d-f935-467d-9087-d2efa33fc725",
+      "title": "Capacity Strengthening for Changemakers",
+      "amountDkk": 99209,
+      "period": "02.01.2023–31.03.2023",
+      "country": "Nigeria (partner Teach the Child)",
+      "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=a6fb087d-f935-467d-9087-d2efa33fc725"
+    },
+    {
+      "id": "ac3ea5ff-597f-474f-9e08-6e9c04073f0f",
+      "title": "The Council of All Beings — verdensmål på Folkemødet",
+      "amountDkk": 10000,
+      "period": "Oplysningspuljen",
+      "country": "Danmark",
+      "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ac3ea5ff-597f-474f-9e08-6e9c04073f0f"
+    }
+  ],
   "depth": {
     "status": "approved",
-    "headline": "Hvad er låst — og hvad er stadig claim",
+    "headline": "9,07 mio. er nu CISU-tal — ikke kun et tweet",
     "body": [
-      "**LÅST (org siger det selv i årsrapport 2023 + 2024):** Global-programmet er finansieret af **CISU (Danida Civil Society Fund)**, **New Democracy Fund** og **Nordisk Råd**. Tung afhængighed af offentlig støtte indrømmes. EU, Egmont, Spar Nord, Tuborg, BUPL, GLOBUS m.fl. nævnes. CVR **32166121**.",
-      "**LÅST (CISU under org-navn i vores sample):** Kun **10.000 kr.** — *Council of All Beings* / Folkemøde (oplysningspulje). Det er **ikke** 9 mio.",
-      "**CLAIM (Baronen + Borgerjournalisten):** Ca. **9 mio. kr. 2021–2025** over flere bevillinger (woman empowerment Indien, youth Zimbabwe, verdensmål Uganda/Nigeria/Ghana/Zimbabwe, skoler i DK). BJ nævner **6 bevillinger** og DEI som kerneværdi. Vi har **ikke** matchet alle seks 1:1 i CISU-API/sample endnu — titler kan ligge under andre navne.",
-      "**CLAIM (BJ, uverificeret her):** «Under konkurs siden nov. 2025». Vi ser stadig offentlige årsrapporter 2023–24 og aktiv hjemmeside. **Behandl som research indtil virk/CVR-status er tjekket manuelt.**",
-      "**Hvad laver de (ifølge egne rapporter)?** Skoleworkshops, Migrantour, Food for Thought, ukrainske youth hubs, EU-programmer, «global citizenship». Progressiv youth/DEI-profil — ikke klassisk nødhjælp.",
-      "**Hjemme vs. ude:** Hvis 9 mio. holder ≈ **16 sygeplejerske-årsværk**. Selv uden præcis sum er det dokumenteret, at **danske skattekroner via CISU** er en hovedmotor.",
-      "**Grave-status uden aktindsigt:** (1) Org-PDF’er = narrative, **ingen** resultatopgørelse med «indtægter i alt». (2) Sample-CISU under navn = 10k. (3) Fuld 9 mio. kræver enten regnskab fra virk/revisor, manuel gennemgang af flere CISU-titler, eller senere aktindsigt.",
-      "**Konklusion nu:** Vi kan sige **«lever af offentlig støtte inkl. CISU»** med org-kilde. Vi kan **ikke** endnu sige **«præcis 9.000.000 kr.»** som officiel sum. Claim forbliver claim — men underbygget af BJ/Baronen."
+      "**LÅST (CISU, start 2021+):** Ni bevillinger med **Crossing Borders** som organisation summer til **9.072.790 kr.** Kilder er CISU’s egne grant-sider (links under kilder). Det matcher Baronen/BJ’s «over 9 mio. 2021–2025».",
+      "**Største poster:** 3.999.530 kr. til at «lokalisere FN’s verdensmål» blandt unge i Ghana, Uganda og Zambia. 1.999.999 kr. til Women Empowerment fase 2 i Bihar, Indien (Women Leadership Schools / Women Farmers Schools). 964.396 kr. til at «amplify» SDG-lokalisering i Uganda.",
+      "**BJ’s seks temaer vs. vores poster:** Woman empowerment Indien = fase 1+2. Youth Zimbabwe = community radio + (ældre) youth-citizenship 499.328 kr. fra 2020, **ikke** talt med i 9,07 mio. Verdensmål Uganda/Nigeria/Ghana = anchoring + amplify + Learning Spaces. Folkemøde/skoler DK = 10.000 kr. Council of All Beings. BJ sagde «6 bevillinger» — CISU viser **flere**.",
+      "**Ikke med i 9,07 mio. (ældre/overlap):** Youth citizenship Zimbabwe 499.328 kr. (start okt. 2020). Kyiv Democracy Hub 498.315 kr. (start 2020). Pamodzi Zambia 477.744 kr. (2020). Global Day 30.000 kr. (2014). Tælles de 2020-poster med, er CISU-summen over **10 mio.**",
+      "**LÅST (org selv):** Årsrapport 2023+2024: Global-programmet finansieres af **CISU (Danida Civil Society Fund)**, New Democracy Fund og Nordisk Råd. Tung afhængighed af offentlig støtte. EU, Egmont, Spar Nord, Tuborg, BUPL, GLOBUS nævnes. CVR **32166121**.",
+      "**KONKURS (sekundær, konkret dato):** auktioner.dk lister **dekret 12.11.2025**, Statstidende 15.11.2025, adresse Nørre Allé 7, 2200 Kbh N. Vi har **ikke** hentet selve Statstidende-PDF. Hjemmeside og årsrapporter 2023–24 er stadig offentlige. BJ’s «under konkurs siden nov. 2025» er dermed **underbygget af en konkurs-aggregator**, ikke af os på virk.dk.",
+      "**Hvad er det ikke:** Klassisk nødhjælp (mad, medicin, brønde). Det er youth, verdensmål, køn og «civic engagement» — plus 10.000 kr. til en verdensmåls-flashmob på Folkemødet.",
+      "**Hjemme vs. ude:** 9,07 mio. ≈ **16–17 sygeplejerske-årsværk**, eller 10.000 kr. lavere bundskat til ca. **907** personer (BT-model).",
+      "**Hvad vi stadig ikke har:** Fuld resultatopgørelse (indtægter i alt, løn, EU-andel) i org-PDF. Aktindsigt A5 er skrevet, men **ikke sendt** (pause).",
+      "**Konklusion:** «Ca. 9 mio. via CISU 2021+» er **officielt**. Claim-mærket kan af for CISU-delen. EU/fonde og evt. ældre poster kommer oveni."
     ],
     "sources": [
+      {
+        "title": "CISU: Anchoring SDGs Ghana/Uganda/Zambia — 3.999.530 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=03a26e2b-a533-4309-87a8-64c205d48874",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Women Empowerment fase 2 — 1.999.999 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=ac094381-32e1-4217-b04f-555f9446a42b",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Amplifying Localisation of the SDGs — 964.396 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=f2e5e2bb-b4e1-484d-be62-24f9ea02535b",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Community Radio Zimbabwe — 499.999 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=045b0891-db97-44d8-a003-9f83495b63fd",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Empowered Girls Dialogue II (Marokko) — 499.999 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=57a8cb0a-76fc-4024-924c-6556fd241f3f",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Women Empowerment fase 1 — 499.998 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=95c7500c-828d-40b5-8d49-91da7b033889",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Learning Spaces for SDG 4 (Nigeria) — 499.660 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=e6670eed-b1ad-48fa-9f0d-59af8f5af19c",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Capacity Strengthening for Changemakers — 99.209 kr.",
+        "url": "https://cisu.dk/en/cisu-in-the-world/grants/grant/?id=a6fb087d-f935-467d-9087-d2efa33fc725",
+        "kind": "official"
+      },
+      {
+        "title": "CISU: Council of All Beings / Folkemødet — 10.000 kr.",
+        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ac3ea5ff-597f-474f-9e08-6e9c04073f0f",
+        "kind": "official"
+      },
       {
         "title": "CB Annual Report 2024",
         "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/03/Crossing-Borders-Annual-Report-2024.pdf",
@@ -50,19 +171,14 @@
         "kind": "org"
       },
       {
-        "title": "CB Financial Administration 2025",
-        "url": "https://usercontent.one/wp/crossingborders.dk/wp-content/uploads/2025/02/CB-Financial-Administration-Feb-2025.pdf",
-        "kind": "org"
-      },
-      {
-        "title": "CISU: Council of All Beings 10.000 kr.",
-        "url": "https://cisu.dk/cisu-i-verden/bevillingsoversigt/bevilling/?id=ac3ea5ff-597f-474f-9e08-6e9c04073f0f",
-        "kind": "official"
-      },
-      {
         "title": "Borgerjournalisten: NGO-aktivisme (CB 9 mio.)",
         "url": "https://borgerjournalisten.dk/artikler/danida/ngoernes-venstreorienterede-aktivisme-for-danida-midler",
         "kind": "research"
+      },
+      {
+        "title": "auktioner.dk: Crossing Borders konkurs (dekret 12.11.2025)",
+        "url": "https://auktioner.dk/konkurs/s/crossing-borders",
+        "kind": "official"
       },
       {
         "title": "Proff CVR 32166121",
@@ -75,20 +191,20 @@
     "2083221437041479686"
   ],
   "digStatus": {
-    "claim9m": "unverified_total",
+    "claim9m": "confirmed_cisu_sum_2021plus_9072790",
     "cisuAsFunder": "confirmed_by_org_annual_report_2023_and_2024",
     "publicFundingDependence": "confirmed_by_org",
     "fullAccountsWithDkk": "not_in_annual_report_pdf",
-    "baronen9m": "supported_by_borgerjournalisten_research_not_full_accounts",
-    "konkursClaimBj": "unverified_by_us"
+    "baronen9m": "confirmed_by_cisu_grant_pages",
+    "konkursClaimBj": "listed_auktioner_dekret_2025-11-12_not_statstidende_pdf"
   },
   "flagship": true,
   "verificationMatrix": {
     "cisuAsFunder": "confirmed_org_annual_report",
     "publicFundingDependence": "confirmed_org",
     "10kCisuSample": "confirmed_our_data",
-    "9mTotal": "claim_baronen_bj",
-    "konkurs": "claim_bj_unverified",
+    "9mTotal": "confirmed_cisu_nine_grants_9072790",
+    "konkurs": "listed_secondary_auktioner_dekret_2025-11-12",
     "fullAccountsDkk": "missing"
   }
 }

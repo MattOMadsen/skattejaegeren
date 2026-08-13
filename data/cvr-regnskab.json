@@ -47,7 +47,7 @@
       "form": "Forening",
       "founded": "2009",
       "address": "Søtorvet 5, 3 / Nørre Allé 7, København",
-      "status": "Aktiv",
+      "status": "Konkursdekret listet 12.11.2025 (auktioner.dk) — site stadig oppe",
       "employeesApprox": 5,
       "virkSearch": "https://datacvr.virk.dk/enhed/virksomhed/32166121",
       "proff": "https://www.proff.dk/firma/crossing-borders/-/-/32166121",
@@ -57,10 +57,11 @@
         "publicFunding": "Org indrømmer heavy dependence on public funding (AR 2024)"
       },
       "regnskab": [],
-      "regnskabNote": "Årsrapport 2023+2024 bekræfter CISU som finansier af Global programme. Financial Administration Feb 2025 lister offentlige kilder (EU, CISU, NDF, Globus). Ingen resultatopgørelse med indtægter i alt i annual report-PDF'erne. Baronen ~9 mio. forbliver claim. CISU under org-navn i sample: 10.000 kr.",
+      "regnskabNote": "CISU 2021+: ni bevillinger = 9.072.790 kr. (officielle grant-sider). Årsrapport 2023+2024 bekræfter CISU/NDF/Nordisk Råd. Ingen fuld resultatopgørelse i AR-PDF. Konkursdekret listet 12.11.2025 på auktioner.dk.",
       "caseSlug": "crossing-borders",
       "baronenClaimDkk": 9000000,
-      "matchNote": "BJ: 9m+ 2021-25. AR 2024 CISU funder. Konkurs-claim BJ uverificeret. https://borgerjournalisten.dk/",
+      "officialCisuSum2021Dkk": 9072790,
+      "matchNote": "BJ 9m+ 2021-25 = bekræftet CISU-sum 9,07 mio. https://borgerjournalisten.dk/",
       "annualReports": [
         {
           "year": 2024,
