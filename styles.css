@@ -345,6 +345,61 @@ a:hover { color: #6ee7b7; }
   font-weight: 600;
 }
 
+.nav-drop {
+  position: relative;
+}
+
+.nav-drop > summary {
+  list-style: none;
+  cursor: pointer;
+  color: #8b918c;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+}
+
+.nav-drop > summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-drop > summary:hover {
+  color: #f2f0eb;
+  background: #161a1c;
+}
+
+.nav-drop[open] > summary {
+  color: #0a0b0c;
+  background: #e8b84a;
+  font-weight: 600;
+}
+
+.nav-drop__menu {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  min-width: 11.5rem;
+  padding: 0.35rem;
+  background: #161a1c;
+  border: 1px solid #2a3236;
+  border-radius: 12px;
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-drop__menu a {
+  color: #c8c4bb;
+  font-size: 0.92rem;
+  font-weight: 500;
+  padding: 0.45rem 0.7rem;
+  border-radius: 8px;
+}
+
+.nav-drop__menu a:hover {
+  color: #f2f0eb;
+  background: #1c2225;
+}
+
 /* Stats strip — compact 2026 */
 .stats {
   border-bottom: 1px solid var(--border);
