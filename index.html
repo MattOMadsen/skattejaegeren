@@ -88,6 +88,17 @@
     </div>
   </footer>
 
+  <script>
+    (function () {
+      if (window.self !== window.top) {
+        document.querySelectorAll('.house-switch, .support-bar').forEach(function (el) { el.remove(); });
+        return;
+      }
+      if (location.hostname === 'mattomadsen.github.io' && /\/skattejaegeren(\/|$)/i.test(location.pathname)) {
+        location.replace('https://mattomadsen.github.io/folketsmedie/skattejaegeren/' + location.search + location.hash);
+      }
+    })();
+  </script>
   <script type="module" src="app.js"></script>
 </body>
 </html>
