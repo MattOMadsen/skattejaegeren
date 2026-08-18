@@ -267,18 +267,19 @@ a:hover { color: #6ee7b7; }
   color: #fff;
 }
 
-/* Header */
+/* Header — som Folkets Medie */
 .header {
   position: relative;
   top: auto;
-  backdrop-filter: blur(16px);
-  background: var(--header-bg);
-  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(16px) saturate(1.2);
+  background: rgba(10, 11, 12, 0.94);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 .header-inner {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0.9rem 1.25rem;
+  padding: 0.45rem 1.25rem;
+  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -300,37 +301,48 @@ a:hover { color: #6ee7b7; }
 .theme-toggle:hover { color: var(--text); border-color: var(--border-strong); }
 .brand {
   display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
+  align-items: baseline;
+  gap: 0.35rem;
   font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--text);
+  font-size: 1.25rem;
+  color: #f2f0eb;
   letter-spacing: -0.02em;
+  text-decoration: none;
 }
-.brand:hover { color: var(--text); }
-.brand-mark {
-  width: 10px;
-  height: 10px;
-  border-radius: 3px;
-  background: linear-gradient(135deg, var(--accent), #fb923c);
-  box-shadow: 0 0 12px rgba(240, 68, 56, 0.55);
+.brand span { color: #e8b84a; font-weight: 600; }
+.brand small {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8b918c;
+  border: 1px solid #2a3236;
+  padding: 0.12rem 0.4rem;
+  border-radius: 999px;
+  position: relative;
+  top: -0.12rem;
 }
+.brand:hover { color: #f2f0eb; }
 .nav {
   display: flex;
-  gap: 0.25rem;
+  gap: 0.15rem;
   flex-wrap: wrap;
 }
 .nav a {
-  color: var(--text-2);
-  font-size: 0.9rem;
+  color: #8b918c;
+  font-size: 0.92rem;
   font-weight: 500;
   padding: 0.4rem 0.75rem;
   border-radius: 999px;
 }
-.nav a:hover,
+.nav a:hover {
+  color: #f2f0eb;
+  background: #161a1c;
+}
 .nav a.active {
-  color: var(--text);
-  background: rgba(255, 255, 255, 0.06);
+  color: #0a0b0c;
+  background: #e8b84a;
+  font-weight: 600;
 }
 
 /* Stats strip — compact 2026 */
