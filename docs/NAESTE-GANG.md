@@ -1,7 +1,7 @@
 # Næste gang (Skattejægeren)
 
-**Gemt:** 2026-08-13  
-**Status:** Pause. Ikke grav videre nu. Fire egne sager er live. Resten ligger under «Gemt til senere». Baronen/BJ er spor — ikke facit. Ikke delt offentligt. Aktindsigt/mails venter.
+**Gemt:** 2026-08-18  
+**Status:** Af pause. Liggende under Folkets Medie-menuen (Skandale | Skattejægeren). Fire egne sager er live. Resten under «Gemt til senere». Baronen/BJ er spor — ikke facit. Aktindsigt/mails venter stadig.
 
 ### Metode (13. aug 2026)
 
@@ -25,7 +25,7 @@
 - OpEn «svært at forklare»: 28 poster · Civilsamfund-katalog: 25 poster
 - Projekter: kun uddybede (38) — ikke tynde CISU-dumps
 - Mail/aktindsigt: **pause** til automatisk afsendelse
-- Deling på X: **ikke endnu**
+- Deling: via Folkets Medie-menuen (18. aug. 2026). X-opslag stadig efter Matt.
 
 ---
 
